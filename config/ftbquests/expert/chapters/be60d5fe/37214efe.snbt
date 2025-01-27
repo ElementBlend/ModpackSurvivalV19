@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"Got extra wares? sell them for emeralds"
+	],
+	tasks: [{
+		uid: "aeea872f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shippingbin"
+		}]
+	}],
+	rewards: [{
+		uid: "c1723c33",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	},
+	{
+		uid: "089c498d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

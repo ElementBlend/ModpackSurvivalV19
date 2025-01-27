@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	text: [
+		"Burns sixteen times as long as regular coal and is able to smelt 128 items."
+	],
+	dependencies: [
+		"3bbcd44e"
+	],
+	tasks: [{
+		uid: "25bb9f64",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "39d6a307",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

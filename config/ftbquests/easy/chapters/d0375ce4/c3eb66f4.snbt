@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	text: [
+		"upply the Froster with power and water. Select an output in the GUI with the arrows. Your choices are snowballs, ice, and packed ice. Water and power will be consumed to automatically produce the selected output."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "d3d58dbb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:froster"
+		}]
+	}],
+	rewards: [{
+		uid: "2cc9de2d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7b895bf0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

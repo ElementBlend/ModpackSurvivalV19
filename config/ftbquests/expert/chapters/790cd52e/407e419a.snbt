@@ -1,0 +1,35 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		"There is a lot of dangrous things out there, This shield should help you dying less"
+	],
+	dependencies: [
+		"86da438a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b7969c90",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.shield_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29707040",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "64d9b4e0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

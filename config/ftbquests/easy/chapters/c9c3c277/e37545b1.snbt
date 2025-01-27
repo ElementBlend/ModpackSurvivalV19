@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: 3.0d,
+	text: [
+		"Find Chorus Fruit and collect some"
+	],
+	dependencies: [
+		"d320a95c"
+	],
+	tasks: [{
+		uid: "1e66a3ca",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2c0afc9a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

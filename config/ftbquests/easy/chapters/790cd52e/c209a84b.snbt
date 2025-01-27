@@ -1,0 +1,30 @@
+{
+	x: -9.5d,
+	y: -12.0d,
+	shape: "rsquare",
+	text: [
+		"&rWirelessly transport liquids anywhere! Even cross dimensions."
+	],
+	tasks: [{
+		uid: "eb5eef1e",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8924544a",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "b44e81db",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

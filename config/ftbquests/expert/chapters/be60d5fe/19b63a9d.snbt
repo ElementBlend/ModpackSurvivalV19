@@ -1,0 +1,21 @@
+{
+	x: -11.0d,
+	y: 3.5d,
+	text: [
+		"Used to make meals and candies."
+	],
+	tasks: [{
+		uid: "de7fdb91",
+		type: "item",
+		items: [{
+			item: "harvestcraft:saucepanitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c759d2a4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

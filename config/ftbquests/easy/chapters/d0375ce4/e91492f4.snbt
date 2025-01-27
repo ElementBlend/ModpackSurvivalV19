@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"When placed next to a water source block, it will produce water into its internal tank. The rate of water produced is 100mb per tick per water source block touching the Water Condensator. Empty buckets may be inserted in the top inventory slot, which will produce a filled bucket of water in the bottom inventory slot."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "e512a395",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_condensator"
+		}]
+	}],
+	rewards: [{
+		uid: "c450cf1d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d3e7e769",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

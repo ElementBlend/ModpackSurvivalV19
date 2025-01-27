@@ -1,0 +1,30 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"&aIt might not be best but for sure can be usefull&r",
+		"can store 16 buckets of liquid."
+	],
+	tasks: [{
+		uid: "6bfdd579",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "1774f0a5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6bb90b8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: -5.5d,
+	y: 6.0d,
+	text: [
+		"Has the ability to hold 5 sigils when holding the Sigil of Holding sneak to switch between sigil's and press the Sigil of Holding bind to insert ",
+		"(Choose a button to bind it to in controlls settings menu)"
+	],
+	dependencies: [
+		"5cde16f6"
+	],
+	tasks: [{
+		uid: "d0f63422",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_holding",
+			tag: {
+				currentSigil: 0,
+				binding: {
+					name: "KevSkyBoy",
+					id: {
+						L: -5396668163246951912L,
+						M: 173945678130266555L
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "299b0224",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "653c309d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

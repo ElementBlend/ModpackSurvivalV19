@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"Head over to the Ex Nihilo chapter under the Introduction group.",
+		"BTW you might ask why the weird mesh names well thats because expert uses different materials for meshes and i cant really only",
+		"name them for one packmode so they change on both."
+	],
+	dependencies: [
+		"05397713"
+	],
+	tasks: [{
+		uid: "8f6d3daf",
+		type: "checkmark",
+		title: "Next steps",
+		icon: "exnihilocreatio:item_mesh 1 2"
+	}],
+	rewards: [{
+		uid: "1e6cf846",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Alchemical Chest is a large chest, capable of holding 104 stacks of items (compared to a vanilla double-chest's 72 stacks). In addition, the chest can be upgraded with some utility items that perform special effects. The Black Hole Band will collect items dropped nearby, the Gem of Eternal Density will compress the contents into items of higher EMC value, and the Talisman of Repair will slowly repair items contained within."
+	],
+	dependencies: [
+		"e3d42452"
+	],
+	tasks: [{
+		uid: "b6b22f76",
+		type: "item",
+		items: [{
+			item: "projecte:alchemical_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "7eae6b0e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "cb166636",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

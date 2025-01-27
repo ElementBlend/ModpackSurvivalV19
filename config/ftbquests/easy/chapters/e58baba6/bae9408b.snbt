@@ -1,0 +1,35 @@
+{
+	x: 8.5d,
+	y: -1.0d,
+	text: [
+		"&AThe speed this behold is out of this world&R",
+		"can be used in almost every machine from the mod.",
+		"Each upgrade consumes 1 grid point.",
+		"The Upgrade Speed (Ultimate) which is the last and most poweful tier of upgrades. It can only be stacked by 64 in a machine."
+	],
+	dependencies: [
+		"35c66fbf"
+	],
+	tasks: [{
+		uid: "76bdb039",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "1d1c5f50",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "65c9a8a8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,77 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"The Blood Altar is a multiblock. see image to see how each tier is layerd ",
+		"",
+		"Tier 1:",
+		"Just the Blood Altar",
+		"",
+		"Tier 2:",
+		"8 Blood Runes",
+		"",
+		"Tier 3:",
+		"20 Blood Runes",
+		"Total Blood Runes 28",
+		"2 High pillar in each corner with Glowstone ontop",
+		"",
+		"Tier 4:",
+		"28 Blood Runes",
+		"Total Blood Runes 56",
+		"4 High pillar in each corner with Large Bloodstone Brick ontop",
+		"",
+		"Tier 5:",
+		"52 Blood Runes",
+		"Total Blood Runes 108",
+		"4 Beacons in each corner",
+		"",
+		"&7Tip you can use conduits with filters to automate the blood altar"
+	],
+	dependencies: [
+		"7d00ea27"
+	],
+	tasks: [{
+		uid: "48156fa3",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "6e8beff0",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a1d1d6a",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1729088",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "heimskringla"
+			}
+		}
+	},
+	{
+		uid: "e1660a30",
+		type: "ftbmoney:money",
+		ftb_money: 650L
+	}]
+}

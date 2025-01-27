@@ -1,0 +1,130 @@
+{
+	title: "Lucky Block",
+	loot_size: 1,
+	rewards: [{
+		ftb_money: 100L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 1000L,
+		type: "ftbmoney:money"
+	},
+	{
+		xp: 10,
+		type: "xp"
+	},
+	{
+		xp_levels: 10,
+		type: "xp_levels"
+	},
+	{
+		xp_levels: 30,
+		type: "xp_levels"
+	},
+	{
+		item: "minecraft:log",
+		count: 32
+	},
+	{
+		team_reward: false,
+		auto: "enabled",
+		command: "/kill",
+		player_command: true,
+		type: "command"
+	},
+	{
+		team_reward: false,
+		auto: "enabled",
+		command: "/summon fossil:fossil.sentrypigman",
+		player_command: true,
+		type: "command"
+	},
+	{
+		team_reward: false,
+		auto: "enabled",
+		command: "/summon mod_lavacow:sludgelord",
+		player_command: true,
+		type: "command"
+	},
+	{
+		team_reward: false,
+		auto: "enabled",
+		command: "/rtp",
+		player_command: true,
+		type: "command"
+	},
+	{
+		team_reward: false,
+		auto: "enabled",
+		item: "minecraft:dirt",
+		count: 2500
+	},
+	{
+		item: {
+			id: "minecraft:diamond",
+			ForgeCaps: {
+				"treasure2:pouchable": {}
+			}
+		}
+	},
+	{
+		item: "minecraft:diamond_block"
+	},
+	{
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Everyone watching most follow!"
+				}
+			}
+		}
+	},
+	{
+		title: "Nothing at all",
+		icon: "ftbquests:barrier",
+		team_reward: false,
+		auto: "enabled",
+		description: "You got nothing :D",
+		type: "toast"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		},
+		count: 16
+	},
+	{
+		item: "ic2:nuclear"
+	}],
+	loot_crate: {
+		string_id: "lucky_block",
+		item_name: "Lucky Block",
+		color: 16776960,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

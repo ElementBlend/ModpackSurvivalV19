@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: -3.5d,
+	text: [
+		"used to automatically enchant items when provided with Essence and power. Each operation applies a level 30 enchantment to the first item in the input slots, consuming 3,000 mB of Essence and 4,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "6e45045b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_invoker"
+		}]
+	}],
+	rewards: [{
+		uid: "47469fc5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "fe7412b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

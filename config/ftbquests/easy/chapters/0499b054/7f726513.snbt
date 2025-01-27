@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	text: [
+		"The Intelligent Munitions System is a guard system that the player can pick modes between attacking players or attacking hostile mobs and players. It shoots rockets at the picked mob/player that gets in its range. The rockets will explode, leaving a large crater, however it will not blow itself up with its rockets. It only has 4 charges and there is no way to refill it. It is not possible to break it with a pickaxe, of any type, however it can be broken by the universal block breaker; when broken it will drop Bouncing Bettys corresponding with how many more rockets it has. It is crafted with 4 Bouncing Bettys, 1 block of iron, and 1 portable radar. The Bouncing Bettys go in all 4 corners, block of iron in the center and the portable radar in the top center."
+	],
+	tasks: [{
+		uid: "0f17d253",
+		type: "item",
+		items: [{
+			item: "securitycraft:ims"
+		}]
+	}],
+	rewards: [{
+		uid: "15a210c0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f083e097",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"Universal Cables from Mekanism can be used to transfer IC2 power, But can also transfer RF. This means you can use RF to power IC2 machines"
+	],
+	tasks: [{
+		uid: "42dbe73a",
+		type: "checkmark",
+		title: "Universal Cables",
+		icon: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			}
+		}
+	}]
+}

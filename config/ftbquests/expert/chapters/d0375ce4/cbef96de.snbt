@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"used to convert between items sharing an ore dictionary tag. Items placed in the blue input slot will show the detected mod name and ore dictionary tag in the info box. Once the machine has been set with the desired item in the input slot, any items sharing the same ore dictionary tage placed in the orange conversion slots will be converted to match the input item. The machine will only convert a limited number of ore dictionary tags, specificly those that start with: \"ore\", \"ingot\", \"nugget\", \"gem\", \"dust\", \"block\", \"gear\", or \"plate\"."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "6a3ad93a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:oredictionary_converter"
+		}]
+	}],
+	rewards: [{
+		uid: "a7d45e00",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4cce326a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

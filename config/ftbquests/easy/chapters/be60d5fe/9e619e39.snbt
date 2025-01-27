@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	text: [
+		"In order to function, the water filter must be placed in the center of a 5x5 area of water source blocks, with the top exposed to air, similar to the Water Trap. It uses Woven Cotton to make 8 Fresh Water and 8 Salt every 25 seconds."
+	],
+	tasks: [{
+		uid: "b525fecb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:waterfilter"
+		}]
+	}],
+	rewards: [{
+		uid: "4962b731",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0a49b3dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

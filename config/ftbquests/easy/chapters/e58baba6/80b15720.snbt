@@ -1,0 +1,36 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"&aTop Text&r",
+		"damages mobs that touch any side of it other than the bottom. The Spike does 4 (Heart.svgHeart.svg) every 0.5 seconds. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block.",
+		"&aBottom Text&r"
+	],
+	dependencies: [
+		"402b9fde",
+		"4ac00d8f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c0454c70",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_iron"
+		}]
+	}],
+	rewards: [{
+		uid: "78b038e8",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "e6456551",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

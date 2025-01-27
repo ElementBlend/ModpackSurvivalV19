@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"allows a Player to travel between 2 blocks when placed up to 20m apart. While touching the Elevator press the 'Space bar' (Jump) to go up and 'Shift' (Sneak) to go down, and the player will be rotated in the direction the block is facing."
+	],
+	tasks: [{
+		uid: "6f11f4a9",
+		type: "item",
+		items: [{
+			item: "openblocks:elevator_rotating"
+		}]
+	}],
+	rewards: [{
+		uid: "4eadc02b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: -6.5d,
+	y: 6.0d,
+	text: [
+		"When activated (Sneak + Right Click) it will attract nearby items to the players inventory for the cost of 50 LP each 5 secounds"
+	],
+	dependencies: [
+		"5cde16f6"
+	],
+	tasks: [{
+		uid: "62d6094f",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_magnetism",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "debe575d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d6bf2419",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

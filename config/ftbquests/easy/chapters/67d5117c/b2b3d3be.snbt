@@ -1,0 +1,29 @@
+{
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"This block is used to see where the center of a village is, as well as the boundary of the village. When inside of a village, if this block receives a redstone signal, then it will display a yellow box around the center, and a dome of yellow dots around the village. The yellow dots show the boundary of the village. A village is technically defined as a villager with a roof and a door, and can be expanded by adding more of these. The center of the village is where Iron Golems can spawn. Boundaries can be expanded as more villagers are added, though if a village \"house\" is too far away from the center, it will be counted as a different village."
+	],
+	tasks: [{
+		uid: "dbf8464b",
+		type: "item",
+		items: [{
+			item: "openblocks:village_highlighter"
+		}]
+	}],
+	rewards: [{
+		uid: "a942708c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4daf2dc2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

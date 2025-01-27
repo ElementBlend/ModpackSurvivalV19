@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"used to convert liquids of similar function between mods. With a fluid in the input tank, the user must select the input fluid using the arrow buttons. Then using the arrow buttons on the output tank, users can select the fluid to output. Currently the only recipe that exists allows for converting between Essence, Essence of Knowledge, and XP Juice."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "0e882c73",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluiddictionary_converter"
+		}]
+	}],
+	rewards: [{
+		uid: "d0a793b2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "983ef05b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

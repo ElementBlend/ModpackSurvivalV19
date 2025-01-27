@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -8.5d,
+	text: [
+		"used to expand the working area of some machines by placing the Range Addon in the machines upgrade slots."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "5ba26bfc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:range_addon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af6ce06a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

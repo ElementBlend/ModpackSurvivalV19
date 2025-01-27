@@ -1,0 +1,29 @@
+{
+	x: 7.5d,
+	y: 1.5d,
+	text: [
+		"Will target and attack players and hostile mobs that are within ten blocks of the Protecto every ten seconds with lightning. This will only occur if the Protecto has a direct vertical line of sight with the sky. It must be raining for the Protecto to be able to charge its lightning attack. Don't put near villagers, otherwise it will attack and turn all of them into Witches"
+	],
+	tasks: [{
+		uid: "a7d4dc21",
+		type: "item",
+		items: [{
+			item: "securitycraft:protecto"
+		}]
+	}],
+	rewards: [{
+		uid: "f95f55cf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8b7906d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

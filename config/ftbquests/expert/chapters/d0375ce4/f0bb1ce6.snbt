@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: -11.0d,
+	text: [
+		"Used to modify the behavior of some machines. When placed in the Mob Crusher or Mob Slaughter Factory, baby animals will not be killed. When used in the Animal Baby Separator, the machine will sort adult animals rather than baby animals."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "5561ac7c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:adult_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "bc84a956",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e442b85b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

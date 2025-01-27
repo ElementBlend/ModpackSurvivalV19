@@ -1,0 +1,37 @@
+{
+	title: "Task Screen & Reward Collector",
+	icon: "ftbquests:screen",
+	x: 0.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	description: "&aUsed to automate the Player Sellshop",
+	text: [
+		"&aTask Screen&r",
+		"Place the Task Screen and open the Task Screen GUI and now you can choose your task you want to automate. ",
+		"Now you can pump items via most cables into the Task Screen",
+		"",
+		"&aReward Collector&r",
+		"Place the Reward Collector and Open the Reward Collector GUI and now you can choose what task you want to redeem rewards from.",
+		"Choose the task and now use cables to export the rewards out of the Reward Collector, i suggest using barrels to store rewards in",
+		"",
+		"&cInformation&r",
+		"You can not use Extra Utilites cables on the Task Screen and the Reward Collector"
+	],
+	size: 1.1d,
+	tasks: [{
+		uid: "8293c884",
+		type: "checkmark",
+		title: "Quest Chest",
+		icon: "ftbquests:chest"
+	}],
+	rewards: [{
+		uid: "5a679e5d",
+		type: "item",
+		item: "ftbquests:reward_collector"
+	},
+	{
+		uid: "f752eec5",
+		type: "item",
+		item: "ftbquests:screen"
+	}]
+}

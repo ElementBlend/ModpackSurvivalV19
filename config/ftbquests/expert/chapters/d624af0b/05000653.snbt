@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"This altar is set apart from the rest, due to its wildly different purpose. You will only likely need it twice; to create two Gaean Gems for two Staffs of Gaea, one to get to the Erebus and one to get back."
+	],
+	tasks: [{
+		uid: "1fb9434b",
+		type: "item",
+		items: [{
+			item: "erebus:altar_offering"
+		}]
+	}],
+	rewards: [{
+		uid: "c984bc19",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "e6fc5b86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

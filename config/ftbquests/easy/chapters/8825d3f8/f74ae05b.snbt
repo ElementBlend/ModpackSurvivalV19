@@ -1,0 +1,42 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"&aThe quibit cell&r",
+		"a portable version of a Quantum RF Exciter. When actived (sneak+right click) it will charge any item in your inventory that is powered by RF. It is important to note that the Quibit Cell itself does not hold a charge, but rather is able to extract RF from the Redflux Field powered by a Quantum RF Entangler"
+	],
+	tasks: [{
+		uid: "bae18ec3",
+		type: "item",
+		items: [{
+			item: "quantumflux:quibitcell"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27ff1c41",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "424500c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "275ff108",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

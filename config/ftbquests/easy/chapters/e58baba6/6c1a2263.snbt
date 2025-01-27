@@ -1,0 +1,40 @@
+{
+	x: 5.0d,
+	y: 2.5d,
+	text: [
+		"&aGrid Power from just water&r",
+		"The strength of the GP output of the Water Mill is based on how many sides of it are being touched by flowing water, and by the strength of the floating water. If all four sides have max strength flowing water, it will generate 16 GP, 4 GP per side. A water source block does not generate any GP."
+	],
+	tasks: [{
+		uid: "92b09510",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "6ff50dce",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5611cbdc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "7d6838ae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

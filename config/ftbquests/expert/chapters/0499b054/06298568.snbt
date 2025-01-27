@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"Furnace Mines will explode when a player interacts with the block. The only way to remove the block, without explosion, is with the universal block remover. To craft, add a mine to a furnace within a crafting table."
+	],
+	tasks: [{
+		uid: "8809fd5e",
+		type: "item",
+		items: [{
+			item: "securitycraft:furnace_mine"
+		}]
+	}],
+	rewards: [{
+		uid: "aa828b73",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "b7b07c6c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

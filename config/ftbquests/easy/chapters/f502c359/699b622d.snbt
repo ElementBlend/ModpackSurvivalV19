@@ -1,0 +1,46 @@
+{
+	title: "Upgraded Remote",
+	icon: "storagenetwork:remote 1 2",
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"Remote with crafting and unlimited distance"
+	],
+	dependencies: [
+		"3df02316"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1af42cfe",
+		type: "item",
+		items: [{
+			item: "storagenetwork:remote 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e45f96e4",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "59dca43d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "735112b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"The enchantment table requires bookshelves and functions much like a vanilla Enchantment Table, but it can be fully automated. Unlike a regular Enchantment Table, this enchantment table requires liquid experience as a fuel."
+	],
+	tasks: [{
+		uid: "ffbb3563",
+		type: "item",
+		items: [{
+			item: "openblocks:auto_enchantment_table"
+		}]
+	}],
+	rewards: [{
+		uid: "d2440a8a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4150fadf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

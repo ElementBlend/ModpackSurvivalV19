@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"&aStone cold&r",
+		"damages mobs that touch any side of it other than the bottom. The Spike does 2 Hearts every 0.5 seconds. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block."
+	],
+	tasks: [{
+		uid: "648678e7",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "767a54f6",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "ba8a8c08",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

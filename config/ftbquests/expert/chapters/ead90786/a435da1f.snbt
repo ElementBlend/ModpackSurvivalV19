@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: 2.5d,
+	text: [
+		"Used to create fire, Place down the Stick Bundle and hold right click with a stick on it to lit.",
+		"",
+		"&7Tip: Can be used to light nether portals"
+	],
+	dependencies: [
+		"47dde69d"
+	],
+	tasks: [{
+		uid: "7b20fdd2",
+		type: "item",
+		items: [{
+			item: "primal_tech:stick_bundle"
+		}]
+	}]
+}

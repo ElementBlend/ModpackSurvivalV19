@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"37e9e736"
+	],
+	tasks: [{
+		uid: "c12c2f78",
+		type: "item",
+		items: [{
+			item: "mekanism:electrolyticcore"
+		}]
+	}]
+}

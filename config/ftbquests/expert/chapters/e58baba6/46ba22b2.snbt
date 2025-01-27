@@ -1,0 +1,34 @@
+{
+	x: 11.0d,
+	y: -1.5d,
+	text: [
+		"&aUsefull for when you wanna remove your friends giga base&r",
+		"in the antithetical counterpart of the Builders Wand. When a player is looking at a certain block, a wire-frame is formed around the blocks that are of the same type and surrounding the block (also wire-framed) the player is looking at. For example, if a player looks at the center of a Stone 3x3 wall, the nine blocks will be wire-framed, and if the player holds down the left mouse button for some time, they will break. As it acts as the direct opposite of the Builders Wand, it can only break nine blocks.",
+		"",
+		"This item can be useful in buildings, where the player can break nine blocks at a time instead of having to break them one by one, which can be tedious, though using the Wand can be slow itself. It does not require any kind of energy nor has durability, so it can be used infinitely without any cost."
+	],
+	tasks: [{
+		uid: "15258a8b",
+		type: "item",
+		items: [{
+			item: "extrautils2:itemdestructionwand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "263c2b15",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "b8809c29",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -11.0d,
+	y: -0.5d,
+	text: [
+		"Used to create juices, butters, smoothies, and other drinks."
+	],
+	tasks: [{
+		uid: "6c362a19",
+		type: "item",
+		items: [{
+			item: "harvestcraft:juiceritem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6849432",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "ce132e01",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

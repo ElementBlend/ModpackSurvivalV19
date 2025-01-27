@@ -1,0 +1,35 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	text: [
+		"&4Items will be taken&r",
+		"Dragon eggs also seem to behold great power we need to check this more"
+	],
+	dependencies: [
+		"659f89ea"
+	],
+	tasks: [{
+		uid: "1e3efa65",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e9703abc",
+		type: "ftbmoney:money",
+		ftb_money: 150000L
+	},
+	{
+		uid: "c7338a63",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

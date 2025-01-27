@@ -1,0 +1,59 @@
+{
+	title: "Basic Elements",
+	x: -3.0d,
+	y: -5.0d,
+	description: "&aUsing a flint mesh collect coal and iron",
+	text: [
+		"&aCongratz on the basic materials&r",
+		"Now that you got some basic materials things should start moving faster along"
+	],
+	dependencies: [
+		"3de18b93"
+	],
+	tasks: [{
+		uid: "c6b31a9a",
+		type: "item",
+		title: "Iron Ingot",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotIron"
+				}
+			}
+		}]
+	},
+	{
+		uid: "0ec6c64b",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "e5521a8c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "7f26926e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "1a67fbce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

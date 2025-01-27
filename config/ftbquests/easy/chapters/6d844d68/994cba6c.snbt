@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"Created by right clicking a vanilla sapling with ectoplasm this sapling grows into a spectre tree whose leaves might drop some ectoplasm when broken. While you should come out with a surplus of ectoplasm chance wise you might need a bunch of these to really get started farming Ectoplasm.",
+		"",
+		"Can be used with bonsai pots"
+	],
+	dependencies: [
+		"b486b0ac"
+	],
+	tasks: [{
+		uid: "3def3200",
+		type: "item",
+		items: [{
+			item: "randomthings:spectresapling"
+		}]
+	}],
+	rewards: [{
+		uid: "28b728da",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

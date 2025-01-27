@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"Slime Cubes allow Slimes to spawn in the Chunk they are in. Unlike Vanilla Slime Chunks Slimes can spawn at any height & do so at a significantly increased rate. Powered by Redstone this block instead prevents slimes from spawning through vanilla spawning mechanics (Slime Chunk / Swampland)"
+	],
+	tasks: [{
+		uid: "2acd3194",
+		type: "item",
+		items: [{
+			item: "randomthings:slimecube"
+		}]
+	}],
+	rewards: [{
+		uid: "045edde0",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8548e40b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

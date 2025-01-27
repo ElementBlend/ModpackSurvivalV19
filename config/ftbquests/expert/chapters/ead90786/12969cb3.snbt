@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: 2.5d,
+	description: "&cLocked to Steel Stiffened Mesh and Grout quests.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a76e269d",
+		"490897df"
+	],
+	tasks: [{
+		uid: "a1d8e821",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}]
+}

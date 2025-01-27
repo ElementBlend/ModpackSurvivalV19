@@ -1,0 +1,206 @@
+{
+	title: "Heimskringla",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "bloodmagic:blood_rune"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 1"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 2"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 3"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 4"
+	},
+	{
+		item: "bloodmagic:slate"
+	},
+	{
+		item: "bloodmagic:slate 1 1"
+	},
+	{
+		item: "bloodmagic:slate 1 2"
+	},
+	{
+		item: {
+			id: "bloodmagic:inscription_tool",
+			Damage: 1s,
+			tag: {
+				uses: 10
+			}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:inscription_tool",
+			Damage: 2s,
+			tag: {
+				uses: 10
+			}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:inscription_tool",
+			Damage: 3s,
+			tag: {
+				uses: 10
+			}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:inscription_tool",
+			Damage: 4s,
+			tag: {
+				uses: 10
+			}
+		}
+	},
+	{
+		item: "bloodmagic:lava_crystal"
+	},
+	{
+		item: "bloodmagic:item_demon_crystal"
+	},
+	{
+		item: "bloodmagic:item_demon_crystal",
+		count: 2
+	},
+	{
+		item: "bloodmagic:blood_shard"
+	},
+	{
+		item: "bloodmagic:monster_soul"
+	},
+	{
+		item: "bloodmagic:blood_rune",
+		count: 6
+	},
+	{
+		item: {
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}
+	},
+	{
+		item: "bloodmagic:soul_snare"
+	},
+	{
+		item: "bloodmagic:soul_snare",
+		count: 4
+	},
+	{
+		item: "bloodtinker:blood_bronze_ingot"
+	},
+	{
+		item: "bloodmagic:slate",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune",
+		count: 4
+	},
+	{
+		item: "bloodmagic:blood_rune 1 1",
+		count: 2
+	},
+	{
+		item: "bloodmagic:blood_rune 1 2",
+		count: 2
+	},
+	{
+		item: "bloodmagic:blood_rune 1 3",
+		count: 2
+	},
+	{
+		item: "bloodmagic:blood_rune 1 4",
+		count: 2
+	},
+	{
+		item: "bloodmagic:slate",
+		count: 2
+	},
+	{
+		item: "bloodmagic:slate 1 1",
+		count: 2
+	},
+	{
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "lifeessence",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		item: "bloodmagic:path"
+	},
+	{
+		item: "bloodmagic:path 1 1"
+	},
+	{
+		item: "bloodmagic:path 1 2"
+	},
+	{
+		item: "bloodmagic:path 1 3"
+	},
+	{
+		item: "bloodmagic:path 1 4"
+	},
+	{
+		item: "bloodmagic:path 1 5"
+	},
+	{
+		item: "bloodmagic:path 1 6"
+	},
+	{
+		item: "bloodmagic:path 1 7"
+	},
+	{
+		item: "bloodmagic:demon_brick_1"
+	},
+	{
+		item: "bloodmagic:demon_brick_1 1 1"
+	},
+	{
+		item: "bloodmagic:demon_brick_1 1 2"
+	},
+	{
+		item: "bloodmagic:demon_brick_1 1 3"
+	},
+	{
+		item: "bloodmagic:demon_brick_1 1 4"
+	},
+	{
+		item: "bloodmagic:demon_extras"
+	},
+	{
+		item: "bloodmagic:demon_extras 1 1"
+	},
+	{
+		item: "bloodmagic:demon_extras 1 2"
+	},
+	{
+		item: "bloodmagic:demon_extras 1 3"
+	},
+	{
+		item: "bloodmagic:demon_extras 1 4"
+	}],
+	loot_crate: {
+		string_id: "heimskringla",
+		item_name: "Heimskringla",
+		color: 4784963,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

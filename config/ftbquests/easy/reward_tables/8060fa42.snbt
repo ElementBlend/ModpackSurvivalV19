@@ -1,0 +1,2498 @@
+{
+	title: "Kev's ME System",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "minecraft:bat"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "erebus:erebus.tarantula"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "fossil:fossil.sturgeon"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "plustic:blindbandit"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "fossil:fossil.stegosaurus"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "fossil:fossil.pachycephalosaurus"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "primitivemobs:trollager"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "primitivemobs:harpy"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "fossil:fossil.ceratosaurus"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "mod_lavacow:banshee"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "mod_lavacow:mummy"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "cqrepoured:giant_silverfish"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "moremobss:magmasnail"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "blue_skies:stardust_ram"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "blue_skies:firefly_bs"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "blue_skies:summoner_illager"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "theaurorian:spider"
+			}
+		}
+	},
+	{
+		item: "securitycraft:ims"
+	},
+	{
+		item: "avaritia:resource",
+		count: 64
+	},
+	{
+		item: "avaritia:cosmic_meatballs",
+		count: 32
+	},
+	{
+		item: "avaritia:ultimate_stew",
+		count: 32
+	},
+	{
+		item: "avaritia:block_resource",
+		count: 16
+	},
+	{
+		item: "avaritia:endest_pearl",
+		count: 32
+	},
+	{
+		item: "bhc:red_heart_canister",
+		count: 10
+	},
+	{
+		item: "bhc:green_heart_canister",
+		count: 5
+	},
+	{
+		item: "bhc:blue_heart_canister",
+		count: 5
+	},
+	{
+		item: "minecraft:end_crystal",
+		count: 64
+	},
+	{
+		item: "minecraft:skull 1 1",
+		count: 64
+	},
+	{
+		item: "bloodtinker:blood_bronze_block",
+		count: 64
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 64
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 64
+	},
+	{
+		item: "minecraft:iron_block",
+		count: 64
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 64
+	},
+	{
+		item: "minecraft:gold_block",
+		count: 64
+	},
+	{
+		item: "minecraft:redstone_block",
+		count: 64
+	},
+	{
+		item: "minecraft:tnt",
+		count: 64
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		count: 64
+	},
+	{
+		item: "magicalmap:map"
+	},
+	{
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 10000000L
+			}
+		}
+	},
+	{
+		item: "minecraft:beacon",
+		count: 64
+	},
+	{
+		item: {
+			id: "extrautils2:lawsword",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:compoundbow",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:luxsaber",
+			Damage: 5s,
+			tag: {
+				Energy: 40000,
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:luxsaber",
+			Damage: 4s,
+			tag: {
+				Energy: 40000,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 3079698004484571867L,
+						UUIDLeast: -7857691917636960489L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3161446484629143578L,
+						UUIDLeast: -5299941159385060507L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:luxsaber",
+			Damage: 2s,
+			tag: {
+				Energy: 40000,
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:luxsaber",
+			tag: {
+				Energy: 40000,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 4016049310685151563L,
+						UUIDLeast: -8236667450685361490L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -4309374568004366703L,
+						UUIDLeast: -6764103193728970407L,
+						Amount: -0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.vicious.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bewitchment:vampiric_amulet",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bewitchment:gluttons_sash",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "bewitchment:poppet_deathprotection"
+	},
+	{
+		item: "bewitchment:block_of_cold_iron",
+		count: 64
+	},
+	{
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 4s,
+			tag: {
+				souls: 16384.0d
+			}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 4s,
+			tag: {
+				souls: 16384.0d,
+				demonWillType: "vengeful"
+			}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 4s,
+			tag: {
+				souls: 16384.0d,
+				demonWillType: "corrosive"
+			}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 4s,
+			tag: {
+				souls: 16384.0d,
+				demonWillType: "steadfast"
+			}
+		}
+	},
+	{
+		item: "bloodmagic:blood_shard 1 1"
+	},
+	{
+		item: "bewitchment:nether_brick_lilith_idol"
+	},
+	{
+		item: "bewitchment:scorned_brick_herne_idol"
+	},
+	{
+		item: "bewitchment:stone_baphomet_idol"
+	},
+	{
+		item: "bewitchment:gold_moloch_idol"
+	},
+	{
+		item: "bewitchment:gold_moloch_statue"
+	},
+	{
+		item: "bewitchment:stone_moloch_statue"
+	},
+	{
+		item: "bewitchment:gold_herne_statue"
+	},
+	{
+		item: "bewitchment:gold_lilith_statue"
+	},
+	{
+		item: "bewitchment:goddess_statue"
+	},
+	{
+		item: "bewitchment:poppet_voodooprotection"
+	},
+	{
+		item: "bewitchment:poppet_spiritbane"
+	},
+	{
+		item: "bewitchment:poppet_vampiric"
+	},
+	{
+		item: "bewitchment:poppet_flameprotection"
+	},
+	{
+		item: "bewitchment:poppet_hungerprotection"
+	},
+	{
+		item: {
+			id: "bewitchment:nazar",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 75907295077745566L,
+						UUIDLeast: -5545513061343260383L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.focusing.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bewitchment:fortunes_favor",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -6519312757588341514L,
+						UUIDLeast: -4744372104202576217L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.prospecting.name"
+				}
+			}
+		}
+	},
+	{
+		item: "environmentaltech:void_ore_miner_cont_3"
+	},
+	{
+		item: "environmentaltech:void_res_miner_cont_3"
+	},
+	{
+		item: "environmentaltech:void_botanic_miner_cont_3"
+	},
+	{
+		item: "exnihilocreatio:block_end_cake"
+	},
+	{
+		item: "excompressum:mana_sieve"
+	},
+	{
+		item: "extendedcrafting:table_ultimate"
+	},
+	{
+		item: "extrautils2:opinium 1 8"
+	},
+	{
+		item: "extrautils2:passivegenerator 1 8"
+	},
+	{
+		item: "extrautils2:drum 1 3"
+	},
+	{
+		item: "minecraft:brown_mushroom_block"
+	},
+	{
+		item: "minecraft:red_mushroom_block"
+	},
+	{
+		item: "minecraft:dragon_egg"
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_snow",
+		count: 16
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_endstone",
+		count: 16
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_limestone",
+		count: 16
+	},
+	{
+		item: "cqrepoured:staff_wind"
+	},
+	{
+		item: "cqrepoured:staff_vampiric"
+	},
+	{
+		item: "cqrepoured:teleport_stone"
+	},
+	{
+		item: "cqrepoured:bubble_pistol"
+	},
+	{
+		item: "ic2:nuclear 1 10"
+	},
+	{
+		item: "ic2:nuclear 1 3",
+		count: 16
+	},
+	{
+		item: "ic2:nuclear 1 10",
+		count: 16
+	},
+	{
+		item: "ic2:nuclear 1 3"
+	},
+	{
+		item: "ic2:nuclear 1 7",
+		count: 16
+	},
+	{
+		item: {
+			id: "ic2:quantum_helmet",
+			tag: {
+				charge: 1.0E7d,
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ic2:quantum_chestplate",
+			tag: {
+				charge: 1.0E7d,
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "cqrepoured:helmet_dragon",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7925648948634206711L,
+						UUIDLeast: -6235129302755941813L,
+						Amount: 1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.tough.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ic2:quantum_leggings",
+			tag: {
+				charge: 1.0E7d,
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "environmentaltech:lightning_cont_5"
+	},
+	{
+		item: "environmentaltech:solar_cont_5"
+	},
+	{
+		item: "environmentaltech:ionite_crystal",
+		count: 32
+	},
+	{
+		item: "environmentaltech:aethium_crystal",
+		count: 32
+	},
+	{
+		item: "creativeplus:double_stone_slab 1 8"
+	},
+	{
+		item: {
+			id: "ic2:quantum_boots",
+			tag: {
+				charge: 1.0E7d,
+				Quality: {
+					Slots: [
+						"feet"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 6644050744954995248L,
+						UUIDLeast: -8024719488089791840L,
+						Amount: 1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.tough.name"
+				}
+			}
+		}
+	},
+	{
+		item: "mekanism:cardboardbox"
+	},
+	{
+		item: "mekanism:glowpanel 1 12"
+	},
+	{
+		item: "mekanism:glowpanel 1 13"
+	},
+	{
+		item: "mekanism:glowpanel 1 5"
+	},
+	{
+		item: "mekanism:glowpanel 1 15"
+	},
+	{
+		item: "mekanism:glowpanel 1 6"
+	},
+	{
+		item: "sonarcore:stablestonerimmed_red"
+	},
+	{
+		item: "sonarcore:stablestoneblackrimmed_red"
+	},
+	{
+		item: "sonarcore:stablestone_yellow"
+	},
+	{
+		item: "mekanism:atomicalloy",
+		count: 64
+	},
+	{
+		item: "mekanism:controlcircuit 1 3",
+		count: 64
+	},
+	{
+		item: "extrautils2:unstableingots 1 2",
+		count: 64
+	},
+	{
+		item: "extrautils2:ingredients 1 10",
+		count: 64
+	},
+	{
+		item: "extrautils2:ingredients 1 17",
+		count: 64
+	},
+	{
+		item: "extrautils2:itemcreativebuilderswand"
+	},
+	{
+		item: "extendedcrafting:material 1 24",
+		count: 64
+	},
+	{
+		item: "mekanism:balloon 1 8"
+	},
+	{
+		item: "mekanism:balloon 1 7"
+	},
+	{
+		item: "mekanism:balloon 1 6"
+	},
+	{
+		item: "mekanism:balloon 1 5"
+	},
+	{
+		item: "mekanism:balloon 1 4"
+	},
+	{
+		item: "mekanism:balloon 1 3"
+	},
+	{
+		item: "mekanism:balloon 1 2"
+	},
+	{
+		item: "mekanism:balloon 1 1"
+	},
+	{
+		item: "mekanism:balloon"
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 7s,
+			tag: {
+				recipeType: 3,
+				mekData: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 5s,
+			tag: {
+				recipeType: 5
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 6s,
+			tag: {
+				recipeType: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 5s,
+			tag: {
+				recipeType: 8
+			}
+		}
+	},
+	{
+		item: "mekanism:machineblock 1 4"
+	},
+	{
+		item: "mekanism:tierinstaller 1 3"
+	},
+	{
+		item: "mekanism:tierinstaller 1 2"
+	},
+	{
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		item: "mekanism:tierinstaller"
+	},
+	{
+		item: "mekanismgenerators:generator"
+	},
+	{
+		item: "mekanism:glowpanel 1 8"
+	},
+	{
+		item: "industrialforegoing:crop_enrich_material_injector"
+	},
+	{
+		item: "industrialforegoing:black_hole_unit"
+	},
+	{
+		item: "industrialforegoing:water_resources_collector"
+	},
+	{
+		item: "industrialforegoing:animal_resource_harvester"
+	},
+	{
+		item: "industrialforegoing:mob_duplicator"
+	},
+	{
+		item: "industrialforegoing:block_destroyer"
+	},
+	{
+		item: "industrialforegoing:tree_fluid_extractor"
+	},
+	{
+		item: "industrialforegoing:animal_byproduct_recolector"
+	},
+	{
+		item: "industrialforegoing:bioreactor"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		},
+		count: 5
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "auction_house"
+			}
+		},
+		count: 15
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "shamus_rune_roulette"
+			}
+		},
+		count: 10
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 15
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "omega_crate"
+			}
+		}
+	},
+	{
+		item: "fluxnetworks:fluxpoint",
+		count: 2
+	},
+	{
+		item: "fluxnetworks:fluxplug",
+		count: 2
+	},
+	{
+		item: "fluxnetworks:gargantuanfluxstorage",
+		count: 3
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:health"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:generic_protection"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:ender_manipulator"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:growth"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:alchemist"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:atkdmg_ranged"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:obsidian_skin"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:luck_of_the_sea"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:anvil"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:enchanting"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:crafter"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:xp+"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:treasure_sands"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:enchanter"
+			}
+		}
+	},
+	{
+		item: "teslacorelib:energy_tier2",
+		count: 16
+	},
+	{
+		item: "teslacorelib:energy_tier1",
+		count: 16
+	},
+	{
+		item: "teslacorelib:speed_tier1",
+		count: 16
+	},
+	{
+		item: "teslacorelib:speed_tier2",
+		count: 16
+	},
+	{
+		item: "industrialforegoing:lava_fabricator"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 4",
+		count: 64
+	},
+	{
+		item: "mysticalagriculture:jade_seeds"
+	},
+	{
+		item: "mysticalagriculture:sky_stone_seeds"
+	},
+	{
+		item: "mysticalagriculture:creeper_seeds"
+	},
+	{
+		item: "mysticalagriculture:rubber_seeds"
+	},
+	{
+		item: "mysticalagriculture:iridium_seeds"
+	},
+	{
+		item: "mysticalagriculture:blizz_seeds"
+	},
+	{
+		item: "mysticalagriculture:enderium_seeds"
+	},
+	{
+		item: "mysticalagriculture:manyullyn_seeds"
+	},
+	{
+		item: "industrialforegoing:ore_washer"
+	},
+	{
+		item: "industrialforegoing:froster"
+	},
+	{
+		item: "industrialforegoing:fluid_pump"
+	},
+	{
+		item: "industrialforegoing:energy_field_provider"
+	},
+	{
+		item: "industrialforegoing:villager_trade_exchanger"
+	},
+	{
+		item: "industrialforegoing:resourceful_furnace"
+	},
+	{
+		item: "industrialforegoing:animal_growth_increaser"
+	},
+	{
+		item: "industrialforegoing:dye_mixer"
+	},
+	{
+		item: "industrialforegoing:black_hole_controller_reworked"
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 480000000L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "EPIC"
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 3360000000L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "LEGENDARY"
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 9223372036854775807L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 1000000
+				},
+				Special: 1b,
+				Selected: "ARTIFACT"
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 9223372036854775807L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "ARTIFACT"
+			}
+		}
+	},
+	{
+		item: "industrialforegoing:pink_slime_ingot",
+		count: 64
+	},
+	{
+		item: "mysticalagriculture:conductive_iron_seeds"
+	},
+	{
+		item: "mysticalagriculture:marble_seeds"
+	},
+	{
+		item: "mysticalagriculture:vibrant_alloy_seeds"
+	},
+	{
+		item: "mysticalagriculture:elementium_seeds"
+	},
+	{
+		item: "mysticalagriculture:uranium_238_seeds"
+	},
+	{
+		item: {
+			id: "botania:exchangerod",
+			tag: {}
+		}
+	},
+	{
+		item: "botania:manaresource 1 8",
+		count: 64
+	},
+	{
+		item: "botania:manaresource 1 9",
+		count: 64
+	},
+	{
+		item: {
+			id: "botania:flighttiara",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 4248242219964321478L,
+						UUIDLeast: -7461817236946405085L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:unholycloak",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 7693653251282782985L,
+						UUIDLeast: -4706602762873158852L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.aiming.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:divacharm",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:superlavapendant",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 2426409266026139169L,
+						UUIDLeast: -6811963480230568551L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7606547218666901356L,
+						UUIDLeast: -8352590106484757191L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 3030066949046488170L,
+						UUIDLeast: -5531657385491327777L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.horrible.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:supercloudpendant",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -7178894168068764058L,
+						UUIDLeast: -5513042620257559348L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.magicDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.focusing.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:speedupbelt",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "mysticalagriculture:slime_seeds"
+	},
+	{
+		item: "mysticalagriculture:vibrant_alloy_seeds"
+	},
+	{
+		item: "mysticalagriculture:end_steel_seeds"
+	},
+	{
+		item: "mysticalagriculture:supremium_apple",
+		count: 64
+	},
+	{
+		item: "mysticalagradditions:stuff 1 1",
+		count: 64
+	},
+	{
+		item: "mysticalagradditions:special 1 5"
+	},
+	{
+		item: "mysticalagradditions:special 1 1"
+	},
+	{
+		item: "mysticalagradditions:special"
+	},
+	{
+		item: "mysticalagradditions:insanium 1 5",
+		count: 64
+	},
+	{
+		item: "mysticalagradditions:charm"
+	},
+	{
+		item: {
+			id: "mysticalagradditions:supremium_paxel",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "mysticalagradditions:tier6_inferium_seeds"
+	},
+	{
+		item: "mysticalagradditions:insanium",
+		count: 64
+	},
+	{
+		item: "botania:manaresource 1 7",
+		count: 64
+	},
+	{
+		item: "botania:manaresource 1 14",
+		count: 64
+	},
+	{
+		item: "botania:manaresource 1 4",
+		count: 64
+	},
+	{
+		item: "botania:manaresource 1 2",
+		count: 64
+	},
+	{
+		item: "botania:manaresource 1 1",
+		count: 64
+	},
+	{
+		item: "botania:manaresource",
+		count: 64
+	},
+	{
+		item: "threng:material",
+		count: 64
+	},
+	{
+		item: {
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:diamond",
+					spec: "UPGRADE"
+				}
+			}
+		}
+	},
+	{
+		item: "botania:pinkinator"
+	},
+	{
+		item: "botania:thornchakram 1 1"
+	},
+	{
+		item: {
+			id: "botania:blackholetalisman",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "botania:gravityrod",
+			tag: {
+				dist: -1.0d,
+				ticksCooldown: 0,
+				ticksTillExpire: -2141,
+				target: -1
+			}
+		}
+	},
+	{
+		item: "botania:diviningrod"
+	},
+	{
+		item: {
+			id: "botania:tornadorod",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:salandaars_ward",
+			tag: {
+				charmable: {
+					INNATE: [{
+						charm: {
+							name: "treasure2:shielding_20"
+						},
+						mana: 600.0d,
+						duration: 0,
+						frequency: 0.0d,
+						amount: 0.8d,
+						cooldown: 0.0d,
+						range: 0.0d,
+						costEvaluator: {
+							costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+						},
+						maxMana: 600.0d,
+						exclusive: 0b,
+						recharges: 2,
+						maxRecharges: 2,
+						cooldownEnd: 0.0d
+					}],
+					source: 0b,
+					executing: 1b,
+					bindable: 0b,
+					innate: 1b,
+					imbuable: 0b,
+					imbuing: 0b,
+					socketable: 0b,
+					baseMaterial: "treasure2:gold",
+					sourceItem: "treasure2:ruby",
+					namedByMaterial: 0b,
+					namedByCharm: 0b,
+					levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+					maxSocketSize: 0
+				},
+				runestones: {
+					INNATE: [{
+						runestone: {
+							name: "treasure2:greater_mana_rune"
+						},
+						applied: 1b,
+						appliedTo: [
+							"shielding"
+						]
+					}],
+					bindable: 0b,
+					socketable: 0b
+				},
+				durability: {
+					durability: 1000,
+					maxDurability: 1000,
+					infinite: 1b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					charmable: {
+						INNATE: [{
+							charm: {
+								name: "treasure2:shielding_20"
+							},
+							mana: 600.0d,
+							duration: 0,
+							frequency: 0.0d,
+							amount: 0.8d,
+							cooldown: 0.0d,
+							range: 0.0d,
+							costEvaluator: {
+								costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+							},
+							maxMana: 600.0d,
+							exclusive: 0b,
+							recharges: 2,
+							maxRecharges: 2,
+							cooldownEnd: 0.0d
+						}],
+						source: 0b,
+						executing: 1b,
+						bindable: 0b,
+						innate: 1b,
+						imbuable: 0b,
+						imbuing: 0b,
+						socketable: 0b,
+						baseMaterial: "treasure2:gold",
+						sourceItem: "treasure2:ruby",
+						namedByMaterial: 0b,
+						namedByCharm: 0b,
+						levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+						maxSocketSize: 0
+					},
+					runestones: {
+						INNATE: [{
+							runestone: {
+								name: "treasure2:greater_mana_rune"
+							},
+							applied: 1b,
+							appliedTo: [
+								"shielding"
+							]
+						}],
+						bindable: 0b,
+						socketable: 0b
+					},
+					durability: {
+						durability: 1000,
+						maxDurability: 1000,
+						infinite: 1b,
+						repairs: 0,
+						maxRepairs: 0
+					}
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:adephagias_bounty",
+			tag: {
+				charmable: {
+					INNATE: [{
+						charm: {
+							name: "treasure2:satiety_20"
+						},
+						mana: 600.0d,
+						duration: 0,
+						frequency: 20.0d,
+						amount: 1.0d,
+						cooldown: 0.0d,
+						range: 0.0d,
+						costEvaluator: {
+							costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+						},
+						maxMana: 600.0d,
+						exclusive: 0b,
+						recharges: 2,
+						maxRecharges: 2
+					}],
+					source: 0b,
+					executing: 1b,
+					bindable: 0b,
+					innate: 1b,
+					imbuable: 0b,
+					imbuing: 0b,
+					socketable: 0b,
+					baseMaterial: "treasure2:gold",
+					sourceItem: "minecraft:emerald",
+					namedByMaterial: 0b,
+					namedByCharm: 0b,
+					levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+					maxSocketSize: 0
+				},
+				runestones: {
+					INNATE: [{
+						runestone: {
+							name: "treasure2:greater_mana_rune"
+						},
+						applied: 1b,
+						appliedTo: [
+							"satiety"
+						]
+					}],
+					bindable: 0b,
+					socketable: 0b
+				},
+				durability: {
+					durability: 1000,
+					maxDurability: 1000,
+					infinite: 1b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					charmable: {
+						INNATE: [{
+							charm: {
+								name: "treasure2:satiety_20"
+							},
+							mana: 600.0d,
+							duration: 0,
+							frequency: 20.0d,
+							amount: 1.0d,
+							cooldown: 0.0d,
+							range: 0.0d,
+							costEvaluator: {
+								costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+							},
+							maxMana: 600.0d,
+							exclusive: 0b,
+							recharges: 2,
+							maxRecharges: 2
+						}],
+						source: 0b,
+						executing: 1b,
+						bindable: 0b,
+						innate: 1b,
+						imbuable: 0b,
+						imbuing: 0b,
+						socketable: 0b,
+						baseMaterial: "treasure2:gold",
+						sourceItem: "minecraft:emerald",
+						namedByMaterial: 0b,
+						namedByCharm: 0b,
+						levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+						maxSocketSize: 0
+					},
+					runestones: {
+						INNATE: [{
+							runestone: {
+								name: "treasure2:greater_mana_rune"
+							},
+							applied: 1b,
+							appliedTo: [
+								"satiety"
+							]
+						}],
+						bindable: 0b,
+						socketable: 0b
+					},
+					durability: {
+						durability: 1000,
+						maxDurability: 1000,
+						infinite: 1b,
+						repairs: 0,
+						maxRepairs: 0
+					}
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:mirthas_torch",
+			tag: {
+				charmable: {
+					INNATE: [{
+						charm: {
+							name: "treasure2:illumination_20"
+						},
+						mana: 18.0d,
+						duration: 0,
+						frequency: 0.0d,
+						amount: 1.0d,
+						cooldown: 0.0d,
+						range: 0.0d,
+						costEvaluator: {
+							costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+						},
+						maxMana: 18.0d,
+						exclusive: 0b,
+						recharges: 0,
+						maxRecharges: 0,
+						illuminationCoords: []
+					}],
+					source: 0b,
+					executing: 1b,
+					bindable: 0b,
+					innate: 1b,
+					imbuable: 0b,
+					imbuing: 0b,
+					socketable: 0b,
+					baseMaterial: "treasure2:gold",
+					sourceItem: "treasure2:white_pearl",
+					namedByMaterial: 0b,
+					namedByCharm: 0b,
+					levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+					maxSocketSize: 0
+				},
+				runestones: {
+					bindable: 0b,
+					socketable: 0b
+				},
+				durability: {
+					durability: 1000,
+					maxDurability: 1000,
+					infinite: 1b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					charmable: {
+						INNATE: [{
+							charm: {
+								name: "treasure2:illumination_20"
+							},
+							mana: 18.0d,
+							duration: 0,
+							frequency: 0.0d,
+							amount: 1.0d,
+							cooldown: 0.0d,
+							range: 0.0d,
+							costEvaluator: {
+								costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+							},
+							maxMana: 18.0d,
+							exclusive: 0b,
+							recharges: 0,
+							maxRecharges: 0,
+							illuminationCoords: []
+						}],
+						source: 0b,
+						executing: 1b,
+						bindable: 0b,
+						innate: 1b,
+						imbuable: 0b,
+						imbuing: 0b,
+						socketable: 0b,
+						baseMaterial: "treasure2:gold",
+						sourceItem: "treasure2:white_pearl",
+						namedByMaterial: 0b,
+						namedByCharm: 0b,
+						levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+						maxSocketSize: 0
+					},
+					runestones: {
+						bindable: 0b,
+						socketable: 0b
+					},
+					durability: {
+						durability: 1000,
+						maxDurability: 1000,
+						infinite: 1b,
+						repairs: 0,
+						maxRepairs: 0
+					}
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:jewelled_key",
+			tag: {
+				durability: 5,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 5,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:metallurgists_key",
+			tag: {
+				durability: 25,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 25,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:skeleton_key",
+			tag: {
+				durability: 5,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 5,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:cosmetic",
+			Damage: 32s,
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1348162727478672186L,
+						UUIDLeast: -5921837435466189962L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.prospecting.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:cosmetic",
+			Damage: 30s,
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: -5112402501162220015L,
+						UUIDLeast: -6510067140537180314L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -1026453722959558572L,
+						UUIDLeast: -6717497159118812059L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:cosmetic",
+			Damage: 27s,
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 2357358501417864990L,
+						UUIDLeast: -7545537872939828309L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.healthy.name"
+				}
+			}
+		}
+	},
+	{
+		item: "botania:blazeblock",
+		count: 64
+	},
+	{
+		item: {
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:thirdeye",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "mysticaladaptations:insanium_apple",
+		count: 64
+	},
+	{
+		item: "mysticaladaptations:watering_can_insanium"
+	},
+	{
+		item: "netherex:dull_mirror"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 57"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 13"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 63"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 8"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 20"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 27"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 64"
+	},
+	{
+		item: "projectex:power_flower"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 50"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 24"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 18"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 52"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 41"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 32"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 51"
+	},
+	{
+		item: {
+			id: "treasure2:gold_bracelet",
+			tag: {
+				charmable: {
+					source: 0b,
+					executing: 1b,
+					bindable: 0b,
+					innate: 1b,
+					imbuable: 1b,
+					imbuing: 0b,
+					socketable: 1b,
+					baseMaterial: "treasure2:gold",
+					sourceItem: "minecraft:air",
+					namedByMaterial: 1b,
+					namedByCharm: 1b,
+					levelModifier: "com.someguyssoftware.treasure2.capability.modifier.NoLevelModifier",
+					maxSocketSize: 1
+				},
+				runestones: {
+					bindable: 0b,
+					socketable: 1b
+				},
+				durability: {
+					durability: 1000,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 2,
+					maxRepairs: 2
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					charmable: {
+						source: 0b,
+						executing: 1b,
+						bindable: 0b,
+						innate: 1b,
+						imbuable: 1b,
+						imbuing: 0b,
+						socketable: 1b,
+						baseMaterial: "treasure2:gold",
+						sourceItem: "minecraft:air",
+						namedByMaterial: 1b,
+						namedByCharm: 1b,
+						levelModifier: "com.someguyssoftware.treasure2.capability.modifier.NoLevelModifier",
+						maxSocketSize: 1
+					},
+					runestones: {
+						bindable: 0b,
+						socketable: 1b
+					},
+					durability: {
+						durability: 1000,
+						maxDurability: 1000,
+						infinite: 0b,
+						repairs: 2,
+						maxRepairs: 2
+					}
+				}
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:part 1 440"
+	},
+	{
+		item: "appliedenergistics2:part 1 240"
+	},
+	{
+		item: "appliedenergistics2:part 1 260"
+	},
+	{
+		item: "appliedenergistics2:part 1 261"
+	},
+	{
+		item: "appliedenergistics2:part 1 241"
+	},
+	{
+		item: "appliedenergistics2:part 1 441"
+	},
+	{
+		item: "appliedenergistics2:part 1 220"
+	},
+	{
+		item: "appliedenergistics2:part 1 221"
+	},
+	{
+		item: "appliedenergistics2:part 1 520"
+	},
+	{
+		item: {
+			id: "primal_tech:bone_club",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "primal_tech:rock"
+	},
+	{
+		item: "wrcbe:rep",
+		count: 16
+	},
+	{
+		item: "woot:shard 1 3"
+	},
+	{
+		item: "woot:shard 1 6"
+	},
+	{
+		item: "woot:shard 1 2"
+	},
+	{
+		item: "wrcbe:rep"
+	},
+	{
+		item: "advancedcombat:efficiency_upgrade 1 1",
+		count: 32
+	},
+	{
+		item: "advancedcombat:fortune_upgrade 1 1",
+		count: 32
+	},
+	{
+		item: "advancedcombat:protection_upgrade 1 1",
+		count: 32
+	},
+	{
+		item: "advancedcombat:unbreaking_upgrade 1 1",
+		count: 32
+	},
+	{
+		item: "advancedcombat:looting_upgrade 1 1",
+		count: 32
+	},
+	{
+		item: "advancedcombat:fire_aspect_upgrade 1 1",
+		count: 32
+	},
+	{
+		item: "advancedcombat:sharpness_upgrade 1 1",
+		count: 32
+	},
+	{
+		item: {
+			id: "advancedcombat:advanced_nether_star_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -1042509435183938467L,
+						UUIDLeast: -8248910539811272517L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -8563464092127117091L,
+						UUIDLeast: -7697656566277007988L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:part 1 480"
+	},
+	{
+		item: "appliedenergistics2:part 1 380"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: "appliedenergistics2:spatial_storage_cell_128_cubed"
+	},
+	{
+		item: "appliedenergistics2:charger"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {
+				internalMaxPower: 1600000.0d,
+				internalCurrentPower: 1600000.0d
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_64k"
+	},
+	{
+		item: "appliedenergistics2:controller"
+	},
+	{
+		item: {
+			id: "mowziesmobs:barako_mask",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -2928579339569839375L,
+						UUIDLeast: -6819264686652008470L,
+						Amount: 0.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.protective.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mowziesmobs:wrought_helmet",
+			tag: {
+				Quality: {
+					Slots: [
+						"head"
+					],
+					Color: "dark_red",
+					AttributeModifiers: [{
+						UUIDMost: 6877734640538436373L,
+						UUIDLeast: -6141182669791709007L,
+						Amount: -1.0d,
+						AttributeName: "generic.armorToughness",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2824809712088859887L,
+						UUIDLeast: -5165030946563899167L,
+						Amount: -1.5d,
+						AttributeName: "generic.armor",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 7800084649794619855L,
+						UUIDLeast: -8889498201899370218L,
+						Amount: -1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.crumbling.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mowziesmobs:wrought_axe",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: "mowziesmobs:ice_crystal"
+	},
+	{
+		item: "mowziesmobs:earth_talisman"
+	},
+	{
+		item: "mowziesmobs:grant_suns_blessing"
+	},
+	{
+		item: {
+			id: "thermalexpansion:capacitor",
+			Damage: 4s,
+			tag: {
+				Energy: 25000000,
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:capacitor",
+			Damage: 2s,
+			tag: {
+				Energy: 9000000,
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -5105280979682113071L,
+						UUIDLeast: -4678080231542956628L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.shielding.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:reservoir",
+			Damage: 4s,
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 1411776080042215773L,
+						UUIDLeast: -9032540961404442051L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.armored.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 29
+				}]
+			}
+		}
+	},
+	{
+		item: "thermaldynamics:duct_64 1 2",
+		count: 64
+	},
+	{
+		item: "thermaldynamics:duct_64 1 1",
+		count: 64
+	},
+	{
+		item: "thermaldynamics:duct_64",
+		count: 64
+	},
+	{
+		item: "thermaldynamics:duct_64 1 3",
+		count: 64
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5",
+		count: 16
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 7",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 6",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:storage_alloy 1 5",
+		count: 32
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "mowziesmobs:frostmaw"
+			}
+		}
+	},
+	{
+		item: "thermaldynamics:filter 1 4",
+		count: 64
+	},
+	{
+		item: "thermaldynamics:servo 1 4",
+		count: 64
+	},
+	{
+		item: "thermaldynamics:retriever 1 4",
+		count: 64
+	},
+	{
+		item: "thermalfoundation:upgrade 1 33",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:upgrade 1 34",
+		count: 32
+	},
+	{
+		item: "thermalfoundation:material 1 1025",
+		count: 64
+	},
+	{
+		item: "projecte:item.pe_alchemical_bag 1 3"
+	},
+	{
+		item: "projecte:item.pe_alchemical_bag 1 2"
+	},
+	{
+		item: "projecte:item.pe_alchemical_bag 1 1"
+	},
+	{
+		item: "projecte:item.pe_alchemical_bag"
+	},
+	{
+		item: "projecte:item.pe_alchemical_bag 1 4"
+	},
+	{
+		item: "tombstone:book_of_disenchantment"
+	},
+	{
+		item: "tombstone:ankh_of_prayer"
+	},
+	{
+		item: {
+			id: "aquaculture:admin_fishing_rod",
+			tag: {
+				using: 0b,
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "the_fat_man_nuke"
+			}
+		}
+	},
+	{
+		item: "bloodmagic:activation_crystal 1 2"
+	},
+	{
+		item: "tconstruct:materials 1 50",
+		count: 2
+	},
+	{
+		item: {
+			id: "ae2wtlib:wut_creative",
+			tag: {
+				StoredTerminals: [{
+					id: "wit:wit_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wct:wct_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wpt:wpt_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wft:wft_creative",
+					Count: 1b,
+					Damage: 0s
+				}],
+				IsInRange: 0b,
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -711731639236342250L,
+						UUIDLeast: -9109305348865353140L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.luck",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.lucky.name"
+				},
+				SelectedTerminal: 0,
+				internalCurrentPower: 1600000.0d
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "kev_s_me_system",
+		item_name: "Kev's Lost ME System",
+		color: 1845303,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

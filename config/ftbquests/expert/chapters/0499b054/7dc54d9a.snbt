@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		"Track Mine is a mine cart track that can be placed within a track of regular rails. They will active when a mine cart rolls over it. The mine cart does not have to have a player or mob to set off the Track Mine. A Track Mine is crafted with the same recipe of a regular rail, but with a piece of gunpowder underneath the piece of iron. It can be broken by hand or pickaxe without exploding."
+	],
+	tasks: [{
+		uid: "4c6189c1",
+		type: "item",
+		items: [{
+			item: "securitycraft:track_mine"
+		}]
+	}],
+	rewards: [{
+		uid: "8129d36a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "657a1921",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

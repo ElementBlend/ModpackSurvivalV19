@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"used to evenly fill items to the specified stack size over a number of inventory slots. The desired stack size can be set with the arrow buttons in the GUI. Items from the input slot will then be inserted to the desired stack size in the inventory slots of any available output inventories touching the machine. The Item Splitter works well with machines that function best when all input slots are filled, such as the Resourceful Furnace"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "0e4d3323",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:item_splitter"
+		}]
+	}],
+	rewards: [{
+		uid: "e46c59bd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c0354535",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

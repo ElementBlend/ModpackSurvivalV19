@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Block of Sticks are temporary building blocks, they will break 10 seconds after you place without dropping anything. You can use them to get to high places without leaving behind ugly block pillar."
+	],
+	tasks: [{
+		uid: "d5cf012d",
+		type: "item",
+		items: [{
+			item: "randomthings:blockofsticks"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "47c9b973",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "38f3592f",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

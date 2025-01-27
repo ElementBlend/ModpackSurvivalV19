@@ -1,0 +1,114 @@
+{
+	title: "Weapon Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "netherex:blazed_amedian_sword"
+	},
+	{
+		item: "blue_skies:turquoise_stone_sword"
+	},
+	{
+		item: "minecraft:wooden_sword"
+	},
+	{
+		item: "mod_lavacow:bonesword"
+	},
+	{
+		item: "mowziesmobs:dart",
+		count: 8
+	},
+	{
+		item: "mowziesmobs:blowgun"
+	},
+	{
+		item: "mekanismtools:bronzesword"
+	},
+	{
+		item: "thermalfoundation:tool.sword_steel"
+	},
+	{
+		item: "thermalfoundation:tool.sword_nickel"
+	},
+	{
+		item: "thermalfoundation:tool.sword_lead"
+	},
+	{
+		item: "thermalfoundation:tool.sword_tin"
+	},
+	{
+		item: "tp:nether_sword"
+	},
+	{
+		item: "tp:wub_sword"
+	},
+	{
+		item: "tp:bone_sword"
+	},
+	{
+		item: "tp:bsc_gold_sword"
+	},
+	{
+		item: "tp:bsc_diamond_sword"
+	},
+	{
+		item: "treasure2:skull_sword"
+	},
+	{
+		item: "primal_tech:bone_sword"
+	},
+	{
+		item: "aquaculture:neptunium_sword"
+	},
+	{
+		item: "blue_skies:cherry_wood_sword"
+	},
+	{
+		item: "blue_skies:everbright_diopside_sword"
+	},
+	{
+		item: "blue_skies:everdawn_pyrope_sword"
+	},
+	{
+		item: "blue_skies:everdawn_diopside_sword"
+	},
+	{
+		item: "blue_skies:horizonite_sword"
+	},
+	{
+		item: "cqrepoured:sword_spider"
+	},
+	{
+		item: "cqrepoured:sword_walker"
+	},
+	{
+		item: "botania:elementiumsword"
+	},
+	{
+		item: "blue_skies:infused_arc_sword"
+	},
+	{
+		item: "avaritia:skullfire_sword"
+	},
+	{
+		item: "tp:emerald_sword"
+	},
+	{
+		item: "cqrepoured:staff_gun"
+	},
+	{
+		item: "cqrepoured:bubble_pistol"
+	},
+	{
+		item: "mowziesmobs:blowgun"
+	}],
+	loot_crate: {
+		string_id: "_",
+		item_name: "Weapon Crate",
+		color: 2894635,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"Consumes power and liquid Meat to transform ores into Raw Ore Meat of that type. For example Iron Ore gets turned into Raw Ore Meat (Iron Ore)."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"339e2c42"
+	],
+	tasks: [{
+		uid: "6c9d71ba",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_washer"
+		}]
+	}],
+	rewards: [{
+		uid: "8109b28c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "9533a302",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

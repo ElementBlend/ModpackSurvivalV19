@@ -1,0 +1,42 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Ectoplasm is dropped by Spirits that sometimes spawn when you kill an entity. Spirits can not be harmed by physical attacks (An exception being the Spectre Sword), they are incorporeal after all. You will have to use magic to kill them (e.g. potions). When killed they drop at least one ectoplasm with a small chance of dropping a second one. However they also die by themselves after 20 seconds, not leaving any drops behind. They will float around a bit but should always stay close to the place they spawned.",
+		"",
+		"By default the chance of a spirit spawning is 1%, however there are 2 things that increase the chance:",
+		"",
+		"If the Ender Dragon was defeated in this world the chance will increase by 7%",
+		"If the entity died under the sky the chance will increase depending on the moon phase 2%",
+		"",
+		"Therefore in total after defeating the ender dragon & being under a full moon the chance of getting a spirit to spawn will be 10%."
+	],
+	tasks: [{
+		uid: "8ce69a99",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "080e637e",
+		type: "item",
+		item: "randomthings:ingredient 1 2",
+		count: 16
+	},
+	{
+		uid: "36875204",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "b2158c58",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	description: "&cRequires you to unlock Manasteel Ingot and Atomic Reconstructer quests.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3bdcab42"
+	],
+	tasks: [{
+		uid: "afef5877",
+		type: "item",
+		items: [{
+			item: "storagenetwork:master"
+		}]
+	},
+	{
+		uid: "13308ec6",
+		type: "item",
+		items: [{
+			item: "storagenetwork:request"
+		}]
+	},
+	{
+		uid: "4667bf69",
+		type: "item",
+		items: [{
+			item: "storagenetwork:kabel"
+		}]
+	},
+	{
+		uid: "2469908a",
+		type: "item",
+		items: [{
+			item: "storagenetwork:storage_kabel"
+		}]
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Snad",
+	x: -7.5d,
+	y: -7.0d,
+	text: [
+		"This mod adds a block known as \"Snad\" which unlike it's counterpart \"Sand\" WILL increase the growth rate for sugarcane, cacti and any other plantable crop.",
+		"",
+		"&7Tip put a redstone clock beside the snad and see magic happen"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5dfd00ed",
+		type: "item",
+		title: "Snad",
+		items: [{
+			item: "snad:snad"
+		},
+		{
+			item: "snad:snad 1 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4034332e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "aef45c27",
+		type: "item",
+		item: "snad:snad",
+		count: 4
+	}]
+}

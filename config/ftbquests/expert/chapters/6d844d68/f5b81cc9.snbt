@@ -1,0 +1,43 @@
+{
+	x: 9.5d,
+	y: 1.0d,
+	text: [
+		"The Imbuing Station is used to create Imbues that give your player on hit effects.",
+		"",
+		"There are currently 4 different imbues available:",
+		"",
+		"Name Effect",
+		"",
+		"Fire Imbue Sets hit enemies on fire for 10 seconds",
+		"",
+		"Poison Imbue Applies Poison II to hit enemies lasting 10 seconds",
+		"",
+		"Experience Imbue Enemies killed while active drop 50% more experience",
+		"",
+		"Wither Imbue Applies Wither II to hit enemies lasting 5 seconds",
+		"",
+		"You can only have one imbue active at a time. Drinking another one while one is still active will cancel the first one. All imbues last 20 minutes."
+	],
+	tasks: [{
+		uid: "f01813b2",
+		type: "item",
+		items: [{
+			item: "randomthings:imbuingstation"
+		}]
+	}],
+	rewards: [{
+		uid: "8ceb14e3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "7b88191e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

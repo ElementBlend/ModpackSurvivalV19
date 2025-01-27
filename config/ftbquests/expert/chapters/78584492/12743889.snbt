@@ -1,0 +1,29 @@
+{
+	x: -6.0d,
+	y: -0.5d,
+	text: [
+		"Gives you 15 secounds of Resistance 3"
+	],
+	tasks: [{
+		uid: "43793cc3",
+		type: "item",
+		items: [{
+			item: "tp:iron_apple"
+		}]
+	}],
+	rewards: [{
+		uid: "3edc6beb",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "5d3edb3f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

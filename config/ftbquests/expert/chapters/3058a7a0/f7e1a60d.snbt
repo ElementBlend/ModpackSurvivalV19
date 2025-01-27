@@ -1,0 +1,38 @@
+{
+	icon: "blue_skies:everdawn_portal",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"You can craft a Everdawn Portal Block to visit"
+	],
+	tasks: [{
+		uid: "82bf57b5",
+		type: "dimension",
+		dim: 77
+	}],
+	rewards: [{
+		uid: "a5a5e8b8",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "c4f071e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "a6825022",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

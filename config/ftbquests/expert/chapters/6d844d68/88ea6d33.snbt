@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: -1.0d,
+	text: [
+		"Used to inject energy into the spectre energy buffer",
+		"",
+		"This item is needed to use spectre coils"
+	],
+	tasks: [{
+		uid: "8e6d83ba",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreenergyinjector"
+		}]
+	}],
+	rewards: [{
+		uid: "4ddf98ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "92fa4892",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"The Analyzer is an extremely important block, that is the basic component to create almost everything else in the mod and is the second step that is needed to create extinct animals or prehistoric plants, or to recreate lost relics, such as pottery and ancient weapons."
+	],
+	dependencies: [
+		"c5a90481"
+	],
+	tasks: [{
+		uid: "8a2785b3",
+		type: "item",
+		items: [{
+			item: "fossil:analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "70ac0ff7",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "c5352ef3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cracked_chest"
+			}
+		}
+	}]
+}

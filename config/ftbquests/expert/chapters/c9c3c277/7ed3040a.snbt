@@ -1,0 +1,33 @@
+{
+	title: "Respawn the Dragon",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"Successfully respawn the Dragon"
+	],
+	dependencies: [
+		"2136b20c"
+	],
+	tasks: [{
+		uid: "336ce65f",
+		type: "advancement",
+		icon: "minecraft:end_crystal",
+		advancement: "end/respawn_dragon",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "1deaea62",
+		type: "ftbmoney:money",
+		ftb_money: 3500L
+	},
+	{
+		uid: "674d3bfa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

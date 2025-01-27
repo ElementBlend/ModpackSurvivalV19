@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"The Archeology Workbench is a modified version of the Crafting Table, which is used to fix broken ancient relics, from a time long past. It is the only way to create or repair many Archeological items and decorations."
+	],
+	dependencies: [
+		"c5a90481"
+	],
+	tasks: [{
+		uid: "d52dbd4b",
+		type: "item",
+		items: [{
+			item: "fossil:worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "0de3642a",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "b747c624",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cracked_chest"
+			}
+		}
+	}]
+}

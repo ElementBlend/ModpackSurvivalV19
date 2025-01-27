@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"Ta da you now have a furnace."
+	],
+	dependencies: [
+		"0fac0ef2"
+	],
+	tasks: [{
+		uid: "5b03fe61",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"You can use a mechanical user to automate the collection of will. Place the Sentient Sword in the Mechanical User and use a mob grinder. make sure to check that the sword does not break ever so often"
+	],
+	dependencies: [
+		"ba173f40"
+	],
+	tasks: [{
+		uid: "5ad3c232",
+		type: "checkmark",
+		title: "Will Automation",
+		icon: "extrautils2:user"
+	}],
+	rewards: [{
+		uid: "59e0dc7b",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

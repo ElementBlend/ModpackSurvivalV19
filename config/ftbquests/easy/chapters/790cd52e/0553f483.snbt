@@ -1,0 +1,77 @@
+{
+	title: "Info",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:info2.png"
+		}
+	},
+	x: -7.5d,
+	y: -10.5d,
+	shape: "square",
+	description: "&ABasic Information about the pack. &c&lPlease Read",
+	text: [
+		"Thank you for playing &3Ocean &aOutlast&r.",
+		"",
+		"The Quest Chapters are setup in a way to help you progress thru all of the 1000+ Quests! You however can go around and finish other quests as you progress.",
+		"",
+		"The world in this modpack is randomly generated so you could get a really big island or a really small one if you are not happy with your island either explore to find a new one or create a new world.",
+		"",
+		"Some useful commands are: ",
+		"&7/sethome (Sets your home).",
+		"&r/home (Teleports you home). ",
+		"&7/spawn (Sends you to spawn).",
+		"&r/tpa (teleport to a friend).",
+		"",
+		"I wish you luck survivor this world can be so evil!.",
+		"",
+		"&7Tip: Put gui scale at large for the best experiance."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6d32f3d0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "84f155ac",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "minecraft:pig"
+			}
+		}
+	},
+	{
+		uid: "cee42140",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "minecraft:cow"
+			}
+		}
+	},
+	{
+		uid: "3718c474",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "dd770844",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

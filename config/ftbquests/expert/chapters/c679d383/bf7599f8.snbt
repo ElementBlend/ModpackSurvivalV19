@@ -1,0 +1,39 @@
+{
+	title: "Rod of the Depths",
+	icon: "botania:cobblerod",
+	x: 6.0d,
+	y: 3.0d,
+	description: "&cLocked to Rune of Water and Rune of Fire quests",
+	text: [
+		"R-click with this rod will place Cobblestone for some mana cost. Rod also provides infinite amount of Cobblestone to Rod of the Shifting Crust, but both rods requires Mana."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6a841d1",
+		"60eb048e"
+	],
+	tasks: [{
+		uid: "61775862",
+		type: "item",
+		items: [{
+			item: "botania:cobblerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25b3fcdf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4aca9057",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"&4Items will be taken&r",
+		"We are thinking about building a End base codename upavshiy, expect to hear from us"
+	],
+	dependencies: [
+		"14de9d2b"
+	],
+	tasks: [{
+		uid: "ff69e60d",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 30000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "9fb4a14d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "8d3ecf7d",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "473e3af6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

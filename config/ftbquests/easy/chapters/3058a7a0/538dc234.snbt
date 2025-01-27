@@ -1,0 +1,43 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"Grants 10% moment speed when worn in the arc inventory. this item is a drop from the dungeon boss"
+	],
+	dependencies: [
+		"bc5bb95e"
+	],
+	tasks: [{
+		uid: "22cef05a",
+		type: "item",
+		items: [{
+			item: "blue_skies:arcs 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4de77ae9",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "7591251c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "da3293fc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

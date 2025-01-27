@@ -1,0 +1,36 @@
+{
+	title: "Finish Bewitchment",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "&aFinish the Bewitchment Chapter",
+	text: [
+		"Congratz on finishing the Bewitchment chapter"
+	],
+	dependencies: [
+		"f1d87476"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "759bfc22",
+		type: "checkmark",
+		title: "Finish Bewitchment",
+		icon: "bewitchment:bottled_frostfire"
+	}],
+	rewards: [{
+		uid: "7f825511",
+		type: "ftbmoney:money",
+		ftb_money: 4000000L
+	},
+	{
+		uid: "49ebd95b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	}]
+}

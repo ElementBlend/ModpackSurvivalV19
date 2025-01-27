@@ -1,0 +1,38 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"The Energy Condenser performs three functions.",
+		"",
+		"1: Any items placed in the inventory will be destroyed and converted to EMC which is then stored in the internal buffer.",
+		"",
+		"2: It receives EMC energy from an adjacent Energy Collector or Anti-Matter Relay.",
+		"",
+		"3: Using EMC energy from the internal buffer, it creates items of the type specified."
+	],
+	dependencies: [
+		"09beae1b"
+	],
+	tasks: [{
+		uid: "25639944",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}]
+	}],
+	rewards: [{
+		uid: "9aa0b1b4",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "2fc6b63f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

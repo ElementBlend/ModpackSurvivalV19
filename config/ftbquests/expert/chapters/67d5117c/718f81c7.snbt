@@ -1,0 +1,19 @@
+{
+	x: -11.0d,
+	y: -2.0d,
+	text: [
+		"When placed, it will remove all liquid source and flowing blocks in a 7x7 cube, which is a 3 block radius around the sponge. However, it will do this without causing a block update in the world, which is very useful for managing water, as it will not start flowing when the sponge is removed until it is updated. When used to remove lava, the sponge will catch fire and be destroyed after removing the lava."
+	],
+	tasks: [{
+		uid: "8741c11c",
+		type: "item",
+		items: [{
+			item: "openblocks:sponge"
+		}]
+	}],
+	rewards: [{
+		uid: "2b63babe",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

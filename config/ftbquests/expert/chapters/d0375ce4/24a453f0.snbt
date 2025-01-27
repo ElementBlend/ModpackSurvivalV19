@@ -1,0 +1,35 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	text: [
+		"used to harvest crops by simulating a right click. This can be used to harvest crops and tree fruit from Pam's HarvestCraft mod without breaking the base plant. Items will be input to the internal storage or dropped to the ground if no space is available. The machine will also produce 10 mB of Sludge per item collected into the internal tank.",
+		"",
+		"The Plant Interactor covers a 3x3 area in front of the machine, which can be expanded with a Range Addon. Each operation consumes 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "3837e3e3",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plant_interactor"
+		}]
+	}],
+	rewards: [{
+		uid: "bfda5711",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "21702003",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

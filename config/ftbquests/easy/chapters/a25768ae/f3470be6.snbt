@@ -1,0 +1,38 @@
+{
+	title: "Finish Botania",
+	icon: {
+		id: "botania:blackholetalisman",
+		tag: {}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "&aFinish the Botania Chapter",
+	text: [
+		"Congrats on finishing the Botania Chapter"
+	],
+	dependencies: [
+		"c679d383"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1a667ab7",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ec219066",
+		type: "ftbmoney:money",
+		ftb_money: 13000000L
+	},
+	{
+		uid: "f971e600",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	}]
+}

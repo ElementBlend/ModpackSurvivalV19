@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	text: [
+		"Animals within the working area of the Animal Feeder are automatically breed each operation provided they have a valid breeding partner. The internal inventory can hold 18 stacks of items, allowing for multiple types of feed for different animals. The machine will not function if more than 35 animals of any type are within the working area. The area of effect is 1x2x1 in front on the machine, which can be expanded with Range Addons. Each operation consumes 2 food items from the internal inventory and 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "ec40720a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "b269e591",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "473a477c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

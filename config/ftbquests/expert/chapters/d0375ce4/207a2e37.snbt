@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Consumes power, liquid Fermented Ore Meat, and sand to produce the final product of the Ore Meat. For example, liquid Fermented Ore Meat (Iron Ore) produces Pulverized Iron. This three step process (Washing Factory to Fermentation Station to Fluid Sieving Machine) triples the output of the input ore. For example, putting one iron ore into the Washing Factory, moving the liquid Raw Ore Meat (Iron Ore) to the Fermentation Station, and moving the liquid Fermented Ore Meat (Iron Ore) to a Fluid Sieving Machine will produce 3 pulverized iron which of course can be smelted into 3 iron ingots.",
+		"Items"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73646117"
+	],
+	tasks: [{
+		uid: "2ed3f26b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "e2d2e203",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "386490d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

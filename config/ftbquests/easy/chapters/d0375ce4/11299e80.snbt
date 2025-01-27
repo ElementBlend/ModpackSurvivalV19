@@ -1,0 +1,34 @@
+{
+	x: 5.0d,
+	y: -11.0d,
+	text: [
+		"used to push fluids from a machine into adjacent blocks by placing the addon in the machine's upgrade slot. The direction the addon will push to can be cycled through by right clicking while holding it, or set directly by holding sneak and right clicking a side of a block. Doing this, it is possible to configure the addon to push to the Up, North, East, South, West or Down direction."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "affb3dde",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_transfer_addon_push"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f329d5ab",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9156cd70",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"Universal Owner Changer is a tool that is used for multi-player. Every block from this mod has an owner. If the player places a block, the owner is the player that placed it. However, if the player wants to give the block to another player, one would use the Universal Owner Changer to give the other player the block. To give them, the block, the owner would rename the Universal Owner Changer in an anvil and shift right click the block that they wanted to change. The player would need 1 Universal Block Modifier and a name tag to craft this in survival."
+	],
+	tasks: [{
+		uid: "bd06bbf0",
+		type: "item",
+		items: [{
+			item: "securitycraft:universal_owner_changer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb812d18",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "96db2f38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

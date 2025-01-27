@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: 0.5d,
+	text: [
+		"used to automate trading with villagers trapped in a Mob Imprisonment Tool. Trapped villagers can be inserted into the lower right inventory slot. Available trades will be shown in the top inventory slots and can be cycled through using the arrow buttons. Inserting emeralds or other desired items into the input slot (lower left) will complete the trade, producing the output of the trade in the output slot. Trading using the machine will not unlock further trades. Each trade consumes 10,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "fa559182",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:villager_trade_exchanger"
+		}]
+	}],
+	rewards: [{
+		uid: "7bbdfcb0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "70ad9d9a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Cobblestone Generator",
+	icon: "tp:cobblegen_block",
+	x: -9.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"Holds 32 cobblestone at once",
+		"Creates 1 cobblestone each 40 tick",
+		"Can output to chest above"
+	],
+	tasks: [{
+		uid: "785a3e82",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "a5ac2dd1",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "8e9c5015",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

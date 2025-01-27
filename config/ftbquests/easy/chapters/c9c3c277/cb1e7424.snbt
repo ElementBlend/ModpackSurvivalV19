@@ -1,0 +1,26 @@
+{
+	title: "Boss flight!",
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"Up for a fight? Place the eight Purpur Blocks in a circle after that place the Runic Purpur Block in the middle"
+	],
+	dependencies: [
+		"e37545b1"
+	],
+	tasks: [{
+		uid: "cf41b1b7",
+		type: "item",
+		items: [{
+			item: "minecraft:purpur_block"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e0410503",
+		type: "item",
+		items: [{
+			item: "endreborn:block_rune"
+		}]
+	}]
+}

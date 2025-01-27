@@ -1,0 +1,67 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "scarce_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "netheritesword",
+					"type": "item",
+					"name": "netherbackport:netheritesword",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]					
+				},
+				{
+					"entryName": "wildwood_bow",
+					"type": "item",
+					"name": "roots:wildwood_bow",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]					
+				},				
+				{
+					"entryName": "item_paxel_crystal_white",
+					"type": "item",
+					"name": "actuallyadditions:item_paxel_crystal_white",
+					"weight": 13,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]	
+				},
+				{
+					"entryName": "iron_paxel",
+					"type": "item",
+					"name": "actuallyadditions:iron_paxel",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]	
+				},
+				{
+					"entryName": "item_paxel_crystal_light_blue",
+					"type": "item",
+					"name": "actuallyadditions:item_paxel_crystal_light_blue",
+					"weight": 10
+				},
+				{
+					"entryName": "obsidian_paxel",
+					"type": "item",
+					"name": "actuallyadditions:obsidian_paxel",
+					"weight": 15
+				}
+			]
+		}
+	]
+}

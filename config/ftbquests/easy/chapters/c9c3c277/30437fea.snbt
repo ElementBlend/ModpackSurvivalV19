@@ -1,0 +1,23 @@
+{
+	title: "Dragons Breath",
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"Collect some Dragon's Breath with a bottle"
+	],
+	dependencies: [
+		"011ab515"
+	],
+	tasks: [{
+		uid: "3c91183e",
+		type: "advancement",
+		icon: "minecraft:dragon_breath",
+		advancement: "end/dragon_breath",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "c0abb2a5",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

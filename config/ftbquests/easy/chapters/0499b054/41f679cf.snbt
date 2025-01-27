@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		"A furnace that requires a code to use.",
+		"Requires a passcode when first placed.",
+		"Furnaces' GUI will open when right passcode is entered."
+	],
+	tasks: [{
+		uid: "ddb67833",
+		type: "item",
+		items: [{
+			item: "securitycraft:keypad_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "596c38f5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "26f6a655",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

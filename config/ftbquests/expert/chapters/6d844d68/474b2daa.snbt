@@ -1,0 +1,31 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"The Chunk Analyzer allows you to check what blocks a chunk contains. Open its gui and press Scan. After a few seconds you will get the results for the chunk you are in."
+	],
+	tasks: [{
+		uid: "03f16f6a",
+		type: "item",
+		items: [{
+			item: "randomthings:chunkanalyzer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f113d907",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "742938ad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

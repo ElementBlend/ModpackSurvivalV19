@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"used to kill mobs as if a player, producing Essence and mob drops. The default working range is 1x3x1 in front of the machine and can be expanded with Range Addons. The Mob Crusher deals 300 damage per operation, killing all Vanilla mobs, other than the Wither, in a single hit. The machine will collect any items or experience dropped by mobs into its internal inventory. 20 mb of Essence is produced per experience point of orbs collected. The Mob Crusher does not need to be powered to collect experience orbs, making it useful to turn Bottle o' Enchanting into essence. Adding the Adult Filter to the machine will prevent baby animals from being killed. Each operation consumes 1,000 RF from the work energy buffer and damages mobs and animals within the working area."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "ba27ce85",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}],
+	rewards: [{
+		uid: "edfad7e7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7c05c4b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

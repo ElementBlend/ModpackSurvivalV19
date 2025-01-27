@@ -1,0 +1,31 @@
+{
+	x: -5.5d,
+	y: 0.0d,
+	text: [
+		"Universal Block Reinforcer is a tool that reinforce a block as the name suggests. It can reinforcer all vanilla blocks, which are, stone, granite, polished granite, diorite, polished diorite, andesite, polished andesite, sandstone, chiseled sandstone, smooth sandstone, dirt, cobblestone, oak planks, spruce planks, birch planks, jungle planks, acacia planks, dark oak planks, all of the stairs, all colors of glass, all colors of pane glass, all concrete, all wool, all carpet, all terracotta, all logs, all slabs, bricks, mossy stone, chiseled stone bricks, cracked stone bricks, nether brick, all purpur blocks, all redsand blocks, glowstone and gravel. The universal block reinforcer has 3 different levels, level 1, level 2, level, 3. The only difference is the durability on the reinforcer. Level 1 has 300 durability, Level 2 has 2,700 durability, Level 3 can not break. To craft Level 1, the player needs 1 glass (clear), 1 stick, 2 diamonds, 2 redstone, and 1 laser block. To craft Level 2, the player needs 1 stick, 1 laser block, 2 redstone, 2 diamond blocks, and 1 reinforced black stained glass. To craft Level 3, the player needs 1 stick, 1 nether star, 2 blocks of redstone, 2 blocks of emerald, and 1 reinforced pink stained glass."
+	],
+	tasks: [{
+		uid: "d8551c36",
+		type: "item",
+		items: [{
+			item: "securitycraft:universal_block_reinforcer_lvl1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef5bb86f",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "c2778103",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"An Ender Bucket works mostly like a normal Iron Bucket. However when you right click a non source block it will try to find the closest connected source block and pick that up instead of doing nothing."
+	],
+	tasks: [{
+		uid: "6f6641b2",
+		type: "item",
+		items: [{
+			item: "randomthings:enderbucket"
+		}]
+	}],
+	rewards: [{
+		uid: "50ad5a1d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4c920816",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

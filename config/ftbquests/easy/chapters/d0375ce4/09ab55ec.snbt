@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	text: [
+		" used to apply enchantments like an Anvil. The machine requires an enchanted book and a tool or armor to receive the enchantment. Applying the enchantment consumes 100 mb of Essence from the internal tank for each level of experience that would be required using an Anvil. The Enchantment Applicator only accepts items that can be enchanted on an Enchantment Table, making items such as the Elytra and Shield invalid inputs. Each enchantment consumes 5,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "4316c080",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_aplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "f1271a0b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f04b75db",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

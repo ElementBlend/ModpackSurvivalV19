@@ -1,0 +1,24 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:magic-swirl (1).png"
+		}
+	},
+	x: -0.5d,
+	y: -6.0d,
+	text: [
+		"Reach PSI level 15 to be able to make the ivory and ebony substance"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "39bdc1c2",
+		type: "checkmark",
+		title: "PSI Level 15"
+	}],
+	rewards: [{
+		uid: "f5904346",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

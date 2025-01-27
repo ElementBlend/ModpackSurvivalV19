@@ -1,0 +1,39 @@
+{
+	title: "Simple Wired Charger",
+	icon: "enderio:block_simple_wired_charger",
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"Used to recharge items which use Micro Infinity (�I) or other forms of Forge Energy, as well as items which use Redstone Flux.",
+		"",
+		"Similar to Ender IO's other Simple machines, capacitors cannot be used in the Simple Alloy Smelter, so its slow charging speed cannot be improved. It charges items at a constant rate of 30 �I/t.",
+		"",
+		"The machine constantly leaks 0.05 �I/t (1 �I/s) in addition to its energy usage during processing, and will continue to leak energy while not processing."
+	],
+	dependencies: [
+		"1f61beca"
+	],
+	tasks: [{
+		uid: "29412fa1",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61aafc8b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "2bc6e145",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

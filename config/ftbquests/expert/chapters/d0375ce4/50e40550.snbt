@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"can be used to store and transport mobs and passive entities but will not trap boss mobs. Right clicking on an entity will store them in the Mob Imprisonment Tool with their current health. Right clicking the ground with a full Mob Imprisonment Tool will respawn the mob trapped inside. Mobs trapped in the Mob Imprisionment Tool may also be duplicated using the Mob Duplicator."
+	],
+	dependencies: [
+		"20f8166f"
+	],
+	tasks: [{
+		uid: "577a311b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "782c403f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

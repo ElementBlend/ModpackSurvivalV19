@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"Quartz Glass is a block that is not solid for players and solid for every other entity."
+	],
+	tasks: [{
+		uid: "f9d5b550",
+		type: "item",
+		items: [{
+			item: "randomthings:quartzglass"
+		}]
+	}],
+	rewards: [{
+		uid: "77b5c6fa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2145c1dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

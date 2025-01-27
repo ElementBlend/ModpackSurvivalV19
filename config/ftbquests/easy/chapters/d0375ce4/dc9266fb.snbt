@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -7.0d,
+	text: [
+		"used to extract items from an inventory and place them on a conveyor belt. The upgrade will also remove items from the inventory of mobs and players standing in the extraction block. Right clicking a Conveyor Belt will apply the upgrade to the opposite side of the belt from where the player is standing. Right clicking the placed upgrade will open a GUI, allowing for a whitelist or blacklist of items to be set. Extraction speed can be increased by right clicking the upgrade with Glowstone Dust. Shift right clicking with an empty hand will remove the upgrade."
+	],
+	dependencies: [
+		"302531ef"
+	],
+	tasks: [{
+		uid: "27abe632",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "0edb320e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

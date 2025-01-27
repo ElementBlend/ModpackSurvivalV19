@@ -1,0 +1,33 @@
+{
+	x: 2.5d,
+	y: -2.5d,
+	text: [
+		"You can place the Blazing Pyrotheum inside an empty Tinkers Construct Smeltery to use as a faster fuel in comparison to lava."
+	],
+	dependencies: [
+		"85eebb4c"
+	],
+	tasks: [{
+		uid: "1a9084c4",
+		type: "fluid",
+		fluid: "pyrotheum"
+	}],
+	rewards: [{
+		uid: "789444b9",
+		type: "item",
+		item: {
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "pyrotheum",
+					Amount: 16000
+				}
+			}
+		}
+	},
+	{
+		uid: "cf0dbd52",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

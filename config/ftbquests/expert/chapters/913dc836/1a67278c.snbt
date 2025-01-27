@@ -1,0 +1,51 @@
+{
+	x: 0.0d,
+	y: 3.5d,
+	text: [
+		"Harvest Goddess Band is a complex item, that, once crafted, will give the player complete control over most things plant-related.",
+		"",
+		"Simply wearing the ring has a few effects on the player:",
+		"",
+		"1. Tilled fields will stay tilled.",
+		"",
+		"2. Crops, Reeds and Cactus will grow randomly at a fixed rate.",
+		"",
+		"3. Flowers, Mushrooms and Tallgrass will duplicate themselves randomly at a fixed rate.",
+		"",
+		"Activating the ring with G turns on \"Harvest mode\". In this state, the ring's jewel is red. Every ten seconds the ring will consume a single redstone dust. While active, the effect of growth and duplication rates are effectively doubled. In addition to this, any crops reaching maturity, or cactus or reeds reaching a height of 5 will be reaped. Cactus will be completely reaped, to prevent destruction of cactus blocks, but reeds will be reaped down to a single block high, allowing them to regrow. Any flowers, mushrooms and tallgrass in the players vicinity will also be \"mowed\".",
+		"",
+		"The ring's Left Click ability consumes four bone meal, attempting to fertilize all plants in the direct vicinity. This will randomly work on saplings at approximately 33% chance, but it will guarantee growth of cacti, reeds and crops, as well as forced duplication of mushrooms, flowers and tallgrass.",
+		"",
+		"The ring will plant large fields of crops when used on appropriate block types. When used on dirt or grass near water, it will attempt to plant reeds. When used on sand, it plants cacti. When used on dirt or grass not near water, it plants saplings. Finally, when used on tilled soil, it plants seeds. When planting saplings and cacti it will space them out, allowing easy passage between plants for harvesting.",
+		"",
+		"Note: The ring will only plant these items if you have them in your inventory."
+	],
+	dependencies: [
+		"59de915b"
+	],
+	tasks: [{
+		uid: "2daa8f35",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_harvest_god",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb2f681e",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "1061cafd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -6.0d,
+	y: 0.5d,
+	text: [
+		"Gives you:",
+		"Speed. 1 Minute",
+		"Resistance. 1 Minute",
+		"Regeneration. 15 Secounds",
+		"Fire Resistance. 15 Secounds"
+	],
+	tasks: [{
+		uid: "98e13ada",
+		type: "item",
+		items: [{
+			item: "tp:diamond_apple"
+		}]
+	}],
+	rewards: [{
+		uid: "f04e149f",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "1dbd67f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

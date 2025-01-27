@@ -1,0 +1,45 @@
+{
+	x: -6.5d,
+	y: 9.5d,
+	text: [
+		"When Activated (Sneak + Right Click) will remove all liquid in a 5 block radius for a limited time at the cost of 400 LP each 5 Secounds"
+	],
+	dependencies: [
+		"172b9f9a"
+	],
+	tasks: [{
+		uid: "3c8da127",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_suppression",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fcbb1086",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "696b36f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "f7f0c43e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "heimskringla"
+			}
+		}
+	}]
+}

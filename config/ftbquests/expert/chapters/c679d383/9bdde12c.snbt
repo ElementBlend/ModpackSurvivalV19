@@ -1,0 +1,37 @@
+{
+	title: "Lexica Botania 364rd Edition",
+	icon: {
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1,
+			knowledge.alfheim: 1,
+			knowledge.relic: 1
+		}
+	},
+	x: -7.0d,
+	y: 10.0d,
+	text: [
+		"Throwing the basic Lexica Botania through the Portal to Alfheim will unlock Elven Knowledge"
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "d574d5c7",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {
+				knowledge.alfheim: 1b,
+				forcedMessage: "botania.entry.elfMessage"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "302a3998",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

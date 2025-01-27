@@ -1,0 +1,20 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:walk.png"
+		}
+	},
+	x: -8.5d,
+	y: -13.0d,
+	shape: "rsquare",
+	description: "&cHow to stop Auto Jump / Hill Step",
+	text: [
+		"As you might have noticed you now walk up blocks without space if you wanna turn this off go into your controlls and find and bind the button for stepup."
+	],
+	tasks: [{
+		uid: "fc6d0e5f",
+		type: "checkmark",
+		title: "Stepup"
+	}]
+}

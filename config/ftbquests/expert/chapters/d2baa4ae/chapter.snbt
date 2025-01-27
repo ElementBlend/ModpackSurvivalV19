@@ -1,0 +1,7 @@
+{
+	title: "PSI",
+	icon: "psi:exosuit_controller",
+	always_invisible: false,
+	group: -1571329874,
+	default_quest_shape: ""
+}

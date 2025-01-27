@@ -1,0 +1,26 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:magic-swirl.png"
+		}
+	},
+	x: -0.5d,
+	y: -4.0d,
+	text: [
+		"Reach PSI level 10 to be able to make the psi ingot and gem"
+	],
+	dependencies: [
+		"6b1f8c67"
+	],
+	tasks: [{
+		uid: "a41be2f7",
+		type: "checkmark",
+		title: "PSI Level 10"
+	}],
+	rewards: [{
+		uid: "c4b0e151",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

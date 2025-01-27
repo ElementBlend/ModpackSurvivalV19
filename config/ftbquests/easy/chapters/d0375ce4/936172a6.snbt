@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	text: [
+		"used to smelt items like the Furnace but can process 3 items at a time. When smelting, the Resourceful Furnace will process one item from each of its 3 input slots. 50mb of Essence is produced into the internal tank per level of experience players would normally recive for smelting the block (5mb for smelting Cobblestone and 50mb for smelting Gold Ore). Each operation consumes 8,000 RF from the work energy buffer, regardless of the number of items smelted."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "a51fd42f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:resourceful_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "5f4d416c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "30e91820",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -6.5d,
+	y: -2.0d,
+	text: [
+		"used to keep its surrounding area hydrated and increase the growth rate of crops within the area of effect. In order to work, the Sprinkler must be placed on top of a Water supply in the form of a Tank filled with Water. It covers a default radius of 4m in every direction (equivalent to the radius of a Water source hydrating Farmland), but this can be changed in the configuration files. The Sprinkler's GUI has 9 slots where a Player can place Bone Meal to increase the default growth rate of crops.",
+		"",
+		"An Sink can fulfil the Water requirement of a Sprinkler"
+	],
+	tasks: [{
+		uid: "5f9704f5",
+		type: "item",
+		items: [{
+			item: "openblocks:sprinkler"
+		}]
+	}],
+	rewards: [{
+		uid: "f7269f99",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "c66f3950",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

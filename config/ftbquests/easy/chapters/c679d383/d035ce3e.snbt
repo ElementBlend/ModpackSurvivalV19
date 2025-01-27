@@ -1,0 +1,37 @@
+{
+	title: "Loonium",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "loonium"
+		}
+	},
+	x: 10.5d,
+	y: 10.5d,
+	description: "&cLocked to Rune of Gluttony/Envy/Sloth and Pixie Dust quests",
+	text: [
+		"The Loonium uses mana to randomly produce dungeon loot that would be found in chests in your world. This loot drops as item sprites. It can be disabled at will by applying a redstone signal."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"15474f17",
+		"404101cb",
+		"1af0134b",
+		"422cbaea"
+	],
+	tasks: [{
+		uid: "5277629e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "loonium"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4dde6ace",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: -6.5d,
+	y: -6.0d,
+	text: [
+		"&aSleeping Bag&r",
+		"The power to sleep anywhere without setting your spawn point"
+	],
+	dependencies: [
+		"de3b913c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5d2f3959",
+		type: "item",
+		items: [{
+			item: "openblocks:sleeping_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d51754c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "108e96ff",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Ex Nihilo",
+	icon: "exnihilocreatio:block_sieve",
+	always_invisible: false,
+	group: 2030884142,
+	default_quest_shape: ""
+}

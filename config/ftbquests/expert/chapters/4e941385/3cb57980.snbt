@@ -1,0 +1,28 @@
+{
+	icon: "aquaculture:neptunium_sword",
+	x: 0.5d,
+	y: 6.0d,
+	description: "&6Kill 50 Zombies",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6a2c5292",
+		type: "kill",
+		title: "Headhunter",
+		icon: "cqrepoured:cqr_zombie_spawn_egg_0",
+		entity: "minecraft:zombie",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "9c6d3af2",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10L
+			}
+		}
+	}]
+}

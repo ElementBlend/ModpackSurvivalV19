@@ -1,0 +1,34 @@
+{
+	x: -12.5d,
+	y: -12.0d,
+	text: [
+		"&aOrange Hearts :D&r",
+		"Function exactly the same as red heart canisters"
+	],
+	dependencies: [
+		"0fef5289"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a4ffb1f",
+		type: "item",
+		items: [{
+			item: "bhc:orange_heart_canister"
+		}]
+	}],
+	rewards: [{
+		uid: "4736a8dd",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "56db9166",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

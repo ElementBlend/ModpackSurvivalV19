@@ -1,0 +1,34 @@
+{
+	title: "Bellethorne",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "bellethorn"
+		}
+	},
+	x: -2.0d,
+	y: 2.0d,
+	description: "&cLocked to Mana Pool quest",
+	text: [
+		"The Bellethorne is a functional flower which will use mana inflict damage on all living mobs within range. This does not include players. It can be disabled at will by applying a redstone signal."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"836e1759"
+	],
+	tasks: [{
+		uid: "4d2348e7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "bellethorn"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "67eb40ec",
+		type: "item",
+		item: "botania:blacklotus"
+	}]
+}

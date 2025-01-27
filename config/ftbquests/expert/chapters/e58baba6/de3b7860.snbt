@@ -1,0 +1,48 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"&aGod Like&r",
+		"one of two powerful weapons added by the mod that uses Opinium Cores. It has unlimited durability, can hurt players in creative/Godmode, pierces armor, can be enchanted with any enchantment up to twice the normal level cap, and deals 14 (Heart.svgHeart.svgHeart.svgHeart.svgHeart.svgHeart.svgHeart.svg) points of damage (twice as much as a Diamond Sword)."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"32f122b0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5555b506",
+		type: "item",
+		items: [{
+			item: "extrautils2:lawsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e82abf92",
+		type: "ftbmoney:money",
+		ftb_money: 1500000L
+	},
+	{
+		uid: "ff3fe61a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	},
+	{
+		uid: "666458be",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 10
+	}]
+}

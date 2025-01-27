@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 3.0d,
+	description: "&cRequires you to unlock the Arcane Ashes quest.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a28509a0"
+	],
+	tasks: [{
+		uid: "7daa35a1",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		}]
+	}]
+}

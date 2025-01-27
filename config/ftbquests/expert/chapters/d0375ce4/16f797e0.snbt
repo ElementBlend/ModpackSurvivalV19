@@ -1,0 +1,41 @@
+{
+	x: -2.0d,
+	y: 1.5d,
+	text: [
+		"used with one to four Laser Drills to produce ores. Laser Lenses can be used to increase or decrease the chances of specific ores. The Laser Base can hold up to six lenses. In the GUI of the laser base, the bar on the left displays the amount of work that has been performed by the Laser Drill(s). When it reaches 100%, one block of ore is produced. Work changes by 1% every time a laser drill completes an operation."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73646117"
+	],
+	tasks: [{
+		uid: "a18525c9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	},
+	{
+		uid: "4ce4be9b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "94de3da6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "fc89ead5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 2.5d,
+	description: "&cLocked to 4 Oak Wood task in Starting Materials quest.",
+	text: [
+		""
+	],
+	dependencies: [
+		"3c34c93e"
+	],
+	tasks: [{
+		uid: "23ce51bf",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

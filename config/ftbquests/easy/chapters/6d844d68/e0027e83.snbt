@@ -1,0 +1,31 @@
+{
+	x: 9.5d,
+	y: 2.5d,
+	text: [
+		"The Spectre Anchor allows you to anchor items. Anchored items won’t drop out of your inventory when you die.",
+		"",
+		"To anchor an item you just have to combine it with a spectre anchor in a crafting grid, this only works with items that aren’t stackable."
+	],
+	tasks: [{
+		uid: "58661d2b",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreanchor"
+		}]
+	}],
+	rewards: [{
+		uid: "98a3998b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b2ef6b8b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

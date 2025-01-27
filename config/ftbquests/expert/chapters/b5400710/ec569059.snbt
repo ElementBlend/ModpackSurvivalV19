@@ -1,0 +1,40 @@
+{
+	x: 2.0d,
+	y: 9.5d,
+	text: [
+		"It increases the number of processing ticks that can occur in a given period of time, which works in pair with Displacement Rune and Charging Rune. ",
+		"It increases the speed of the liquid buffer of Blood Altar (not speed at which the altar works), which allows you pumping in/out Life Essence faster. ",
+		"Each rune decreases the number of ticks before the next processing. ",
+		"The maximum number of Acceleration Runes possible is 19."
+	],
+	dependencies: [
+		"172b9f9a"
+	],
+	tasks: [{
+		uid: "b0097d93",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "aaa370f8",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "68f79095",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "a5f366a5",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 9"
+	}]
+}

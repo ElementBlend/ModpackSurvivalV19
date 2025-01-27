@@ -1,0 +1,37 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"Archangel's Smite is an alchemical power item that consumes Dirt and Cobblestone to produce massive quantities of arrows. Unlike an ordinary bow, these arrows have the power to pass through the localized time field produced by a Watch of Flowing Time. In addition to this, these arrows are created rapidly.",
+		"",
+		"Arrows are used first, and are worth a single arrow. 14 dirt or cobblestone yields 1 arrow. If you have a charged Klein Star, the Archangel's smite will just generate arrows at 14 EMC per arrow from the Klein star, before it uses any raw materials it finds."
+	],
+	dependencies: [
+		"59de915b"
+	],
+	tasks: [{
+		uid: "9c4019a3",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_archangel_smite",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9515ab54",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "0b711541",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

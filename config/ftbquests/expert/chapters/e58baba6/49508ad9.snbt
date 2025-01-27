@@ -1,0 +1,34 @@
+{
+	x: 10.0d,
+	y: -1.5d,
+	text: [
+		"&aUsefull for making your giga base&r",
+		"When a player holds it and looks at a block, it attempts to expand the block the player is looking at by one layer, given the player has enough of that block in their inventory. It shows the area that will be expanded/where blocks will be placed with a yellow wire-frame. The amount of blocks it will place is limited at nine blocks.",
+		"",
+		"This item is extremely useful in buildings, where the player can place nine blocks at a time instead of having to place them one by one, which can be quite painful. It does not require any kind of energy nor does it have durability, so it can be used infinitely without any cost."
+	],
+	tasks: [{
+		uid: "806d098f",
+		type: "item",
+		items: [{
+			item: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3acfb9ed",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "d1da87e0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

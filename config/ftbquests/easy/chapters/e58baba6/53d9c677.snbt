@@ -1,0 +1,30 @@
+{
+	x: 9.5d,
+	y: 2.5d,
+	text: [
+		"&aSolar panel but for the nights&r",
+		"will generate 1 Grid Power (GP) during the night, 0.95 GP if it's raining, 1.06 GP during a full moon, and no GP during the day, assuming it has access to the sky."
+	],
+	tasks: [{
+		uid: "08317825",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "27b37aeb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "5afbc8cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

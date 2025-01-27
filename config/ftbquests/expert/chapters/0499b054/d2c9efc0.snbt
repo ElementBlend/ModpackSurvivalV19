@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	text: [
+		"Used to craft keypads and to display camera views",
+		"Views shutoff after 5 minutes"
+	],
+	tasks: [{
+		uid: "23fd116a",
+		type: "item",
+		items: [{
+			item: "securitycraft:keypad_frame"
+		}]
+	}],
+	rewards: [{
+		uid: "ced92e3e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "869c80f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

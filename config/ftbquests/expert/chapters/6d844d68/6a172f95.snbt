@@ -1,0 +1,29 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	text: [
+		"Platforms are special blocks that are solid from the top and not solid from all other sides (You can walk on top of them but go right through them from the sides or the bottom). If you hold shift you fall through them even from the top."
+	],
+	tasks: [{
+		uid: "9bf8c026",
+		type: "item",
+		items: [{
+			item: "randomthings:platform"
+		}]
+	}],
+	rewards: [{
+		uid: "6e18ffe4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a44ea8df",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

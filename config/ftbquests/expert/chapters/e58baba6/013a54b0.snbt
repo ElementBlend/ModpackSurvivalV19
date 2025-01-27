@@ -1,0 +1,54 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"&aThis is sooo usefull&r",
+		"",
+		"&bWireless Battery&r",
+		"",
+		"When connected to a Redstone Flux energy source, the Wireless RF Battery buffers and sends power wirelessly to a Wireless RF Transmitter which then distributes the power wirelessly to energy consumers. It will also power any Wireless RF Heating Coils on its grid network.",
+		"",
+		"&bWireless Transmitter&r",
+		"",
+		"The Wireless RF Transmitter draws Redstone Flux energy from a Wireless RF Battery and distributes the power wirelessly to energy consumers within a 4 block radius. The transfer is limited to 80 RF/t total. When right-clicked, the Wireless RF Transmitter will briefly display red particles to indicate connections to energy consumers."
+	],
+	tasks: [{
+		uid: "6f9efe4d",
+		type: "item",
+		items: [{
+			item: "extrautils2:powerbattery"
+		}]
+	},
+	{
+		uid: "365499d9",
+		type: "item",
+		items: [{
+			item: "extrautils2:powertransmitter"
+		}]
+	}],
+	rewards: [{
+		uid: "b93a4266",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5107c952",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "fed28377",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

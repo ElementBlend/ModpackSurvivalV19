@@ -1,0 +1,31 @@
+{
+	x: -11.0d,
+	y: 4.5d,
+	text: [
+		"Used to create delicious meals like a variety of breakfasts and dinners."
+	],
+	tasks: [{
+		uid: "52888921",
+		type: "item",
+		items: [{
+			item: "harvestcraft:skilletitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1948c4c9",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "d7f2b192",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

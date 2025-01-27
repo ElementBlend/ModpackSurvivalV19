@@ -1,0 +1,29 @@
+{
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"When placing a block into the Donation Station it will try to find the donation link to the author of the mod creator of that block or item"
+	],
+	tasks: [{
+		uid: "9abbf36f",
+		type: "item",
+		items: [{
+			item: "openblocks:donation_station"
+		}]
+	}],
+	rewards: [{
+		uid: "5d0eafe5",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "0ed03140",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

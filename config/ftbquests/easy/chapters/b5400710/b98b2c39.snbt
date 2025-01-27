@@ -1,0 +1,35 @@
+{
+	x: -4.5d,
+	y: 6.0d,
+	text: [
+		"When right clicked it will throw a blood orb that can be used as a light source for the cost of 10 LP"
+	],
+	dependencies: [
+		"5cde16f6"
+	],
+	tasks: [{
+		uid: "1494eef0",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_blood_light",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "23e5244d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "739873b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

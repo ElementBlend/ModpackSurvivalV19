@@ -1,0 +1,80 @@
+{
+	title: "Conveyor Belt",
+	x: -0.5d,
+	y: -7.5d,
+	text: [
+		"Conveyor Belts will travel in the direction the player is facing when placed and will create a ramp if placed one block above or below a connecting conveyor belt. The speed of the conveyor belts can be increased by right clicking with Glowstone Dust. Right clicking the belts with Plastic will prevent players from picking up items on the conveyor belt, but does not prevent items being removed by other mechanics such as placing a hopper underneath. These upgrades can only be removed by breaking the belts, which will drop the applied item."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "0403e9e6",
+		type: "item",
+		title: "Conveyor Belt",
+		items: [{
+			item: "industrialforegoing:conveyor"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 1"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 2"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 3"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 4"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 5"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 6"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 7"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 8"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 15"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 14"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 13"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 12"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 11"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 10"
+		},
+		{
+			item: "industrialforegoing:conveyor 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "b5d80146",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3653dc63",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

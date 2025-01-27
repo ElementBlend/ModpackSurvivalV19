@@ -1,0 +1,34 @@
+{
+	title: "Fallen Kanade",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "fallenKanade"
+		}
+	},
+	x: 9.5d,
+	y: 9.5d,
+	description: "&cLocked to Rune of Spring quest",
+	text: [
+		"Fallen Kanade uses mana to generate an area of effect field of regeneration level 3."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3ae0fd60"
+	],
+	tasks: [{
+		uid: "038ad293",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "fallenKanade"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "121ab238",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		"&aPeace on earth&r",
+		"will remove any sound in a 8 block radius."
+	],
+	tasks: [{
+		uid: "a8788ad8",
+		type: "item",
+		items: [{
+			item: "extrautils2:soundmuffler"
+		}]
+	}],
+	rewards: [{
+		uid: "5c4aea1e",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "b5793052",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

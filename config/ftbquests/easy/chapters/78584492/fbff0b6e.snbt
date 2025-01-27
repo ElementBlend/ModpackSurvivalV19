@@ -1,0 +1,25 @@
+{
+	x: -15.5d,
+	y: -0.5d,
+	text: [
+		"Right click dirt (Dose not work on grass) to turn it into Mycelium"
+	],
+	tasks: [{
+		uid: "42287895",
+		type: "item",
+		items: [{
+			item: "tp:mycelium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "96ccd918",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "052b73f0",
+		type: "item",
+		item: "minecraft:mycelium",
+		count: 4
+	}]
+}

@@ -1,0 +1,310 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = assets/bg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -60
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 157
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/multiplayerh.png
+  backgroundnormal = assets/multiplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -162
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 157
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/settingsh.png
+  backgroundnormal = assets/settings.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -2
+  action = movebutton
+  y = 59
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 157
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/quith.png
+  backgroundnormal = assets/quit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -164
+  action = movebutton
+  y = -60
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 157
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/singleplayerh.png
+  backgroundnormal = assets/singleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 157
+  action = resizebutton
+  height = 35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/modsh.png
+  backgroundnormal = assets/mods.png
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 686a2e40-2de0-415b-b660-5dc0c51fa2661674580180662
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 156
+  action = deep_customization_element:title_screen_branding
+  actionid = fa694228-775d-437d-8367-b92be68aee6f1674580180670
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = c445e014-23bf-4e6d-9205-8a78ac4c67bd1674580180670
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 62722292-7e41-432e-a419-8cd7055fa7bd1674580180670
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 5ceec506-9e16-4c15-942a-f8356f86b3fd1674580180671
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = ea62671f-7b21-41af-b654-a673574d9f9d1674580180671
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.bisecthosting.com/EFM%btnaction_splitter_fm%
+  backgroundhovered = assets/renth.png
+  label = 
+  loopbackgroundanimations = true
+  x = -158
+  width = 157
+  action = addbutton
+  actionid = d532b20c-8e22-4a26-8482-155463ff8fb81674587957693
+  y = 60
+  backgroundnormal = assets/rent.png
+  height = 35
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/NordicGamerFE/Ocean-Outlast/issues%btnaction_splitter_fm%
+  backgroundhovered = assets/issuesh.png
+  label = 
+  loopbackgroundanimations = true
+  x = 0
+  width = 157
+  action = addbutton
+  actionid = 98548b6b-89bf-4ec0-8b94-77281847fa101674599421538
+  y = 20
+  backgroundnormal = assets/issues.png
+  height = 35
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/tN3bqjNbaP%btnaction_splitter_fm%
+  backgroundhovered = assets/discordh.png
+  label = 
+  loopbackgroundanimations = true
+  x = -160
+  width = 157
+  action = addbutton
+  actionid = 112bbe83-8374-44a1-9b96-6768669e03dc1674599441605
+  y = 20
+  backgroundnormal = assets/discord.png
+  height = 35
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = MMS V19.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 3
+  width = 140
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8e7c2b2c-f8a4-48e6-a0a1-321fcd2ad35c1736783822418
+  y = -14
+  alignment = left
+  height = 13
+}
+

@@ -1,0 +1,249 @@
+{
+	title: "Kevs Lost Chest",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "harvestcraft:milletseeditem"
+	},
+	{
+		item: "harvestcraft:juteseeditem"
+	},
+	{
+		item: "harvestcraft:mulberryseeditem"
+	},
+	{
+		item: "harvestcraft:kenafseeditem"
+	},
+	{
+		item: "harvestcraft:quinoaseeditem"
+	},
+	{
+		item: "harvestcraft:sisalseeditem"
+	},
+	{
+		item: "harvestcraft:huckleberryseeditem"
+	},
+	{
+		item: "harvestcraft:elderberryseeditem"
+	},
+	{
+		item: "harvestcraft:curryleafseeditem"
+	},
+	{
+		item: "minecraft:emerald_ore"
+	},
+	{
+		item: "minecraft:glowstone"
+	},
+	{
+		item: "minecraft:coal_ore"
+	},
+	{
+		item: "minecraft:iron_ore"
+	},
+	{
+		item: "minecraft:gold_ore"
+	},
+	{
+		item: "minecraft:diamond_ore"
+	},
+	{
+		item: "minecraft:ghast_tear"
+	},
+	{
+		item: "minecraft:rabbit_stew"
+	},
+	{
+		item: "minecraft:cooked_rabbit"
+	},
+	{
+		item: "bewitchment:cold_iron_ingot"
+	},
+	{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: "bhc:red_heart_canister"
+	},
+	{
+		item: "excompressum:compressed_block 1 2"
+	},
+	{
+		item: "exnihilocreatio:crook_granite"
+	},
+	{
+		item: "exnihilocreatio:hammer_stone"
+	},
+	{
+		item: "harvestcraft:mustardseedsitem"
+	},
+	{
+		item: "harvestcraft:coffeeseeditem"
+	},
+	{
+		item: "harvestcraft:brusselsproutseeditem"
+	},
+	{
+		item: "harvestcraft:soybeanseeditem"
+	},
+	{
+		item: "harvestcraft:broccoliseeditem"
+	},
+	{
+		item: "harvestcraft:mustardseeditem"
+	},
+	{
+		item: "harvestcraft:spinachseeditem"
+	},
+	{
+		item: "harvestcraft:scallionseeditem"
+	},
+	{
+		item: "harvestcraft:leekseeditem"
+	},
+	{
+		item: "harvestcraft:taroseeditem"
+	},
+	{
+		item: "aquaculture:fishing_rod"
+	},
+	{
+		item: "mowziesmobs:glowing_jelly"
+	},
+	{
+		item: "openblocks:sponge_on_a_stick"
+	},
+	{
+		item: "ironchest:iron_chest"
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:potato_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:carrot_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: "actuallyadditions:block_smiley_cloud"
+	},
+	{
+		item: "harvestcraft:windygarden"
+	},
+	{
+		item: "harvestcraft:soggygarden"
+	},
+	{
+		item: "harvestcraft:shadedgarden"
+	},
+	{
+		item: "harvestcraft:cactusfruitseeditem"
+	},
+	{
+		item: "harvestcraft:strawberryseeditem"
+	},
+	{
+		item: "harvestcraft:raspberryseeditem"
+	},
+	{
+		item: "harvestcraft:blackberryseeditem"
+	},
+	{
+		item: "harvestcraft:blueberryseeditem"
+	},
+	{
+		item: "harvestcraft:blueberryseeditem"
+	},
+	{
+		item: "harvestcraft:candleberryseeditem"
+	},
+	{
+		item: "tconstruct:materials"
+	},
+	{
+		item: "tconstruct:edible 1 11"
+	},
+	{
+		item: "tconstruct:book"
+	},
+	{
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: "harvestcraft:dragonfruit_sapling"
+	},
+	{
+		item: "harvestcraft:passionfruit_sapling"
+	},
+	{
+		item: "harvestcraft:rambutan_sapling"
+	},
+	{
+		item: "bewitchment:lizard_leg"
+	},
+	{
+		item: "scalinghealth:difficultychanger",
+		weight: 4
+	},
+	{
+		item: {
+			id: "blue_skies:lunar_stone_sword",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 16
+				}],
+				RepairCost: 1,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDMost: 4641610147123381242L,
+						UUIDLeast: -5255142228321893837L,
+						Amount: -0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broken.name"
+				},
+				display: {
+					Name: "Modii101's Sword"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "kevs_lost_chest",
+		item_name: "Kev's Lost Chest",
+		color: 5056000,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

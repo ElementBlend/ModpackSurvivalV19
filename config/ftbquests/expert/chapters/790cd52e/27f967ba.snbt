@@ -1,0 +1,34 @@
+{
+	x: -9.5d,
+	y: -9.0d,
+	text: [
+		"The Stone AIOT is a very handy tool, AIOT stands for all in one tool it functions as a sword, pickaxe, axe, shovel, and hoe."
+	],
+	dependencies: [
+		"b5373745"
+	],
+	tasks: [{
+		uid: "36b7b6b6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:stone_paxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ab42b92",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9402f21c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

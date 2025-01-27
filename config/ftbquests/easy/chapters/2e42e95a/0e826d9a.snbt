@@ -1,0 +1,34 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"&aIs it a hottub is it a twitch streamer? who knows&r",
+		"Useless but i am making you make it anyway"
+	],
+	dependencies: [
+		"66a409d8",
+		"5f12ea30"
+	],
+	tasks: [{
+		uid: "2f2d0723",
+		type: "item",
+		items: [{
+			item: "fossil:time_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "9389cbe0",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "2522f7c0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"Store: 500,000      Transfer: 100/Tick "
+	],
+	tasks: [{
+		uid: "3338d407",
+		type: "item",
+		items: [{
+			item: "quantumflux:quibitcluster 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d6dfe6cd",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "7cb58bdd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "1591fe77",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

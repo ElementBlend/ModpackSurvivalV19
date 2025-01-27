@@ -1,0 +1,1190 @@
+{
+	title: "Common Crate",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:diamond",
+		weight: 5
+	},
+	{
+		item: "harvestcraft:surfandturfitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:tomatoitem",
+		count: 5,
+		weight: 20
+	},
+	{
+		item: {
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					own: "0269faac-332b-41bb-b51b-2ee5f7017218",
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				},
+				packInv: [{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				}]
+			}
+		},
+		weight: 4
+	},
+	{
+		item: "exnihilocreatio:hammer_iron",
+		weight: 14
+	},
+	{
+		item: "minecraft:cobblestone",
+		weight: 30
+	},
+	{
+		item: "minecraft:sand",
+		weight: 20
+	},
+	{
+		item: "minecraft:log 1 1",
+		count: 16,
+		weight: 5
+	},
+	{
+		item: "actuallyadditions:block_giant_chest",
+		weight: 4
+	},
+	{
+		item: "ironchest:iron_chest",
+		weight: 10
+	},
+	{
+		item: "fossil:stone_tablet",
+		weight: 20
+	},
+	{
+		item: "aquaculture:iron_fishing_rod",
+		weight: 15
+	},
+	{
+		item: "tconstruct:seared 1 3",
+		count: 10,
+		weight: 8
+	},
+	{
+		item: "tconstruct:slimesling"
+	},
+	{
+		item: "tp:redstone_apple"
+	},
+	{
+		item: "minecraft:potato",
+		weight: 30
+	},
+	{
+		item: "minecraft:carrot",
+		count: 6,
+		weight: 30
+	},
+	{
+		item: "minecraft:golden_carrot",
+		weight: 6
+	},
+	{
+		item: "minecraft:bone",
+		weight: 30
+	},
+	{
+		item: "minecraft:blaze_rod"
+	},
+	{
+		item: "minecraft:ender_pearl",
+		weight: 5
+	},
+	{
+		item: "minecraft:clay_ball",
+		count: 16,
+		weight: 40
+	},
+	{
+		title: "5 XP Levels",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			}
+		},
+		xp_levels: 5,
+		type: "xp_levels",
+		weight: 4
+	},
+	{
+		ftb_money: 150L,
+		type: "ftbmoney:money",
+		weight: 4
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		item: "minecraft:clay",
+		weight: 20
+	},
+	{
+		item: "minecraft:clay",
+		count: 2,
+		weight: 15
+	},
+	{
+		item: "minecraft:snow",
+		weight: 20
+	},
+	{
+		item: "minecraft:magma",
+		weight: 3
+	},
+	{
+		item: "minecraft:dye 1 15",
+		count: 10,
+		weight: 20
+	},
+	{
+		item: "minecraft:dye 1 15",
+		count: 16,
+		weight: 15
+	},
+	{
+		item: "minecraft:bone",
+		weight: 20
+	},
+	{
+		item: "minecraft:bone",
+		count: 5,
+		weight: 10
+	},
+	{
+		item: "minecraft:brick",
+		weight: 15
+	},
+	{
+		item: "minecraft:double_plant",
+		weight: 15
+	},
+	{
+		item: "minecraft:web",
+		weight: 15
+	},
+	{
+		item: "minecraft:skull",
+		weight: 15
+	},
+	{
+		item: "minecraft:apple",
+		weight: 15
+	},
+	{
+		item: "minecraft:apple",
+		count: 3,
+		weight: 10
+	},
+	{
+		item: "minecraft:rabbit",
+		weight: 15
+	},
+	{
+		item: "minecraft:rabbit_stew",
+		weight: 10
+	},
+	{
+		item: "minecraft:gravel",
+		weight: 15
+	},
+	{
+		item: "minecraft:gravel",
+		count: 16,
+		weight: 15
+	},
+	{
+		item: "minecraft:sand 1 1",
+		weight: 15
+	},
+	{
+		item: "minecraft:sand 1 1",
+		count: 16,
+		weight: 15
+	},
+	{
+		item: "minecraft:sand",
+		weight: 15
+	},
+	{
+		item: "minecraft:sand",
+		count: 16,
+		weight: 15
+	},
+	{
+		item: "minecraft:mycelium",
+		weight: 15
+	},
+	{
+		item: "minecraft:cobblestone",
+		weight: 20
+	},
+	{
+		item: "minecraft:cobblestone",
+		count: 16,
+		weight: 20
+	},
+	{
+		item: "minecraft:cobblestone",
+		count: 32,
+		weight: 10
+	},
+	{
+		item: "minecraft:skull 1 1"
+	},
+	{
+		item: "minecraft:deadbush",
+		weight: 40
+	},
+	{
+		item: "minecraft:rotten_flesh",
+		weight: 40
+	},
+	{
+		item: "minecraft:iron_leggings",
+		weight: 10
+	},
+	{
+		item: "minecraft:leather_leggings",
+		weight: 20
+	},
+	{
+		item: "minecraft:leather_chestplate",
+		weight: 20
+	},
+	{
+		item: "minecraft:arrow",
+		weight: 35
+	},
+	{
+		item: "minecraft:wooden_sword",
+		weight: 35
+	},
+	{
+		item: "minecraft:iron_chestplate",
+		weight: 10
+	},
+	{
+		item: "minecraft:golden_chestplate",
+		weight: 15
+	},
+	{
+		item: "minecraft:golden_leggings",
+		weight: 15
+	},
+	{
+		item: "scalinghealth:difficultychanger",
+		weight: 40
+	},
+	{
+		item: "minecraft:magma",
+		weight: 10
+	},
+	{
+		item: "minecraft:red_nether_brick",
+		count: 16,
+		weight: 6
+	},
+	{
+		item: "ichunutil:compact_porkchop",
+		weight: 5
+	},
+	{
+		item: "bonsaitrees:bonsaipot",
+		weight: 3
+	},
+	{
+		item: "minecraft:string",
+		count: 4,
+		weight: 20
+	},
+	{
+		item: "minecraft:dye 1 3",
+		weight: 20
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:llama"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:rabbit"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:iron_door",
+		weight: 3
+	},
+	{
+		item: "minecraft:iron_trapdoor",
+		weight: 3
+	},
+	{
+		item: "minecraft:repeater",
+		weight: 3
+	},
+	{
+		item: "minecraft:piston",
+		weight: 3
+	},
+	{
+		item: "minecraft:tnt",
+		count: 2,
+		weight: 6
+	},
+	{
+		item: "minecraft:redstone_block",
+		weight: 5
+	},
+	{
+		item: "minecraft:redstone",
+		count: 6,
+		weight: 10
+	},
+	{
+		item: "minecraft:concrete 1 9",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:coal_block",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:hay_block",
+		count: 6,
+		weight: 20
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 3,
+		weight: 3
+	},
+	{
+		item: "minecraft:emerald_block"
+	},
+	{
+		item: "minecraft:glass",
+		count: 4,
+		weight: 25
+	},
+	{
+		item: "minecraft:pumpkin",
+		weight: 30
+	},
+	{
+		item: "minecraft:iron_block",
+		weight: 5
+	},
+	{
+		item: "minecraft:concrete 1 11",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:concrete 1 10",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:concrete 1 8",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:concrete 1 7",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:concrete 1 6",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:concrete 1 2",
+		count: 2,
+		weight: 20
+	},
+	{
+		item: "minecraft:painting",
+		weight: 25
+	},
+	{
+		item: "minecraft:slime",
+		weight: 15
+	},
+	{
+		item: "minecraft:anvil",
+		weight: 2
+	},
+	{
+		item: "minecraft:crafting_table",
+		weight: 30
+	},
+	{
+		item: "minecraft:skull 1 4",
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:chicken"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:parrot"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:sheep"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wolf"
+				}
+			}
+		}
+	},
+	{
+		item: "claybucket:claybucket",
+		weight: 25
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:donkey"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mule"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:llama"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:horse"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:ocelot"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:polar_bear"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:cake",
+		weight: 10
+	},
+	{
+		item: "minecraft:pumpkin_pie",
+		weight: 10
+	},
+	{
+		item: "minecraft:melon",
+		weight: 15
+	},
+	{
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		},
+		weight: 4
+	},
+	{
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		item: "minecraft:shield",
+		weight: 10
+	},
+	{
+		item: "tconstruct:piggybackpack",
+		weight: 6
+	},
+	{
+		item: {
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 253,
+					HarvestLevel: 1,
+					Attack: 3.9f
+				},
+				display: {
+					Name: "zsauer lost sword"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 2,
+					Durability: 253,
+					HarvestLevel: 1,
+					Attack: 3.9f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"cactus",
+						"cactus",
+						"cactus"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "spiky",
+					color: -16735985,
+					level: 1
+				},
+				{
+					identifier: "prickly",
+					color: -16735985,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"spiky",
+					"prickly",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "botania:tinypotato",
+		weight: 8
+	},
+	{
+		item: {
+			id: "minecraft:diamond_shovel",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_axe",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_hoe",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_helmet",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_chestplate",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_boots",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: "minecraft:iron_ingot",
+		weight: 15
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: "minecraft:gold_ingot",
+		weight: 15
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: "minecraft:coal",
+		weight: 30
+	},
+	{
+		item: "minecraft:coal",
+		count: 6,
+		weight: 15
+	},
+	{
+		item: "minecraft:coal",
+		count: 12,
+		weight: 10
+	},
+	{
+		item: "minecraft:flint",
+		count: 32,
+		weight: 20
+	},
+	{
+		item: "minecraft:blaze_rod",
+		weight: 10
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 2,
+		weight: 15
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 6,
+		weight: 10
+	},
+	{
+		item: "minecraft:leather",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:feather",
+		count: 2,
+		weight: 30
+	},
+	{
+		item: "minecraft:quartz",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: "minecraft:emerald",
+		weight: 5
+	},
+	{
+		item: "claybucket:claybucket 1 2",
+		weight: 5
+	},
+	{
+		item: "minecraft:cooked_beef",
+		count: 4,
+		weight: 20
+	},
+	{
+		item: "minecraft:cooked_beef",
+		count: 8,
+		weight: 10
+	},
+	{
+		item: "minecraft:ghast_tear",
+		weight: 3
+	},
+	{
+		item: {
+			id: "exnihilocreatio:crook_wood",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			id: "exnihilocreatio:crook_stone",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 20
+	},
+	{
+		item: "exnihilocreatio:item_mesh 1 1",
+		weight: 5
+	},
+	{
+		item: "exnihilocreatio:item_material 1 2",
+		weight: 20
+	},
+	{
+		item: "cookingforblockheads:cow_jar"
+	},
+	{
+		item: {
+			id: "exnihilocreatio:hammer_diamond",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "exnihilocreatio:hammer_iron",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "exnihilocreatio:hammer_stone",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 20
+	},
+	{
+		item: "extrautils2:drum 1 1",
+		weight: 3
+	},
+	{
+		item: "harvestcraft:candleberryitem",
+		weight: 5
+	},
+	{
+		item: "tconstruct:slime_sapling",
+		weight: 5
+	},
+	{
+		item: "tconstruct:slime_sapling 1 1",
+		weight: 5
+	},
+	{
+		item: "tconstruct:slime_sapling 1 2",
+		weight: 5
+	},
+	{
+		item: "tp:mycelium_seeds",
+		weight: 20
+	},
+	{
+		item: "tp:tiny_charcoal",
+		count: 9,
+		weight: 30
+	},
+	{
+		item: {
+			id: "tp:wooden_battle",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "tp:diamond_apple"
+	},
+	{
+		item: "tp:emerald_apple"
+	},
+	{
+		item: "tp:growth_block"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 16"
+	},
+	{
+		item: "primal_tech:bone_shard",
+		weight: 20
+	},
+	{
+		item: "primal_tech:charcoal_hopper",
+		weight: 5
+	},
+	{
+		item: "primal_tech:stone_grill",
+		weight: 10
+	},
+	{
+		item: "primal_tech:water_saw",
+		weight: 10
+	},
+	{
+		item: {
+			id: "aquaculture:gold_fishing_rod",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "aquaculture:iron_fishing_rod",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "aquaculture:loot 1 5",
+		weight: 10
+	},
+	{
+		item: "mod_lavacow:fissionpotion",
+		weight: 10
+	},
+	{
+		item: "mod_lavacow:undyingheart",
+		weight: 5
+	},
+	{
+		item: {
+			id: "mod_lavacow:bonesword",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: "fossil:biofossil",
+		count: 4,
+		weight: 20
+	},
+	{
+		item: "randomthings:pitcherplant",
+		weight: 20
+	},
+	{
+		item: "openblocks:sponge_on_a_stick",
+		weight: 10
+	},
+	{
+		item: "exnihilocreatio:item_seed_sugarcane",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_seed_cactus",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_seed_darkoak",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_seed_acacia",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_seed_jungle",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_seed_oak",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_seed_spruce",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_seed_birch",
+		weight: 30
+	},
+	{
+		item: "harvestcraft:bltitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:fishtacoitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:raisincookiesitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:extremechiliitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:hotwingsitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:lemonchickenitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:sweetpotatopieitem",
+		weight: 10
+	}],
+	loot_crate: {
+		string_id: "commen_crate",
+		item_name: "Common Crate",
+		color: 16777164,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

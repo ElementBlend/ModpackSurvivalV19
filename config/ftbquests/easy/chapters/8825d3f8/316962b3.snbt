@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"Made when a Graphite Dust Is thrown in an explosion"
+	],
+	dependencies: [
+		"d632211e"
+	],
+	tasks: [{
+		uid: "42b0cd2d",
+		type: "item",
+		items: [{
+			item: "quantumflux:craftingpiece 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "aaa22881",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "babb8215",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

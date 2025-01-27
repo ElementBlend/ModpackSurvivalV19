@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"used to process Sludge created as a byproduct in the Plant Interactor and Plant Gatherer. When refined, 1,000 mB of Sludge is converted into an earthen product such as Clay, Sand, Dirt, and Soul Sand. Each operation consumes 200 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "be56b75b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:sludge_refiner"
+		}]
+	}],
+	rewards: [{
+		uid: "5913282b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "440f1892",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

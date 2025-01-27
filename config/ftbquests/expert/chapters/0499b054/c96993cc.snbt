@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: 1.5d,
+	text: [
+		"Bouncing Betty jumps up and explodes when interacted with. It has more explosion radius than an regular mine. The one of the ways to remove it, is with the universal block remover. Another way is to use wire cutters, then a pickaxe. The crafting recipe is 2 iron ingots, 1 gunpowder, and a pressure plate. Place the gunpowder at the bottom center spot, iron ingots to the left and right of it and the pressure plate on top of the gunpowder."
+	],
+	tasks: [{
+		uid: "fe105eb3",
+		type: "item",
+		items: [{
+			item: "securitycraft:bouncing_betty"
+		}]
+	}],
+	rewards: [{
+		uid: "664f8719",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "ef512adf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

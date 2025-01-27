@@ -1,0 +1,37 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"&aWhen used in a Void Botanic Miner, Void Ore Miner or Void Resource Miner, it will reduce the time between each operation by 30%&R",
+		"increase the Redstone Flux (RF) cost per operation by 12%. Those effects stack multiplicatively, meaning that, for example, 2 Speed Modifiers will reduce time by 51% and increase energy cost by 25.44%. Void Miners have a maximum speed they can reach, meaning that all Speed Modifiers above a certain number will only increase energy cost.",
+		"&7Can first be used on a tier 2 miner and above"
+	],
+	dependencies: [
+		"d3878316",
+		"c4b09fe9",
+		"360e9de1"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fab0112c",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_speed"
+		}]
+	}],
+	rewards: [{
+		uid: "b2691f8f",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "420a134f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

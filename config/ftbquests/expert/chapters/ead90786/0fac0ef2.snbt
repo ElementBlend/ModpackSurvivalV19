@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	text: [
+		"Crafting compontent"
+	],
+	dependencies: [
+		"2893da86"
+	],
+	tasks: [{
+		uid: "6bb6a699",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}]
+	}]
+}

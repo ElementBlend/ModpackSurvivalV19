@@ -1,0 +1,33 @@
+{
+	x: -5.5d,
+	y: -7.5d,
+	text: [
+		"Generates rf from sources of solid fuel, Fuels used to power a furnace."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "f8deb35f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:petrified_fuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "0295bf40",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2dec83c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

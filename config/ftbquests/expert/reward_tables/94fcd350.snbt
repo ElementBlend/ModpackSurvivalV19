@@ -1,0 +1,51 @@
+{
+	title: "Bonus",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "bonus_game"
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "bonus_game"
+			}
+		},
+		count: 5
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "bonus_game"
+			}
+		},
+		count: 7
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "bonus_game"
+			}
+		},
+		count: 12
+	}],
+	loot_crate: {
+		string_id: "bonus",
+		item_name: "Bonus",
+		color: 6684876,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

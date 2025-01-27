@@ -1,0 +1,33 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	text: [
+		"The Redstone Activator temporarily powers blocks with redstone when you right click them. For example Doors open, tnt ignites, lamps / redstone turns on.",
+		"",
+		"You can change the duration of the signal between 2 / 20 / 100 Ticks by (shift)-right clicking into the air with it."
+	],
+	tasks: [{
+		uid: "e122614f",
+		type: "item",
+		items: [{
+			item: "randomthings:redstoneactivator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "241bd042",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7182e469",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

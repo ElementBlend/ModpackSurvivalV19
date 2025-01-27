@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	text: [
+		"Gives you:",
+		"Speed, 15 Secounds",
+		"Absorption, 15 Secounds",
+		"Saturation, 5 Secounds"
+	],
+	tasks: [{
+		uid: "c6cd71d9",
+		type: "item",
+		items: [{
+			item: "tp:emerald_apple"
+		}]
+	}],
+	rewards: [{
+		uid: "c65716cd",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "4785010b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

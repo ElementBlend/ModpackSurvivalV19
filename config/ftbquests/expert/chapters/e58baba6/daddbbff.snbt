@@ -1,0 +1,40 @@
+{
+	x: 7.0d,
+	y: 2.5d,
+	text: [
+		"&aFire powah",
+		"&RWhen place over the fire source block this machine will generate 2 Grid Power"
+	],
+	tasks: [{
+		uid: "2109ade9",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "f8f24473",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "ad36406f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "f02acb40",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

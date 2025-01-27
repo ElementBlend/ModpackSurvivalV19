@@ -1,0 +1,33 @@
+{
+	title: "Iron Hammer",
+	icon: "exnihilocreatio:hammer_iron",
+	x: -3.0d,
+	y: -5.0d,
+	text: [
+		"Craft a Iron Hammer"
+	],
+	tasks: [{
+		uid: "40ef02b5",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2f13464",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "4e1a889a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

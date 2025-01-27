@@ -1,0 +1,47 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "common_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "advanced_wooden_sword",
+					"type": "item",
+					"name": "advancedcombat:advanced_wooden_sword",
+					"weight": 25	
+				},
+				{
+					"entryName": "certus_quartz_pickaxe",
+					"type": "item",
+					"name": "appliedenergistics2:certus_quartz_pickaxe",
+					"weight": 25
+				},
+				{
+					"entryName": "nether_quartz_axe",
+					"type": "item",
+					"name": "appliedenergistics2:nether_quartz_axe",
+					"weight": 25
+				},
+				{
+					"entryName": "bone_sword",
+					"type": "item",
+					"name": "tp:bone_sword",
+					"weight": 15
+				},
+				{
+					"entryName": "bone_pickaxe",
+					"type": "item",
+					"name": "tp:bone_pickaxe",
+					"weight": 15
+				},
+				{
+					"entryName": "bone_axe",
+					"type": "item",
+					"name": "tp:bone_axe",
+					"weight": 15
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"When toggled on by right clicking Spectre Charger will transfer energy from your spectre energy buffer into any item in your inventory that can accept it.",
+		"",
+		"Redstone: 4096 per Tick"
+	],
+	dependencies: [
+		"4a8579d5"
+	],
+	tasks: [{
+		uid: "21c6d3d0",
+		type: "item",
+		items: [{
+			id: "randomthings:spectrecharger",
+			Damage: 1s,
+			tag: {
+				options: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2619617",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "dca20156",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		"The Presser can be used to process Honeycombs, press Cooking Oil, Tofu and Sugar, make Bubbly Water out of Fresh Water, and to turn Fruit into Juice.",
+		"",
+		"Place the source item in the top slot and it will create the product after a short loading period."
+	],
+	tasks: [{
+		uid: "3da3ccd4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:presser"
+		}]
+	}],
+	rewards: [{
+		uid: "cf9c33e4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4bc78000",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

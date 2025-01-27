@@ -1,0 +1,51 @@
+{
+	icon: "fossil:anubite_statue",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"In the Nether, the player is able to find a structure called a Hell Boat. ",
+		"On the hell boat is a statue of Anu, which must be surrounded with the four redstone and four figurines",
+		"Correct placement will result in an explosion that has the possibility of knocking players off the boat. ",
+		"In the statue's place will be a portal. Walking through the portal teleports players to a platform outside Anu's Castle. ",
+		"Players must use the blocks they brought to make a bridge to the castle. ",
+		"Once in the castle, players must make their way past the dangerous sentry pigmen and anubite statues until they discover the arena. ",
+		"In the center of the arena lies the mysterious sarcophagus on a floating platform. ",
+		"The player must make their way onto the platform using more blocks. ",
+		"Once there, the Scarab Gem must be placed onto the sarcophagus. ",
+		"It will appear to embed itself in the sarcophagus. With one more right-click of the sarcophagus, the gem will come loose. ",
+		"The door will rapidly spring open, revealing Anu"
+	],
+	dependencies: [
+		"68fd9dae"
+	],
+	tasks: [{
+		uid: "159ef0da",
+		type: "dimension",
+		dim: -23
+	}],
+	rewards: [{
+		uid: "fb215c8f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "3e69a711",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "2ff9f357",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

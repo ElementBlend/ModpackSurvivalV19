@@ -1,0 +1,40 @@
+{
+	icon: "tp:wooden_shears",
+	x: -1.5d,
+	y: 1.0d,
+	description: "&cLocked to 4 Oak Wood task in Starting Materials quest.",
+	text: [
+		"Simple shears made of wood."
+	],
+	dependencies: [
+		"3c34c93e"
+	],
+	tasks: [{
+		uid: "cf087a2c",
+		type: "item",
+		items: [{
+			item: "tp:wooden_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a20cd32",
+		type: "item",
+		title: "Leaves",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeLeaves"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "treeLeaves"
+				}
+			}
+		}]
+	}]
+}

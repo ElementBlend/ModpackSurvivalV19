@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: 5.5d,
+	description: "&cRequires you to unlock Resonator and Iron Casing",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e7a46e54",
+		"95c0c97b"
+	],
+	tasks: [{
+		uid: "e172e1ef",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}]
+}

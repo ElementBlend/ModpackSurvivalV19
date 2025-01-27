@@ -1,0 +1,32 @@
+{
+	x: -2.5d,
+	y: 3.5d,
+	text: [
+		"Burns four times as long as Mobius Fuel and is able to smelt 512 items."
+	],
+	dependencies: [
+		"254be552"
+	],
+	tasks: [{
+		uid: "042bdd1d",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c972ca57",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e0a8baab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

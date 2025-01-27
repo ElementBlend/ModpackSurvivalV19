@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		"Used to get better quality stats of tools place your tool in the station with the material its made of and check your luck sometimes it becomes a better tool sometimes it becomes worse"
+	],
+	dependencies: [
+		"10abbbbf"
+	],
+	tasks: [{
+		uid: "621c820f",
+		type: "item",
+		items: [{
+			item: "qualitytools:reforging_station"
+		}]
+	}],
+	rewards: [{
+		uid: "29f9a15d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "b8cee100",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Floral Fertilizer",
+	icon: "botania:fertilizer",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"&aBone meal for the flowers",
+		"&rRight click the ground with Floral Fertilizer to get botania flowers to popup. use it on grass",
+		"&7Tip sieve dirt to obtain"
+	],
+	dependencies: [
+		"9cb7d8d4"
+	],
+	tasks: [{
+		uid: "0a4d30d0",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e9e07fd9",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 16
+	},
+	{
+		uid: "2dc5f0a6",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

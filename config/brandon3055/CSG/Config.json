@@ -1,0 +1,13 @@
+{
+  "inventory": {
+    "1:0": "better_diving:fins",
+    "1:2": "minecraft:leather_chestplate,1,0,{display:{color:15961002,Name:\"Fancy Tunic\"}}",
+    "0:1": "minecraft:wooden_pickaxe",
+    "0:0": "minecraft:wooden_sword",
+    "0:2": "minecraft:wooden_axe",
+    "0:6": "minecraft:dye,32,15",
+    "0:4": "minecraft:dirt",
+    "0:3": "minecraft:sapling,1,0,{display:{Name:\"Dont lose me ;(\"}}",
+    "0:5": "ftbquests:book"
+  }
+}

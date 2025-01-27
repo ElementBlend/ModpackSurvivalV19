@@ -1,0 +1,33 @@
+{
+	x: 4.5d,
+	y: -3.5d,
+	description: "&cUnlocks 3 quests",
+	text: [
+		"This item is created by placing a bucket of Pink Slime in the world. After a short period of time it will turn into a single Pink Slime mob which can then be killed to obtain the Pink Slime item."
+	],
+	dependencies: [
+		"a7a5779f"
+	],
+	tasks: [{
+		uid: "9702fd89",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime"
+		}]
+	}],
+	rewards: [{
+		uid: "e22f0934",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "e416c4f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

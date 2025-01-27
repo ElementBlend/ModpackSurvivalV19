@@ -1,0 +1,46 @@
+{
+	x: -8.5d,
+	y: 9.5d,
+	text: [
+		"when activated (Sneak + Right Click) will prevent teleporation in a 11 x 11 x 11 area around the player allow you to attack or shot endermans at the cost ",
+		"of 200 LP each 5 secounds"
+	],
+	dependencies: [
+		"172b9f9a"
+	],
+	tasks: [{
+		uid: "a863ff3c",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_ender_severance",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b28f6e4e",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "0b7ef864",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "d7637cc2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "heimskringla"
+			}
+		}
+	}]
+}

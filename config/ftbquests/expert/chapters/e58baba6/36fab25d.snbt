@@ -1,0 +1,37 @@
+{
+	x: 13.0d,
+	y: -2.5d,
+	text: [
+		"&aCursed powers&r",
+		"similar to the Golden Lasso except it works on hostile mobs.",
+		"",
+		"To pick up a mob with the Cursed Lasso, the target must be damaged until it has only 1 Half a Heart health point. Right-clicking on the mob at that point will store it in the lasso."
+	],
+	dependencies: [
+		"f72e941b",
+		"2bfeda38"
+	],
+	tasks: [{
+		uid: "6a0a4edc",
+		type: "item",
+		items: [{
+			item: "extrautils2:goldenlasso 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f28c5346",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "13a4f291",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

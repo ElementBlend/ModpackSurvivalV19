@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"used to charge the internal buffer of Energy Field Addons that are linked to it and are in its range at a rate of 512 RF/t, making it less efficient than using fluxducts but at the convenience of not needing them. The area of effect is 7x4x7 around the machine, which can be expanded with Range Addons."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9c0c3c25"
+	],
+	tasks: [{
+		uid: "176ddc25",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:energy_field_provider"
+		}]
+	}],
+	rewards: [{
+		uid: "453c519c",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "e1b43ff5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "&cUnlocks 5 quest",
+	text: [
+		""
+	],
+	dependencies: [
+		"207a2e37"
+	],
+	tasks: [{
+		uid: "34f11240",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9936a619",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "dfa559b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	icon: "fossil:anubite_statue",
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"You can find the pirateship in the lava lakes they arent that big can has a statue on the main deck that you need to look at to complate this quest"
+	],
+	dependencies: [
+		"aac8a1d7"
+	],
+	tasks: [{
+		uid: "9eee49f7",
+		type: "observation",
+		title: "Find the pirateship",
+		icon: "cqrepoured:cqr_pirate_spawn_egg_0",
+		match_type: "block_id",
+		match: "fossil:anu_statue",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "8d7961c5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "2b555775",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	},
+	{
+		uid: "bf0b0ac4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

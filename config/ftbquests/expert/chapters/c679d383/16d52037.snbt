@@ -1,0 +1,35 @@
+{
+	title: "Manastar",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "manastar"
+		}
+	},
+	x: -3.0d,
+	y: 2.0d,
+	description: "&cLocked to Mana Pool quest",
+	text: [
+		"The imprecise measurements of the Wand of the Forest sometimes won't cut it for telling if you're turning a profit or loss in your Mana Pools.",
+		"Creating a Manastar and placing it next to a pool will have the flower shine red if there's a loss, or blue if there's a profit. The measurement updates every few seconds."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"836e1759"
+	],
+	tasks: [{
+		uid: "a81f0884",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "manastar"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7962f9e4",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	}]
+}

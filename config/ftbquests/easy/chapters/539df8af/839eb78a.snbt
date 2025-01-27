@@ -1,0 +1,28 @@
+{
+	title: "Investment",
+	x: -6.0d,
+	y: 0.5d,
+	description: "&aA worth while investment",
+	text: [
+		"If you give us 100k we will give you some tasks you can work on"
+	],
+	dependencies: [
+		"eb09291f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "150d1fe2",
+		type: "ftbmoney:money",
+		value: 100000L
+	}],
+	rewards: [{
+		uid: "a60e0ba8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

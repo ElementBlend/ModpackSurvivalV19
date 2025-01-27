@@ -1,0 +1,37 @@
+{
+	title: "Stone Club",
+	icon: "primal_tech:stone_club",
+	x: -5.5d,
+	y: -5.0d,
+	text: [
+		"The Stone Club has higher durability and attack damage then the Bone Club"
+	],
+	dependencies: [
+		"a008780b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c8ec06d8",
+		type: "item",
+		items: [{
+			item: "primal_tech:stone_club"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4184d707",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 1"
+	},
+	{
+		uid: "bfb2f69e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

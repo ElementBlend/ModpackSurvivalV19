@@ -1,0 +1,185 @@
+{
+	title: "Sorcerer Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "botania:storage"
+	},
+	{
+		item: "botania:manacookie"
+	},
+	{
+		item: "botania:rune"
+	},
+	{
+		item: "botania:rune 1 1"
+	},
+	{
+		item: "botania:rune 1 2"
+	},
+	{
+		item: "botania:rune 1 3"
+	},
+	{
+		item: "botania:avatar"
+	},
+	{
+		item: "botania:teruterubozu"
+	},
+	{
+		item: {
+			id: "botania:blackholetalisman",
+			tag: {}
+		}
+	},
+	{
+		item: "botania:flower 1 4"
+	},
+	{
+		item: "botania:flower 1 3"
+	},
+	{
+		item: "botania:flower 1 1"
+	},
+	{
+		item: "botania:flower"
+	},
+	{
+		item: "botania:flower 1 2"
+	},
+	{
+		item: "botania:pestleandmortar"
+	},
+	{
+		item: "botania:dye 1 8"
+	},
+	{
+		item: "botania:dye"
+	},
+	{
+		item: "botania:flower 1 12"
+	},
+	{
+		item: "botania:flower 1 11"
+	},
+	{
+		item: "botania:flower 1 10"
+	},
+	{
+		item: "botania:flower 1 8"
+	},
+	{
+		item: "botania:flower 1 7"
+	},
+	{
+		item: "botania:flower 1 9"
+	},
+	{
+		item: "botania:manaresource 1 9"
+	},
+	{
+		item: "botania:manaresource 1 8"
+	},
+	{
+		item: "botania:manaresource 1 7"
+	},
+	{
+		item: "botania:manaresource 1 5"
+	},
+	{
+		item: "botania:manaresource 1 4"
+	},
+	{
+		item: "botania:manaresource 1 2"
+	},
+	{
+		item: "botania:manaresource 1 1"
+	},
+	{
+		item: "botania:manaresource"
+	},
+	{
+		item: "botania:openbucket"
+	},
+	{
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		item: "botania:blacklotus"
+	},
+	{
+		item: "botania:flowerbag"
+	},
+	{
+		item: "botania:fertilizer"
+	},
+	{
+		item: "botania:pinkinator"
+	},
+	{
+		item: "botania:recordgaia1"
+	},
+	{
+		item: "botania:baublebox"
+	},
+	{
+		item: "botania:thirdeye"
+	},
+	{
+		item: "botania:itemfinder"
+	},
+	{
+		item: "psi:spell_drive"
+	},
+	{
+		item: "psi:cad_colorizer_ 1 16"
+	},
+	{
+		item: "psi:material 1 2"
+	},
+	{
+		item: "psi:material 1 1"
+	},
+	{
+		item: "psi:material"
+	},
+	{
+		item: "psi:cad_assembly"
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}
+	},
+	{
+		item: "psi:cad_socket"
+	}],
+	loot_crate: {
+		string_id: "sorcerer_crate",
+		item_name: "Sorcerer Crate",
+		color: 2817792,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

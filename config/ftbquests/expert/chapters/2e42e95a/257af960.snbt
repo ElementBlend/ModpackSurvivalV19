@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"The Culture Vat (sometimes called the Cultivator) is an extremely important, slightly transparent, emerald green block that is part of the last step needed to create any extinct animal Eggs or Embryos. It is the only way to obtain any Prehistoric Mob, aside from living fossils."
+	],
+	dependencies: [
+		"c44108fd",
+		"d9733f65"
+	],
+	tasks: [{
+		uid: "4a10844e",
+		type: "item",
+		items: [{
+			item: "fossil:cultivate"
+		}]
+	}],
+	rewards: [{
+		uid: "eb9c6070",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "9696f065",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cracked_chest"
+			}
+		}
+	}]
+}

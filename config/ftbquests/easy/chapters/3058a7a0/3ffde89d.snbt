@@ -1,0 +1,34 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"Either trade with a villager or find a village to obtain"
+	],
+	dependencies: [
+		"f7e1a60d",
+		"0ca35148"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "aa578fe0",
+		type: "item",
+		items: [{
+			item: "blue_skies:moonstone_lantern"
+		}]
+	}],
+	rewards: [{
+		uid: "34775328",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "903a43fc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

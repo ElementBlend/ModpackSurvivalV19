@@ -1,0 +1,19 @@
+{
+	title: "Why so salty?",
+	x: -4.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9e619e39"
+	],
+	tasks: [{
+		uid: "593b85b0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:saltitem"
+		}],
+		count: 16L
+	}]
+}

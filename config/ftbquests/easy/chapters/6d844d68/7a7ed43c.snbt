@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"The Advanced Item Collector is the upgraded version of the Item Collector, its range can be configured to be between 0 and 10 for each direction and you can also insert an Item Filter to specify which items are / are not supposed to be picked up. For the Advanced Item Collector right click on it to bring up the GUI to configure its range and insert an Item Filter."
+	],
+	dependencies: [
+		"504b0edd"
+	],
+	tasks: [{
+		uid: "b74ca1e9",
+		type: "item",
+		items: [{
+			item: "randomthings:advanceditemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "c2bbcc93",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

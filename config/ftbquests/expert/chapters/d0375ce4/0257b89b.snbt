@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"used to harvest blocks into its internal inventory. Blocks that drop items other than themselves, such as Redstone Ore, will have the appropriate drops inserted into the Block Breaker's inventory. Blocks that contain an inventory, such as Chests, will drop their conents in front of the machine. The Block Breaker will not break blocks if its internal inventory is full or if the block has a hardness less than 0, such as Bedrock. Each operation consumes 100 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "1c507a05",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:block_destroyer"
+		}]
+	}],
+	rewards: [{
+		uid: "acb6c3d2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2c61b908",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

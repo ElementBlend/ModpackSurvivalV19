@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"Sends the owner a chat message whenever a player inside of the radar's detection radius.",
+		"Can be named via Name Tags"
+	],
+	tasks: [{
+		uid: "a9869736",
+		type: "item",
+		items: [{
+			item: "securitycraft:portable_radar"
+		}]
+	}],
+	rewards: [{
+		uid: "3df99e09",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "77162428",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

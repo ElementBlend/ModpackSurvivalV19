@@ -1,0 +1,44 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	text: [
+		"Produces up to 500 RF/t.",
+		"120% Inertia."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"19a5e9d4"
+	],
+	tasks: [{
+		uid: "f807bb06",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_adv_alloy"
+		}]
+	}],
+	rewards: [{
+		uid: "a1547c25",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	},
+	{
+		uid: "98f6e6e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "243330ea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

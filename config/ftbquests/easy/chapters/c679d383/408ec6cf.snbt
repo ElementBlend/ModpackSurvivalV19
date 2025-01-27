@@ -1,0 +1,34 @@
+{
+	title: "Rosa Arcana",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "arcanerose"
+		}
+	},
+	x: 5.5d,
+	y: 8.5d,
+	description: "&cLocked to Rune of Mana quest",
+	text: [
+		"The Rosa Arcana absorbs experience from players in a 3x3 ring around it to generate mana. The mana produced is based off points absorbed, not levels. It will not absorb experience if full of mana."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a48a9ef8"
+	],
+	tasks: [{
+		uid: "849e9577",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "arcanerose"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4376b5d8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

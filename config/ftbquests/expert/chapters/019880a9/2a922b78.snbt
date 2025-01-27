@@ -1,0 +1,24 @@
+{
+	title: "Actually Additions",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:info2.png"
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Actually Additions adds various new additions, including utilities, Crystal Flux machines and foods. All of its features are documented in the Actually Additions Manual."
+	],
+	tasks: [{
+		uid: "1501f198",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "9499f202",
+		type: "item",
+		item: "actuallyadditions:item_booklet"
+	}]
+}

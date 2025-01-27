@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"Pressing V with the ring in the players hand will increase the charge level of the ring (Shift + V will reduce it).",
+		"",
+		"Left Click while the item is held in the players hand launches one snowball in the direction the player is looking.",
+		"Right Click or R places snow and freezes water instantly in a square around the player with a side length equal to 3+2*ChargeLevel, with a maximum charge of 4.",
+		"G will activate the ring and will quickly place snow and freeze water around the player in a square with side length 9. While active the ring will consume roughly 1 redstone dust every 6 seconds or 1 glowstone every 38 seconds."
+	],
+	dependencies: [
+		"59de915b"
+	],
+	tasks: [{
+		uid: "641e8c04",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_zero_ring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f5d33bb",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "25609448",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

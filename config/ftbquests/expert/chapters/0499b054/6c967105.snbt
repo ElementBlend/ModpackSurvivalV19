@@ -1,0 +1,31 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	text: [
+		"Universal Block Modifier is a tool that allows to add modules to certain blocks within the mod. The block has to be able to use the module. To craft in survival, the player needs 2 iron ingots, 2 redstone, and 1 emerald."
+	],
+	tasks: [{
+		uid: "12c69a0e",
+		type: "item",
+		items: [{
+			item: "securitycraft:universal_block_modifier"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "08ab388e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "ec4421a3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,3113 @@
+{
+	title: "Lost Crate",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "enderio:item_material 1 54"
+	},
+	{
+		item: "woot:prism"
+	},
+	{
+		item: "tp:large_bandage"
+	},
+	{
+		item: "tp:wub_ingot"
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "xu_demonic_metal"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "elementium"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "wood"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "diamatine_actadd_plustic"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "bewitchment:demon"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "fossil:fossil.tarslime"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "thermalfoundation:blizz"
+			}
+		}
+	},
+	{
+		item: "storagenetwork:upgrade"
+	},
+	{
+		item: {
+			id: "redstonearsenal:tool.shield_flux",
+			tag: {
+				Energy: 320000
+			}
+		}
+	},
+	{
+		item: "redstonearsenal:storage 1 1"
+	},
+	{
+		item: "redstonearsenal:material 1 160"
+	},
+	{
+		item: "randomthings:rezstone"
+	},
+	{
+		item: {
+			id: "randomthings:lavacharm",
+			tag: {
+				charge: 200
+			}
+		}
+	},
+	{
+		item: "randomthings:ingredient 1 11"
+	},
+	{
+		item: "randomthings:ingredient 1 2"
+	},
+	{
+		item: "randomthings:weatheregg"
+	},
+	{
+		item: "randomthings:weatheregg 1 1"
+	},
+	{
+		item: "randomthings:weatheregg 1 2"
+	},
+	{
+		item: "randomthings:naturecore"
+	},
+	{
+		item: "projecte:item.pe_matter 1 1"
+	},
+	{
+		item: "projecte:item.pe_matter"
+	},
+	{
+		item: "harvestcraft:perchrawitem"
+	},
+	{
+		item: "harvestcraft:jellyfishrawitem"
+	},
+	{
+		item: "harvestcraft:gourmetporkburgeritem"
+	},
+	{
+		item: "harvestcraft:coleslawburgeritem"
+	},
+	{
+		item: "harvestcraft:netherstartoastitem"
+	},
+	{
+		item: "harvestcraft:creepercookieitem"
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2,
+					id: 25
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 26
+				}]
+			}
+		}
+	},
+	{
+		item: "mysticalagriculture:gold_seeds"
+	},
+	{
+		item: "mysticalagriculture:wood_seeds"
+	},
+	{
+		item: "mysticalagriculture:stone_seeds"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 16"
+	},
+	{
+		item: "mowziesmobs:barakoa_mask_fury"
+	},
+	{
+		item: "mysticalagradditions:insanium"
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		}
+	},
+	{
+		item: "mekanism:atomicalloy"
+	},
+	{
+		item: "mekanism:reinforcedalloy"
+	},
+	{
+		item: "mekanism:enrichedalloy"
+	},
+	{
+		item: "mekanism:teleportationcore"
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:speedboost1",
+				"enderio:enabled": 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:inv2",
+				"enderio:enabled": 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade",
+				"enderio:enabled": 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:anvil2",
+				"enderio:enabled": 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:step_assist",
+				"enderio:enabled": 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:tnt3",
+				"enderio:enabled": 1
+			}
+		}
+	},
+	{
+		item: "enderio:item_extract_speed_upgrade"
+	},
+	{
+		item: "enderio:item_ender_food"
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2"
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 1"
+	},
+	{
+		item: "enderio:item_basic_capacitor 1 2"
+	},
+	{
+		item: "conarm:resist_mat"
+	},
+	{
+		item: "conarm:resist_mat_proj"
+	},
+	{
+		item: "conarm:resist_mat_fire"
+	},
+	{
+		item: "conarm:resist_mat_blast"
+	},
+	{
+		item: "conarm:frosty_soles"
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cofhcore:poison4"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "cofhcore:strength4"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "cofhcore:regeneration4"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "cofhcore:healing4"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "cofhcore:haste3+"
+			}
+		}
+	},
+	{
+		item: "botania:invisibilitycloak"
+	},
+	{
+		item: "botania:thornchakram"
+	},
+	{
+		item: "botania:grassseeds"
+	},
+	{
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		item: "botania:fertilizer"
+	},
+	{
+		item: "botania:manaresource 1 5"
+	},
+	{
+		item: "bewitchment:belladonna"
+	},
+	{
+		item: "aquaculture:fish 1 14"
+	},
+	{
+		item: "aquaculture:loot 1 1"
+	},
+	{
+		item: "avaritia:cosmic_meatballs"
+	},
+	{
+		item: "avaritia:resource 1 2"
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2,
+					id: 67
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2,
+					id: 72
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2,
+					id: 64
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "aquaculture:fish",
+			Damage: 38s,
+			tag: {
+				display: {
+					Name: "Fish less bones?"
+				}
+			}
+		}
+	},
+	{
+		item: "aquaculture:food 1 7"
+	},
+	{
+		item: "aquaculture:fish 1 9"
+	},
+	{
+		item: "aquaculture:loot 1 5"
+	},
+	{
+		item: "aquaculture:loot 1 3"
+	},
+	{
+		item: "aquaculture:loot 1 2"
+	},
+	{
+		item: "aquaculture:fishing_rod"
+	},
+	{
+		item: "aquaculture:iron_fishing_rod"
+	},
+	{
+		item: "appliedenergistics2:material 1 47"
+	},
+	{
+		item: "appliedenergistics2:material 1 45"
+	},
+	{
+		item: "appliedenergistics2:material 1 13"
+	},
+	{
+		item: "appliedenergistics2:material 1 14"
+	},
+	{
+		item: "appliedenergistics2:material 1 19"
+	},
+	{
+		item: "appliedenergistics2:material 1 15"
+	},
+	{
+		item: "appliedenergistics2:material 1 40"
+	},
+	{
+		item: "appliedenergistics2:sky_stone_stairs"
+	},
+	{
+		item: "actuallyadditions:item_leaf_blower"
+	},
+	{
+		item: "actuallyadditions:item_resonant_rice"
+	},
+	{
+		item: "actuallyadditions:item_dust"
+	},
+	{
+		item: "actuallyadditions:item_jam 1 3"
+	},
+	{
+		item: "actuallyadditions:item_misc 1 24"
+	},
+	{
+		item: "actuallyadditions:item_bag"
+	},
+	{
+		item: {
+			id: "minecraft:totem_of_undying",
+			tag: {
+				display: {
+					Name: "Totem of Total Death"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:record_blocks"
+	},
+	{
+		item: "minecraft:record_ward"
+	},
+	{
+		item: "ae2wtlib:infinity_booster_card"
+	},
+	{
+		item: "actuallyadditions:block_crystal_cluster_redstone"
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 8
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2,
+					id: 2
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4,
+					id: 48
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 3
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:poisonous_potato",
+			tag: {
+				display: {
+					Name: "Potato"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:rabbit_foot"
+	},
+	{
+		item: "minecraft:ender_eye"
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "minecraft:fish"
+	},
+	{
+		item: "minecraft:clock"
+	},
+	{
+		item: "minecraft:diamond_sword"
+	},
+	{
+		item: "minecraft:acacia_boat"
+	},
+	{
+		item: "minecraft:repeater"
+	},
+	{
+		item: "minecraft:rail"
+	},
+	{
+		item: "minecraft:blaze_rod"
+	},
+	{
+		item: "minecraft:ghast_tear"
+	},
+	{
+		item: "minecraft:rotten_flesh"
+	},
+	{
+		item: "minecraft:bed"
+	},
+	{
+		item: "minecraft:end_crystal"
+	},
+	{
+		item: "minecraft:melon_block"
+	},
+	{
+		item: "minecraft:diamond_block"
+	},
+	{
+		item: "minecraft:iron_block"
+	},
+	{
+		item: "minecraft:obsidian"
+	},
+	{
+		item: "minecraft:wool"
+	},
+	{
+		item: "minecraft:planks"
+	},
+	{
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "VERY VERY RARE DIRT"
+				}
+			}
+		}
+	},
+	{
+		item: "harvestcraft:candleberryitem"
+	},
+	{
+		item: "harvestcraft:peanutitem"
+	},
+	{
+		item: "harvestcraft:ryeseeditem"
+	},
+	{
+		item: {
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			}
+		}
+	},
+	{
+		item: "jaopca:item_dustsmalllapis"
+	},
+	{
+		item: {
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.25f,
+					FreeModifiers: 3,
+					Durability: 121,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.25f,
+					FreeModifiers: 2,
+					Durability: 121,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"livingwood",
+						"livingwood",
+						"livingwood"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -12576503,
+					level: 1
+				},
+				{
+					identifier: "manaharvest",
+					color: -12576503,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"manaharvest",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "tconstruct:seared 1 3"
+	},
+	{
+		item: {
+			id: "wct:wct_creative",
+			tag: {
+				IsInRange: 0
+			}
+		}
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "extendedcrafting:material 1 7"
+	},
+	{
+		item: "exnihilocreatio:item_pebble 1 1"
+	},
+	{
+		item: "environmentaltech:litherite_crystal"
+	},
+	{
+		item: "bhc:blue_heart"
+	},
+	{
+		item: {
+			id: "wpt:wpt_creative",
+			tag: {
+				IsInRange: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "wit:wit_creative",
+			tag: {
+				IsInRange: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "wft:wft_creative",
+			tag: {
+				IsInRange: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "ae2wtlib:wut_creative",
+			tag: {
+				StoredTerminals: [{
+					id: "wpt:wpt_creative",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "wct:wct_creative",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "wit:wit_creative",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "wft:wft_creative",
+					Count: 1,
+					Damage: 0
+				}],
+				IsInRange: 0,
+				SelectedTerminal: 0,
+				internalCurrentPower: 1600000.0d
+			}
+		}
+	},
+	{
+		item: "mowziesmobs:earth_talisman"
+	},
+	{
+		item: "improvableskills:parchment_fragment"
+	},
+	{
+		item: "industrialforegoing:enchantment_invoker"
+	},
+	{
+		item: "industrialforegoing:water_resources_collector"
+	},
+	{
+		item: "teslacorelib:machine_case"
+	},
+	{
+		item: "sonarcore:reinforcedstoneblock"
+	},
+	{
+		item: "ftbquests:screen"
+	},
+	{
+		item: "ftbquests:progress_screen"
+	},
+	{
+		item: "geneticsreborn:metalscraper"
+	},
+	{
+		item: "industrialforegoing:crop_recolector"
+	},
+	{
+		item: "industrialforegoing:latex_processing_unit"
+	},
+	{
+		item: "fossil:vase_kylix 1 4"
+	},
+	{
+		item: "fossil:vase_volute 1 3"
+	},
+	{
+		item: "fossil:stone_tablet"
+	},
+	{
+		item: "fossil:ancient_sword"
+	},
+	{
+		item: "randomthings:spectrecoil_number"
+	},
+	{
+		item: "mowziesmobs:naga_fang"
+	},
+	{
+		item: "torchmaster:feral_flare_lantern"
+	},
+	{
+		item: "tp:quartz_ingot"
+	},
+	{
+		item: "tp:ender_dust"
+	},
+	{
+		item: "tp:dead_reed"
+	},
+	{
+		item: "tp:redstone_ingot"
+	},
+	{
+		item: "tconstruct:throwball 1 1"
+	},
+	{
+		item: "tconstruct:punji"
+	},
+	{
+		item: "tconstruct:slime_vine_blue_mid"
+	},
+	{
+		item: "tconstruct:slime_grass_tall 1 5"
+	},
+	{
+		item: "tconstruct:slime_sapling"
+	},
+	{
+		item: "projecte:interdiction_torch"
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5"
+	},
+	{
+		item: "advancedcombat:nether_fortress_block"
+	},
+	{
+		item: "primal_tech:leaf_bed"
+	},
+	{
+		item: "wrcbe:rep"
+	},
+	{
+		item: "wrcbe:material"
+	},
+	{
+		item: "tp:cooked_apple"
+	},
+	{
+		item: {
+			id: "tp:plump_peach",
+			tag: {
+				display: {
+					Name: "Censored"
+				}
+			}
+		}
+	},
+	{
+		item: "tp:bams_pizza"
+	},
+	{
+		item: "extracells:walrus"
+	},
+	{
+		item: "aquaculture:food 1 2"
+	},
+	{
+		item: "psi:material 1 1"
+	},
+	{
+		item: {
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1,
+				display: {
+					Name: "Usefull Book of Things"
+				},
+				knowledge.alfheim: 1,
+				knowledge.relic: 1
+			}
+		}
+	},
+	{
+		item: "blockcraftery:editable_block"
+	},
+	{
+		item: "extendedcrafting:material"
+	},
+	{
+		item: {
+			id: "exnihilocreatio:item_doll",
+			Damage: 2s,
+			tag: {
+				display: {
+					Name: "KevskyBoy"
+				}
+			}
+		}
+	},
+	{
+		item: "extendedcrafting:material 1 25"
+	},
+	{
+		item: "extendedcrafting:material 1 40"
+	},
+	{
+		item: "harvestcraft:tomatoitem"
+	},
+	{
+		item: "harvestcraft:tomatoitem"
+	},
+	{
+		item: "harvestcraft:grapeitem"
+	},
+	{
+		item: "harvestcraft:okraitem"
+	},
+	{
+		item: "harvestcraft:gigapickleitem"
+	},
+	{
+		item: "thermalfoundation:material 1 134"
+	},
+	{
+		item: "thermalfoundation:dye 1 9"
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:red_tulip_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: "actuallyadditions:item_worm"
+	},
+	{
+		item: "actuallyadditions:block_smiley_cloud"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4"
+	},
+	{
+		item: {
+			id: "storagedrawers:basicdrawers",
+			Damage: 1s,
+			tag: {
+				material: "oak"
+			}
+		}
+	},
+	{
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}
+	},
+	{
+		item: {
+			id: "storagedrawers:basicdrawers",
+			Damage: 2s,
+			tag: {
+				material: "oak"
+			}
+		}
+	},
+	{
+		item: "environmentaltech:erodium_crystal"
+	},
+	{
+		item: "bewitchment:stone_baphomet_statue"
+	},
+	{
+		item: "bewitchment:stone_leonard_statue"
+	},
+	{
+		item: "bewitchment:gold_baphomet_statue"
+	},
+	{
+		item: "bewitchment:dragons_blood_trapdoor"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		item: "harvestcraft:parsnipseeditem"
+	},
+	{
+		item: "harvestcraft:zucchiniseeditem"
+	},
+	{
+		item: "harvestcraft:peanutitem"
+	},
+	{
+		item: "harvestcraft:rhubarbitem"
+	},
+	{
+		item: "harvestcraft:celeryitem"
+	},
+	{
+		item: "scalinghealth:difficultychanger"
+	},
+	{
+		item: {
+			id: "treasure2:sapphire_key",
+			tag: {
+				durability: 5,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 5,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:emerald_key",
+			tag: {
+				durability: 10,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 10,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: "mysticalagriculture:crafting 1 24"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 39"
+	},
+	{
+		item: "mysticalagriculture:crafting"
+	},
+	{
+		item: "extrautils2:compressedgravel 1 1"
+	},
+	{
+		item: "extrautils2:compressedgravel"
+	},
+	{
+		item: "extrautils2:angelblock"
+	},
+	{
+		item: {
+			id: "treasure2:jewelled_key",
+			tag: {
+				durability: 5,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 5,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: "treasure2:gold_coin"
+	},
+	{
+		item: {
+			id: "treasure2:skeleton_key",
+			tag: {
+				durability: 5,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 5,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:ruby_key",
+			tag: {
+				durability: 5,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 5,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "treasure2:metallurgists_key",
+			tag: {
+				durability: 25,
+				maxDurability: 1000,
+				infinite: 0b,
+				repairs: 0,
+				maxRepairs: 0
+			},
+			ForgeCaps: {
+				Parent: {
+					durability: 25,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}
+	},
+	{
+		item: "treasure2:silver_coin"
+	},
+	{
+		item: "treasure2:white_pearl"
+	},
+	{
+		item: "primal_tech:bone_shard"
+	},
+	{
+		item: "mod_lavacow:fissionpotion"
+	},
+	{
+		item: "mod_lavacow:zombiepiranha_item"
+	},
+	{
+		item: "mod_lavacow:dreamcatcher"
+	},
+	{
+		item: "mod_lavacow:holy_grenade"
+	},
+	{
+		item: "mod_lavacow:sausage_roll"
+	},
+	{
+		item: "mod_lavacow:frozenthigh"
+	},
+	{
+		item: "primitivemobs:camouflage_dye"
+	},
+	{
+		item: "vending:vendingstorageattachment"
+	},
+	{
+		item: "bewitchment:lizard_leg"
+	},
+	{
+		title: "10 XP Levels",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			}
+		},
+		xp_levels: 10,
+		type: "xp_levels"
+	},
+	{
+		title: "100 XP Levels",
+		icon: {
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "xpjuice",
+					Amount: 16000
+				}
+			}
+		},
+		xp_levels: 100,
+		type: "xp_levels"
+	},
+	{
+		item: "extrautils2:rainbowgenerator"
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_redstone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_dragonsbreath"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ice"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_death"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_culinary"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_potion"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_overclock"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		}
+	},
+	{
+		item: "environmentaltech:void_botanic_miner_cont_1"
+	},
+	{
+		item: "environmentaltech:void_res_miner_cont_1"
+	},
+	{
+		item: "environmentaltech:modifier_speed"
+	},
+	{
+		item: "extrautils2:opinium 1 8"
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 3360000000L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "LEGENDARY"
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 480000000L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "EPIC"
+			}
+		}
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 80000000L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "RARE"
+			}
+		}
+	},
+	{
+		item: "mysticalagradditions:nether_star_seeds"
+	},
+	{
+		item: "mysticalagradditions:dragon_egg_seeds"
+	},
+	{
+		item: {
+			id: "extracells:storage.physical",
+			Damage: 4s,
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}
+	},
+	{
+		item: "storagedrawers:upgrade_creative"
+	},
+	{
+		item: "bewitchment:bottled_frostfire"
+	},
+	{
+		item: "bewitchment:sanguine_cloth"
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 68
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 60
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 56
+				}]
+			}
+		}
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 5
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 55
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 46
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 10s,
+					id: 45
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 35
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 53
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 59
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 51
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 41
+				}]
+			}
+		}
+	},
+	{
+		item: "securitycraft:bouncing_betty"
+	},
+	{
+		item: "securitycraft:mine"
+	},
+	{
+		item: "securitycraft:ims"
+	},
+	{
+		item: "securitycraft:universal_block_remover"
+	},
+	{
+		item: "securitycraft:universal_block_reinforcer_lvl2"
+	},
+	{
+		item: "securitycraft:universal_block_reinforcer_lvl1"
+	},
+	{
+		item: "securitycraft:universal_block_reinforcer_lvl3"
+	},
+	{
+		item: "minecraft:elytra"
+	},
+	{
+		item: "excompressum:hammer_mana"
+	},
+	{
+		item: "excompressum:ore_smasher"
+	},
+	{
+		item: "extrautils2:ingredients 1 5"
+	},
+	{
+		item: "extrautils2:ingredients 1 15"
+	},
+	{
+		item: "mysticalagriculture:coal_seeds"
+	},
+	{
+		item: "mysticalagriculture:dye_seeds"
+	},
+	{
+		item: "mysticalagriculture:ice_seeds"
+	},
+	{
+		item: "mysticalagriculture:water_seeds"
+	},
+	{
+		item: "mysticalagriculture:dirt_seeds"
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_endstone",
+		count: 6
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_obsidian",
+		count: 6
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_redsandstone",
+		count: 6
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_dwemer",
+		count: 6
+	},
+	{
+		item: "ic2:bronze_chestplate"
+	},
+	{
+		item: "ic2:te 1 4"
+	},
+	{
+		item: {
+			id: "minecraft:banner",
+			Damage: 15s,
+			tag: {
+				BlockEntityTag: {
+					Patterns: [{
+						Pattern: "cqrepoured.cq_blank",
+						Color: 15
+					},
+					{
+						Pattern: "mr",
+						Color: 1
+					},
+					{
+						Pattern: "bs",
+						Color: 7
+					},
+					{
+						Pattern: "cs",
+						Color: 8
+					},
+					{
+						Pattern: "bo",
+						Color: 7
+					},
+					{
+						Pattern: "ms",
+						Color: 0
+					},
+					{
+						Pattern: "hh",
+						Color: 7
+					}]
+				},
+				display: {
+					LocName: "item.banner.illager_banner.name"
+				}
+			}
+		}
+	},
+	{
+		item: "cqrepoured:phylactery"
+	},
+	{
+		item: "cqrepoured:teleport_stone"
+	},
+	{
+		item: "exnihilocreatio:crook_blaze"
+	},
+	{
+		item: "exnihilocreatio:hammer_diamond"
+	},
+	{
+		item: "environmentaltech:interconnect",
+		count: 64
+	},
+	{
+		item: "ic2:crop_res 1 8"
+	},
+	{
+		item: "ic2:rubber_boots"
+	},
+	{
+		item: "ic2:mug 1 2"
+	},
+	{
+		item: "ic2:boat 1 1"
+	},
+	{
+		item: {
+			id: "ic2:diamond_drill",
+			tag: {
+				charge: 30000.0d
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:anvil"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:enchanting"
+			}
+		}
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:crafter"
+			}
+		}
+	},
+	{
+		item: "mekanism:substrate"
+	},
+	{
+		item: "mekanism:nugget"
+	},
+	{
+		item: "ic2:bronze_boots"
+	},
+	{
+		item: "ic2:bronze_leggings"
+	},
+	{
+		item: {
+			id: "ic2:energy_pack",
+			tag: {
+				charge: 2000000.0d
+			}
+		}
+	},
+	{
+		item: "ic2:bronze_helmet"
+	},
+	{
+		item: "theaurorian:silentwoodtorch",
+		count: 16
+	},
+	{
+		item: "theaurorian:umbrasword"
+	},
+	{
+		item: {
+			id: "theaurorian:umbrapickaxe",
+			tag: {}
+		}
+	},
+	{
+		item: "theaurorian:spectralboots"
+	},
+	{
+		item: "theaurorian:spectralchestplate"
+	},
+	{
+		item: "theaurorian:bepsi"
+	},
+	{
+		item: "theaurorian:absorptionorb"
+	},
+	{
+		item: "plustic:osgloglasingot",
+		count: 3
+	},
+	{
+		item: "plustic:osmiridiumingot",
+		count: 3
+	},
+	{
+		item: "plustic:osgloglasingot"
+	},
+	{
+		item: "plustic:osmiridiumingot"
+	},
+	{
+		item: "harvestcraft:imitationcrabsticksitem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:misopasteitem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:dandelionteaitem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:gravlaxitem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:dangoitem",
+		count: 6
+	},
+	{
+		item: "harvestcraft:epicbltitem"
+	},
+	{
+		item: "harvestcraft:bentoboxitem"
+	},
+	{
+		item: "harvestcraft:netherstartoastitem"
+	},
+	{
+		item: "netherex:withered_amedian_hammer"
+	},
+	{
+		item: "netherex:withered_amedian_shovel"
+	},
+	{
+		item: "netherex:withered_amedian_pickaxe"
+	},
+	{
+		item: "netherex:withered_amedian_axe"
+	},
+	{
+		item: "netherex:obsidian_boat"
+	},
+	{
+		item: "netherex:dull_mirror"
+	},
+	{
+		item: "netherex:frosted_amedian_sword"
+	},
+	{
+		item: "netherex:withered_amedian_sword"
+	},
+	{
+		item: "threng:material 1 2"
+	},
+	{
+		item: "quantumflux:quibitcluster 1 1"
+	},
+	{
+		item: "quantumflux:quibitcluster 1 2"
+	},
+	{
+		item: "quantumflux:magnet"
+	},
+	{
+		item: "quantumflux:netherbane"
+	},
+	{
+		item: "quantumflux:hamcheese"
+	},
+	{
+		item: "quantumflux:quibitcluster 1 3"
+	},
+	{
+		item: "scalinghealth:difficultychanger 1 1"
+	},
+	{
+		item: "theaurorian:moonshield"
+	},
+	{
+		item: "theaurorian:spectralhelmet"
+	},
+	{
+		item: "theaurorian:spectralleggings"
+	},
+	{
+		item: "mod_lavacow:potion_of_mooten_lava"
+	},
+	{
+		item: "mod_lavacow:swinemask"
+	},
+	{
+		item: "mod_lavacow:moltenbeef",
+		count: 4
+	},
+	{
+		item: "mod_lavacow:goldenheart"
+	},
+	{
+		item: {
+			id: "mod_lavacow:vespa_dagger",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 52
+				}]
+			}
+		}
+	},
+	{
+		item: "mod_lavacow:dreamcatcher"
+	},
+	{
+		item: "mod_lavacow:vespa_carapace",
+		count: 2
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 37"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 24"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 55"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 54"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 52"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 60"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 71"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 62"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 66"
+	},
+	{
+		item: "wrcbe:rep"
+	},
+	{
+		item: {
+			id: "treasure2:salandaars_ward",
+			tag: {
+				charmable: {
+					INNATE: [{
+						charm: {
+							name: "treasure2:shielding_20"
+						},
+						mana: 600.0d,
+						duration: 0,
+						frequency: 0.0d,
+						amount: 0.8d,
+						cooldown: 0.0d,
+						range: 0.0d,
+						costEvaluator: {
+							costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+						},
+						maxMana: 600.0d,
+						exclusive: 0b,
+						recharges: 2,
+						maxRecharges: 2,
+						cooldownEnd: 0.0d
+					}],
+					source: 0b,
+					executing: 1b,
+					bindable: 0b,
+					innate: 1b,
+					imbuable: 0b,
+					imbuing: 0b,
+					socketable: 0b,
+					baseMaterial: "treasure2:gold",
+					sourceItem: "treasure2:ruby",
+					namedByMaterial: 0b,
+					namedByCharm: 0b,
+					levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+					maxSocketSize: 0
+				},
+				runestones: {
+					INNATE: [{
+						runestone: {
+							name: "treasure2:greater_mana_rune"
+						},
+						applied: 1b,
+						appliedTo: [
+							"shielding"
+						]
+					}],
+					bindable: 0b,
+					socketable: 0b
+				},
+				durability: {
+					durability: 1000,
+					maxDurability: 1000,
+					infinite: 1b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					charmable: {
+						INNATE: [{
+							charm: {
+								name: "treasure2:shielding_20"
+							},
+							mana: 600.0d,
+							duration: 0,
+							frequency: 0.0d,
+							amount: 0.8d,
+							cooldown: 0.0d,
+							range: 0.0d,
+							costEvaluator: {
+								costClass: "com.someguyssoftware.treasure2.charm.cost.CostEvaluator"
+							},
+							maxMana: 600.0d,
+							exclusive: 0b,
+							recharges: 2,
+							maxRecharges: 2,
+							cooldownEnd: 0.0d
+						}],
+						source: 0b,
+						executing: 1b,
+						bindable: 0b,
+						innate: 1b,
+						imbuable: 0b,
+						imbuing: 0b,
+						socketable: 0b,
+						baseMaterial: "treasure2:gold",
+						sourceItem: "treasure2:ruby",
+						namedByMaterial: 0b,
+						namedByCharm: 0b,
+						levelModifier: "com.someguyssoftware.treasure2.capability.modifier.GreatAdornmentLevelModifier",
+						maxSocketSize: 0
+					},
+					runestones: {
+						INNATE: [{
+							runestone: {
+								name: "treasure2:greater_mana_rune"
+							},
+							applied: 1b,
+							appliedTo: [
+								"shielding"
+							]
+						}],
+						bindable: 0b,
+						socketable: 0b
+					},
+					durability: {
+						durability: 1000,
+						maxDurability: 1000,
+						infinite: 1b,
+						repairs: 0,
+						maxRepairs: 0
+					}
+				}
+			}
+		}
+	},
+	{
+		item: "botania:avatar"
+	},
+	{
+		item: {
+			id: "botania:blackholetalisman",
+			tag: {}
+		}
+	},
+	{
+		item: "aquaculture:loot 1 7"
+	},
+	{
+		item: "erebus:rhino_exoskeleton_helmet"
+	},
+	{
+		item: "erebus:rhino_exoskeleton_chestplate"
+	},
+	{
+		item: "erebus:rhino_exoskeleton_leggings"
+	},
+	{
+		item: "erebus:rhino_exoskeleton_boots"
+	},
+	{
+		item: "mod_lavacow:reapers_scythe"
+	},
+	{
+		item: "erebus:wand_of_animation"
+	},
+	{
+		item: {
+			id: "erebus:bee_taming_amulet",
+			tag: {}
+		}
+	},
+	{
+		item: "mod_lavacow:scythe_claw",
+		count: 3
+	},
+	{
+		item: "mod_lavacow:cursed_fabric",
+		count: 3
+	},
+	{
+		item: "mod_lavacow:halo_necklace"
+	},
+	{
+		item: "mod_lavacow:ghostbomb"
+	},
+	{
+		item: "erebus:wasp_sword"
+	},
+	{
+		item: "erebus:water_striders"
+	},
+	{
+		item: "primitivemobs:mysteryegg1"
+	},
+	{
+		item: "primitivemobs:mysteryegg2"
+	},
+	{
+		item: "primitivemobs:mysteryegg3"
+	},
+	{
+		item: "primitivemobs:goblin_mace"
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 25
+				}]
+			}
+		}
+	},
+	{
+		item: "openblocks:sponge_on_a_stick"
+	},
+	{
+		item: "openblocks:epic_eraser"
+	},
+	{
+		item: {
+			id: "openblocks:golden_eye",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "openblocks:luggage",
+			tag: {}
+		}
+	},
+	{
+		item: "openblocks:golden_egg"
+	},
+	{
+		item: "openblocks:elevator_rotating",
+		count: 2
+	},
+	{
+		item: "openblocks:elevator",
+		count: 2
+	},
+	{
+		item: "randomthings:ingredient 1 11"
+	},
+	{
+		item: "randomthings:obsidianskullring"
+	},
+	{
+		item: "randomthings:waterwalkingboots"
+	},
+	{
+		item: "randomthings:lavawader"
+	},
+	{
+		item: "randomthings:rezstone"
+	},
+	{
+		item: "randomthings:spectresapling"
+	},
+	{
+		item: "randomthings:slimecube"
+	},
+	{
+		item: "randomthings:rainshield"
+	},
+	{
+		item: "openblocks:sonic_glasses"
+	},
+	{
+		item: "randomthings:spectreshovel"
+	},
+	{
+		item: "randomthings:spectreaxe"
+	},
+	{
+		item: "randomthings:spectrepickaxe"
+	},
+	{
+		item: "randomthings:spectresword"
+	},
+	{
+		item: "randomthings:eclipsedclock"
+	},
+	{
+		item: "randomthings:spectreilluminator"
+	},
+	{
+		item: "randomthings:obsidianwaterwalkingboots"
+	},
+	{
+		item: "randomthings:magichood"
+	},
+	{
+		item: "blue_skies:dungeon_key"
+	},
+	{
+		item: "blue_skies:nectarine",
+		count: 4
+	},
+	{
+		item: "blue_skies:falsite_ingot"
+	},
+	{
+		item: "blue_skies:diopside_gem"
+	},
+	{
+		item: "blue_skies:turquoise_gem"
+	},
+	{
+		item: "blue_skies:azulfo_horn"
+	},
+	{
+		item: "blue_skies:cherry",
+		count: 6
+	},
+	{
+		item: "tombstone:ankh_of_prayer"
+	},
+	{
+		item: {
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		}
+	},
+	{
+		item: "enderio:item_capacitor_totemic"
+	},
+	{
+		item: "enderio:item_material 1 73"
+	},
+	{
+		item: "enderio:item_material 1 14"
+	},
+	{
+		item: "enderio:item_material 1 16"
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 4
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 4
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 7",
+		count: 4
+	},
+	{
+		item: "storagedrawers:framingtable"
+	},
+	{
+		item: "storagedrawers:controller"
+	},
+	{
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 16
+	},
+	{
+		item: "storagedrawers:drawer_key"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 5"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 3"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 4"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 2"
+	},
+	{
+		item: "storagenetwork:storage_kabel"
+	},
+	{
+		item: "blue_skies:cherry_sapling"
+	},
+	{
+		item: "blue_skies:ventium_shears"
+	},
+	{
+		item: "blue_skies:infused_arc_sword"
+	},
+	{
+		item: "blue_skies:different_sword"
+	},
+	{
+		item: "blue_skies:arcs 1 5"
+	},
+	{
+		item: "cqrepoured:shield_pigman"
+	},
+	{
+		item: "cqrepoured:shield_reflective"
+	},
+	{
+		item: "cqrepoured:shield_spider"
+	},
+	{
+		item: "cqrepoured:chestplate_turtle"
+	},
+	{
+		item: "cqrepoured:helmet_turtle"
+	},
+	{
+		item: "cqrepoured:leggings_turtle"
+	},
+	{
+		item: "cqrepoured:boots_turtle"
+	},
+	{
+		item: "cqrepoured:feather_golden"
+	},
+	{
+		item: "cqrepoured:teleport_stone"
+	},
+	{
+		item: "cqrepoured:spiked_glove"
+	},
+	{
+		item: "cqrepoured:staff_wind"
+	},
+	{
+		item: "cqrepoured:staff_vampiric"
+	},
+	{
+		item: "cqrepoured:sword_moonlight"
+	},
+	{
+		item: "cqrepoured:great_sword_monking"
+	},
+	{
+		item: "cqrepoured:boots_cloud"
+	},
+	{
+		item: "cqrepoured:shield_walker_king"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "omega_crate"
+			}
+		}
+	},
+	{
+		item: "ic2:te 1 22"
+	},
+	{
+		item: "ic2:te 1 24"
+	},
+	{
+		item: "environmentaltech:litherite"
+	},
+	{
+		item: "environmentaltech:photovoltaic_cell"
+	},
+	{
+		item: "exnihilocreatio:hammer_diamond"
+	},
+	{
+		item: "exnihilocreatio:crook_diamond"
+	},
+	{
+		item: "exnihilocreatio:item_material 1 1"
+	},
+	{
+		item: "exnihilocreatio:item_seed_acacia"
+	},
+	{
+		item: "excompressum:bait 1 8"
+	},
+	{
+		item: "blockcraftery:editable_block"
+	},
+	{
+		item: "bewitchment:candelabra_gold"
+	},
+	{
+		item: "bewitchment:goddess_statue"
+	},
+	{
+		item: "bhc:blue_heart_canister"
+	},
+	{
+		item: "bhc:green_heart_canister"
+	},
+	{
+		item: "bhc:orange_heart_canister"
+	},
+	{
+		item: "avaritia:endest_pearl"
+	},
+	{
+		item: "avaritia:resource 1 3"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 6"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 5"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 8"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 2"
+	},
+	{
+		item: "bloodmagic:blood_rune 1 1"
+	},
+	{
+		item: "bloodmagic:blood_rune",
+		count: 5
+	},
+	{
+		item: "bloodmagic:item_demon_crystal"
+	},
+	{
+		item: "bloodmagic:blood_shard"
+	},
+	{
+		item: "bloodmagic:component 1 8"
+	},
+	{
+		item: "bloodmagic:slate 1 3"
+	},
+	{
+		item: "bloodmagic:slate 1 2"
+	},
+	{
+		item: "ic2:te 1 66"
+	},
+	{
+		item: "ic2:te 1 94"
+	},
+	{
+		item: "ic2:te 1 67"
+	},
+	{
+		item: "ic2:te 1 52"
+	},
+	{
+		item: "ic2:te 1 50"
+	},
+	{
+		item: "ic2:te 1 47"
+	},
+	{
+		item: "ic2:te 1 48"
+	},
+	{
+		item: "industrialforegoing:ore_processor"
+	},
+	{
+		item: "industrialforegoing:animal_growth_increaser"
+	},
+	{
+		item: "industrialforegoing:biofuel_generator"
+	},
+	{
+		item: "industrialforegoing:black_hole_tank"
+	},
+	{
+		item: "industrialforegoing:resourceful_furnace"
+	},
+	{
+		item: "industrialforegoing:energy_field_provider"
+	},
+	{
+		item: "industrialforegoing:mob_detector"
+	},
+	{
+		item: "industrialforegoing:mob_duplicator"
+	},
+	{
+		item: "industrialforegoing:crop_sower"
+	},
+	{
+		item: "extrautils2:opinium 1 3"
+	},
+	{
+		item: "extrautils2:opinium 1 5"
+	},
+	{
+		item: "extrautils2:opinium 1 6"
+	},
+	{
+		item: "extendedcrafting:storage 1 2"
+	},
+	{
+		item: "excompressum:bait 1 7"
+	},
+	{
+		item: "excompressum:bait 1 9"
+	},
+	{
+		item: "excompressum:bait 1 6"
+	},
+	{
+		item: "excompressum:bait 1 5"
+	},
+	{
+		item: "extendedcrafting:storage 1 3"
+	},
+	{
+		item: "extrautils2:drum 1 3"
+	},
+	{
+		item: "extrautils2:teleporter"
+	},
+	{
+		item: "extrautils2:playerchest"
+	},
+	{
+		item: "extrautils2:minichest"
+	},
+	{
+		item: "extrautils2:opinium"
+	},
+	{
+		item: "extrautils2:opinium 1 2"
+	},
+	{
+		item: "extrautils2:opinium 1 1"
+	},
+	{
+		item: "extrautils2:opinium 1 4"
+	},
+	{
+		item: "sonarcore:stablestonerimmed_magenta"
+	},
+	{
+		item: "sonarcore:stablestone_magenta"
+	},
+	{
+		item: "sonarcore:stablestoneblackrimmed_lime"
+	},
+	{
+		item: "sonarcore:stablestone_lime"
+	},
+	{
+		item: "sonarcore:stablestoneblackrimmed_brown"
+	},
+	{
+		item: "sonarcore:stablestonerimmed_lightgrey"
+	},
+	{
+		item: "sonarcore:stablestone_green"
+	},
+	{
+		item: "sonarcore:stablestone_lightgrey"
+	},
+	{
+		item: "sonarcore:stablestoneblackrimmed_lightblue"
+	},
+	{
+		item: "tconstruct:materials 1 9"
+	},
+	{
+		item: "netherex:amethyst_block"
+	},
+	{
+		item: "tconstruct:materials 1 10"
+	},
+	{
+		item: "tconstruct:materials 1 11"
+	},
+	{
+		item: "netherex:black_salamander_hide"
+	},
+	{
+		item: "netherex:congealed_magma_cream"
+	},
+	{
+		item: "netherex:enoki_mushroom"
+	},
+	{
+		item: "netherex:spore"
+	},
+	{
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		item: "industrialforegoing:mob_slaughter_factory"
+	},
+	{
+		item: "industrialforegoing:animal_resource_harvester"
+	},
+	{
+		item: "industrialforegoing:water_resources_collector"
+	},
+	{
+		item: "industrialforegoing:water_condensator"
+	},
+	{
+		item: "industrialforegoing:black_hole_unit"
+	},
+	{
+		item: "industrialforegoing:crop_recolector"
+	},
+	{
+		item: "industrialforegoing:tree_fluid_extractor"
+	},
+	{
+		item: "industrialforegoing:block_placer"
+	},
+	{
+		item: "harvestcraft:honey"
+	},
+	{
+		item: "harvestcraft:wovencottonitem"
+	},
+	{
+		item: "harvestcraft:grapejuiceitem"
+	},
+	{
+		item: "harvestcraft:kiwijuiceitem"
+	},
+	{
+		item: "harvestcraft:grilledmushroomitem"
+	},
+	{
+		item: "harvestcraft:friesitem"
+	},
+	{
+		item: "harvestcraft:potatosaladitem"
+	},
+	{
+		item: "harvestcraft:loadedbakedpotatoitem"
+	},
+	{
+		item: "threng:material"
+	},
+	{
+		item: "mysticalagriculture:sky_stone_seeds"
+	},
+	{
+		item: "mysticalagriculture:basalt_seeds"
+	},
+	{
+		item: "mysticalagriculture:limestone_seeds"
+	},
+	{
+		item: "mysticalagriculture:marble_seeds"
+	},
+	{
+		item: "mysticalagriculture:silver_seeds"
+	},
+	{
+		item: "mysticalagriculture:lead_seeds"
+	},
+	{
+		item: "netherex:frost_powder"
+	},
+	{
+		item: "netherex:orange_salamander_hide"
+	},
+	{
+		item: "erebus:wand_of_preservation"
+	},
+	{
+		item: "mysticalagriculture:pig_seeds"
+	},
+	{
+		item: "mysticalagriculture:chicken_seeds"
+	},
+	{
+		item: "mysticalagriculture:cow_seeds"
+	},
+	{
+		item: "mysticalagriculture:sheep_seeds"
+	},
+	{
+		item: "mysticalagriculture:slime_seeds"
+	},
+	{
+		item: "mysticalagriculture:skeleton_seeds"
+	},
+	{
+		item: "mysticalagriculture:creeper_seeds"
+	},
+	{
+		item: "mysticalagriculture:platinum_seeds"
+	},
+	{
+		item: "mysticalagriculture:cobalt_seeds"
+	},
+	{
+		item: "mysticalagriculture:cobalt_seeds"
+	},
+	{
+		item: "mysticalagriculture:ardite_seeds"
+	},
+	{
+		item: "mysticalagriculture:mystical_flower_seeds"
+	},
+	{
+		item: "mysticalagriculture:elementium_seeds"
+	},
+	{
+		item: "mysticalagriculture:osmium_seeds"
+	},
+	{
+		item: "mysticalagriculture:fluix_seeds"
+	},
+	{
+		item: "mysticalagriculture:alumite_seeds"
+	},
+	{
+		item: "mysticalagriculture:jade_seeds"
+	},
+	{
+		item: "mysticalagriculture:black_quartz_seeds"
+	},
+	{
+		item: "mysticalagriculture:sky_stone_seeds"
+	},
+	{
+		item: "mysticalagriculture:end_seeds"
+	},
+	{
+		item: "mysticalagriculture:rubber_seeds"
+	},
+	{
+		item: "mysticalagriculture:nickel_seeds"
+	},
+	{
+		item: "mysticalagriculture:constantan_seeds"
+	},
+	{
+		item: "mysticalagriculture:electrum_seeds"
+	},
+	{
+		item: "mysticalagriculture:signalum_seeds"
+	},
+	{
+		item: "mysticalagriculture:lumium_seeds"
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "bewitchment:werewolf"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "bewitchment:feuerwurm"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "erebus:erebus.fire_ant_soldier"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "grimoireofgaia:deathword"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "netherex:coolmar_spider"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "erebus:erebus.crop_weevil"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "grimoireofgaia:yeti"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "grimoireofgaia:mummy"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "fossil:fossil.crassigyrinus"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "erebus:erebus.midge_swarm"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "erebus:erebus.black_widow"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "erebus:erebus.titan_beetle"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "minecraft:villager"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "grimoireofgaia:toad"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "grimoireofgaia:minotaur"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "grimoireofgaia:ender_dragon_girl"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "grimoireofgaia:beholder"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "netherex:frost"
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "treasure2:pirate_mimic"
+			}
+		}
+	},
+	{
+		item: {
+			id: "magicalmap:map",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Village"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2uu_matter",
+					Amount: 1000
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:vindication_illager",
+				display: {
+					Name: "The Bald Trophy"
+				},
+				RepairCost: 0
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "lost_crate",
+		item_name: "Lost Crate",
+		color: 1710592,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 10
+		}
+	}
+}

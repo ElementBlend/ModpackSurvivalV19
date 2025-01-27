@@ -1,0 +1,43 @@
+{
+	x: -6.5d,
+	y: 4.0d,
+	text: [
+		"When right clicked will act like bone meal for the cost of 50 LP. Or can be activated (Sneak + Right Click) to speed up growth to close by crops"
+	],
+	dependencies: [
+		"1a97aa21"
+	],
+	tasks: [{
+		uid: "28d60d37",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_green_grove",
+			tag: {
+				binding: {
+					name: "KevSkyBoy",
+					id: {
+						L: -5396668163246951912L,
+						M: 173945678130266555L
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c46459a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "4728d95b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

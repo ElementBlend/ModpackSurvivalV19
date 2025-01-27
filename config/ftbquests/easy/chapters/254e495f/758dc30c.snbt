@@ -1,0 +1,65 @@
+{
+	title: "Oh the biomes you will see",
+	x: 1.5d,
+	y: -2.0d,
+	description: "&aFind and visit all the NetherEX biomes",
+	text: [
+		""
+	],
+	dependencies: [
+		"aac8a1d7"
+	],
+	tasks: [{
+		uid: "d7e49314",
+		type: "biome",
+		title: "Visit &ARuthless Sands",
+		icon: "netherex:thornstalk",
+		biome: "netherex:ruthless_sands"
+	},
+	{
+		uid: "73f26f0b",
+		type: "biome",
+		title: "Visit &aFungi Forest",
+		icon: "netherex:hyphae",
+		biome: "netherex:fungi_forest"
+	},
+	{
+		uid: "536ca5f4",
+		type: "biome",
+		title: "Visit &aTorrid Wasteland",
+		icon: "netherex:fiery_netherrack",
+		biome: "netherex:torrid_wasteland"
+	},
+	{
+		uid: "3f20a3fb",
+		type: "biome",
+		title: "Visit &aArctic Abyss",
+		icon: "netherex:icy_netherrack",
+		biome: "netherex:arctic_abyss"
+	}],
+	rewards: [{
+		uid: "3460539a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e930cf87",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	},
+	{
+		uid: "fc4340f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 5.0d,
+	y: 9.5d,
+	text: [
+		"increases the amount of LP that can be transferred into a Soul Network by 2% of its original value. For the Weak Blood Orb this is 100 LP per rune, but for the Archmage's Blood Orb it is 200,000 LP.",
+		"",
+		"The percentage stacks the more Rune of the Orbs you have, and the increased transfer capacity of your soul network is determined by the orb being used in your altar to fill the network, not the orbs used to craft the rune. (For example if you have 2 Runes of the orb and a master blood orb in your altar, the orb can transfer an additional 40,000 into your soul network, beyond your soul networks normal maximum capacity)"
+	],
+	dependencies: [
+		"172b9f9a"
+	],
+	tasks: [{
+		uid: "cc3e8c41",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "64f841da",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a7e4a485",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "d785ff27",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 8"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: -9.0d,
+	text: [
+		"used to drop items and mobs though the conveyor belt. The upgrade is applied by right clicking on a conveyor belt. Right clicking the placed upgrade will open a GUI, allowing for a whitelist or blacklist of items to be set or adjusting the launching power of the upgrade. Setting whitelists and blacklist of entities can be accomplished with mobs trapped in a Mob Imprisonment Tool. Unlike other Conveyor Upgrades, the Dropping Upgrade will not affect players. If an inventory is below the conveyor belt, items will be inserted into the inventory. Shift right clicking with an empty hand will remove the upgrade."
+	],
+	dependencies: [
+		"302531ef"
+	],
+	tasks: [{
+		uid: "ad055ccf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "f91f371d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

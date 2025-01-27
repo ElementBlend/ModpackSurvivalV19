@@ -1,0 +1,36 @@
+{
+	title: "Emerald Battleaxe",
+	icon: "tp:emerald_battle",
+	x: -11.0d,
+	y: 2.5d,
+	text: [
+		"Make an emerald battleaxe"
+	],
+	dependencies: [
+		"691d316e"
+	],
+	tasks: [{
+		uid: "c4b53568",
+		type: "item",
+		items: [{
+			item: "tp:emerald_battle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db32a759",
+		type: "ftbmoney:money",
+		ftb_money: 130L
+	},
+	{
+		uid: "0103b4d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

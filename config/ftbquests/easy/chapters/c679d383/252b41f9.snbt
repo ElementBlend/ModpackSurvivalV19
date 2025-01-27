@@ -1,0 +1,39 @@
+{
+	title: "Tectonic Girdle",
+	icon: "botania:knockbackbelt",
+	x: 7.0d,
+	y: 0.0d,
+	description: "&cLocked to Rune of Fire and Rune of Earth quests",
+	text: [
+		"provides full knockback resistance to the wearer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f6a841d1",
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "ef887490",
+		type: "item",
+		items: [{
+			item: "botania:knockbackbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e8bf8b6a",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "3ec43385",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,138 @@
+{
+	title: "Stone Collector",
+	x: -3.0d,
+	y: 8.0d,
+	text: [
+		"&aBody Stone&r",
+		"There are two ways that the Body Stone can replenish the hunger bar:",
+		"",
+		"Right Click with the Body Stone in the hand will replenish the hunger bar by one for each click.",
+		"When activated by pressing G and in the Hotbar the Body Stone refills the hunger meter at a rate of 2 meat chunks per second.",
+		"The Body Stone consumes 1 Redstone Dust in the inventory (64 EMC) per food refilled.",
+		"",
+		"&aLife Stone&r",
+		"The Life Stone is activated by holding it in the hotbar and pressing G. This will fill both health (function of the soul stone) and hunger (function of the body stone) at a rate of one 'chunk' per second. It will use up one redstone per 'chunk'.",
+		"",
+		"&aMind Stone&r",
+		"If the Mind Stone is held, it can be activated by holding the Toggle Key (G by default). Once activated, it will rapidly consumes the players available XP levels and store them. The XP levels can then be retrieved by holding the stone and Right Click.",
+		"",
+		"Whenever you press Right Click it gives the player a level back, up to the maximum amount stored.",
+		"",
+		"&aSoul Stone&r",
+		"While the Soul Stone is held in the hand, the following functions can be used:",
+		"",
+		"Pressing G will heal the player 1 heart per 1/2 second, consuming 2 redstone from his/her inventory for every heart.",
+		"When pressing Left Click, the Soul Stone will heal the player for a single heart.",
+		"When used against a mob, the Soul Stone will heal that mob for a single heart."
+	],
+	dependencies: [
+		"471f9b8d"
+	],
+	tasks: [{
+		uid: "a13487ea",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_body_stone",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: -5873318433062237368L,
+						UUIDLeast: -4653862411039329883L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.damageResistance",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 1904323116458330406L,
+						UUIDLeast: -6992717633494536305L,
+						Amount: 2.0d,
+						AttributeName: "generic.maxHealth",
+						Operation: 0,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8429698872703732641L,
+						UUIDLeast: -7157639246524885630L,
+						Amount: 1.0d,
+						AttributeName: "potioncore.magicShielding",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.undying.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df7162c1",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_soul_stone",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 9026213531953090091L,
+						UUIDLeast: -6607405715551341246L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.aiming.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa307e82",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_mind_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c2ceaf4",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_life_stone",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "748ed130",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "ffdf4425",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"obtained when the wasp spawner is broken"
+	],
+	dependencies: [
+		"a475eef3"
+	],
+	tasks: [{
+		uid: "1a2d2639",
+		type: "item",
+		items: [{
+			item: "erebus:wasp_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68b31b08",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "9e6ad91b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Wizard Academy",
+	icon: "erebus:wand_of_animation",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

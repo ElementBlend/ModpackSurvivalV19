@@ -1,0 +1,45 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"Increases efficiency to 185%.",
+		"Requires Fuel/Air Mixer installed.",
+		"Can be used in Gas Turbine."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"19a5e9d4"
+	],
+	tasks: [{
+		uid: "f8f0102a",
+		type: "item",
+		items: [{
+			item: "advgenerators:efficiency_upgrade_tier2"
+		}]
+	}],
+	rewards: [{
+		uid: "3bc22dc4",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "0f1cb634",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "8c891b29",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

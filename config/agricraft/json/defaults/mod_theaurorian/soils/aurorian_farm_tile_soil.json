@@ -1,0 +1,18 @@
+{
+  "path": "mod_theaurorian/soils/aurorian_farm_tile_soil.json",
+  "enabled": true,
+  "id": "aurorian_farm_tile_soil",
+  "name": "Aurorian Farm Tile",
+  "varients": [
+    {
+      "item": "theaurorian:aurorianfarmtile",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

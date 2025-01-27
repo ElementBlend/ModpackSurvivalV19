@@ -1,0 +1,36 @@
+{
+	x: 3.0d,
+	y: -10.0d,
+	description: "&cUnlocks 1 quest",
+	text: [
+		"used to give power to some machines from its internal buffer by placing the addon in the machine's upgrade slot. The addon receives its power from an Energy Field Provider that it has been linked to at a rate of 512 RF/t, and has an internal buffer of 100,000 RF. The addon can be linked to a provider by holding sneak and right clicking it with the addon."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"339e2c42"
+	],
+	tasks: [{
+		uid: "fe69e379",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:energy_field_addon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c8bbc56a",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "8bf5cd7d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		" used to sort enchanted items from non-enchanted items. The Enchantment Sorter will accept input of any item, including non-enchantable items, and filter the enchanted items into the top row of output slots while non-enchanted items are pushed to the bottom output slots. Each set of output slots can be assigned a different face of the machine for extraction via pipes or hoppers. Each operation will consume 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "e14e731c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:enchantment_refiner"
+		}]
+	}],
+	rewards: [{
+		uid: "e62dfd16",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "506f7bfa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

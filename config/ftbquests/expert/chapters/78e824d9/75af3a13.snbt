@@ -1,0 +1,33 @@
+{
+	title: "Finish The Aurorian",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	description: "&aFinish the, The Aurorian Chapter",
+	dependencies: [
+		"3a5dab03"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3a1eb21d",
+		type: "checkmark",
+		title: "Finish The Aurorian",
+		icon: "theaurorian:trophymoonqueen"
+	}],
+	rewards: [{
+		uid: "51b6d401",
+		type: "ftbmoney:money",
+		ftb_money: 7800000L
+	},
+	{
+		uid: "d2615280",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	}]
+}

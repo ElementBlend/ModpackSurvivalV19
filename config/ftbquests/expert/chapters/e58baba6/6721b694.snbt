@@ -1,0 +1,30 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	text: [
+		"&aSolar panel for Grid Power&r",
+		"will generate 1 Grid Power (GP) during the day, 0.95 GP if it's raining, and no GP at night, assuming it has access to the sky. It is one of the easiest way to generate Grid Power at the beginning."
+	],
+	tasks: [{
+		uid: "383e56c2",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "519ddd58",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0f6b01d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

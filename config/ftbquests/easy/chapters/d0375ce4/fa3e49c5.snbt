@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"used to brew potions in a similar manner to the Brewing Stand. The Potion Brewer requires 3 Glass Bottles and 3 buckets of water to begin operation. Potion reagents are inserted into the 5 inventory slots at the top of the machine. The first reagent slot must always contain Nether Wart while the remaining 4 slots may contain other reagents in the order they should be applied. The arrow below the reagents signifies which step the machine is currently on and will reset once the 5th ingredient has been added or the potions are removed. Each operation performs one step in the potion-making process (either filling empty bottles or adding an ingredient), consuming 5,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "3563fddb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:potion_enervator"
+		}]
+	}],
+	rewards: [{
+		uid: "55ff4c21",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c72a7397",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

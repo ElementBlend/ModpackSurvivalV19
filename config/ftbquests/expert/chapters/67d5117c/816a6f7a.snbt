@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	text: [
+		"When attached to a block it hangs down and acts as a ladder. The ladder can only be used once, when broken it can't be picked up again."
+	],
+	tasks: [{
+		uid: "aa5760b6",
+		type: "item",
+		items: [{
+			item: "openblocks:rope_ladder"
+		}]
+	}],
+	rewards: [{
+		uid: "aa637794",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "587ef206",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

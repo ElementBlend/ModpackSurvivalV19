@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 8.0d,
+	dependencies: [
+		"b70ba32f"
+	],
+	tasks: [{
+		uid: "5e59f5aa",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 2"
+		}]
+	}]
+}

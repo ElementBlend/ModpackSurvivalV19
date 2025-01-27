@@ -1,0 +1,34 @@
+{
+	x: 6.5d,
+	y: 3.5d,
+	text: [
+		"This item allows you to accelerate the rate at which blocks tick. It passively collects time while in your inventory which you can consume by right clicking a block with it. The first click requires 30 Seconds, the second 60, the third 120 the fourth 240 and the fifth 480. The speed at which the block ticks doubles with each click. The effect lasts 30 seconds."
+	],
+	tasks: [{
+		uid: "52bd6a42",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d654894c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "a1913131",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

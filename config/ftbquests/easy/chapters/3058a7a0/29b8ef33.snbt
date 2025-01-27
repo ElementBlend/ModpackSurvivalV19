@@ -1,0 +1,36 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"Found in the Everdawn dimension",
+		"",
+		"&7Tip use a digital miner from Mekanism to get the ores easier"
+	],
+	dependencies: [
+		"f7e1a60d",
+		"0ca35148"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e53c11cf",
+		type: "item",
+		items: [{
+			item: "blue_skies:falsite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4bddc8f8",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "a67cad21",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

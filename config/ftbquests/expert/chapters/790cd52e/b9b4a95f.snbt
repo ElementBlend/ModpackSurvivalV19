@@ -1,0 +1,106 @@
+{
+	title: "Hot Pocket",
+	icon: "minecraft:furnace",
+	x: -8.5d,
+	y: -5.5d,
+	description: "&aHow to make a Furnace",
+	text: [
+		"&aWait stone to make an furnace yepp that is correct let me explain myself&r",
+		"To make the furnace simply get some wooden shears and shear some leaves, Then throw those leaves into fire to get ash, When you get the ash throw that into water to get stone dust that can be crafted into stone. ",
+		"You will need a total of 72 leaves to make a furnace",
+		"",
+		"&7Tip: if you lack string look at the slik worm quest in Ex Nihilo chapter"
+	],
+	dependencies: [
+		"fc2a6057"
+	],
+	tasks: [{
+		uid: "524a72e7",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37b1ca58",
+		type: "item",
+		items: [{
+			item: "primal_tech:stick_bundle"
+		}]
+	},
+	{
+		uid: "75483a79",
+		type: "item",
+		title: "Leaves",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any treeLeaves"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "treeLeaves"
+				}
+			}
+		}]
+	},
+	{
+		uid: "3b18bdc9",
+		type: "item",
+		items: [{
+			item: "fossil:volcanic_ash"
+		}]
+	},
+	{
+		uid: "3b014150",
+		type: "item",
+		items: [{
+			item: "ic2:dust 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "9e7fdf67",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "df594219",
+		type: "item",
+		item: {
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}
+	},
+	{
+		uid: "c9de0eb0",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	},
+	{
+		uid: "38a7f04f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	},
+	{
+		uid: "8e9c243b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

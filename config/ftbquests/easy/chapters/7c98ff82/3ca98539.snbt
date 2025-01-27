@@ -1,0 +1,45 @@
+{
+	title: "Inhibitor Obelisk",
+	icon: "enderio:block_inhibitor_obelisk",
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"Used to prevent most types of teleportation around the obelisk."
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "5503fa0c",
+		type: "item",
+		items: [{
+			item: "enderio:block_inhibitor_obelisk"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47801d75",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b1763f1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "efa4ed16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

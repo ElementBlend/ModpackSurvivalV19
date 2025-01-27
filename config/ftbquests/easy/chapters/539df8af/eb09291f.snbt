@@ -1,0 +1,33 @@
+{
+	title: "Andros wants to talk",
+	x: -1.0d,
+	y: -1.0d,
+	shape: "pentagon",
+	description: "&4This is information please read",
+	text: [
+		"Hallo there, My name is Demyan i am the middleman for Andros, a couple of things you should know. There is a couple of requirements to start getting",
+		"some better contracts make sure to complate these requirements first, also sometimes we may want a ware these tasks are marked with (&4Item will be taken&R)"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "554888bf",
+		type: "checkmark",
+		title: "Ben Wants a chat",
+		icon: "bewitchment:contract"
+	}],
+	rewards: [{
+		uid: "42390b1a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "d92f94df",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	}]
+}

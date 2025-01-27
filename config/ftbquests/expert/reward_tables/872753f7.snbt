@@ -1,0 +1,347 @@
+{
+	title: "Parallel Chest",
+	loot_size: 1,
+	rewards: [{
+		item: "theaurorian:silkshroomstew"
+	},
+	{
+		item: "theaurorian:silkberryjamsandwich"
+	},
+	{
+		item: "theaurorian:scrapumbra"
+	},
+	{
+		item: "theaurorian:silkberry"
+	},
+	{
+		item: "theaurorian:spectralsilk",
+		count: 3
+	},
+	{
+		item: "theaurorian:umbrashield"
+	},
+	{
+		item: "netherex:wither_dust"
+	},
+	{
+		item: "netherex:ghast_meat_raw"
+	},
+	{
+		item: "netherex:spore"
+	},
+	{
+		item: "netherex:enoki_mushroom"
+	},
+	{
+		item: "netherex:obsidian_boat"
+	},
+	{
+		item: "netherex:orange_salamander_hide"
+	},
+	{
+		item: "netherex:black_salamander_hide"
+	},
+	{
+		item: "netherex:gloomy_netherbrick"
+	},
+	{
+		item: "netherex:enoki_mushroom_stem"
+	},
+	{
+		item: "netherex:rime_block"
+	},
+	{
+		item: "netherex:amethyst_block"
+	},
+	{
+		item: "minecraft:lava_bucket"
+	},
+	{
+		item: "minecraft:skull 1 1"
+	},
+	{
+		item: "netherex:congealed_magma_cream"
+	},
+	{
+		item: "netherex:icy_netherbrick"
+	},
+	{
+		item: "netherex:wither_bone"
+	},
+	{
+		item: "theaurorian:silentwoodsword"
+	},
+	{
+		item: "theaurorian:crystallinepickaxe"
+	},
+	{
+		item: "theaurorian:moonshield"
+	},
+	{
+		item: "theaurorian:moonstoneingot"
+	},
+	{
+		item: "theaurorian:crystallineingot"
+	},
+	{
+		item: "theaurorian:auroriancoal"
+	},
+	{
+		item: "theaurorian:absorptionorb"
+	},
+	{
+		item: "theaurorian:aurorianpork"
+	},
+	{
+		item: "theaurorian:bepsi"
+	},
+	{
+		item: "theaurorian:silentwoodtorch",
+		count: 6
+	},
+	{
+		item: "theaurorian:knightboots"
+	},
+	{
+		item: "theaurorian:silentwoodsapling"
+	},
+	{
+		item: "erebus:glowshroom"
+	},
+	{
+		item: "erebus:mandrake_root"
+	},
+	{
+		item: "erebus:double_plant 1 5"
+	},
+	{
+		item: "erebus:flower_seed 1 10"
+	},
+	{
+		item: "erebus:turnip"
+	},
+	{
+		item: "erebus:turnip"
+	},
+	{
+		item: "erebus:log_bamboo"
+	},
+	{
+		item: "erebus:sapling_baobab"
+	},
+	{
+		item: "erebus:double_plant 1 2"
+	},
+	{
+		item: "erebus:double_plant"
+	},
+	{
+		item: "erebus:stairs_eucalyptus",
+		count: 6
+	},
+	{
+		item: "erebus:stairs_amber_bricks",
+		count: 6
+	},
+	{
+		item: "erebus:silo_roof"
+	},
+	{
+		item: "erebus:bamboo_ladder",
+		count: 3
+	},
+	{
+		item: "erebus:bamboo_bridge",
+		count: 6
+	},
+	{
+		item: "erebus:door_petrified_wood"
+	},
+	{
+		item: "erebus:wither_web"
+	},
+	{
+		item: "erebus:jade_block"
+	},
+	{
+		item: "erebus:umberstone",
+		count: 4
+	},
+	{
+		item: "erebus:materials 1 15"
+	},
+	{
+		item: "erebus:materials 1 17"
+	},
+	{
+		item: "erebus:materials 1 13",
+		count: 2
+	},
+	{
+		item: "erebus:log_scorched",
+		count: 6
+	},
+	{
+		item: "erebus:door_scorched"
+	},
+	{
+		item: "erebus:door_marshwood"
+	},
+	{
+		item: "erebus:fluid_jar"
+	},
+	{
+		item: "erebus:glowing_jar"
+	},
+	{
+		item: "erebus:petrified_crafting_table"
+	},
+	{
+		item: "erebus:horn_of_summoning"
+	},
+	{
+		item: "erebus:web_slinger"
+	},
+	{
+		item: "erebus:nectar_collector"
+	},
+	{
+		item: {
+			id: "erebus:homing_beecon",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "erebus:bee_taming_amulet",
+			tag: {}
+		}
+	},
+	{
+		item: "erebus:bamboo_shield"
+	},
+	{
+		item: "erebus:jade_shield"
+	},
+	{
+		item: "erebus:rein_exoskeleton_shield"
+	},
+	{
+		item: "blue_skies:pink_raspberry"
+	},
+	{
+		item: "blue_skies:raspberry"
+	},
+	{
+		item: "blue_skies:black_raspberry"
+	},
+	{
+		item: "blue_skies:venison_steak"
+	},
+	{
+		item: "blue_skies:azulfo_horn"
+	},
+	{
+		item: "blue_skies:charoite"
+	},
+	{
+		item: "blue_skies:turquoise_gem"
+	},
+	{
+		item: "blue_skies:pyrope_gem"
+	},
+	{
+		item: "blue_skies:corn"
+	},
+	{
+		item: "blue_skies:starlit_door"
+	},
+	{
+		item: "blue_skies:frostbright_door"
+	},
+	{
+		item: "blue_skies:bluebright_door"
+	},
+	{
+		item: "blue_skies:hot_pink_flower",
+		count: 3
+	},
+	{
+		item: "blue_skies:chilled_lily_pad"
+	},
+	{
+		item: "blue_skies:bluebright_sapling"
+	},
+	{
+		item: "blue_skies:frostbright_sapling"
+	},
+	{
+		item: "simplevoidworld:portal"
+	},
+	{
+		item: "blue_skies:maple_door"
+	},
+	{
+		item: "blue_skies:dusk_door"
+	},
+	{
+		item: "blue_skies:snowbloom",
+		count: 4
+	},
+	{
+		item: "blue_skies:dusk_sapling"
+	},
+	{
+		item: "blue_skies:lunar_door"
+	},
+	{
+		item: "blue_skies:lunar_sapling"
+	},
+	{
+		item: "blue_skies:baneful_mushroom"
+	},
+	{
+		item: "blue_skies:dusk_crafting_table"
+	},
+	{
+		item: "blue_skies:blue_lore"
+	},
+	{
+		item: "blue_skies:soul"
+	},
+	{
+		item: "blue_skies:devine"
+	},
+	{
+		item: "blue_skies:voyage"
+	},
+	{
+		item: "blue_skies:calm_waters"
+	},
+	{
+		item: "blue_skies:welcome_to_the_sky"
+	},
+	{
+		item: "blue_skies:cherry_pie"
+	},
+	{
+		item: "blue_skies:cherry_door"
+	},
+	{
+		item: "blue_skies:moonstone_lantern",
+		count: 4
+	},
+	{
+		item: "blue_skies:arcs 1 5"
+	}],
+	loot_crate: {
+		string_id: "parallel_chest",
+		item_name: "Parallel Chest",
+		color: 6737151,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

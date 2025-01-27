@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		"Crafting compontent used in the process of making stone.",
+		"",
+		"Made by throwing leaves in fire, fire can be made by placing down a stick bundle and holding right click on it while holding a stick.",
+		"",
+		"You will need a total of 72 leaves to get enough stone to make a furnace"
+	],
+	dependencies: [
+		"a435da1f",
+		"c61077e3"
+	],
+	tasks: [{
+		uid: "66467fb6",
+		type: "item",
+		items: [{
+			item: "fossil:volcanic_ash"
+		}]
+	}]
+}

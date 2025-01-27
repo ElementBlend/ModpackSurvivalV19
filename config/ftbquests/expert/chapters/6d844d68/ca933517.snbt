@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"The Quartz Lamp is kinda the opposite of the Lapis Lamp. The Quartz Lamp emits a light level of 15. However the light of this lamp is not actually visible. It still prevents stuff like mob spawning though."
+	],
+	tasks: [{
+		uid: "b90d857f",
+		type: "item",
+		items: [{
+			item: "randomthings:quartzlamp"
+		}]
+	}],
+	rewards: [{
+		uid: "3953af49",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a6fc483c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Random Things",
+	icon: "randomthings:spectreilluminator",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

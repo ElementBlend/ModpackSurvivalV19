@@ -1,0 +1,32 @@
+{
+	x: -4.0d,
+	y: 8.0d,
+	text: [
+		"The Red Matter Furnace is a Furnace that can be powered using EMC energy from adjacent machines in addition to solid fuels. It operates extremely quickly, smelting about 6.5 items per second. The GUI is identical to that of the Dark Matter Furnace, having two 8-slot inventories for input and output, a slot for fuel input and two buffer slots. The Red Matter Furnace produces two ingots for each piece of ore."
+	],
+	dependencies: [
+		"4de9a78c"
+	],
+	tasks: [{
+		uid: "c9c7f043",
+		type: "item",
+		items: [{
+			item: "projecte:rm_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "85b0b791",
+		type: "ftbmoney:money",
+		ftb_money: 500000L
+	},
+	{
+		uid: "da6a67da",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

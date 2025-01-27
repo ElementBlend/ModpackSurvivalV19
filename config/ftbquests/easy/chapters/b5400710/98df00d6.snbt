@@ -1,0 +1,37 @@
+{
+	x: 5.0d,
+	y: 6.0d,
+	text: [
+		"The default transfer rate at which Life Essence (LP) can be pumped into or out of the altar is 20 LP/s. Each Displacement Rune increases the rate by 20%. This bonus is multiplicative: two runes will increase the speed 44%, three increases by 72% and so on."
+	],
+	dependencies: [
+		"5cde16f6"
+	],
+	tasks: [{
+		uid: "8cb7753d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "869525df",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "87023e83",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "423a9e22",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 5"
+	}]
+}

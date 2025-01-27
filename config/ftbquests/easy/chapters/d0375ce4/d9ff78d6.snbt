@@ -1,0 +1,33 @@
+{
+	x: -5.5d,
+	y: -8.5d,
+	text: [
+		"The Bioreactor will produce Biofuel when provided with valid bio-materials and water. A single bio-materials will produce 80 mB of Biofuel. Each additional type of bio-material provided will increase the efficiency of all items by 10 mB. At maximum efficiency, the Bioreactor will produce 1440 mB of biofuel consuming 9 different bio-materials. Each operation will consume 2,000 RF from the work energy buffer. This buffer refills at 10 RF/t allowing for one operation every 200 ticks."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "83c5ed16",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:bioreactor"
+		}]
+	}],
+	rewards: [{
+		uid: "e7c0521a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3b5de92d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

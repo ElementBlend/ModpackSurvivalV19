@@ -1,0 +1,7 @@
+{
+	title: "Technical Wonders",
+	icon: "enderio:item_material 1 73",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

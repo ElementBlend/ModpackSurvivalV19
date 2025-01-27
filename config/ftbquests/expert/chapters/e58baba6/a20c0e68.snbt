@@ -1,0 +1,57 @@
+{
+	title: "Grid Power",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:info2.png"
+		}
+	},
+	x: 5.0d,
+	y: 4.0d,
+	text: [
+		"&aGrid Power is an energy system added by Extra Utilities 2.&r",
+		"",
+		"In addition to, or instead of Redstone Flux, some Extra Utilities 2 items require Grid Power.",
+		" Unlike other energy systems, Grid Power is player-specific, wireless, range-less and cannot be stored.",
+		" Any generators placed will be linked to the player that placed them and contribute to that player's Grid Power pool.",
+		"",
+		" Grid Power can be shared with other players using the Power Sharing Command It allows the user to give access of their Grid Power (GP) to other players. The receiver will able to use the giver's GP, although in order for the receiver to share with the giver, the command needs to be used again.",
+		"&7/xu_powersharing&r",
+		"",
+		"&bOperation&r",
+		"",
+		"GP generators add to the player's pool of power.",
+		" Some GP consumers use a fixed amount of GP (e.g., the Ring of the Flying Squid).",
+		"In other consumers such as the Resonator, consumption varies.",
+		" GP consumption is summed and if consumption is greater than production, everything stops.",
+		" For example, consider a player that has ten Lava Mills that generate a total of 20 GP.",
+		" The Resonator draws a variable amount of GP, up to 8 GP.",
+		" If the player crafts a Ring of the Flying Squid (16 GP), their total power requirement would be 16 + 8 = 24 GP.",
+		" If the Resonator is not being used, the Ring of the Flying Squid works normally. However, crafting some Stoneburnt draws up to 8 GP.",
+		" As soon as the Resonator tries to draw more than 4 GP, the Resonator and the Ring of the Flying Squid will cease to work. Extra Utilities machines which do not directly use GP (such as RF generators) will cease to function if more GP is consumed than produced.",
+		"",
+		"&bEfficiency&r",
+		"",
+		"If too many of one particular type of GP generator is used, those generators become less efficient.",
+		" Efficiency is 100% until the total GP produced by that type of generator exceeds a specific limit, upon which efficiency drops;",
+		" there is usually more than one threshold, and the efficiency will continue to drop in steps as further thresholds are exceeded.",
+		" To see these thresholds, which differ by generator type, hover over a GP generating block in an inventory and check the tooltip.",
+		" Efficiency ultimately puts a limit on the amount of GP one particular type of generator can efficiently produce, forcing a player to build a number of different types of generators if they want large amounts of GP."
+	],
+	tasks: [{
+		uid: "f80922f9",
+		type: "checkmark",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "minecraft:slime"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "774bb958",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

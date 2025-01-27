@@ -1,0 +1,32 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	description: "&4Warning very destructive. A missclick can leave your home with a load of broken machinery and a hole in the wall.",
+	text: [
+		"Without being charged, the Destruction Catalyst will attempt to break a 3x3 panel in any direction. For each level of charge, however, the maximum increases by a squared-factor.",
+		"",
+		"The Destruction Catalyst does not break Obsidian, however, it will destroy any and all blocks before and after obsidian in the line you aimed.",
+		"",
+		"The Destruction Catalyst consumes resources only if it is successful in its destruction routine. All block breaking tools consume 16 EMC/Block broken. It will draw EMC from a Klein Star, Aeternalis Fuel, Mobius Fuel, Alchemical Coal, Glowstone Dust, Coal, Charcoal, or Redstone.",
+		"",
+		"It can be right clicked directly on a wall, but can also be fired over distances using R. When using R, the Destruction Catalyst will break panels as if it had been used on a block directly in front of you. You will, however, sacrifice some of your distance, so you will not be getting the maximum desired length unless you move towards your target. Stacks of blocks destroyed by the Destruction Catalyst are delivered in a loot ball spawned directly in front of the player, or where the ability was first targeted."
+	],
+	dependencies: [
+		"254be552"
+	],
+	tasks: [{
+		uid: "29e7991c",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_destruction_catalyst",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3a29391",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"used to generate lava from large amounts of power. Each operation generates 1,000 mB of lava, consuming 200,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "00f12a1d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:lava_fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "0fdba696",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "98f9b2fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

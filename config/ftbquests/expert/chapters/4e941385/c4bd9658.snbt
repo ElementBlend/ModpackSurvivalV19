@@ -1,0 +1,28 @@
+{
+	title: "Headhunter",
+	icon: "blue_skies:infused_arc_sword",
+	x: 0.5d,
+	y: 7.0d,
+	description: "&6Kill 50 Enderman",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "c8f763b4",
+		type: "kill",
+		icon: "cqrepoured:cqr_enderman_spawn_egg_0",
+		entity: "minecraft:enderman",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "2a8ce5bc",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50L
+			}
+		}
+	}]
+}

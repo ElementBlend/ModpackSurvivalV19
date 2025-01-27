@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"Turn any petal into usable dye.",
+		"",
+		"&7Tip: Plant a petal and bone meal it to create a flower of the same color."
+	],
+	dependencies: [
+		"9cb7d8d4"
+	],
+	tasks: [{
+		uid: "d1d11674",
+		type: "item",
+		items: [{
+			item: "botania:pestleandmortar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "156cbd0b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

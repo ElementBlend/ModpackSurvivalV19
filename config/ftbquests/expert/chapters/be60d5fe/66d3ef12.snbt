@@ -1,0 +1,31 @@
+{
+	x: -7.5d,
+	y: -0.5d,
+	text: [
+		"The Grinder can be used to process ground Meats, grind grains to Flour, and grind down spices without the use of a Mortar and Pestle.",
+		"",
+		"Place the source item in the top slot and it will create the product after a short loading period."
+	],
+	tasks: [{
+		uid: "5678a42f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "c66112dc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "74d7cfd2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

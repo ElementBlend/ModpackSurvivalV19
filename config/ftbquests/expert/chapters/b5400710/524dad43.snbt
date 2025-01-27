@@ -1,0 +1,37 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"increases the speed at which the altar works by 20%. This bonus is additive: two runes provide a 40% bonus, 3 runes provide 60% and so on."
+	],
+	dependencies: [
+		"5cde16f6"
+	],
+	tasks: [{
+		uid: "9eefe832",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c54b9e4e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "b38fc8f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "e5d3188e",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 1"
+	}]
+}

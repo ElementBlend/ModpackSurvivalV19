@@ -1,0 +1,34 @@
+{
+	title: "Tigerseye",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "tigerseye"
+		}
+	},
+	x: 8.5d,
+	y: 9.5d,
+	description: "&cLocked to Rune of Autumn quest",
+	text: [
+		"The Tigerseye is a functional flower that uses mana to prevent creepers within range from exploding. Creepers affected by this flower will run away from players."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"50aa4e83"
+	],
+	tasks: [{
+		uid: "55229195",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "tigerseye"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "21076579",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

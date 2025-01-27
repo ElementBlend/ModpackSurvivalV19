@@ -1,0 +1,931 @@
+{
+	title: "Uncommon Crate",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:potato",
+		weight: 30
+	},
+	{
+		item: "minecraft:poisonous_potato",
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:item_cooked_silkworm",
+		weight: 30
+	},
+	{
+		item: {
+			id: "extrautils2:fireaxe",
+			tag: {
+				display: {
+					Name: "Kev's Axe"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:obsidian",
+		weight: 30
+	},
+	{
+		item: "minecraft:pumpkin_pie",
+		weight: 30
+	},
+	{
+		item: "minecraft:rabbit_stew",
+		weight: 30
+	},
+	{
+		item: "minecraft:cooked_mutton",
+		weight: 30
+	},
+	{
+		item: "minecraft:cooked_chicken",
+		weight: 30
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		weight: 5
+	},
+	{
+		item: "minecraft:mushroom_stew",
+		weight: 30
+	},
+	{
+		item: "minecraft:golden_apple",
+		weight: 10
+	},
+	{
+		item: "minecraft:spider_eye",
+		weight: 30
+	},
+	{
+		item: "industrialforegoing:pink_slime"
+	},
+	{
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_regeneration"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_strength"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "Expensive Dirt"
+				}
+			}
+		},
+		weight: 30
+	},
+	{
+		item: "exnihilocreatio:block_end_cake"
+	},
+	{
+		item: "bewitchment:liquid_witchcraft",
+		weight: 10
+	},
+	{
+		item: "bewitchment:poppet_hungerprotection",
+		weight: 10
+	},
+	{
+		item: "bhc:orange_heart",
+		weight: 10
+	},
+	{
+		item: "fluxnetworks:fluxpoint"
+	},
+	{
+		item: "fluxnetworks:fluxplug"
+	},
+	{
+		item: "mekanism:atomicalloy"
+	},
+	{
+		item: "mekanism:reinforcedalloy",
+		weight: 10
+	},
+	{
+		item: "mekanism:enrichedalloy",
+		weight: 30
+	},
+	{
+		item: "minecraft:elytra"
+	},
+	{
+		item: "tconstruct:punji",
+		weight: 25
+	},
+	{
+		item: "tconstruct:dried_clay",
+		weight: 30
+	},
+	{
+		item: "tp:carrot_juice",
+		weight: 30
+	},
+	{
+		item: "primal_tech:bone_shard",
+		weight: 30
+	},
+	{
+		item: "mysticalagriculture:crafting 1 38",
+		weight: 10
+	},
+	{
+		item: "mysticalagriculture:crafting 1 37"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 36",
+		weight: 3
+	},
+	{
+		item: "mysticalagriculture:crafting 1 35",
+		weight: 6
+	},
+	{
+		item: "mysticalagriculture:crafting 1 34",
+		weight: 8
+	},
+	{
+		item: "mysticalagriculture:crafting 1 33",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:lemondrizzlecakeitem",
+		weight: 15
+	},
+	{
+		item: "harvestcraft:honeysoyribsitem",
+		weight: 15
+	},
+	{
+		item: "harvestcraft:ironbrewitem",
+		weight: 15
+	},
+	{
+		item: "harvestcraft:lambwithmintsauceitem",
+		weight: 15
+	},
+	{
+		item: "harvestcraft:friedonionsitem",
+		weight: 20
+	},
+	{
+		item: "harvestcraft:nutellaitem",
+		weight: 20
+	},
+	{
+		item: "harvestcraft:vegemiteitem",
+		weight: 20
+	},
+	{
+		item: "tconstruct:edible 1 4",
+		weight: 25
+	},
+	{
+		item: "tconstruct:edible 1 2",
+		weight: 25
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "tconstruct:materials 1 9",
+		weight: 10
+	},
+	{
+		item: "woot:stygianironingot",
+		weight: 20
+	},
+	{
+		item: "tp:juicer",
+		weight: 20
+	},
+	{
+		item: "tp:large_med_kit",
+		weight: 10
+	},
+	{
+		item: "tp:diamond_apple",
+		weight: 10
+	},
+	{
+		item: "tp:small_med_kit",
+		weight: 15
+	},
+	{
+		item: "botania:manaresource 1 7"
+	},
+	{
+		item: "botania:manaresource 1 2",
+		weight: 3
+	},
+	{
+		item: "aquaculture:diamond_fishing_rod",
+		weight: 5
+	},
+	{
+		item: "aquaculture:gold_fishing_rod",
+		weight: 15
+	},
+	{
+		item: "aquaculture:iron_fishing_rod",
+		weight: 20
+	},
+	{
+		item: "aquaculture:fishing_rod",
+		weight: 30
+	},
+	{
+		item: "aquaculture:loot 1 7"
+	},
+	{
+		item: "advancedcombat:thorns_upgrade 1 1"
+	},
+	{
+		item: "advancedcombat:thorns_upgrade",
+		weight: 5
+	},
+	{
+		item: "advancedcombat:mending_upgrade"
+	},
+	{
+		item: "advancedcombat:knockback_upgrade 1 1",
+		weight: 3
+	},
+	{
+		item: "advancedcombat:knockback_upgrade",
+		weight: 10
+	},
+	{
+		item: "advancedcombat:sharpness_upgrade 1 1"
+	},
+	{
+		item: "advancedcombat:sharpness_upgrade",
+		weight: 2
+	},
+	{
+		item: "thermalfoundation:material 1 290",
+		weight: 15
+	},
+	{
+		item: "thermalfoundation:material 1 295"
+	},
+	{
+		item: "thermalfoundation:material 1 257",
+		weight: 15
+	},
+	{
+		item: "thermalfoundation:material 1 256",
+		weight: 15
+	},
+	{
+		item: "thermalfoundation:material 1 24",
+		weight: 15
+	},
+	{
+		item: "thermalfoundation:material 1 23",
+		weight: 25
+	},
+	{
+		item: "thermalfoundation:material 1 22",
+		weight: 30
+	},
+	{
+		item: "appliedenergistics2:sky_compass",
+		weight: 3
+	},
+	{
+		item: "thermalfoundation:upgrade 1 3"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 2",
+		weight: 4
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1",
+		weight: 7
+	},
+	{
+		item: "thermalfoundation:upgrade",
+		weight: 10
+	},
+	{
+		item: "thermalfoundation:wrench",
+		weight: 25
+	},
+	{
+		item: "psi:material 1 4"
+	},
+	{
+		item: "psi:material 1 3"
+	},
+	{
+		item: "psi:material 1 1",
+		weight: 2
+	},
+	{
+		item: "projecte:interdiction_torch"
+	},
+	{
+		item: "botania:manacookie",
+		weight: 15
+	},
+	{
+		item: "botania:manaresource 1 1",
+		weight: 5
+	},
+	{
+		item: "botania:manaresource",
+		weight: 5
+	},
+	{
+		item: "enderio:block_xp_vacuum",
+		weight: 3
+	},
+	{
+		item: "enderio:block_omni_reservoir",
+		weight: 3
+	},
+	{
+		item: "enderio:block_reservoir",
+		weight: 5
+	},
+	{
+		item: "randomthings:naturecore",
+		weight: 5
+	},
+	{
+		item: "randomthings:spectrecoil_normal"
+	},
+	{
+		item: "fossil:biofossil",
+		weight: 25
+	},
+	{
+		item: "fossil:plant_fossil",
+		weight: 25
+	},
+	{
+		item: "fossil:stone_tablet",
+		weight: 25
+	},
+	{
+		item: "torchmaster:terrain_lighter",
+		weight: 10
+	},
+	{
+		item: "torchmaster:feral_flare_lantern",
+		weight: 10
+	},
+	{
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		weight: 20
+	},
+	{
+		item: "ironchest:iron_chest 1 6",
+		weight: 10
+	},
+	{
+		item: "ironchest:iron_chest 1 2",
+		weight: 10
+	},
+	{
+		item: "ironchest:iron_chest 1 1",
+		weight: 20
+	},
+	{
+		item: "ironchest:iron_chest",
+		weight: 20
+	},
+	{
+		item: "actuallyadditions:diamond_paxel"
+	},
+	{
+		item: "actuallyadditions:gold_paxel",
+		weight: 10
+	},
+	{
+		item: "actuallyadditions:iron_paxel",
+		weight: 20
+	},
+	{
+		item: "actuallyadditions:item_coffee",
+		weight: 20
+	},
+	{
+		item: "agricraft:crop_sticks",
+		weight: 30
+	},
+	{
+		item: "storagenetwork:storage_kabel"
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money",
+		weight: 30
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money",
+		weight: 25
+	},
+	{
+		ftb_money: 500L,
+		type: "ftbmoney:money",
+		weight: 10
+	},
+	{
+		ftb_money: 1000L,
+		type: "ftbmoney:money",
+		weight: 5
+	},
+	{
+		ftb_money: 5000L,
+		type: "ftbmoney:money"
+	},
+	{
+		title: "10 XP Levels",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			}
+		},
+		xp_levels: 10,
+		type: "xp_levels",
+		weight: 30
+	},
+	{
+		title: "30 XP Levels",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			}
+		},
+		xp_levels: 30,
+		type: "xp_levels",
+		weight: 10
+	},
+	{
+		item: "scalinghealth:difficultychanger",
+		weight: 15
+	},
+	{
+		item: "extendedcrafting:material 1 7",
+		weight: 5
+	},
+	{
+		item: "mekanism:otherdust 1 5",
+		count: 3
+	},
+	{
+		item: "fluxnetworks:flux",
+		count: 16,
+		weight: 10
+	},
+	{
+		item: "fluxnetworks:fluxcore"
+	},
+	{
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wither_skeleton"
+				}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: "ichunutil:compact_porkchop",
+		count: 32,
+		weight: 16
+	},
+	{
+		item: "minecraft:quartz_block",
+		count: 16,
+		weight: 10
+	},
+	{
+		item: "minecraft:skull 1 1",
+		weight: 5
+	},
+	{
+		item: "thermalfoundation:tool.shield_diamond"
+	},
+	{
+		item: "extrautils2:cursedearth",
+		count: 4
+	},
+	{
+		item: "exnihilocreatio:block_endstone_crushed",
+		count: 32,
+		weight: 5
+	},
+	{
+		item: "exnihilocreatio:block_netherrack_crushed",
+		count: 32,
+		weight: 15
+	},
+	{
+		item: "exnihilocreatio:block_dust",
+		count: 32,
+		weight: 20
+	},
+	{
+		item: "exnihilocreatio:block_skystone_crushed",
+		count: 32,
+		weight: 5
+	},
+	{
+		item: "environmentaltech:connector",
+		count: 64,
+		weight: 15
+	},
+	{
+		item: "cookingforblockheads:cow_jar",
+		weight: 5
+	},
+	{
+		item: "ic2:te 1 8",
+		weight: 5
+	},
+	{
+		item: "cqrepoured:teleport_stone",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:crop_sower",
+		weight: 15
+	},
+	{
+		item: "industrialforegoing:mob_relocator",
+		weight: 15
+	},
+	{
+		item: "industrialforegoing:enchantment_extractor",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:crop_recolector",
+		weight: 15
+	},
+	{
+		item: "industrialforegoing:black_hole_unit"
+	},
+	{
+		item: "industrialforegoing:lava_fabricator",
+		weight: 5
+	},
+	{
+		item: "industrialforegoing:black_hole_tank",
+		weight: 5
+	},
+	{
+		item: "industrialforegoing:plastic",
+		count: 16,
+		weight: 20
+	},
+	{
+		item: "industrialforegoing:mob_imprisonment_tool",
+		weight: 5
+	},
+	{
+		item: {
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					type: "ironbackpacks:iron",
+					spec: "STORAGE",
+					upgrade: []
+				}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "tp:emerald_battle",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "tp:diamond_battle",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "steel"
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "brass"
+			}
+		},
+		weight: 5
+	},
+	{
+		item: "tp:emerald_apple"
+	},
+	{
+		item: "tp:diamond_apple"
+	},
+	{
+		item: "tconstruct:slimesling",
+		weight: 10
+	},
+	{
+		item: "waystones:waystone"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 55"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 60"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack 1 59"
+	},
+	{
+		item: "randomthings:rainshield",
+		weight: 10
+	},
+	{
+		item: "randomthings:spectrecoil_number"
+	},
+	{
+		item: "openblocks:elevator",
+		count: 2,
+		weight: 10
+	},
+	{
+		item: "fossil:failuresaurus_flesh",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: "redstonearsenal:material 1 32",
+		weight: 5
+	},
+	{
+		item: "redstonearsenal:material 1 160",
+		weight: 5
+	},
+	{
+		item: "storagedrawers:upgrade_template",
+		count: 8,
+		weight: 15
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:crafter"
+			}
+		},
+		weight: 20
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:enchanting"
+			}
+		},
+		weight: 20
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_ability",
+			tag: {
+				Ability: "improvableskills:anvil"
+			}
+		},
+		weight: 20
+	},
+	{
+		item: "minecraft:iron_ingot",
+		weight: 30
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: "minecraft:gold_ingot",
+		weight: 30
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: {
+			id: "minecraft:diamond",
+			ForgeCaps: {
+				"treasure2:pouchable": {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "minecraft:gunpowder",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:leather",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:ender_pearl",
+		weight: 10
+	},
+	{
+		item: "minecraft:blaze_rod",
+		weight: 10
+	},
+	{
+		item: "minecraft:dye 1 4",
+		weight: 30
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: "minecraft:feather",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:slime_ball",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:egg",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:reeds",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:nether_wart",
+		count: 2,
+		weight: 10
+	},
+	{
+		item: {
+			id: "minecraft:diamond_helmet",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_chestplate",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_leggings",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:diamond_boots",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 5
+	},
+	{
+		item: "minecraft:ghast_tear",
+		weight: 10
+	},
+	{
+		item: "minecraft:redstone",
+		count: 4,
+		weight: 30
+	},
+	{
+		item: "minecraft:redstone",
+		count: 8,
+		weight: 10
+	},
+	{
+		item: "minecraft:black_shulker_box"
+	},
+	{
+		item: "bonsaitrees:bonsaipot 1 1",
+		weight: 10
+	}],
+	loot_crate: {
+		string_id: "uncommen_crate",
+		item_name: "Uncommon Crate",
+		color: 1220481,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

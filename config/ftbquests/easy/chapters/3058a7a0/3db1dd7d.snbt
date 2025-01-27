@@ -1,0 +1,36 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"Found in both Blue Skies dimensions",
+		"",
+		"&7Tip use a digital miner from Mekanism to get the ores easier"
+	],
+	dependencies: [
+		"f7e1a60d",
+		"0ca35148"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "78d73166",
+		type: "item",
+		items: [{
+			item: "blue_skies:pyrope_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "1023fced",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "fea2bc10",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

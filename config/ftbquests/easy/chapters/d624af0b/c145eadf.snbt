@@ -1,0 +1,65 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"in the pyramid maze you can find a mini boss in each corner kill them to obtain one scarab",
+		"",
+		"&7Be careful to not kill them while they are close to lava"
+	],
+	dependencies: [
+		"425680b6"
+	],
+	tasks: [{
+		uid: "eb255204",
+		type: "item",
+		items: [{
+			item: "erebus:idols 1 3"
+		}]
+	},
+	{
+		uid: "90054345",
+		type: "item",
+		items: [{
+			item: "erebus:idols"
+		}]
+	},
+	{
+		uid: "d30adcac",
+		type: "item",
+		items: [{
+			item: "erebus:idols 1 1"
+		}]
+	},
+	{
+		uid: "b4396e36",
+		type: "item",
+		items: [{
+			item: "erebus:idols 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8444e259",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "90e4d57b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "245ad251",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

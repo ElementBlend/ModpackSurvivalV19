@@ -1,0 +1,29 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	text: [
+		"Place the crafted trap into a pool of at least 1 deep water touching touching a water block on each side (horizontally, just like the Ground Trap ) where at least one of these four water blocks is touching an additional water block on the opposite side, with the top exposed to air. Right-click on the trap and place the Fish Bait into the slot on the left side of the gui. Over time, both vanilla and Harvestcraft fish will accumulate in the trap in the slots on the right. Each piece of bait placed in the trap will yield one fish approximately every 2.5 minutes."
+	],
+	tasks: [{
+		uid: "3507baf5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:watertrap"
+		}]
+	}],
+	rewards: [{
+		uid: "925366ca",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "8a9a74fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

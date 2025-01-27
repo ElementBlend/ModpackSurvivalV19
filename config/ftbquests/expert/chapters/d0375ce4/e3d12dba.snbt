@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"produces Sewage at a rate of 15 mb per animal per second and supports a maximum of 11 animals for a maximum output of 165mb per operation. The working area of the machine is a single block directly above the Animal Sewer. This working area can be expanded with a Range Addon. Each operation will consume 40 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "15f8e3d1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_byproduct_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "ea8a10b1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f0ebc504",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

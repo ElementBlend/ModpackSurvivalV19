@@ -1,0 +1,33 @@
+{
+	x: -5.0d,
+	y: 3.5d,
+	text: [
+		"&4Item will be taken"
+	],
+	dependencies: [
+		"4410fe90"
+	],
+	tasks: [{
+		uid: "7d30b689",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e08b2623",
+		type: "ftbmoney:money",
+		ftb_money: 3500000L
+	},
+	{
+		uid: "5813cec9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	icon: "bloodmagic:teleposition_focus 1 3",
+	x: 6.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "&aFinish the Blood Magic Chapter",
+	text: [
+		"Congratz on finishing the Blood Magic chapter"
+	],
+	dependencies: [
+		"b5400710"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "de0b3828",
+		type: "checkmark",
+		title: "Finish Blood Magic",
+		icon: "blood_dynamo:ingredient 1 3"
+	}],
+	rewards: [{
+		uid: "d8d16bbc",
+		type: "ftbmoney:money",
+		ftb_money: 6500000L
+	},
+	{
+		uid: "1f149c7f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	}]
+}

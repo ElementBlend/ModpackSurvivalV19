@@ -1,0 +1,32 @@
+{
+	x: 8.5d,
+	y: 1.0d,
+	text: [
+		"&aSpeed up!&r",
+		"can be used in almost every machine from the mod.",
+		"Each upgrade consumes 1 grid point.",
+		"The Upgrade Speed which is the basic tier of upgrades. It can only be stacked by 4 in a machine."
+	],
+	tasks: [{
+		uid: "aec4fe1b",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "00575ef1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "705b5fce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

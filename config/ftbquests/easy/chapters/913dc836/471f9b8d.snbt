@@ -1,0 +1,35 @@
+{
+	x: -2.5d,
+	y: 6.5d,
+	text: [
+		"The Dark Matter Pedestal can hold a ProjectE utility item, such as the Black Hole Band, and asymmetrically project the effect in a 10x10x10 area centered around the pedestal's upper southeast corner. Valid items include those listed in the Baubles and Misc Utilities sections from the navigation bar at the bottom of this article.",
+		"",
+		"An item can be placed on the pedestal by right-clicking it. Right-clicking it with an empty hand toggles the effects on or off. When the pedestal is active, small flames appear around the base. Items placed on the Dark Matter Pedestal can be removed by left-clicking on the Pedestal."
+	],
+	dependencies: [
+		"59de915b",
+		"4de9a78c"
+	],
+	tasks: [{
+		uid: "cab8c4a0",
+		type: "item",
+		items: [{
+			item: "projecte:dm_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "a1ec7c59",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "40497838",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

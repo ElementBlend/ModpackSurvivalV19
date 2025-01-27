@@ -1,0 +1,36 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"Spectre Coils are a way to wirelessly transmit energy across your world. Each player has their own spectre energy buffer which they can fill with energy using a Spectre Energy Injector. Spectre Coils access that buffer and will transmit energy from that buffer into the block they are attached to.",
+		"",
+		"Both the Coils and the Injector always access the buffer of the player that placed them. Since they are bound to your player they don’t have a range limitation and also work across dimensions.",
+		"",
+		"Redstone: 4096 per Tick"
+	],
+	dependencies: [
+		"a960aa78"
+	],
+	tasks: [{
+		uid: "0b5ec48d",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrecoil_redstone"
+		}]
+	}],
+	rewards: [{
+		uid: "23c0a048",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "a4c2ec9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

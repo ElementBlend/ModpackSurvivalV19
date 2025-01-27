@@ -1,0 +1,19 @@
+{
+	title: "First Steps",
+	icon: "valkyrielib:guide",
+	x: -4.0d,
+	y: -3.5d,
+	shape: "square",
+	text: [
+		"This tablet holds most of the information needed to start Enviorment Tech"
+	],
+	tasks: [{
+		uid: "f8bcaa29",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "24871591",
+		type: "item",
+		item: "valkyrielib:guide"
+	}]
+}

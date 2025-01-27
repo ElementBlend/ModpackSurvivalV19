@@ -1,0 +1,46 @@
+{
+	title: "Plastic Creation",
+	x: -4.0d,
+	y: -5.0d,
+	text: [
+		"Plastic is needed for most stuff you will be doing in Industrial Foregoing.",
+		"",
+		"The Tree Fluid Extractor will slowly destory logs and extract liquid latex",
+		"using a fluid pipe or any other means of transfering fluid move the liquid latex and water into the latex processing unit",
+		"",
+		"&7Tip using a Block placer, Drawer, And Bonsai pot you can automate the process, You also wanna either trash can or drawer the left over materials",
+		"from the bonsai so the system dont clog up."
+	],
+	dependencies: [
+		"1c012260"
+	],
+	tasks: [{
+		uid: "6de4b4e7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	},
+	{
+		uid: "7617d390",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "2876cc80",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "777ebc72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

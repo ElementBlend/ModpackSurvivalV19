@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"used to automatically place Soul Sand and Wither Skeleton Skulls needed to summon the Wither. The machine will attempt to place all blocks from the internal inventory into the world each operation, ignoring any locations occupied by another block. Due to the speed of the Wither Builder, multiple withers may be summoned on top of each other if Soul Sand and Skulls are piped in. The working area of the machine is a 3x3x1 space one block away from the top of the Builder. This allows placing obsidian or another robust block between the machine and the wither. Each operation consumes 20,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "17531ccf",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:wither_builder"
+		}]
+	}],
+	rewards: [{
+		uid: "5f480648",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "c8c69d82",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

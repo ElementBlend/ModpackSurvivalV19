@@ -1,0 +1,40 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	text: [
+		"&aGrid Power from lava&r",
+		"Placing a Lava Mill next to a source block of Lava will provide 2 GP. Multiple source blocks will not increase the amount of GP given, though multiple Lava Mills can utilize the same source block. Placing the block next to the first step of flowing Lava will allow it to generate 3 GP in the Overworld and 3.5 GP in the Nether. Although the block's description explains that it is capable of providing 4 GP, this is difficult to achieve in practice, if not impossible."
+	],
+	tasks: [{
+		uid: "1e48a061",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f9ac8e96",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e15358e0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "cc27b073",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

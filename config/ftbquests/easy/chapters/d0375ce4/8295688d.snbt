@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -10.0d,
+	text: [
+		"The Protein Reactor will produce Protein when provided with valid protein sources. A single protein source will produce 80 mB of Protein. Each additional protein source provided will increase the efficiency of all items by 10 mB. At maximum efficiency, the Protein Reactor will produce 1440 mB of protein consuming 9 different protein sources. Each operation will consume 2,000 RF from the work energy buffer. This buffer refills at 10 RF/t allowing for one operation every 200 ticks."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "330541dc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:protein_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "349e7409",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "980c304f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

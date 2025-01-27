@@ -1,0 +1,60 @@
+{
+	title: "Time is nothing but hazzle",
+	x: -2.0d,
+	y: 8.0d,
+	text: [
+		"The Watch of Flowing Time works passively from any space in your hot bar, but not from within your inventory.",
+		"",
+		"While holding the Watch of Flowing Time, press the \"V\" key to charge it, hold sneak (the default is shift key) and press \"V\" to lower the charge. Acivating it with the \"G\" key consumes EMC and will speed up machines at a set rate near you. It speeds up Machines and slows mobs near you at the same rate. Level 1: 10% Level 2: 20% Level 3: 30%",
+		"",
+		"The Watch can also affect the time of day. Pressing the \"C\" key will cause the sun and moon to move faster in their normal directions, pressing it again causes them to move in the opposite direction, and pressing it a third time turns the ability off. This is a free ability, and requires nothing to use. However, this function interferes with the normal operation of anything synchronized with the world time, such as RedPower Timers and Sequencers. Minecarts also function erratically when the watch is in your hotbar.",
+		"",
+		"Placing a Watch of Flowing Time on a Pedestal and activating it gives a Global 7% increase to all machine speeds. This Effect stacks to a Maximum of 10x speed."
+	],
+	dependencies: [
+		"471f9b8d"
+	],
+	tasks: [{
+		uid: "3028a8d3",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_time_watch",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: 1615927922147086005L,
+						UUIDLeast: -9002044172437823240L,
+						Amount: 0.5d,
+						AttributeName: "potioncore.jumpHeight",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.springy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "94fd4e42",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "ae297a19",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 3
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Omnivoir",
+	icon: "enderio:block_omni_reservoir",
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"The Omnivoir works like a regular tank"
+	],
+	dependencies: [
+		"14fd638e"
+	],
+	tasks: [{
+		uid: "ae0f2f83",
+		type: "item",
+		items: [{
+			item: "enderio:block_omni_reservoir"
+		}]
+	}],
+	rewards: [{
+		uid: "3cc0f915",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "7797cc4e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

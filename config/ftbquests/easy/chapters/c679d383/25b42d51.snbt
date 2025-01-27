@@ -1,0 +1,34 @@
+{
+	title: "Hyacidus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "hyacidus"
+		}
+	},
+	x: 4.5d,
+	y: 9.5d,
+	description: "&cLocked to Rune of Autumn quest",
+	text: [
+		"The Hyacidus is a functional flower which uses mana to apply a Poison effect to any mobs in its vicinity. This does not affect the player. This flower can be disabled at will by applying a redstone signal."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"50aa4e83"
+	],
+	tasks: [{
+		uid: "434664a7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hyacidus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c155f049",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

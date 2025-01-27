@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	text: [
+		"will output a redstone signal to the back side of the machine based on the number of living entities in the working area. This will count both hostile and passive mobs, but does not include players or non-living entities such as dropped items or minecarts. The working area is 1x2x1 in front of the machine, which can be upgrade with Range Addons. Each operation consumes 100 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "93abb096",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_detector"
+		}]
+	}],
+	rewards: [{
+		uid: "bb1db0cc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "17184dd5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

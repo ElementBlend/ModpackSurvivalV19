@@ -1,0 +1,60 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"Used to link your ProjectE with your ME System"
+	],
+	dependencies: [
+		"eea752f7"
+	],
+	tasks: [{
+		uid: "4f4d3958",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_condenser"
+		}]
+	},
+	{
+		uid: "9661f2d7",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_crafter"
+		}]
+	},
+	{
+		uid: "a648c344",
+		type: "item",
+		items: [{
+			item: "equivalentenergistics:emc_cell"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2345938d",
+		type: "item",
+		items: [{
+			id: "equivalentenergistics:emc_book",
+			tag: {
+				OwnerUUID: "0269faac-332b-41bb-b51b-2ee5f7017218",
+				Owner: "KevSkyBoy"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af0dfa03",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "98dff392",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

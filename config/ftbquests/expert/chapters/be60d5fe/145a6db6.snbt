@@ -1,0 +1,124 @@
+{
+	title: "Best kitchen for your small budget",
+	x: -4.0d,
+	y: 2.5d,
+	text: [
+		"&aLets make a kitchen to make everyones life easier&r",
+		"The kitchen is a very usefull multiblock that makes any food making easier including pam's",
+		"",
+		"&aCooking Table&r",
+		"Main interface for the multiblock this is where you craft all your food click once to select and click again to craft",
+		"",
+		"&aOven&r",
+		"Cooks foods keep in mind you have to collect the cocked food in the oven or automate it to put it back into the multiblock uses coal but can be upgraded to use RF",
+		"",
+		"&aFridge&r",
+		"Just an other storage for the multiblock but can be upgraded to produce ice for recipes",
+		"",
+		"&aSink&r",
+		"Just a infinit water source for recipes can be used with cables to produce water for other things you can also use buckets to get water",
+		"",
+		"&aKitchen Counter&r",
+		"Used for storage you can also place items ontop of the counter",
+		"",
+		"&aKitchen Cabinet&r",
+		"Goes one block above a counter, oven, sink or cooking table and stores items",
+		"",
+		"&aToaster&r",
+		"Right click with breed to make toast",
+		"",
+		"&aTool Rack&r",
+		"Used to store tools like juicer, pot and many more items used in crafting recipes",
+		"",
+		"&aSpice Rack&r",
+		"Can store spice or any other food item",
+		"",
+		"&aFruit Basket&r",
+		"Placed on the Counter. used to store fruits"
+	],
+	tasks: [{
+		uid: "a26d6fdb",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "e2557a71",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "921fba9b",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}]
+	},
+	{
+		uid: "e2ba58ba",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "cadd9c80",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "88a3b5e1",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "890fa00e",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	},
+	{
+		uid: "2799a26a",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:tool_rack"
+		}]
+	},
+	{
+		uid: "8da0ffa2",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:spice_rack"
+		}]
+	},
+	{
+		uid: "81639814",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
+	}],
+	rewards: [{
+		uid: "0c4eccf3",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "00aeb2b3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

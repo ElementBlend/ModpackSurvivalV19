@@ -1,0 +1,37 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	text: [
+		"A required block in the building of a CPU structure necessary for the proper functioning of an ME Network Auto Crafting system."
+	],
+	dependencies: [
+		"a2a19d6f"
+	],
+	tasks: [{
+		uid: "a3ebe47d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_16k"
+		}]
+	}],
+	rewards: [{
+		uid: "31babe5e",
+		type: "ftbmoney:money",
+		ftb_money: 4000L
+	},
+	{
+		uid: "be03cef4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "18a36d7e",
+		type: "item",
+		item: "appliedenergistics2:crafting_storage_16k"
+	}]
+}

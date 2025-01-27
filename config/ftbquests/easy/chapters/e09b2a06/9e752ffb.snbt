@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: 4.0d,
+	text: [
+		"Able to move blocks, just right click a block while holding the cardboard to place it over the block and break it to move the block shift right click to reveal the block again",
+		"",
+		"&7Tip works on spawners",
+		"",
+		"&4&lWarning do not use on IC2 Items"
+	],
+	tasks: [{
+		uid: "d896f440",
+		type: "item",
+		items: [{
+			item: "mekanism:cardboardbox"
+		}]
+	}],
+	rewards: [{
+		uid: "1a7620d7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

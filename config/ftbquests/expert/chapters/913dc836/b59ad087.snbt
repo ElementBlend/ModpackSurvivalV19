@@ -1,0 +1,44 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"Energy Condenser MK2 is an upgraded version of the Energy Condenser. In addition to being substantially faster than the Energy Condenser, the MK2 also has a separate inventory for output. This separate inventory lets hoppers put items into the Condenser."
+	],
+	dependencies: [
+		"59de915b",
+		"9b4c3ba2"
+	],
+	tasks: [{
+		uid: "f661f646",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk2"
+		}]
+	}],
+	rewards: [{
+		uid: "b6a88479",
+		type: "ftbmoney:money",
+		ftb_money: 500000L
+	},
+	{
+		uid: "3f3d5e32",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "9932531d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

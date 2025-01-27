@@ -1,0 +1,40 @@
+{
+	x: 6.0d,
+	y: 2.5d,
+	text: [
+		"&aGood for the enviorment&r",
+		"The Wind Mill is a block added by Extra Utilities 2. It will generate GP (Grid Power) from wind. It will produce more GP during rain, and does not have a stable GP generation (it is always changing). The blocks on North and on South of it must be clear for it to work."
+	],
+	tasks: [{
+		uid: "8dbd8902",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "55507ba7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "9e352b71",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "cb55bfa0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

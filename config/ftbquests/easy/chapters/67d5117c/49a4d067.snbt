@@ -1,0 +1,29 @@
+{
+	x: -9.5d,
+	y: -1.0d,
+	text: [
+		"The anvil functions much like a vanilla Anvil, but it can be fully automated. Unlike a regular anvil, this anvil requires liquid experience as a fuel."
+	],
+	tasks: [{
+		uid: "54746b9a",
+		type: "item",
+		items: [{
+			item: "openblocks:auto_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "50c1c024",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "3d81bd1b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

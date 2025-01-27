@@ -1,0 +1,38 @@
+{
+	x: 6.5d,
+	y: 2.5d,
+	text: [
+		"The Emerald Compass is a compass that points to a specific player. You can change the target player by combining the compass with an ID Card in a crafting table."
+	],
+	tasks: [{
+		uid: "37e864a4",
+		type: "item",
+		items: [{
+			item: "randomthings:emeraldcompass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc56f627",
+		type: "item",
+		items: [{
+			item: "randomthings:idcard"
+		}]
+	}],
+	rewards: [{
+		uid: "73a33d7f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "fde8245a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

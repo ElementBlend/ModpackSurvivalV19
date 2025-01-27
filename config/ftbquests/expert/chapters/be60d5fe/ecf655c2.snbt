@@ -1,0 +1,29 @@
+{
+	x: -8.5d,
+	y: -0.5d,
+	text: [
+		"Placing a Queen Bee in the Apiary will cause it to (very slowly, over time) produce Honeycombs, Waxcombs and Bee Grub, which can be processed into Honey and Beeswax using the Presser. Bee grub can also be cooked and eaten. Placing flowers near it can lessen the amount of time it takes for Queen Bees to produce items."
+	],
+	tasks: [{
+		uid: "a0f2609f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "9a019db5",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "3906d710",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	x: -8.0d,
+	y: 3.0d,
+	text: [
+		"Go and find the Tarantula Brood Mother in the Giant Baobab Tree found in the Subterranean Savannah biome"
+	],
+	dependencies: [
+		"a327aa35"
+	],
+	tasks: [{
+		uid: "6c498254",
+		type: "kill",
+		entity: "erebus:erebus.tarantula_mini_boss",
+		value: 1L
+	},
+	{
+		uid: "15cff6e9",
+		type: "item",
+		items: [{
+			item: "erebus:spider_t_shirt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6552f00",
+		type: "item",
+		items: [{
+			item: "erebus:tarantula_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "4f2b449d",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "5ede3318",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "3cd70eda",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

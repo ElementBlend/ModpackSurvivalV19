@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: -3.5d,
+	text: [
+		"allows a player to glide downwards through the air at slightly less than 7 blocks per second. The glider is activated by right-clicking with it, and functions when the player moves downward; i.e. if you would have been free-falling without it, you will glide instead. The Hang Glider will turn to face the direction that the player is looking. The player is otherwise unaffected by it; you can still walk normally (if you are on the ground) and interact with the world. To deactivate the glider, right-click again or switch to a different hotbar slot. The Hang Glider does not take damage or have durability."
+	],
+	tasks: [{
+		uid: "38e5e37a",
+		type: "item",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}],
+	rewards: [{
+		uid: "12bc6304",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2059d25c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

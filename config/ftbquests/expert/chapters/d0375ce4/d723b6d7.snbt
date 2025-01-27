@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		"Consumes power and liquid Raw Ore Meat to produce liquid Fermented Ore Meat of the same type. Requires a heat source below (fire, magma, lava) and a cold block adjacent to one of its sides (ice, packed ice, etc). For example, liquid Raw Ore Meat (Iron Ore) is turned into liquid Fermented Ore Meat (Iron Ore)."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1c012260"
+	],
+	tasks: [{
+		uid: "8aacecde",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_fermenter"
+		}]
+	}],
+	rewards: [{
+		uid: "926ca4f7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

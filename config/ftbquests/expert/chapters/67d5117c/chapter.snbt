@@ -1,0 +1,7 @@
+{
+	title: "Openblocks",
+	icon: "openblocks:donation_station",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

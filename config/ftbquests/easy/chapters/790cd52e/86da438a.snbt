@@ -1,0 +1,55 @@
+{
+	title: "Blue Eyes Yellow Dragon?",
+	x: -4.0d,
+	y: -4.0d,
+	description: "&cLocked to Iron Mesh quest in the Ex Nihilo Chapter under the introduction group",
+	text: [
+		"Using a iron mesh collect diamond and gold"
+	],
+	dependencies: [
+		"17912bdc"
+	],
+	tasks: [{
+		uid: "839def48",
+		type: "item",
+		title: "Diamond",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemDiamond"
+				}
+			}
+		}]
+	},
+	{
+		uid: "490b8c3a",
+		type: "item",
+		title: "Gold Ingot",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotGold"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3d26bb4b",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "406dfd89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

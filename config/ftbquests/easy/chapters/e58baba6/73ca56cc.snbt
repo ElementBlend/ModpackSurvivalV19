@@ -1,0 +1,32 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	text: [
+		"&aBlock of the angel&r",
+		"does not require a block to be placed against; right-clicking with it will place it, even in mid air.",
+		"",
+		"Unlike the original Angel Block from Extra Utilities, the block cannot be destroyed instantly and requires a pickaxe to be broken."
+	],
+	tasks: [{
+		uid: "12c44756",
+		type: "item",
+		items: [{
+			item: "extrautils2:angelblock"
+		}]
+	}],
+	rewards: [{
+		uid: "ea038913",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "929d6980",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

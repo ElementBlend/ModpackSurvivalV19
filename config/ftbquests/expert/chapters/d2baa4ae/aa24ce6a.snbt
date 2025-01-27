@@ -1,0 +1,33 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:processor.png"
+		}
+	},
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"Psi is a magical tech spell programming mod inspired by Mahouka. Don't worry if that doesn't make any sense.",
+		"",
+		"The core of Psi is a system where you can create action sequences (\"Spells\") to be executed in the world.",
+		"",
+		"Press c to start learning with PSI ingame guide"
+	],
+	tasks: [{
+		uid: "da86293b",
+		type: "checkmark",
+		title: "Programming in Minecraft",
+		icon: {
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "assets:check-mark.png"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "c69c5c29",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"&aUsefull for your inventory has a bit to much in it&r",
+		"replaces the Golden Bag of Holding from Extra Utilities. It has an internal storage of 54 slots, equivalent to a double Chest.",
+		"",
+		"The bag can be opened by right clicking while holding it.",
+		"",
+		"It is possible to store other Bags within a Bag Of Holding, allowing the player to theoretically have unlimited storage."
+	],
+	tasks: [{
+		uid: "d5e0c9a3",
+		type: "item",
+		items: [{
+			item: "extrautils2:bagofholding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b98d90d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "6e9a6667",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

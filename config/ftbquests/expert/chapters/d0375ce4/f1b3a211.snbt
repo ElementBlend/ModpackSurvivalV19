@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -8.0d,
+	text: [
+		"use to emit a redstone signal when an items or entities passes over the upgrade. The upgrade is applied by right clicking on a conveyor belt. Right clicking the placed upgrade will open a GUI, allowing for a whitelist or blacklist of items to be set. Setting whitelists and blacklist of entities can be accomplished with mobs trapped in a Mob Imprisonment Tool. Redstone behavior may also be inverted, allowing for the signal to be turned off when an item passes over the Detection Upgrade. Shift right clicking with an empty hand will remove the upgrade."
+	],
+	dependencies: [
+		"302531ef"
+	],
+	tasks: [{
+		uid: "f892b550",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e7e67088",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Find Wasps Nests",
+	x: -3.5d,
+	y: 3.0d,
+	text: [
+		"Wasp nest is found in the roof of the Underground Jungle biome"
+	],
+	dependencies: [
+		"a327aa35"
+	],
+	tasks: [{
+		uid: "7372893b",
+		type: "observation",
+		icon: "erebus:wasp_nest",
+		match_type: "block_id",
+		match: "erebus:wasp_nest",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "52abab57",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "62391bc4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -4.5d,
+	y: 4.0d,
+	text: [
+		"When used will propel you forward for the cost of 50 LP. holding right click will allow you to fly for the cost of LP"
+	],
+	dependencies: [
+		"1a97aa21"
+	],
+	tasks: [{
+		uid: "313a6e3e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_air"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf310feb",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "36c7a145",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

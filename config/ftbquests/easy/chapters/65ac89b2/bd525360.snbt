@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	text: [
+		"Pretty much mending when applied to a tinkers tool"
+	],
+	dependencies: [
+		"589b1374"
+	],
+	tasks: [{
+		uid: "3d931c85",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "99944f4b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

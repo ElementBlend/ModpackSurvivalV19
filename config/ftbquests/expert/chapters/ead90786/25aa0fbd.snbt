@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 12.5d,
+	description: "&cLocked to Steel Ingot and Smeltery Controller quests.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"12969cb3",
+		"f0a4be46"
+	],
+	tasks: [{
+		uid: "b10f1657",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	}]
+}

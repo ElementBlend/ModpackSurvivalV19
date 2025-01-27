@@ -1,0 +1,39 @@
+{
+	title: "Bratan",
+	x: -1.0d,
+	y: 7.0d,
+	description: "&aYou no longer helper you are brother",
+	text: [
+		"You are bratan now you no longer work for us but with us"
+	],
+	dependencies: [
+		"ff6edaa6",
+		"fd2e4cde",
+		"73d362b6",
+		"8f565d8b",
+		"ae1b4236",
+		"e70f9301"
+	],
+	hide: true,
+	tasks: [{
+		uid: "99872edd",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 30000000
+	}],
+	rewards: [{
+		uid: "d4a09409",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "92898954",
+		type: "ftbmoney:money",
+		ftb_money: 1000000L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Clay Kiln / Stone Grill",
+	x: -10.0d,
+	y: -6.5d,
+	text: [
+		"&aThe clay kiln is used to make Low Grade Charcoal.",
+		"",
+		"&aStone Grill functions like a Furnace, Unlike a furnace its very slow but will not require coal to function just fire under it.",
+		"",
+		"&rPlace the stick bundle under the clay kiln while having a gravel inside it and hold right click with an stick on the stick bundle to light a fire under it."
+	],
+	dependencies: [
+		"b5373745"
+	],
+	tasks: [{
+		uid: "b3fb8e8e",
+		type: "item",
+		items: [{
+			item: "primal_tech:clay_kiln"
+		}]
+	},
+	{
+		uid: "0647b67e",
+		type: "item",
+		items: [{
+			item: "primal_tech:stone_grill"
+		}]
+	}],
+	rewards: [{
+		uid: "13e9cdf2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

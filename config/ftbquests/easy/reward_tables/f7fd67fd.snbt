@@ -1,0 +1,626 @@
+{
+	title: "Auction House",
+	loot_size: 3,
+	rewards: [{
+		item: "minecraft:gold_ingot",
+		count: 32
+	},
+	{
+		item: "minecraft:log 1 3",
+		count: 64
+	},
+	{
+		item: "minecraft:log 1 2",
+		count: 64
+	},
+	{
+		item: "minecraft:log 1 1",
+		count: 64
+	},
+	{
+		item: "minecraft:log",
+		count: 64
+	},
+	{
+		item: "minecraft:glass",
+		count: 64
+	},
+	{
+		item: "minecraft:dirt",
+		count: 64
+	},
+	{
+		item: "minecraft:cobblestone",
+		count: 64
+	},
+	{
+		item: "minecraft:stone 1 3",
+		count: 64
+	},
+	{
+		item: "minecraft:stone 1 5",
+		count: 64
+	},
+	{
+		item: "minecraft:concrete 1 15",
+		count: 64
+	},
+	{
+		item: "minecraft:red_sandstone",
+		count: 64
+	},
+	{
+		item: "minecraft:hardened_clay",
+		count: 64
+	},
+	{
+		item: "minecraft:end_stone",
+		count: 64
+	},
+	{
+		item: "minecraft:stonebrick",
+		count: 64
+	},
+	{
+		item: "minecraft:snow",
+		count: 64
+	},
+	{
+		item: "minecraft:clay",
+		count: 64
+	},
+	{
+		item: "minecraft:netherrack",
+		count: 64
+	},
+	{
+		item: "minecraft:prismarine 1 2",
+		count: 64
+	},
+	{
+		item: "minecraft:log2 1 1",
+		count: 64
+	},
+	{
+		item: "minecraft:log2",
+		count: 64
+	},
+	{
+		item: "minecraft:dye 1 15",
+		count: 64
+	},
+	{
+		item: "minecraft:bone",
+		count: 32
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 16
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 64
+	},
+	{
+		item: "minecraft:diamond",
+		count: 4
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 32
+	},
+	{
+		item: "minecraft:bow"
+	},
+	{
+		item: "minecraft:arrow",
+		count: 6
+	},
+	{
+		item: "statues:hammer"
+	},
+	{
+		item: "statues:palette"
+	},
+	{
+		item: "minecraft:baked_potato",
+		count: 4
+	},
+	{
+		item: "minecraft:carrot",
+		count: 4
+	},
+	{
+		item: "minecraft:cooked_porkchop",
+		count: 3
+	},
+	{
+		item: "minecraft:fish 1 1",
+		count: 2
+	},
+	{
+		item: "minecraft:fish",
+		count: 2
+	},
+	{
+		item: "minecraft:rail",
+		count: 6
+	},
+	{
+		item: "minecraft:minecart"
+	},
+	{
+		item: "minecraft:coal",
+		count: 32
+	},
+	{
+		item: "minecraft:coal",
+		count: 16
+	},
+	{
+		item: "minecraft:coal",
+		count: 4
+	},
+	{
+		item: "minecraft:saddle"
+	},
+	{
+		item: "minecraft:boat"
+	},
+	{
+		item: "minecraft:water_bucket"
+	},
+	{
+		item: "minecraft:lava_bucket"
+	},
+	{
+		item: "minecraft:melon_seeds"
+	},
+	{
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		item: "minecraft:nether_wart",
+		count: 3
+	},
+	{
+		item: "minecraft:gold_nugget",
+		count: 4
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 2
+	},
+	{
+		item: "minecraft:ender_pearl",
+		count: 2
+	},
+	{
+		item: "minecraft:hopper"
+	},
+	{
+		item: "minecraft:redstone_block",
+		count: 3
+	},
+	{
+		item: "minecraft:tnt",
+		count: 4
+	},
+	{
+		item: "minecraft:flint_and_steel"
+	},
+	{
+		item: "minecraft:shears"
+	},
+	{
+		item: "minecraft:fishing_rod"
+	},
+	{
+		item: "minecraft:clock"
+	},
+	{
+		item: "minecraft:compass"
+	},
+	{
+		item: "minecraft:cooked_rabbit"
+	},
+	{
+		item: "minecraft:beetroot_soup"
+	},
+	{
+		item: "minecraft:beetroot"
+	},
+	{
+		item: "minecraft:cooked_mutton",
+		count: 4
+	},
+	{
+		item: "bewitchment:aconitum_seeds"
+	},
+	{
+		item: "bewitchment:belladonna_seeds"
+	},
+	{
+		item: "bewitchment:garlic_seeds"
+	},
+	{
+		item: "bewitchment:hellebore_seeds"
+	},
+	{
+		item: "bewitchment:mandrake_seeds"
+	},
+	{
+		item: "bewitchment:white_sage_seeds"
+	},
+	{
+		item: "bewitchment:wormwood_seeds"
+	},
+	{
+		item: "bewitchment:elderberries"
+	},
+	{
+		item: "exnihilocreatio:item_cooked_silkworm",
+		count: 2
+	},
+	{
+		item: "minecraft:pumpkin_pie"
+	},
+	{
+		item: "minecraft:cake"
+	},
+	{
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: "minecraft:mushroom_stew"
+	},
+	{
+		item: "minecraft:bread",
+		count: 2
+	},
+	{
+		item: "minecraft:rabbit_stew"
+	},
+	{
+		item: "minecraft:spider_eye",
+		count: 3
+	},
+	{
+		item: "avaritia:resource 1 2"
+	},
+	{
+		item: "bewitchment:gold_moloch_statue"
+	},
+	{
+		item: "bewitchment:dragons_blood_sapling"
+	},
+	{
+		item: "bewitchment:cypress_sapling"
+	},
+	{
+		item: "bewitchment:elder_sapling"
+	},
+	{
+		item: "bewitchment:juniper_sapling"
+	},
+	{
+		item: "bewitchment:white_candle",
+		count: 2
+	},
+	{
+		item: "bewitchment:stone_herne_statue"
+	},
+	{
+		item: "bewitchment:nether_brick_baphomet_idol"
+	},
+	{
+		item: "bewitchment:gold_herne_idol"
+	},
+	{
+		item: "bewitchment:juniper_berries"
+	},
+	{
+		item: "harvestcraft:cornitem"
+	},
+	{
+		item: "harvestcraft:ryeitem"
+	},
+	{
+		item: "harvestcraft:peanutitem"
+	},
+	{
+		item: "harvestcraft:radishitem"
+	},
+	{
+		item: "harvestcraft:rutabagaitem"
+	},
+	{
+		item: "harvestcraft:sweetpotatoitem"
+	},
+	{
+		item: "harvestcraft:lettuceitem"
+	},
+	{
+		item: "harvestcraft:caulifloweritem"
+	},
+	{
+		item: "harvestcraft:mustardseedsitem"
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_packedice"
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_redsandstone"
+	},
+	{
+		item: "cathedral:cathedral_gargoyle_demon_dwemer"
+	},
+	{
+		item: "chisel:basalt 1 1",
+		count: 32
+	},
+	{
+		item: "blockcraftery:editable_block",
+		count: 3
+	},
+	{
+		item: "exnihilocreatio:block_endstone_crushed"
+	},
+	{
+		item: "exnihilocreatio:block_netherrack_crushed"
+	},
+	{
+		item: "exnihilocreatio:block_dust"
+	},
+	{
+		item: "exnihilocreatio:block_skystone_crushed"
+	},
+	{
+		item: "exnihilocreatio:item_pebble"
+	},
+	{
+		item: "exnihilocreatio:item_material 1 4"
+	},
+	{
+		item: "exnihilocreatio:item_seed_rubber"
+	},
+	{
+		item: "exnihilocreatio:hammer_stone"
+	},
+	{
+		item: "exnihilocreatio:hammer_wood"
+	},
+	{
+		item: "improvableskills:parchment_fragment"
+	},
+	{
+		item: "fluxnetworks:flux"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		item: "sonarcore:reinforcedstoneblock"
+	},
+	{
+		item: "extrautils2:redorchid"
+	},
+	{
+		item: "extendedcrafting:material 1 129"
+	},
+	{
+		item: "excompressum:uncompressed_coal"
+	},
+	{
+		item: "excompressum:wood_chippings"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 5"
+	},
+	{
+		item: "mysticalagriculture:crafting"
+	},
+	{
+		item: "harvestcraft:strawberryitem"
+	},
+	{
+		item: "harvestcraft:cucumberitem"
+	},
+	{
+		item: "harvestcraft:onionitem"
+	},
+	{
+		item: "mod_lavacow:ptera_wing_cooked"
+	},
+	{
+		item: "mod_lavacow:holy_grenade"
+	},
+	{
+		item: "fossil:biofossil",
+		count: 6
+	},
+	{
+		item: "fossil:fern_seed",
+		count: 2
+	},
+	{
+		item: "fossil:stone_tablet"
+	},
+	{
+		item: "fossil:relic_scrap",
+		count: 6
+	},
+	{
+		item: "fossil:pottery_shard"
+	},
+	{
+		item: "randomthings:quartzlamp"
+	},
+	{
+		item: "tconstruct:edible 1 1"
+	},
+	{
+		item: "tconstruct:nuggets 1 2"
+	},
+	{
+		item: "tconstruct:nuggets 1 1"
+	},
+	{
+		item: "tconstruct:nuggets"
+	},
+	{
+		item: "scalinghealth:difficultychanger"
+	},
+	{
+		item: "quantumflux:graphitedust"
+	},
+	{
+		item: "netherex:orange_salamander_hide"
+	},
+	{
+		item: "netherex:congealed_magma_cream"
+	},
+	{
+		item: "tp:plump_pear"
+	},
+	{
+		item: "tp:blueberry_berry"
+	},
+	{
+		item: "tp:large_bandage"
+	},
+	{
+		item: "tp:raw_bacon"
+	},
+	{
+		item: "tp:soul_sandstone"
+	},
+	{
+		item: "tp:quick_sand",
+		count: 4
+	},
+	{
+		item: "tp:asphalt_block",
+		count: 12
+	},
+	{
+		item: "tp:ghost_block",
+		count: 4
+	},
+	{
+		item: "tp:nether_hoe"
+	},
+	{
+		item: "mod_lavacow:mousse"
+	},
+	{
+		item: "mod_lavacow:hyphae"
+	},
+	{
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}
+	},
+	{
+		item: "primal_tech:fibre_torch_lit"
+	},
+	{
+		item: "primal_tech:flint_block"
+	},
+	{
+		item: "primal_tech:plant_fibres",
+		count: 6
+	},
+	{
+		item: "primal_tech:bone_shard"
+	},
+	{
+		item: "waystones:waystone"
+	},
+	{
+		item: "advancedcombat:spider_upgrade"
+	},
+	{
+		item: "randomthings:compressedslimeblock"
+	},
+	{
+		item: "tombstone:crafting_ingredient 1 3"
+	},
+	{
+		item: "actuallyadditions:item_food 1 15",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:item_food 1 11"
+	},
+	{
+		item: "actuallyadditions:item_food 1 18"
+	},
+	{
+		item: "rftoolspower:power_core1"
+	},
+	{
+		item: "primitivemobs:spider_eggshell"
+	},
+	{
+		item: "primitivemobs:camouflage_dye"
+	},
+	{
+		item: "openblocks:sprinkler"
+	},
+	{
+		item: "openblocks:sponge"
+	},
+	{
+		item: "openblocks:elevator",
+		count: 2
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "randomthings:strong_collapse"
+			}
+		}
+	},
+	{
+		item: "randomthings:spectreilluminator"
+	},
+	{
+		item: "randomthings:naturecore"
+	},
+	{
+		item: "tombstone:ankh_of_prayer"
+	},
+	{
+		item: "tombstone:crafting_ingredient 1 3",
+		count: 3
+	},
+	{
+		item: "actuallyadditions:item_crafter_on_a_stick"
+	},
+	{
+		item: "actuallyadditions:item_knife"
+	}],
+	loot_crate: {
+		string_id: "auction_house",
+		item_name: "Auction House",
+		color: 12056758,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

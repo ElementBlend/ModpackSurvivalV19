@@ -1,0 +1,37 @@
+{
+	title: "Diamond Modifier",
+	x: 1.0d,
+	y: 3.5d,
+	text: [
+		"Diamond is a great way early on to make your tinker's tool better, It will provide diamond tier mining and better durability so if you got diamonds its worth",
+		"putting it on your tinker's tool."
+	],
+	dependencies: [
+		"e885ed9d"
+	],
+	tasks: [{
+		uid: "a99f36e1",
+		type: "item",
+		items: [{
+			id: "minecraft:diamond",
+			ForgeCaps: {
+				"treasure2:pouchable": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "92aeab0c",
+		type: "item",
+		item: {
+			id: "minecraft:diamond",
+			ForgeCaps: {
+				"treasure2:pouchable": {}
+			}
+		}
+	},
+	{
+		uid: "e1ba35be",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

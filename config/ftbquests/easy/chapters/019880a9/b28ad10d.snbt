@@ -1,0 +1,38 @@
+{
+	title: "Fly Like a Bat!!!",
+	x: 1.5d,
+	y: -2.0d,
+	text: [
+		"&aZoomers be zomming along&r",
+		"Sometimes, bats will drop Wings. These wings can be used to make Wings Of The Bats, which allow you to fly in a creative way.",
+		"However, after about seconds, your weight won't be supported anymore and you will drop to the ground.",
+		"To remove exhaustion from your wings, either stand on the ground to remove exhaustion slowly, or hang on to the ceiling by flying up below a solid block like a bat while the wings aren't fully exhausted to remove exhaustion fast."
+	],
+	dependencies: [
+		"49f68fe0"
+	],
+	tasks: [{
+		uid: "66f24784",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_wings_of_the_bats"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e01f6271",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "477a3edd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	text: [
+		"The Spell inscriber is the block you will use when you create all your spells via sequance programming"
+	],
+	dependencies: [
+		"fbb3bf8a"
+	],
+	tasks: [{
+		uid: "26bf00ca",
+		type: "item",
+		items: [{
+			item: "psi:programmer"
+		}]
+	}],
+	rewards: [{
+		uid: "fefce57f",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "25c44102",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "bdaab429",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sorcerer_crate"
+			}
+		}
+	}]
+}

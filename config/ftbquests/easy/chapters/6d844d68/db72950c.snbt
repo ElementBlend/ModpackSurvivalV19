@@ -1,0 +1,29 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"The Rain Shield blocks rain or snow in a 5 chunk radius. In its radius there will be no rain/snow particles / sounds & stuff like fire that would normally react to rain will act as if it wasn’t raining. By applying a redstone signal to it you can disable its effect. There will also be no snow forming on top of blocks in snowy biomes."
+	],
+	tasks: [{
+		uid: "c681e155",
+		type: "item",
+		items: [{
+			item: "randomthings:rainshield"
+		}]
+	}],
+	rewards: [{
+		uid: "2d3f5054",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b8a85151",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

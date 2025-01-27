@@ -1,0 +1,34 @@
+{
+	title: "Exoflame",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "exoflame"
+		}
+	},
+	x: 10.5d,
+	y: 9.5d,
+	description: "&cLocked to Rune of Summer quest",
+	text: [
+		"The Exoflame uses Mana to power coal burning machines that are close to it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"98c2b545"
+	],
+	tasks: [{
+		uid: "298cccee",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "exoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2085b641",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

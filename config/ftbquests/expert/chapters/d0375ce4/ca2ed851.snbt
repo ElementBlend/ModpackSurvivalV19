@@ -1,0 +1,35 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"used to harvest both crops and trees, producing Sludge as a byproduct. The machine can be set to harvest crop, trees, or both. The default working area is 1x1x1 in front of the machine, which can be expanded with Range Addons. If the Plant Gatherer begins to harvest a tree within the working area, it will continue to harvest any log or leaves connected to the base log block. Care should be taken using the tree harvest mode around forests and wooden structures, as the Gatherer will harvest logs 100 blocks away if connected to trees in the working area by other log and leaf blocks. The Plant Gather will not continue to check for additional leaves or logs below the working area. The Leaf Shearing Addon will allow the machine to collect the leave blocks rather than destroy them.",
+		"",
+		"The Plant Gatherer will break crops when harvesting, even when the plant may be harvested by right click. Therefore, it is often used in conjunction with the Plant Sower to replant crops or saplings. Each operation the machine will harvest a crop or break a portion of a tree, consuming 400 RF from the work energy buffer. This buffer refills at 40 RF/t allowing for one operation every 10 ticks. Additionally, 20mb of Sludge per block collected will produced into the internal tank. If the crops were planted with Crop Sticks, the Plant Gatherer will not break them."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "0db33de7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "4523a92d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c64b33d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

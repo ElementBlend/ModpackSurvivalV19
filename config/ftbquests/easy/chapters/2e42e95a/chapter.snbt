@@ -1,0 +1,7 @@
+{
+	title: "Fossils and Archeology",
+	icon: "fossil:biofossil",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

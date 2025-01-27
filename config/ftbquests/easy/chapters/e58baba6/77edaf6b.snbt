@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"&aAint gold soft tho?&r",
+		"damages mobs that touch any side of it other than the bottom. The Spike does 2 (Heart.svg) every 0.5 seconds. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block. Most explosions will not destroy the Spike due to its high blast resistance. Mobs killed by Golden Spikes will drop experience orbs."
+	],
+	dependencies: [
+		"80b15720"
+	],
+	tasks: [{
+		uid: "ba03a333",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_gold"
+		}]
+	}],
+	rewards: [{
+		uid: "b60af096",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "88dc1305",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

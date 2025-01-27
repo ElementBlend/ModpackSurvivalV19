@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -2.5d,
+	text: [
+		"used to automatically plant seeds in farmland above the machine. The machine has a default range of 1x1x1 located 2 blocks above the machine. This range can be expanded with a Range Addon. The 9 internal inventory slots are color coded and correspond to the colored markings on the top of the Plant Sower. The working area above the machine is divided into 9 segments and only seeds from the corresponding inventory slot will be planted in each section. The internal inventory slots have a max stack size of 16 and may be locked to a particular seed type. Each operation will plant a seed, consuming 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "0ac37cc9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_sower"
+		}]
+	}],
+	rewards: [{
+		uid: "6ac31f56",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dd37c7f7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

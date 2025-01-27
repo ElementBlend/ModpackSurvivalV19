@@ -1,0 +1,61 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "rare_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "bonesword",
+					"type": "item",
+					"name": "mod_lavacow:bonesword",
+					"weight": 35	,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						},					
+						{
+							"function": "enchant_randomly"
+						}
+					]					
+				},
+				{
+					"entryName": "great_sword_iron",
+					"type": "item",
+					"name": "cqrepoured:great_sword_iron",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}					
+					]					
+				},
+
+				{
+					"entryName": "item_pickaxe_crystal_light_blue",
+					"type": "item",
+					"name": "actuallyadditions:item_pickaxe_crystal_light_blue",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}					
+					]		
+				},	
+				{
+					"entryName": "item_axe_crystal_light_blue",
+					"type": "item",
+					"name": "actuallyadditions:item_axe_crystal_light_blue",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}					
+					]
+				}
+			]
+		}
+	]
+}

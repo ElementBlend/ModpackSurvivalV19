@@ -1,0 +1,82 @@
+{
+	title: "Steel Production",
+	x: -4.0d,
+	y: -4.0d,
+	description: "&aEntire Process to make steel",
+	text: [
+		"&aNow that you are making some power we can focus on making some steel&r",
+		"use the grindstone to make a constantan ingot so you can make a metallurgic infuser we will use this machine to make steel first by making enriched iron then steel",
+		"",
+		"&7Tip: For the grindstone to function you need to place the crank ontop and hold left click on the crank for the machine to function."
+	],
+	dependencies: [
+		"2349dd40"
+	],
+	tasks: [{
+		uid: "cb248729",
+		type: "item",
+		items: [{
+			item: "mekanism:otherdust 1 1"
+		},
+		{
+			item: "thermalfoundation:material 1 96"
+		}]
+	},
+	{
+		uid: "b3106897",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d020fbc8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "e9de2a07",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crank"
+		}]
+	}],
+	rewards: [{
+		uid: "ae800389",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "39ef64b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "66a82e0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "f8b9a2cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

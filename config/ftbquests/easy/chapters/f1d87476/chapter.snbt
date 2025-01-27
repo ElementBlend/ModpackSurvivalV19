@@ -1,0 +1,7 @@
+{
+	title: "Bewitchment",
+	icon: "bewitchment:heart",
+	always_invisible: false,
+	group: -1571329874,
+	default_quest_shape: ""
+}

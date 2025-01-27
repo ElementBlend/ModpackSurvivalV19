@@ -1,0 +1,40 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Craft the portal like a nether portal and light it with a flint and steel or any other means of fire"
+	],
+	tasks: [{
+		uid: "e8f2dea8",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianportalframebricks"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "851b6146",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "a7faf588",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "8985e092",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -9.5d,
+	y: -4.5d,
+	text: [
+		"&aSimple obsidian",
+		"&rPlace 1 bucket of lava into the basin then 2 cobblestone and hold right click with an empty hand until it spits out an obsidian"
+	],
+	dependencies: [
+		"b9b4a95f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "875c4b9f",
+		type: "item",
+		items: [{
+			item: "primal_tech:wooden_basin"
+		}]
+	}],
+	rewards: [{
+		uid: "86325c4a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5777f769",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

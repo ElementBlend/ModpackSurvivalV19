@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -9.5d,
+	text: [
+		"generates power when provided with Protein from the Protein Reactor. Protein will produce 320RF/t, with one bucket (1,000 mB) of protein producing a total of 1,280,000 RF."
+	],
+	dependencies: [
+		"8295688d"
+	],
+	tasks: [{
+		uid: "eb13cc03",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:protein_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "c26f135d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "5a4074f9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

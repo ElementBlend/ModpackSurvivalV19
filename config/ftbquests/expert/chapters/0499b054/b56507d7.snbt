@@ -1,0 +1,32 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"Right-Click a security camera to add it to the list.",
+		"View any camera, one at a time."
+	],
+	tasks: [{
+		uid: "86526982",
+		type: "item",
+		items: [{
+			item: "securitycraft:camera_monitor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "924b77e9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "26bd379a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

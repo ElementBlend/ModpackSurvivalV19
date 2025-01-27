@@ -1,0 +1,30 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	text: [
+		"&aThe Quantum Entropy Accelerator (QEA)&r",
+		"an efficient and clean early game way to make power. It is able to convert any matter into a small amount of energy."
+	],
+	tasks: [{
+		uid: "f55de92d",
+		type: "item",
+		items: [{
+			item: "quantumflux:entropyaccelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "deadc77e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b14aa61e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

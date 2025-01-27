@@ -1,0 +1,24 @@
+{
+	x: 10.5d,
+	y: 4.0d,
+	text: [
+		"&aLocked to Digital Miner Quest&r",
+		"Found in mekanism Chapter"
+	],
+	can_repeat: true,
+	dependencies: [
+		"b8d651f1"
+	],
+	tasks: [{
+		uid: "4946e265",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "320cc0a8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"Wire Cutters is a tool that allows the player to disable blocks, such as mines, claymores, and cage traps. After the player have disabled the block, the player can break it with a pickaxe. Wire Cutters, to craft, the player needs 1 pair of shears and 4 iron ingots. It has a durability of 476."
+	],
+	tasks: [{
+		uid: "dfb775f7",
+		type: "item",
+		items: [{
+			item: "securitycraft:wire_cutters"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ddaff5ad",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f016a0f8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

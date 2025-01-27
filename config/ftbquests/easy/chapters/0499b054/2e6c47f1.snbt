@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"Emits a 3-second redstone signal if a player right clicks on it with a Keycard with a high enough level.",
+		"When the block is right clicked for the first time (not holding a Keycard), a GUI will show up asking for the player to set the security level required for it to work. It has levels 1-5 with another option to set eligible Keycards of 'equal to' or 'equal to or higher than'."
+	],
+	tasks: [{
+		uid: "0efbef46",
+		type: "item",
+		items: [{
+			item: "securitycraft:keycard_reader"
+		}]
+	}],
+	rewards: [{
+		uid: "d3560009",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b6265b50",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

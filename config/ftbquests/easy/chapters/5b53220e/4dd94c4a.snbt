@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "9b229003",
+		type: "item",
+		items: [{
+			id: "ic2:electric_wrench",
+			Damage: 26s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

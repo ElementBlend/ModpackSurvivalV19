@@ -1,0 +1,113 @@
+{
+	title: "EMC Lottery",
+	loot_size: 1,
+	rewards: [{
+		item: "mekanism:ingot 1 2",
+		count: 64
+	},
+	{
+		item: "mekanism:ingot 1 2"
+	},
+	{
+		item: "minecraft:glowstone",
+		count: 64
+	},
+	{
+		item: "minecraft:glowstone"
+	},
+	{
+		item: "minecraft:lapis_block"
+	},
+	{
+		item: "minecraft:lapis_block",
+		count: 64
+	},
+	{
+		item: "extrautils2:compressedcobblestone 1 7"
+	},
+	{
+		item: "extrautils2:compressedcobblestone 1 7",
+		count: 64
+	},
+	{
+		item: "minecraft:diamond_block",
+		count: 64
+	},
+	{
+		item: "minecraft:diamond_block"
+	},
+	{
+		item: "minecraft:emerald_block",
+		count: 64
+	},
+	{
+		item: "minecraft:emerald_block"
+	},
+	{
+		item: "tconstruct:metal 1 6",
+		count: 64
+	},
+	{
+		item: "tconstruct:metal 1 6"
+	},
+	{
+		item: "minecraft:beacon"
+	},
+	{
+		item: "minecraft:beacon",
+		count: 64
+	},
+	{
+		item: "avaritia:resource 1 1",
+		count: 64
+	},
+	{
+		item: "avaritia:resource 1 1"
+	},
+	{
+		item: "avaritia:cosmic_meatballs",
+		count: 64
+	},
+	{
+		item: "avaritia:cosmic_meatballs"
+	},
+	{
+		item: "minecraft:stone",
+		count: 64
+	},
+	{
+		item: "minecraft:stone"
+	},
+	{
+		item: "avaritia:compressed_crafting_table",
+		count: 64
+	},
+	{
+		item: "avaritia:compressed_crafting_table"
+	},
+	{
+		item: "avaritia:double_compressed_crafting_table",
+		count: 64
+	},
+	{
+		item: "avaritia:double_compressed_crafting_table"
+	},
+	{
+		item: "avaritia:block_resource 1 2",
+		count: 64
+	},
+	{
+		item: "avaritia:block_resource 1 2"
+	}],
+	loot_crate: {
+		string_id: "emc_lottery",
+		item_name: "EMC Lottery",
+		color: 15115449,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

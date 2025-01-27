@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"used to automatically collect resources from passive mobs. Each operation will milk cows, shear sheep, and collect dye from squid within the working area. The default working area of the machine is 1x2x1 in front of the machine, which can be expanded with Range Addons. Each operation consumes 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "695d6d83",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_resource_harvester"
+		}]
+	}],
+	rewards: [{
+		uid: "a183a7cb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e55567b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

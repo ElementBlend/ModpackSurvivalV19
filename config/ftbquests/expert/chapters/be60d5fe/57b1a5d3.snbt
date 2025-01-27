@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"Infinit water source"
+	],
+	tasks: [{
+		uid: "d389bc87",
+		type: "item",
+		items: [{
+			item: "harvestcraft:well"
+		}]
+	}],
+	rewards: [{
+		uid: "75b36bcf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e7151c94",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"used to provide the user with information on the EMC of the materials in the area."
+	],
+	dependencies: [
+		"fcac1ac3"
+	],
+	tasks: [{
+		uid: "de28f5a1",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_divining_rod_2",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e9519b9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "027b5e9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

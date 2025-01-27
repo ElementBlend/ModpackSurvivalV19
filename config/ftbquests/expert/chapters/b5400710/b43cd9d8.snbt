@@ -1,0 +1,34 @@
+{
+	x: -9.5d,
+	y: 4.0d,
+	text: [
+		"ight-clicking a Blood Altar will show the following additional information the current progress of the item inside the Blood Altar the LP Consumption rate of the item inside the altar and the current Charge."
+	],
+	dependencies: [
+		"1a97aa21"
+	],
+	tasks: [{
+		uid: "87a2ed06",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_seer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "96b69a65",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "373a4bf9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

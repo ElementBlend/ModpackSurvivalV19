@@ -1,0 +1,29 @@
+{
+	title: "The End",
+	icon: "minecraft:skull 1 5",
+	x: 4.0d,
+	y: 0.5d,
+	description: "&aGo to The End and prove you can do it",
+	text: [
+		"We got some tasks that need to be done in The End but first you gotta prove you can manage to get there"
+	],
+	dependencies: [
+		"eb09291f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "431ebe4d",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "35a6742f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

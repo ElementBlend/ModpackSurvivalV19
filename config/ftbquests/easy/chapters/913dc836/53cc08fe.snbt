@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"A simplified version of the normal Transmutation Table."
+	],
+	dependencies: [
+		"5fba0d4c"
+	],
+	tasks: [{
+		uid: "9df837ba",
+		type: "item",
+		items: [{
+			item: "projectex:stone_table"
+		}]
+	}],
+	rewards: [{
+		uid: "7ab21281",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0b0e1909",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

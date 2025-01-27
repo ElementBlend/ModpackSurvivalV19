@@ -1,0 +1,35 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:636414262135399678.png"
+		}
+	},
+	x: -7.5d,
+	y: -13.0d,
+	shape: "rsquare",
+	description: "&aChoose how hard your game is",
+	text: [
+		"&aPackmode is how you choose how hard you want the game to be.",
+		"",
+		"&rExpert, Expert will challenge your skills and is the default mode.",
+		"",
+		"&7Easy Is no custom recipes but still has the elements of skyblock like no ores etc.",
+		"",
+		"&rTo switch packmode do /packmode easy or expert. and restart your game.",
+		"",
+		"&7If you are on a server you have to edit packmode.cfg on the server. and all players have to have matching packmode.",
+		"",
+		"&cIts always recommended to play in expert for the best user experience."
+	],
+	tasks: [{
+		uid: "ab8c472b",
+		type: "checkmark",
+		title: "Packmode"
+	}],
+	rewards: [{
+		uid: "1045960e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

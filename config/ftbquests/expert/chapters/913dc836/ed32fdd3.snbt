@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"The Dark Matter Furnace is a Furnace that can be powered using EMC energy from adjacent machines in addition to solid fuels. It operates very quickly, smelting two items per second. It has two 8-slot inventories for input and output, a slot for fuel input and two buffer slots."
+	],
+	dependencies: [
+		"59de915b"
+	],
+	tasks: [{
+		uid: "b9369bb7",
+		type: "item",
+		items: [{
+			item: "projecte:dm_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "42c6e370",
+		type: "ftbmoney:money",
+		ftb_money: 1000000L
+	},
+	{
+		uid: "a86d7473",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 6
+	}]
+}

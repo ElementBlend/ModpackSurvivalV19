@@ -1,0 +1,62 @@
+{
+	title: "Artificial End Portal",
+	icon: "minecraft:end_portal_frame",
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"This is how you make your Artificial End Portal",
+		"",
+		"use all the obsdian to make a box 5 by 5",
+		"",
+		"now place 9 endstone in the bottom where the obsdian is higher then the obsidian",
+		"",
+		"now go 5 blocks up from the middle where the 5th block is endstone now place a end rod under it",
+		"",
+		"now last right click the evil tear on the end rod now a portal should start appering"
+	],
+	tasks: [{
+		uid: "eb402d89",
+		type: "item",
+		items: [{
+			item: "randomthings:ingredient 1 1"
+		}]
+	},
+	{
+		uid: "633b2fc6",
+		type: "item",
+		items: [{
+			item: "minecraft:end_rod"
+		}]
+	},
+	{
+		uid: "764b8626",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 16L
+	},
+	{
+		uid: "69f91105",
+		type: "item",
+		items: [{
+			item: "minecraft:end_stone"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "d3ff9303",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "09b953ff",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

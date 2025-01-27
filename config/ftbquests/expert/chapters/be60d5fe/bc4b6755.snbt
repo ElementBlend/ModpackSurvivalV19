@@ -1,0 +1,32 @@
+{
+	x: -6.5d,
+	y: -0.5d,
+	text: [
+		"To use the Ground Trap, place the crafted trap in the ground touching at least one grass block on each side where at least one of these four grass blocks is touching an additional grass block on the opposite side.",
+		" Together with the grass blocks, this formation creates a horizontal cross of 4 blocks \"high\" and 3 blocks wide. Not all modded colored grasses will work",
+		"",
+		" - so if your trap should be working and doesn't, try to replace any modded grass blocks around it with vanilla grass."
+	],
+	tasks: [{
+		uid: "8c8b6adb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:groundtrap"
+		}]
+	}],
+	rewards: [{
+		uid: "7eef4013",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e372c72c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

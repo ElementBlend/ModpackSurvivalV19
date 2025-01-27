@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"used to collect fluid blocks from the world into an internal tank and replaces the fluid block with cobblestone. When placed, the pump will set its internal filter to the fluid type of the block directly below it. Fluid is collected in vertical columns, extending below the working area, continuing as long as the next vertical block matches the internal filter. Each operation replaces one fluid block, consuming 1,050 RF from the work energy buffer. This buffer refills at 40 RF/t allowing for one operation every 26 ticks.",
+		"",
+		"The Fluid Pump has a working area of 1x1x1 directly below the machine. This can be expanded with a Range Addon."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "f37451ee",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_pump"
+		}]
+	}],
+	rewards: [{
+		uid: "ab2b8a99",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "be00582b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,66 @@
+{
+	title: "Hidden Mine",
+	x: -4.5d,
+	y: 1.5d,
+	text: [
+		"The Dirt Mine, Stone Mine, Cobblestone Mine, Diamond Ore Mine, Sand Mine, and Gravel Mine all act the same. To craft in survival, add a mine to the block in a crafting table. When mined they will explode. The one of ways to remove them, without explosion, is with the universal block remover or using wire cutters to disable it and then mining it with a pickaxe."
+	],
+	tasks: [{
+		uid: "af752e22",
+		type: "item",
+		items: [{
+			item: "securitycraft:diamond_mine"
+		},
+		{
+			item: "securitycraft:redstone_mine"
+		},
+		{
+			item: "securitycraft:emerald_mine"
+		},
+		{
+			item: "securitycraft:quartz_mine"
+		},
+		{
+			item: "securitycraft:lapis_mine"
+		},
+		{
+			item: "securitycraft:coal_mine"
+		},
+		{
+			item: "securitycraft:iron_mine"
+		},
+		{
+			item: "securitycraft:gold_mine"
+		},
+		{
+			item: "securitycraft:gravel_mine"
+		},
+		{
+			item: "securitycraft:sand_mine"
+		},
+		{
+			item: "securitycraft:cobblestone_mine"
+		},
+		{
+			item: "securitycraft:dirt_mine"
+		},
+		{
+			item: "securitycraft:stone_mine"
+		}]
+	}],
+	rewards: [{
+		uid: "2c3c1ef5",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "31f2fd39",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

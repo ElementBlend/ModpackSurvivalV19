@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 2.5d,
+	text: [
+		"Obtained when breaking leaves with a crook."
+	],
+	dependencies: [
+		"831e9084"
+	],
+	tasks: [{
+		uid: "f4ede675",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	}]
+}

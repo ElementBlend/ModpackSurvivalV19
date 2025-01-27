@@ -1,0 +1,34 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	text: [
+		"&aUsefull in many cases you just gotta find the use case&r",
+		"This block is used to automate redstone system without having to setup a redstone clock. This block will input a redstone signal every 20 ticks (1 second) and this pulse rate is always the same in any conditions.",
+		"",
+		"The Redstone Clock can be stopped using a lever or an activated redstone signal. When the Redstone Clock is active the first ring will be light red while when is inactive, the ring will be dark red.",
+		"",
+		"It can be used to easily automate a Tinkers' Construct smeltery or any type of redstone circuit."
+	],
+	tasks: [{
+		uid: "147c8ea9",
+		type: "item",
+		items: [{
+			item: "extrautils2:redstoneclock"
+		}]
+	}],
+	rewards: [{
+		uid: "31dd1e13",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "d7b2de87",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

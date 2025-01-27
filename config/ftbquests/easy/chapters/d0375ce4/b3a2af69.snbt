@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: -7.0d,
+	text: [
+		"used to insert items into an inventory from a conveyor belt. Right clicking a Conveyor Belt will apply the upgrade to the opposite side of the belt from where the player is standing. Right clicking the placed upgrade will open a GUI, allowing for a whitelist or blacklist of items to be set. The range of the insertion can also be changed to absorb all items on the belt, useful if the inventory is to the side of the conveyors direction. Shift right clicking with an empty hand will remove the upgrade."
+	],
+	dependencies: [
+		"302531ef"
+	],
+	tasks: [{
+		uid: "24519052",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f7e10ccb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	description: "&4Warning very destructive. A missclick can leave your home with a load of broken machinery and a hole in the wall.",
+	text: [
+		"When pressing R with the Catalytic Lens equipped the Lens fires an explosive projectile which destroys a large area upon contact with a block. The items from the destroyed blocks are dropped in a loot ball in the middle of the explosion, similar to the Hyperkinetic Lens.",
+		"",
+		"Press Right Click and the Catalytic Lens functions like the Destruction Catalyst, destroying a 3x3 panel where you clicked.",
+		"",
+		"When you press V to charge the Catalytic Lens, the right-click function of the Catalytic Lens becomes more powerful, digging out long 3x3 tunnels. At max charge, the Catalytic Lens breaks through as many as 64 layers, far more than the Destruction Catalyst. Like the Destruction Catalyst, the Catalytic Lens drops all the items from the destroyed section at the point of right-click.",
+		"",
+		"If you press C, the Catalytic Lens performs its right-click function forwards in front of you, and drops the resulting resources right onto your character.",
+		"",
+		"All Block Breaking tools use 16EMC/Block Broken"
+	],
+	dependencies: [
+		"c353d7ed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a02841e",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_catalitic_lens",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd22b014",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "c23e8729",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

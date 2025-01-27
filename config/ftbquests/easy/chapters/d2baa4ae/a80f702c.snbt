@@ -1,0 +1,42 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"Used to assamble focus rods and insert spells"
+	],
+	dependencies: [
+		"aa24ce6a"
+	],
+	tasks: [{
+		uid: "33eb904f",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "6466cbbe",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "7f334339",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "b0b13817",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sorcerer_crate"
+			}
+		}
+	}]
+}

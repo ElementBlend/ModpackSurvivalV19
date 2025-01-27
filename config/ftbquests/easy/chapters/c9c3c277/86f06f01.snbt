@@ -1,0 +1,34 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	text: [
+		"Find a pirate ship in the End City and collect the Elytra"
+	],
+	dependencies: [
+		"3eed2c68"
+	],
+	tasks: [{
+		uid: "1daa4d74",
+		type: "item",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f30f6b4",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "49d91438",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

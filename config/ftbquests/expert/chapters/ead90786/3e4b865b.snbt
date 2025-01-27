@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	description: "&cRequires you to unlock the Manasteel Ingot quest.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3bdcab42"
+	],
+	tasks: [{
+		uid: "a7d879e9",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	text: [
+		"The block acts like a regular chest, but it is an entity. After a player places it down by right-clicking with it, it will start following them around. It will then start eating dropped items around them into their inventory if space is available. Right-clicking will open the inventory and it picks up items from the ground. By holding shift and right-clicking the luggage entity, it can be turned back into an item and picked up. When picked up, the luggage item will retain all content that's stored in it.",
+		"",
+		"Though the entity has 20 health points, it can't be hurt. Beware, as Luggage can still be burned by Lava or destroyed by cactus, though this is only in its item form, in entity form it is immune to fire and lava and even if pushed into the void will fall down next to its owner a moment later.",
+		"",
+		"Upon being struck by lightning, being pushed into Witch Water, or being \"blown up\" by a Charged Creeper, the Luggage will become supercharged, changing its texture, and doubling its inventory space.",
+		"",
+		"When they pick up certain items such as Rotten Flesh, they will make a different eating sound, like it enjoyed eating that item more."
+	],
+	tasks: [{
+		uid: "a2b2ef90",
+		type: "item",
+		items: [{
+			id: "openblocks:luggage",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "79798d91",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	},
+	{
+		uid: "925ac7b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

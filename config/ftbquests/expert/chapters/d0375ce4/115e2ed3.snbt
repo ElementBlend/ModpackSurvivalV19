@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -9.0d,
+	text: [
+		"used to divide items and entities in different directions. Right clicking a Conveyor Belt will apply the upgrade to the opposite side of the belt from where the player is standing. Right clicking the placed upgrade will open a GUI, allowing for the splitting ratio to be adjusted. The splitting ratio signifies how many items or entities must pass over the upgrade before the next direction is used. At least 2 splitting upgrades are needed to be useful, otherwise items will always travel in the direction of the single splitting upgrade. The splitting upgrade will move full stacks at a time, and will not split a single stack into multiple directions. Shift right clicking with an empty hand will remove the upgrade."
+	],
+	dependencies: [
+		"302531ef"
+	],
+	tasks: [{
+		uid: "a078524b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "a2d5f436",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

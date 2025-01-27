@@ -1,0 +1,34 @@
+{
+	x: -12.5d,
+	y: -1.0d,
+	text: [
+		"Until the normal Building Guide you can right click the Enchanced Building Guide to place them",
+		"",
+		"Can be automated with an mechanical user"
+	],
+	dependencies: [
+		"35f7f7ff"
+	],
+	tasks: [{
+		uid: "3945d327",
+		type: "item",
+		items: [{
+			item: "openblocks:builder_guide"
+		}]
+	}],
+	rewards: [{
+		uid: "285ca3a4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ad5f3920",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

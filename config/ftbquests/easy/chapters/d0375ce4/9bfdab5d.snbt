@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	shape: "hexagon",
+	description: "&cUnlocks a lot of quests",
+	text: [
+		""
+	],
+	dependencies: [
+		"a9d686c2"
+	],
+	tasks: [{
+		uid: "b28270d9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "02562db1",
+		type: "item",
+		item: "industrialforegoing:plastic",
+		count: 4
+	}]
+}

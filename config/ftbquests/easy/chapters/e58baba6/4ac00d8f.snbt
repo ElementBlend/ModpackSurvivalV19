@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"&aSplinters&r",
+		"The Spike does 1 Half Heart every 0.5 seconds, unless the mob has only 1 health (0.5 hearts) left, in which case it will not be damaged. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block."
+	],
+	tasks: [{
+		uid: "ce5b365c",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "6644bde8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "569726eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

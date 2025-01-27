@@ -1,0 +1,35 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"used to spawn mobs based on the type of mob trapped in a Mob Imprisonment Tool. It has a default spawning range of 1x5x1(X*Y*Z) centered on the machine, which can be expanded with Range Addons. The Mob Duplicator will require 12 mB × mob HP of Essence to spawn a mob (e.g., 120 mB of Essence for Cows and Pigs).",
+		" The machine will not spawn mobs if there are 32 entities or no valid, unoccupied surfaces in the working area.",
+		" Mobs spawned are only of the same type and are not exact copies. Each operation consumes 5,000 RF from the work energy buffer spawns one entity."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "7c1e2bc3",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "20562b29",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "56463e61",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

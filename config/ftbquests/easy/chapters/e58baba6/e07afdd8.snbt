@@ -1,0 +1,33 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"&aHoly Cow time to take nether home&r",
+		"Capable of holding 4,096 buckets of a liquid (4,096,000 mB)."
+	],
+	dependencies: [
+		"d607d50c"
+	],
+	tasks: [{
+		uid: "6ea8ec8a",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "eba4e118",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "43953da4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

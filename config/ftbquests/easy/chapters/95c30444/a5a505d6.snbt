@@ -1,0 +1,35 @@
+{
+	title: "Flux Point",
+	icon: "fluxnetworks:fluxpoint",
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"Used to Remove Energy from the network",
+		"You can remove energy from all sides simultaneously."
+	],
+	dependencies: [
+		"b50c4be7"
+	],
+	tasks: [{
+		uid: "ffb281e1",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}],
+	rewards: [{
+		uid: "507c5cb1",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "9e80317f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

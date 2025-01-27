@@ -1,0 +1,31 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"We have an unusal amount of Zombies at our hideout codename volk clear the area around it"
+	],
+	dependencies: [
+		"5f687e08"
+	],
+	tasks: [{
+		uid: "2778357c",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "5d7ba68a",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "9ca04c03",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	}]
+}

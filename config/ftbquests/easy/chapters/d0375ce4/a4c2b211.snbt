@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: -3.5d,
+	text: [
+		"used to move baby animals from the working area to the back of the machine. The default working area is 1x2x1 in front of the Animal Baby Separator, which can be expanded with Range Addons. Animals will be collected from the working area and moved to the single block behind the machine. The machine's behavior can be inverted with the Adult Filter, which will sort adult animals to the rear of the machine. Each operation consumes 400 Redstone Flux (RF) from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "21d488f1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_independence_selector"
+		}]
+	}],
+	rewards: [{
+		uid: "a9dfdd7a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "05c41eb7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Akashic Tome",
+	x: -8.5d,
+	y: -14.0d,
+	shape: "rsquare",
+	description: "&aPut all your books into one book",
+	text: [
+		"&aAkashic Tome lets you store all your books in one place!.&r",
+		"",
+		"Simply combine any book with the Akashic Tome to combine them.",
+		"",
+		"&cDo not put your ftb questing book into the akashic tome."
+	],
+	tasks: [{
+		uid: "815dccef",
+		type: "checkmark",
+		icon: "akashictome:tome"
+	}],
+	rewards: [{
+		uid: "0b6453f1",
+		type: "item",
+		item: "akashictome:tome"
+	}]
+}

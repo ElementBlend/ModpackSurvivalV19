@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"Buy seeds, saplings and some other things"
+	],
+	tasks: [{
+		uid: "c44bdf49",
+		type: "item",
+		items: [{
+			item: "harvestcraft:market"
+		}]
+	}],
+	rewards: [{
+		uid: "34b049a8",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	},
+	{
+		uid: "2a24ec67",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

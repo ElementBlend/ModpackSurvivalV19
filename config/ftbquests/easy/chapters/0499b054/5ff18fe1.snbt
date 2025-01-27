@@ -1,0 +1,31 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"Code Breaker is a tool that allows a player to open security locked blocks without knowing the password. To craft, the player needs 2 diamonds, 2 gold, 2 redstone, 1 redstone torch, 1 nether star, and 1 emerald."
+	],
+	tasks: [{
+		uid: "6df43128",
+		type: "item",
+		items: [{
+			item: "securitycraft:codebreaker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a50d7e18",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e6676b37",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

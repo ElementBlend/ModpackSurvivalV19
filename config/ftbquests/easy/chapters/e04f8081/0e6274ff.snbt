@@ -1,0 +1,35 @@
+{
+	title: "Finish Thermal",
+	icon: "thermalexpansion:frame 1 148",
+	x: 2.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "&aFinish the Thermal Chapter",
+	text: [
+		"Congrats On Finishing the Thermal Chapter"
+	],
+	dependencies: [
+		"b8182d02"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "11a3833b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ca84523e",
+		type: "ftbmoney:money",
+		ftb_money: 3000000L
+	},
+	{
+		uid: "35a366b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	}]
+}

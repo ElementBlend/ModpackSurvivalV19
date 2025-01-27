@@ -1,0 +1,35 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"When placed, the Interdiction Torch casts a light level of 15 and creates a small, invisible, protective bubble that covers an 8-block radius. Hostile mobs and projectiles are physically repelled by the bubble.",
+		"",
+		"Although the Interdiction Torch deflects physical attacks such as punches, arrows and thrown potion bottles, it will not deflect magic spells or rays."
+	],
+	dependencies: [
+		"5fba0d4c"
+	],
+	tasks: [{
+		uid: "6df53881",
+		type: "item",
+		items: [{
+			item: "projecte:interdiction_torch"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c5687097",
+		type: "ftbmoney:money",
+		ftb_money: 850L
+	},
+	{
+		uid: "addc7b24",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

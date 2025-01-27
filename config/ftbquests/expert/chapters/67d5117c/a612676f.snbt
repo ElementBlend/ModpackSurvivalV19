@@ -1,0 +1,36 @@
+{
+	x: -11.0d,
+	y: -3.5d,
+	text: [
+		"When placed in the world, it will look like a gray block with a smokey dynamic texture. After a redstone signal has been applied, it turns into a viewport to the sky (on all sides). When looking at the sky through this block, clouds will not be rendered, only the sky itself, the sun, moon and stars. An inverted version which is deactivated when a redstone signal is applied is also available as the Inverted Sky Block."
+	],
+	tasks: [{
+		uid: "8ade87f1",
+		type: "item",
+		items: [{
+			item: "openblocks:sky"
+		}]
+	},
+	{
+		uid: "b61565e4",
+		type: "item",
+		items: [{
+			item: "openblocks:sky 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ff5aad4f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d5de0921",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

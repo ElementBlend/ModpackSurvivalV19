@@ -1,0 +1,34 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"The sifter is a block that is used to obtain ancient items and artifacts. It uses certain blocks to obtain a number of items that are much harder to obtain. It is the only way to normally obtain Dominican Amber. It was released in build 6.0. To use, place the sift-able block into the top square. The progress bar will \"sift\" downwards, and then the original block will disappear, either yielding one of the below loots or resulting in nothing.",
+		"",
+		"&7Tip: Once the first 4 slots have items in them the sifter will only produce those items"
+	],
+	dependencies: [
+		"c5a90481"
+	],
+	tasks: [{
+		uid: "523d51c4",
+		type: "item",
+		items: [{
+			item: "fossil:sifter"
+		}]
+	}],
+	rewards: [{
+		uid: "3a5a30ab",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "068f3997",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cracked_chest"
+			}
+		}
+	}]
+}

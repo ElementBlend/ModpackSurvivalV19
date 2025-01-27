@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"This series of quests will show you how to the modpack from start to finish. These quests have no reward and are only here to guide you thru the entire modpack",
+		"",
+		"These quests are currently WIP."
+	],
+	tasks: [{
+		uid: "5f2863ee",
+		type: "checkmark",
+		title: "Progression",
+		icon: {
+			id: "botania:cosmetic",
+			Damage: 31s,
+			tag: {}
+		}
+	}]
+}

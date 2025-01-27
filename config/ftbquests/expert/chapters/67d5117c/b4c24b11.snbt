@@ -1,0 +1,36 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"When you stand on the XP Drain, it will drain your XP and store it in a tank that you build beneath it. Right click on the tank to get back your XP."
+	],
+	tasks: [{
+		uid: "9ded7803",
+		type: "item",
+		items: [{
+			item: "openblocks:tank"
+		}]
+	},
+	{
+		uid: "eff112c8",
+		type: "item",
+		items: [{
+			item: "openblocks:xp_drain"
+		}]
+	}],
+	rewards: [{
+		uid: "c99f24fe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4de57492",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

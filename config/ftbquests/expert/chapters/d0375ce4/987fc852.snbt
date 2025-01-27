@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: -9.5d,
+	text: [
+		"generates power when provided with Biofuel from the Bioreactor. Biofuel will produce 160RF/t, with one bucket (1,000 mB) of biofuel producing a total of 640,000 RF. About 28 Biofuel generators can be run from 1 Bioreactor running at maximum efficiency."
+	],
+	dependencies: [
+		"d9ff78d6"
+	],
+	tasks: [{
+		uid: "103adb2a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:biofuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "65e0bdea",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8d3da284",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Erebus",
+	icon: "erebus:portal_activator",
+	always_invisible: false,
+	group: 2028479705,
+	default_quest_shape: ""
+}

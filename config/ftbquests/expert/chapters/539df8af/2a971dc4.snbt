@@ -1,0 +1,37 @@
+{
+	title: "Pomoshchnik",
+	icon: "minecraft:clock",
+	x: -1.0d,
+	y: 2.5d,
+	description: "&aWe know we can trust you fully now",
+	text: [
+		"Now that you been here awhile we trust you enough to give you some harder and more ahh... what is the word klassifitsirovannyy you know?."
+	],
+	dependencies: [
+		"16e57b5d",
+		"99204917",
+		"6470222f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e4256403",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 4000000
+	}],
+	rewards: [{
+		uid: "881ad56b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "8196fa7d",
+		type: "ftbmoney:money",
+		ftb_money: 1000000L
+	}]
+}

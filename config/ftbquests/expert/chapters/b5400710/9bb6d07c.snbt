@@ -1,0 +1,44 @@
+{
+	x: -8.5d,
+	y: 6.0d,
+	text: [
+		"When activated (Sneak + Right Click) this sigil will allows you to stick to vertical surfaces when holding sneak costing 100 LP Each 5 secounds"
+	],
+	dependencies: [
+		"5cde16f6"
+	],
+	tasks: [{
+		uid: "62b64d4c",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sigil_claw",
+			tag: {
+				binding: {
+					name: "KevSkyBoy",
+					id: {
+						L: -5396668163246951912L,
+						M: 173945678130266555L
+					}
+				},
+				activated: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da42491e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3a9627d4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

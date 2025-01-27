@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: -2.5d,
+	text: [
+		"uses power and RGB (red, green, blue) dyes to produce other colors. To select the color being produced you will need Laser Lens of that color."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "e84f6d91",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:dye_mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "6fc68c7a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f17a92c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

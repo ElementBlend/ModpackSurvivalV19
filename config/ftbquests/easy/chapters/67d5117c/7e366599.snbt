@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	text: [
+		"Just a decoration block that looks nice"
+	],
+	tasks: [{
+		uid: "e7f2c53b",
+		type: "item",
+		items: [{
+			item: "openblocks:path"
+		}]
+	}],
+	rewards: [{
+		uid: "e1f976ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"Store: 62,500,000",
+		"Transfer: 12,500/Tick "
+	],
+	dependencies: [
+		"c395a2ed"
+	],
+	tasks: [{
+		uid: "2961033b",
+		type: "item",
+		items: [{
+			item: "quantumflux:quibitcluster 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "d6df8b45",
+		type: "ftbmoney:money",
+		ftb_money: 3600L
+	},
+	{
+		uid: "89b6ff97",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "0cd3259c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

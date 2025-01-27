@@ -1,0 +1,37 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"The book of skills contains loads of skills you can level up and more skills you can find and unlock via exploring.",
+		"",
+		"&7Tip: Once you craft the Book of Skills you will unlock the Book of Skills in your inventory and will always be able to access it without",
+		"even having the Book of Skills on you."
+	],
+	dependencies: [
+		"86da438a"
+	],
+	tasks: [{
+		uid: "754b6ac7",
+		type: "item",
+		items: [{
+			item: "improvableskills:skills_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2a46cf5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "527c9e2c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

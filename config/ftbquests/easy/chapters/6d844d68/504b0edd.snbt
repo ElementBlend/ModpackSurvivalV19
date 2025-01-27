@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"The Item Collector is basically a hopper with a range. You can place it on any Inventory you want and it will start collecting items in a 3 block radius around the item collector. Simply (shift) place the item collector on the inventory the collected items are supposed to go into."
+	],
+	tasks: [{
+		uid: "f480c34a",
+		type: "item",
+		items: [{
+			item: "randomthings:itemcollector"
+		}]
+	}],
+	rewards: [{
+		uid: "9373008f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "258e3ec0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

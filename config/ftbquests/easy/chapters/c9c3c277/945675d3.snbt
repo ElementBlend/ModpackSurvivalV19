@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"011ab515"
+	],
+	tasks: [{
+		uid: "3967c55b",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "endreborn:book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1424191",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

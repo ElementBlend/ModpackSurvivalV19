@@ -1,0 +1,41 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	text: [
+		"&aWe need to power our hideout codename Luna",
+		"&rUse a task screen to input power"
+	],
+	dependencies: [
+		"839eb78a"
+	],
+	tasks: [{
+		uid: "58190590",
+		type: "forge_energy",
+		value: 10000000L
+	}],
+	rewards: [{
+		uid: "2deacfdc",
+		type: "ftbmoney:money",
+		ftb_money: 150000L
+	},
+	{
+		uid: "eaeb64e4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "13f964a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

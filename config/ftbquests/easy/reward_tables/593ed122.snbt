@@ -1,0 +1,349 @@
+{
+	title: "The Fat Man Nuke",
+	loot_size: 3,
+	use_title: true,
+	rewards: [{
+		item: "botania:manaresource 1 14",
+		count: 64
+	},
+	{
+		item: {
+			id: "creativeplus:end_gateway",
+			tag: {
+				display: {
+					Name: "End Gateway"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "creativeplus:superbonemeal",
+			tag: {
+				display: {
+					Name: "Instant Bone Meal"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mysticalagradditions:neutronium_seeds",
+			tag: {
+				display: {
+					Name: "Neutronium Seeds"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mysticalagradditions:dragon_egg_seeds",
+			tag: {
+				display: {
+					Name: "Dragon Egg Seeds"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mysticalagradditions:nether_star_seeds",
+			tag: {
+				display: {
+					Name: "Nether Star Seeds"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "bloodmagic:sacrificial_dagger",
+			Damage: 1s,
+			tag: {
+				display: {
+					Name: "Creative Sacrificial Dagger"
+				},
+				sacrifice: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "blue_skies:mudkipz_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: -2881321538149922614L,
+						UUIDLeast: -4697826918557936613L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 5119759046603915650L,
+						UUIDLeast: -8415572381637199883L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -5585595587529978611L,
+						UUIDLeast: -5365941917528731569L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				},
+				display: {
+					Name: "Mudkipz Sword"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:angelring",
+			Damage: 2s,
+			tag: {
+				display: {
+					Name: "Angel Ring"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:angelring",
+			Damage: 3s,
+			tag: {
+				display: {
+					Name: "Angel Ring"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "mysticalagradditions:storage",
+			tag: {
+				display: {
+					Name: "§5Block of Insanium Essence"
+				}
+			}
+		},
+		count: 32
+	},
+	{
+		item: {
+			id: "projectex:matter",
+			Damage: 11s,
+			tag: {
+				display: {
+					Name: "Fading Matter"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "projectex:matter",
+			Damage: 10s,
+			tag: {
+				display: {
+					Name: "White Matter"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {
+				display: {
+					Name: "Philosopher's Stone"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "avaritia:resource",
+			Damage: 5s,
+			tag: {
+				display: {
+					Name: "Infinity Catalyst"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "avaritiatweaks:infinitato",
+			tag: {
+				display: {
+					Name: "Infinitato"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "environmentaltech:void_botanic_miner_cont_6",
+			tag: {
+				display: {
+					Name: "Void Botanic Miner Controller Tier 6"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "environmentaltech:void_res_miner_cont_6",
+			tag: {
+				display: {
+					Name: "Void Resource Miner Controller Tier 6"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "environmentaltech:void_ore_miner_cont_6",
+			tag: {
+				display: {
+					Name: "Void Ore Miner Controller Tier 6"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "extendedcrafting:material",
+			Damage: 32s,
+			tag: {
+				display: {
+					Name: "The Ultimate Ingot"
+				}
+			}
+		},
+		count: 6
+	},
+	{
+		item: {
+			id: "ae2wtlib:wut_creative",
+			tag: {
+				StoredTerminals: [{
+					id: "wct:wct_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wft:wft_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wit:wit_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wpt:wpt_creative",
+					Count: 1b,
+					Damage: 0s
+				}],
+				IsInRange: 0b,
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -8143308774188823233L,
+						UUIDLeast: -9193824599314561515L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.flailing.name"
+				},
+				display: {
+					Name: "Creative Wireless Ultimate Terminal"
+				},
+				SelectedTerminal: 0,
+				internalCurrentPower: 1600000.0d
+			}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:creative_energy_cell",
+			tag: {
+				display: {
+					Name: "Creative Energy Cell"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:capacitor",
+			Damage: 32000s,
+			tag: {
+				Energy: 25000000,
+				Quality: {},
+				display: {
+					Name: "Flux Capacitor (Creative)"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "storagedrawers:upgrade_creative",
+			tag: {
+				display: {
+					Name: "Creative Storage Upgrade"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "extrautils2:itemcreativedestructionwand",
+			tag: {
+				display: {
+					Name: "Creative Destruction Wand"
+				}
+			}
+		}
+	},
+	{
+		item: "ic2:te 1 86"
+	}],
+	loot_crate: {
+		string_id: "the_fat_man_nuke",
+		item_name: "The Fat Man Nuke",
+		color: 16777215,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

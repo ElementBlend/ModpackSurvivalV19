@@ -1,0 +1,31 @@
+{
+	x: -11.0d,
+	y: 6.5d,
+	text: [
+		"Used to create sandwiches and/or cut meats."
+	],
+	tasks: [{
+		uid: "7d0de501",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cuttingboarditem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d666c040",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "f66fd0fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

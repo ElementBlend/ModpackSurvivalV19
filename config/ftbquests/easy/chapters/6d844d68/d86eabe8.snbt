@@ -1,0 +1,29 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Works like a normal Block of Redstone except it only outputs power on one side."
+	],
+	tasks: [{
+		uid: "1a5670a3",
+		type: "item",
+		items: [{
+			item: "randomthings:sidedredstone"
+		}]
+	}],
+	rewards: [{
+		uid: "c6a48c57",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "50071107",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

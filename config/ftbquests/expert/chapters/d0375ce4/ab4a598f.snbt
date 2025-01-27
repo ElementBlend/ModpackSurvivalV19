@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"used to automate the crafting of recipes that include fluid buckets. An internal tank holds the fluid used for recipe crafting. When a recipe is inserted into the internal crafting grid, the Fluid Crafter will output the crafting result into the output slot, consuming fluid from the internal tank rather than the inserted bucket. Recipes can be locked to prevent items being inserted into the wrong crafting slot."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "10ee7c47",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "c4a24fb1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "eb4c90aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

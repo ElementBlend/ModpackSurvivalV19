@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: 1.5d,
+	text: [
+		"Time to respawn the Dragon, Return to the end and place a End Crystal in the middle of each side on the Dragon portal used to return"
+	],
+	dependencies: [
+		"3a48fd94"
+	],
+	tasks: [{
+		uid: "915bedd3",
+		type: "item",
+		items: [{
+			item: "minecraft:end_crystal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "128ab2d5",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "564d8fb9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

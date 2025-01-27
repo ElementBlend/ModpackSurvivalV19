@@ -1,0 +1,33 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	text: [
+		"used to process mobs and animals into Liquid Meat and Pink Slime. The animals killed by this machine will not produce drops or experience. The default working area is 1x3x1 in front of the machine and can be expanded with Range Addons. Mobs killed will produce 5 mb of Liquid meat per HP and 1 mb of Pink Slime per HP (50 mb of Liquid Meat and 10 mb of Pink Slime for Cows and Pigs). The Mob Slaughter Factory deals 300 damage per operation, killing all Vanilla mobs other than the Wither in a single hit. Fluid can be collected from the internal tanks by right clicking with an empty Bucket. Each operation consumes 1,000 RF from the work energy buffer and damages mobs and animals within the working area."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "7e7d5f49",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "015be0df",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "19cd523d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

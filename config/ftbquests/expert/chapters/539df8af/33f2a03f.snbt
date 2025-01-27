@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: 4.5d,
+	dependencies: [
+		"de3903cc"
+	],
+	tasks: [{
+		uid: "0c8a03a1",
+		type: "forge_energy",
+		value: 1000000000L
+	}],
+	rewards: [{
+		uid: "840b9fd0",
+		type: "ftbmoney:money",
+		ftb_money: 40000000L
+	},
+	{
+		uid: "b41d167d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

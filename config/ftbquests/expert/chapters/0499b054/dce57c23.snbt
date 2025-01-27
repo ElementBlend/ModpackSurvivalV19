@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		" Mines are an explosive block that explodes when stepped on by players or mobs. They also explode when a player tries to break them. The one of the ways to remove them without them exploding, is using the universal block remover. Another way is to use wire cutters to disable it, then the player can mine it with a pickaxe. To craft in survival, the player will need 3 iron ingots and a piece of gunpowder. Place the gunpowder at the bottom center of the player's crafting table and surround the gunpowder with the iron ingots on the three sides."
+	],
+	tasks: [{
+		uid: "51de2303",
+		type: "item",
+		items: [{
+			item: "securitycraft:mine"
+		}]
+	}],
+	rewards: [{
+		uid: "74164c62",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "468bf725",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

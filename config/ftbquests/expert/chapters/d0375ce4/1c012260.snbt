@@ -1,0 +1,24 @@
+{
+	title: "Industrial Foregoing",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:info2.png"
+		}
+	},
+	x: -4.0d,
+	y: -6.5d,
+	shape: "rsquare",
+	text: [
+		"Industrial Foregoing adds a lot of useful machines, In this chapter you will learn about these machines."
+	],
+	tasks: [{
+		uid: "2c822db8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "3063962f",
+		type: "item",
+		item: "industrialforegoing:book_manual"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"&aBlue stabber&r",
+		"damages mobs that touch any side of it other than the bottom. The Spike does 8 Hearts every 0.5 seconds. Mobs will not walk around the block, but will try to walk over it as if it were a regular solid block. Due to its high blast resistance most explosions will not destroy it. Loot dropped by mobs killed by Diamond Spikes will be the same as if they were killed by a player (Including player-kill specific drops). Diamond Spikes will only cause passive mobs to drop experience orbs when killed, unlike Golden Spikes, which drop experience for hostile mobs as well."
+	],
+	dependencies: [
+		"80b15720"
+	],
+	tasks: [{
+		uid: "74bb9899",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "f98fb3a6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "cd1d27d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

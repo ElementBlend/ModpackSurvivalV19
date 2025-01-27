@@ -1,0 +1,56 @@
+{
+	title: "Wired Charger",
+	icon: "enderio:block_wired_charger",
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"Used to recharge items which use Micro Infinity (�I) or other forms of Forge Energy, as well as items which use Redstone Flux.",
+		"",
+		"Its charging speed depends entirely on the energy storage of the item that is currently being charged. Items with larger energy storage will be charged faster.",
+		"",
+		"Like most Ender IO machines, the Wired Charger requires at least a Basic Capacitor to be installed to function. Better capacitors only increase the internal energy buffer."
+	],
+	dependencies: [
+		"ae00e650",
+		"a3b9acb3"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "8078fedf",
+		type: "item",
+		items: [{
+			item: "enderio:block_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a15f32f",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 1"
+	},
+	{
+		uid: "2b560545",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "e30dad23",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "b1844901",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

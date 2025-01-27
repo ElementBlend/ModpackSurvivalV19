@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: -9.0d,
+	text: [
+		"used to teleport items and entities in the direction of the conveyor belt. The upgrade is applied by right clicking on a conveyor belt. Right clicking the placed upgrade will open a GUI, allowing for a whitelist or blacklist of items to be set or adjusting the distance of the teleportation. Setting whitelists and blacklist of entities can be accomplished with mobs trapped in a Mob Imprisonment Tool. Shift right clicking with an empty hand will remove the upgrade."
+	],
+	dependencies: [
+		"302531ef"
+	],
+	tasks: [{
+		uid: "2517d449",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "bc5580c9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

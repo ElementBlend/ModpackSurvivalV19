@@ -1,0 +1,31 @@
+{
+	x: -8.0d,
+	y: -1.0d,
+	text: [
+		"blows items and entities away. The blowing force gets gradually reduced over a five or six block distance, and the blowing effect cannot be blocked with any blocks. Fans do not suck; they therefore can be approached from behind without feeling any effect.",
+		"",
+		"Fans are often used in mob farms. Unlike water, they can push Endermen without having them teleport away."
+	],
+	tasks: [{
+		uid: "e38d7b6e",
+		type: "item",
+		items: [{
+			item: "openblocks:fan"
+		}]
+	}],
+	rewards: [{
+		uid: "26d868e8",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e4aa1f86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

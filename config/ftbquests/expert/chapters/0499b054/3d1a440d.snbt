@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"Universal Key Changer is a tool that will allow the player to change the key code on items/blocks that require a key code. However, be careful because it can change things like Retinal Scanners or Keycard Readers, making the block not function correctly. To make this item, the player needs 2 iron ingots, 2 redstone, and 1 laser block."
+	],
+	tasks: [{
+		uid: "f0a57474",
+		type: "item",
+		items: [{
+			item: "securitycraft:universal_key_changer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9aec8913",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "34eb1119",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

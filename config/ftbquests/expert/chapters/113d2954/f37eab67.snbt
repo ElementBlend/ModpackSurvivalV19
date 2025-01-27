@@ -1,0 +1,52 @@
+{
+	title: "Mana Diamond Mesh",
+	icon: "exnihilocreatio:item_mesh 1 4",
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"The mana diamond mesh is the same for gravel as steel mesh but has some other drops for blocks like crushed netherrack, crushed skystone and so on"
+	],
+	dependencies: [
+		"17912bdc"
+	],
+	tasks: [{
+		uid: "d5503297",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "2319ec08",
+		type: "item",
+		item: "exnihilocreatio:block_netherrack_crushed",
+		count: 16
+	},
+	{
+		uid: "dd9130c7",
+		type: "item",
+		item: "exnihilocreatio:block_endstone_crushed",
+		count: 16
+	},
+	{
+		uid: "f9af3630",
+		type: "item",
+		item: "exnihilocreatio:block_skystone_crushed",
+		count: 16
+	},
+	{
+		uid: "9d93be54",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b8bfe0ad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

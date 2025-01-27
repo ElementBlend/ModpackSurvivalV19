@@ -1,0 +1,36 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	text: [
+		"A portable Transmutation Table with a crafting function that allows you to shift click craft dirctly from your emc options"
+	],
+	dependencies: [
+		"02d1da5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d47d37d",
+		type: "item",
+		items: [{
+			item: "projectex:arcane_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "662d58e4",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "6eb01194",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 6
+	}]
+}

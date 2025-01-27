@@ -1,0 +1,36 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"Blue Skies has one Dungeon (A tower with a boss ontop) find this Dungeon in each side tower (4) you will find a key (Keep in mind they might be hidden)",
+		"once you find all the keys go to the top floor and right click the middle piller"
+	],
+	dependencies: [
+		"f7e1a60d",
+		"0ca35148"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b56cf51a",
+		type: "item",
+		items: [{
+			item: "blue_skies:dungeon_key"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2c5e076b",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "0ccc8452",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"The Universal Block Remover is a tool that will remove almost any block within the mod. It will allow the player to pick up reinforced blocks, since they are not able to be mined normally. The crafting recipe is 2 iron and shears. It has 476 durability."
+	],
+	tasks: [{
+		uid: "18d01e31",
+		type: "item",
+		items: [{
+			item: "securitycraft:universal_block_remover"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d347300",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "53594347",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

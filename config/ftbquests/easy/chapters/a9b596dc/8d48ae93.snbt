@@ -1,0 +1,35 @@
+{
+	title: "Finish SecurityCraft",
+	icon: "securitycraft:remote_access_mine",
+	x: 1.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "&AFinish the SecurityCraft Chapter",
+	text: [
+		"Congrats on finishing the SecurityCraft Chapter"
+	],
+	dependencies: [
+		"0499b054"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d521d892",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b3cdc3a8",
+		type: "ftbmoney:money",
+		ftb_money: 300000L
+	},
+	{
+		uid: "0169b860",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	}]
+}

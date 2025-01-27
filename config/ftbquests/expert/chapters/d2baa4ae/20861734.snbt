@@ -1,0 +1,45 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:cheat.png"
+		}
+	},
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"I do understand that some people might do not understand PSI or do not want to do it at all and thats ok",
+		"so here is a link to a pastebin someone made that you can use to import all the levels",
+		"",
+		"https://pastebin.com/6Q5gA3DA",
+		"Credits to Melazu for making the pastebin"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b2bebcd2",
+		type: "checkmark",
+		title: "PSI Level Guide (Cheat sheet)"
+	}],
+	rewards: [{
+		uid: "7cd2a063",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"Hereby this dokument tell you that you or the last beholder of this dokument cheated and therefor do not deserve respect and glory\\n\\nApproval of dokument\\nSigned Kevskyboy\"}"
+				],
+				author: "KevSkyBoy",
+				title: "Cool Dokument"
+			}
+		}
+	},
+	{
+		uid: "185167ad",
+		type: "command",
+		title: "Get link",
+		icon: "minecraft:bookshelf",
+		command: "/me just cheated so its ok for you to do so also https://pastebin.com/6Q5gA3DA",
+		player_command: true
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 7.5d,
+	y: 4.0d,
+	dependencies: [
+		"b665f6e7"
+	],
+	tasks: [{
+		uid: "57cee1ad",
+		type: "item",
+		items: [{
+			item: "storagenetwork:remote"
+		}],
+		ignore_nbt: 1b
+	}]
+}

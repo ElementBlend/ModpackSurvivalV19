@@ -1,0 +1,39 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"Need more gems? put Archaologist on your tinkers pickaxe"
+	],
+	tasks: [{
+		uid: "eba8cbc1",
+		type: "item",
+		items: [{
+			item: "fossil:scarab_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "79f67ee3",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "6ae72947",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cracked_chest"
+			}
+		}
+	},
+	{
+		uid: "29e65787",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"Using power this machine will produce any output found in a standard \"Cobbleworks\" setup. It has 5 output stages, with the first being cobblestone, and the other 4 configurable and generated from the previous stage.",
+		"",
+		"These modes include Furnace, 2x2 craft, Grind, and 3x3 craft.",
+		"",
+		"Several of these can replace a much bulkier processing system, however the speed is limited and you cannot perform two actions with the cobblestone, such as cooking for stone and grinding for gravel."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73646117"
+	],
+	tasks: [{
+		uid: "e3f6e6eb",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:material_stonework_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "fd2c6bca",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d7c0a9f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

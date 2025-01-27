@@ -1,0 +1,7 @@
+{
+	title: "Advanced Generators",
+	icon: "advgenerators:turbine_rotor_manyullyn",
+	always_invisible: false,
+	group: -1447717156,
+	default_quest_shape: ""
+}

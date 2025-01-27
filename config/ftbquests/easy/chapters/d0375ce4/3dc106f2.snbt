@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		" used to process silk touched ore such as coal, lapis, and diamonds into their respective item drops. This machine will not accept ores that drop themselves when harvested. If Essence is provided to the machine, the Ore Processor will process the ores as if harvested with the Fortune enchantment. Each level of Fortune requires 200 mB of Essence, consuming up to 600 mB to process an ore with Fortune III. Each operation will process a single ore from the input slots, consume 1,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "ccbf0619",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_processor"
+		}]
+	}],
+	rewards: [{
+		uid: "2d665c64",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ded25081",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 12.0d,
+	y: 1.0d,
+	text: [
+		"&aEnder Pearls are nice :D&r",
+		"Can be planted on end stone to grow enderpearls"
+	],
+	tasks: [{
+		uid: "b5247f9b",
+		type: "item",
+		items: [{
+			item: "extrautils2:enderlilly"
+		}]
+	}],
+	rewards: [{
+		uid: "443ee065",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a2424dfd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

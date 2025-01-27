@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+    <recipe name="Tweak: Stick from Wood" disabled="true" required="false">
+        <crafting>
+            <grid size="1x2">
+                <item name="logWood"/>
+                <item name="logWood"/>
+            </grid>
+            <output name="minecraft:stick, stickWood" amount="16" />
+        </crafting>
+    </recipe>
+    <recipe name="Tweak: Chest from Wood" disabled="true" required="false">
+        <crafting>
+            <grid>
+                <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+                <item name="logWood"/><item/><item name="logWood"/>
+                <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+            </grid>
+            <output name="minecraft:chest, chestWood" amount="4" />
+        </crafting>
+    </recipe>
+    <recipe name="Alloy: Endergy Crystalline Alloy" required="true">
+        <alloying energy="10000" exp="0.5">
+            <input name="itemPulsatingPowder"/>
+            <input name="ingotLumium"/>
+            <input name="ingotOsmium"/>
+            <output name="ingotCrystallineAlloy"/>
+        </alloying>
+    </recipe>
+    <recipe name="Alloy: Endergy Crystalline Pink Slime" required="false">
+        <alloying energy="10000" exp="0.5">
+            <input name="itemPulsatingPowder"/>
+            <input name="industrialforegoing:pink_slime_ingot"/>
+            <input name="ingotElectricalSteel"/>
+            <output name="ingotCrystallinePinkSlime"/>
+        </alloying>
+    </recipe>
+    <recipe name="Alloy: Endergy Melodic Alloy" required="true">
+        <alloying energy="20000" exp="0.5">
+            <input name="minecraft:chorus_flower"/>
+            <input name="END_STEEL"/>
+            <input name="ingotBloodBronze"/>
+            <output name="ingotMelodicAlloy"/>
+        </alloying>
+    </recipe>
+    <recipe name="Alloy: Endergy Stellar Alloy" required="true">
+        <alloying energy="20000" exp="0.5">
+            <input name="mysticalagradditions:special"/>
+            <input name="ingotMelodicAlloy"/>
+            <input name="avaritiatweaks:gaia_block"/>
+            <output name="ingotStellarAlloy" amount="2"/>
+        </alloying>
+    </recipe>
+    <recipe name="Alloy: Energetic Silver Alloy" required="false">
+        <alloying energy="10000" exp="0.7">
+            <input name="blockRedstone"/>
+            <input name="ingotSilver"/>
+            <input name="itemClayedGlowstone"/>
+            <output name="ingotEnergeticSilver"/>
+        </alloying>
+    </recipe>
+    <recipe name="Spawner, Animated" required="false">
+        <spawning>
+            <entity name="erebus:erebus.animated_block" costMultiplier="20.0"
+                    disabled="true" soulvial="false"/>
+            <entity name="erebus:erebus.animated_chest" costMultiplier="20.0"
+                    disabled="true" soulvial="false"/>
+            <entity name="erebus:erebus.animated_bamboo_crate" costMultiplier="20.0"
+                    disabled="true" soulvial="false"/>
+            </spawning>
+        </recipe>
+        <grindingball name="Time Machine" grinding="3" chance="4" power="0.3" durability="99999999" >
+            <item name="fossil:ancient_clock"/>
+        </grindingball>
+</enderio:recipes>

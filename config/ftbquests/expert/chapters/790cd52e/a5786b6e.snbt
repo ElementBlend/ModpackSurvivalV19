@@ -1,0 +1,37 @@
+{
+	title: "Hendheld Crafting Table",
+	icon: "extendedcrafting:handheld_table",
+	x: -9.0d,
+	y: -10.0d,
+	text: [
+		"Bring a crafting table everywhere"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	optional: true,
+	tasks: [{
+		uid: "46700604",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:handheld_table"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "993ce321",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "31dee85e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

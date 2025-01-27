@@ -1,0 +1,35 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	text: [
+		"&aOh man this is some speed&r",
+		"can be used in almost every machine from the mod.",
+		"Each upgrade consumes 1 grid point.",
+		"The Upgrade Speed (Magical) which is the second tier of upgrades. It can only be stacked by 16 in a machine."
+	],
+	dependencies: [
+		"53c4d202"
+	],
+	tasks: [{
+		uid: "e6209f5f",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "f14f27df",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "e3af3c16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

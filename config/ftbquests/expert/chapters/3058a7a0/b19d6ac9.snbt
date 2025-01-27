@@ -1,0 +1,43 @@
+{
+	x: 0.5d,
+	y: -2.5d,
+	text: [
+		"Increases the power of the other arcs. can only be crafted or be gotten from a lost crate"
+	],
+	dependencies: [
+		"bc5bb95e"
+	],
+	tasks: [{
+		uid: "480aa08b",
+		type: "item",
+		items: [{
+			item: "blue_skies:arcs 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e73f4fb1",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "4ababa22",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "a6ca90ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

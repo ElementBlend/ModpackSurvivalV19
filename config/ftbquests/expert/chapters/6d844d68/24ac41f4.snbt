@@ -1,0 +1,29 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"The Lapis Lamp emits a light level of 15. However the light of this lamp does not prevent anything that requires darkness (e.g. Mob Spawning)."
+	],
+	tasks: [{
+		uid: "373c4542",
+		type: "item",
+		items: [{
+			item: "randomthings:lapislamp"
+		}]
+	}],
+	rewards: [{
+		uid: "0c64ccdd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b64bd309",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"increases the amount of Life Essence gained from using the Sacrificial Knife or the Ritual of the Feathered Knife by 10%. This bonus is cumulative, so 2 runes increases LP gain by 20%, 3 by 30% and so on."
+	],
+	dependencies: [
+		"5cde16f6"
+	],
+	tasks: [{
+		uid: "9ab682d8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "2e450234",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "f467b3dc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "07ab146f",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 4"
+	}]
+}

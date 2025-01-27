@@ -1,0 +1,31 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		"Allows a Player to see sounds when it is equipped in the helmet slot while impairing visibility of the game world. The screen displayed when wearing the Glasses overlays an Obsidian like texture that is slightly transparent, making it very hard to make out what is shown behind it."
+	],
+	tasks: [{
+		uid: "c3f50e67",
+		type: "item",
+		items: [{
+			item: "openblocks:sonic_glasses"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4fd4bf96",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2fd092d8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

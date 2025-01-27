@@ -1,0 +1,34 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"The fabled alchemical catalyst that allows the transmutation of base metals into gold, the Philosopher's Stone is arguably the foundation of ProjectE. There are three basic uses. Firstly, as a component in the construction of items like the Transmutation Table. Secondly, as a transmutation tool, for example turning iron into gold or vice versa. Finally, as a portable crafting table, capable of smelting items."
+	],
+	tasks: [{
+		uid: "bc0b89ee",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a834393d",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "26471708",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 4
+	}]
+}

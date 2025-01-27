@@ -1,0 +1,47 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"Used to transmit Redstone Flux (RF).",
+		"",
+		"Tranfer rate of 640 RF/T.",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d674658"
+	],
+	tasks: [{
+		uid: "ec1b79fc",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "69b0a6cc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a5011794",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "09a1091e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

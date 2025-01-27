@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	text: [
+		"used to process Sewage collected from the Animal Sewer. When refined, 2,000 mB of Sewage is converted into Fertilizer. Each operation consumes 1,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "ff5cf1fe",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:sewage_composter_solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "9e578f19",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c1ac57ae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

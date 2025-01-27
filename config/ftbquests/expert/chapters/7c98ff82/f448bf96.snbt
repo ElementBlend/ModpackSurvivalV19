@@ -1,0 +1,52 @@
+{
+	title: "Crafter",
+	icon: "enderio:block_crafter",
+	x: -2.5d,
+	y: -4.5d,
+	text: [
+		"Will automatically craft when supplied with power (2,500 Redstone Flux (RF) per crafted item). It can be upgraded with capacitors to increase speed and energy storage. Basic energy storage is 100,000 RF and will draw a maximum of 125 RF/t."
+	],
+	dependencies: [
+		"bf5b5323",
+		"ae00e650"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bab18996",
+		type: "item",
+		items: [{
+			item: "enderio:block_crafter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "426a6217",
+		type: "item",
+		item: "enderio:item_basic_capacitor"
+	},
+	{
+		uid: "db42a292",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "5b1a4d58",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "9f7f5e6a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

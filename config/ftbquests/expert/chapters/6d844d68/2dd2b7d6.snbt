@@ -1,0 +1,49 @@
+{
+	x: 5.5d,
+	y: 3.5d,
+	text: [
+		"Using Ectoplasm you can craft Spectre versions of vanilla tools. All of these tools have higher durability & enchantability than their diamond counterpart. The Spectre Pickaxe / Axe / Shovel all increase your block range by 3 while holding them."
+	],
+	tasks: [{
+		uid: "1de9202d",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrepickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc05843d",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b364a1d7",
+		type: "item",
+		items: [{
+			item: "randomthings:spectreshovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26d2fba3",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "41ad4871",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

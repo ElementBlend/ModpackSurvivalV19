@@ -1,0 +1,1052 @@
+{
+	title: "Cybernetic Crate",
+	loot_size: 1,
+	rewards: [{
+		item: "ic2:crafting 1 7"
+	},
+	{
+		item: "ic2:crafting 1 5"
+	},
+	{
+		item: "ic2:crafting 1 6"
+	},
+	{
+		item: "ic2:ingot 1 5",
+		weight: 10
+	},
+	{
+		item: "ic2:ingot 1 5",
+		count: 3
+	},
+	{
+		item: "ic2:ingot 1 5",
+		count: 6
+	},
+	{
+		item: "ic2:ingot 1 5",
+		count: 10
+	},
+	{
+		item: "ic2:ingot 1 5",
+		count: 16
+	},
+	{
+		item: "ic2:ingot",
+		weight: 10
+	},
+	{
+		item: "ic2:ingot",
+		count: 4
+	},
+	{
+		item: "ic2:te 1 3"
+	},
+	{
+		item: "minecraft:coal",
+		weight: 10
+	},
+	{
+		item: "minecraft:coal",
+		count: 3,
+		weight: 10
+	},
+	{
+		item: "minecraft:coal",
+		count: 9
+	},
+	{
+		item: "minecraft:coal",
+		count: 16
+	},
+	{
+		item: "minecraft:iron_ingot",
+		weight: 10
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 4,
+		weight: 10
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 16
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 32
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 64
+	},
+	{
+		item: "minecraft:redstone",
+		weight: 10
+	},
+	{
+		item: "minecraft:redstone",
+		count: 3,
+		weight: 10
+	},
+	{
+		item: "minecraft:redstone",
+		count: 16
+	},
+	{
+		item: "minecraft:redstone",
+		count: 32
+	},
+	{
+		item: "minecraft:redstone",
+		count: 64
+	},
+	{
+		item: "ic2:coke",
+		weight: 10
+	},
+	{
+		item: "ic2:coke",
+		count: 3
+	},
+	{
+		item: "ic2:coke",
+		count: 8
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			Damage: 1s,
+			tag: {
+				type: 1b,
+				insulation: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			Damage: 1s,
+			tag: {
+				type: 1b,
+				insulation: 0b
+			}
+		},
+		count: 6
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 1b
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 1b
+			}
+		},
+		count: 6
+	},
+	{
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 1b
+			}
+		},
+		count: 16
+	},
+	{
+		item: {
+			id: "ic2:heat_storage",
+			tag: {
+				advDmg: 0
+			}
+		}
+	},
+	{
+		item: "ic2:cutter",
+		weight: 10
+	},
+	{
+		item: "ic2:forge_hammer",
+		weight: 10
+	},
+	{
+		item: "ic2:treetap",
+		weight: 20
+	},
+	{
+		item: "extendedcrafting:pedestal"
+	},
+	{
+		item: "environmentaltech:connector",
+		weight: 10
+	},
+	{
+		item: "environmentaltech:connector",
+		count: 4
+	},
+	{
+		item: "environmentaltech:connector",
+		count: 8
+	},
+	{
+		item: "environmentaltech:connector",
+		count: 16
+	},
+	{
+		item: "environmentaltech:modifier_null"
+	},
+	{
+		item: "environmentaltech:modifier_speed"
+	},
+	{
+		item: "environmentaltech:void_botanic_miner_cont_1"
+	},
+	{
+		item: "environmentaltech:void_res_miner_cont_1"
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_redstone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_dragonsbreath"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ice"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_death"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_culinary"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_potion"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_overclock"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		}
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		}
+	},
+	{
+		item: "mekanism:tierinstaller 1 2"
+	},
+	{
+		item: "mekanism:tierinstaller 1 3"
+	},
+	{
+		item: {
+			id: "mekanism:basicblock",
+			Damage: 6s,
+			tag: {
+				tier: 0
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "mekanism:basicblock",
+			Damage: 6s,
+			tag: {
+				tier: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:basicblock",
+			Damage: 6s,
+			tag: {
+				tier: 2
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:basicblock",
+			Damage: 6s,
+			tag: {
+				tier: 3
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 5s,
+			tag: {
+				recipeType: 0
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 5s,
+			tag: {
+				recipeType: 6
+			}
+		}
+	},
+	{
+		item: {
+			id: "mekanism:machineblock",
+			Damage: 5s,
+			tag: {
+				recipeType: 4
+			}
+		}
+	},
+	{
+		item: "mekanism:controlcircuit 1 2"
+	},
+	{
+		item: "mekanism:controlcircuit 1 1"
+	},
+	{
+		item: "mekanism:controlcircuit"
+	},
+	{
+		item: "mekanism:atomicalloy"
+	},
+	{
+		item: "mekanism:reinforcedalloy"
+	},
+	{
+		item: "mekanism:enrichedalloy",
+		weight: 10
+	},
+	{
+		item: "mekanism:energyupgrade",
+		weight: 10
+	},
+	{
+		item: "mekanism:speedupgrade",
+		weight: 10
+	},
+	{
+		item: {
+			id: "mekanism:energytablet",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}
+	},
+	{
+		item: "mekanism:balloon 1 7",
+		weight: 10
+	},
+	{
+		item: "mekanism:balloon 1 6",
+		weight: 10
+	},
+	{
+		item: "mekanism:balloon 1 15",
+		weight: 10
+	},
+	{
+		item: "mekanism:enrichediron",
+		weight: 10
+	},
+	{
+		item: "mekanism:enrichediron",
+		count: 3
+	},
+	{
+		item: "mekanism:enrichediron"
+	},
+	{
+		item: "mekanism:enrichediron",
+		count: 6
+	},
+	{
+		item: "mekanism:controlcircuit 1 3"
+	},
+	{
+		item: "mekanism:mufflingupgrade",
+		weight: 10
+	},
+	{
+		item: "mekanism:teleportationcore"
+	},
+	{
+		item: "mekanism:compressedobsidian"
+	},
+	{
+		item: "mekanism:compresseddiamond"
+	},
+	{
+		item: "mekanism:tierinstaller",
+		weight: 10
+	},
+	{
+		item: "mekanism:tierinstaller 1 1"
+	},
+	{
+		item: "mekanism:electrolyticcore"
+	},
+	{
+		item: "mekanism:balloon 1 10",
+		weight: 10
+	},
+	{
+		item: "mekanism:balloon 1 11",
+		weight: 10
+	},
+	{
+		item: "mekanism:balloon 1 12",
+		weight: 10
+	},
+	{
+		item: "mekanism:crystal 1 5",
+		weight: 10
+	},
+	{
+		item: "mekanism:crystal 1 3",
+		weight: 10
+	},
+	{
+		item: "mekanism:crystal 1 1",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:animal_byproduct_recolector"
+	},
+	{
+		item: "industrialforegoing:water_condensator"
+	},
+	{
+		item: "industrialforegoing:animal_independence_selector"
+	},
+	{
+		item: "industrialforegoing:villager_trade_exchanger"
+	},
+	{
+		item: "industrialforegoing:oredictionary_converter"
+	},
+	{
+		item: "industrialforegoing:fluiddictionary_converter"
+	},
+	{
+		item: "industrialforegoing:fluid_crafter"
+	},
+	{
+		item: "industrialforegoing:fluid_pump"
+	},
+	{
+		item: "industrialforegoing:ore_sieve"
+	},
+	{
+		item: "fluxnetworks:fluxcore"
+	},
+	{
+		item: "mekanism:machineblock 1 4"
+	},
+	{
+		item: "mekanism:machineblock 1 3"
+	},
+	{
+		item: "mekanism:machineblock 1 2"
+	},
+	{
+		item: "mekanism:machineblock"
+	},
+	{
+		item: "mekanism:machineblock 1 8"
+	},
+	{
+		item: "mekanism:substrate",
+		weight: 10
+	},
+	{
+		item: "fluxnetworks:fluxstorage"
+	},
+	{
+		item: "geneticsreborn:metalscraper",
+		weight: 10
+	},
+	{
+		item: "geneticsreborn:advancedscraper",
+		weight: 10
+	},
+	{
+		item: "teslacorelib:machine_case"
+	},
+	{
+		item: "teslacorelib:energy_tier2"
+	},
+	{
+		item: "teslacorelib:energy_tier1"
+	},
+	{
+		item: "teslacorelib:speed_tier2"
+	},
+	{
+		item: "teslacorelib:speed_tier1"
+	},
+	{
+		item: {
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 0L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "POOR"
+			}
+		}
+	},
+	{
+		item: "industrialforegoing:pink_slime"
+	},
+	{
+		item: "industrialforegoing:pink_slime",
+		count: 4
+	},
+	{
+		item: "industrialforegoing:pink_slime",
+		count: 8
+	},
+	{
+		item: "industrialforegoing:plastic",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:plastic",
+		count: 4
+	},
+	{
+		item: "industrialforegoing:plastic",
+		count: 16
+	},
+	{
+		item: "industrialforegoing:plastic",
+		count: 8
+	},
+	{
+		item: "industrialforegoing:plastic",
+		count: 32
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 3",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 4",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 13",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 15",
+		weight: 10
+	},
+	{
+		item: "industrialforegoing:range_addon 1 9"
+	},
+	{
+		item: "industrialforegoing:range_addon 1 6"
+	},
+	{
+		item: "industrialforegoing:range_addon 1 3"
+	},
+	{
+		item: "industrialforegoing:range_addon"
+	},
+	{
+		item: "geneticsreborn:plasmid"
+	},
+	{
+		item: "opencomputers:material 1 5"
+	},
+	{
+		item: "opencomputers:material 1 16",
+		weight: 10
+	},
+	{
+		item: "opencomputers:component 1 4"
+	},
+	{
+		item: "opencomputers:component"
+	},
+	{
+		item: "opencomputers:component 1 1"
+	},
+	{
+		item: "opencomputers:component 1 20"
+	},
+	{
+		item: "opencomputers:card 1 3"
+	},
+	{
+		item: "opencomputers:upgrade 1 17"
+	},
+	{
+		item: "opencomputers:upgrade 1 25"
+	},
+	{
+		item: "appliedenergistics2:material 1 24"
+	},
+	{
+		item: "appliedenergistics2:material 1 36"
+	},
+	{
+		item: "woot:anvil"
+	},
+	{
+		item: "woot:stygianironingot",
+		weight: 10
+	},
+	{
+		item: "woot:prism"
+	},
+	{
+		item: {
+			id: "thermalexpansion:reservoir",
+			Damage: 1s,
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 1000000
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "thermaldynamics:servo 1 4"
+	},
+	{
+		item: "appliedenergistics2:material 1 23"
+	},
+	{
+		item: "appliedenergistics2:material 1 12"
+	},
+	{
+		item: "appliedenergistics2:material 1 10"
+	},
+	{
+		item: "appliedenergistics2:material 1 1",
+		weight: 10
+	},
+	{
+		item: "appliedenergistics2:material 1 22"
+	},
+	{
+		item: "opencomputers:material 1 4"
+	},
+	{
+		item: "opencomputers:material 1 18"
+	},
+	{
+		item: "opencomputers:component 1 16"
+	},
+	{
+		item: "opencomputers:material 1 23"
+	},
+	{
+		item: "thermalexpansion:frame 1 64",
+		weight: 10
+	},
+	{
+		item: "thermalexpansion:frame"
+	},
+	{
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5"
+	},
+	{
+		item: "thermaldynamics:duct_0 1 5",
+		count: 16
+	},
+	{
+		item: "opencomputers:component 1 19"
+	},
+	{
+		item: "opencomputers:card 1 8"
+	},
+	{
+		item: "enderio:item_item_conduit",
+		weight: 10
+	},
+	{
+		item: "enderio:item_liquid_conduit",
+		weight: 10
+	},
+	{
+		item: "enderio:item_power_conduit",
+		weight: 10
+	},
+	{
+		item: "enderio:item_redstone_conduit",
+		weight: 10
+	},
+	{
+		item: "enderio:item_opencomputers_conduit",
+		weight: 10
+	},
+	{
+		item: "actuallyadditions:block_smiley_cloud",
+		weight: 20
+	},
+	{
+		item: "actuallyadditions:block_misc 1 9"
+	},
+	{
+		item: "storagenetwork:kabel"
+	},
+	{
+		item: "storagenetwork:kabel",
+		count: 4
+	},
+	{
+		item: "storagenetwork:storage_kabel"
+	},
+	{
+		item: "redstonearsenal:material 1 32",
+		weight: 10
+	},
+	{
+		item: "redstonearsenal:material 1 32",
+		count: 5
+	},
+	{
+		item: "redstonearsenal:material 1 160"
+	},
+	{
+		item: {
+			id: "wct:magnet_card",
+			tag: {
+				MagnetMode: 0
+			}
+		}
+	},
+	{
+		item: "ae2wtlib:infinity_booster_card"
+	},
+	{
+		item: "ae2wtlib:infinity_booster_card",
+		count: 5
+	},
+	{
+		item: "enderio:block_solar_panel"
+	},
+	{
+		item: {
+			id: "enderio:item_cold_fire_igniter",
+			tag: {
+				"enderio:famount": 1000
+			}
+		}
+	},
+	{
+		item: "enderio:item_soul_vial"
+	},
+	{
+		item: "enderio:item_soul_vial",
+		count: 2
+	},
+	{
+		item: "enderio:item_extract_speed_upgrade"
+	},
+	{
+		item: "enderio:item_redstone_nor_filter"
+	},
+	{
+		item: "enderio:item_redstone_and_filter"
+	},
+	{
+		item: "enderio:item_redstone_sensor_filter"
+	},
+	{
+		item: "enderio:item_big_item_filter"
+	},
+	{
+		item: "enderio:item_limited_item_filter"
+	},
+	{
+		item: "enderio:item_enchantment_filter_normal"
+	},
+	{
+		item: "enderio:item_enchantment_filter_big"
+	},
+	{
+		item: "enderio:item_mod_item_filter"
+	},
+	{
+		item: "enderio:item_redstone_timer_filter"
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:speedboost3"
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:thaumaturge_robes_legs"
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:tnt1",
+				"enderio:enabled": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:jumpboost1",
+				"enderio:enabled": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:jumpboost1"
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:inv2"
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:glide",
+				"enderio:enabled": 1b
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:inv"
+			}
+		}
+	},
+	{
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			Damage: 1s,
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade",
+				"enderio:enabled": 1b
+			}
+		}
+	},
+	{
+		item: "actuallyadditions:block_testifi_bucks_white_wall",
+		weight: 10
+	},
+	{
+		item: {
+			id: "redstonearsenal:tool.shield_flux",
+			tag: {
+				Energy: 320000
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "industrialforegoing:pink_slime",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "Imbroglione"
+				}
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "cybernetic_crate",
+		item_name: "Cybernetic Crate",
+		color: 4934475,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

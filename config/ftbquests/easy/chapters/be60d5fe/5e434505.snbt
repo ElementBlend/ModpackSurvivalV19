@@ -1,0 +1,30 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"&aMILK THEM Korchhh_!!!",
+		"&rPlace down a milk jar in a 3 deep hole above that place an cow and ontop of the cow drop an anvil. boom you trapped the cow i the jar"
+	],
+	tasks: [{
+		uid: "0a4d2eb9",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "3213c85f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "2b0a1144",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

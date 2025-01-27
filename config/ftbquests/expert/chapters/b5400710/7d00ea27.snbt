@@ -1,0 +1,64 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Earliest method to collect Demonic Will. Right-click to throw it at a mob. If the Snare connects, it is bewitched for a few seconds (displayed by white particles). Killing the mob under this condition causes the mob to drop Demonic Will.",
+		"",
+		"&7Will Quaility",
+		"Its recommended to only keep will's that got a quaility over 1"
+	],
+	tasks: [{
+		uid: "d75c83d5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	},
+	{
+		uid: "a513e4bf",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a934e5f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "heimskringla"
+			}
+		}
+	},
+	{
+		uid: "29ec740c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "b86a0bb8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sorcerer_crate"
+			}
+		}
+	},
+	{
+		uid: "01aad6a2",
+		type: "item",
+		item: {
+			id: "guideapi:bloodmagic-guide",
+			tag: {
+				G-API_Category_Page: 0,
+				G-API_Category: 1,
+				G-API_Entry_Page: 0,
+				G-API_Page: 5,
+				G-API_Entry: "minecraft:guide.bloodmagic.entry.architect.bloodaltar"
+			}
+		}
+	}]
+}

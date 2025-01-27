@@ -1,0 +1,36 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	text: [
+		"&AWhen used in a Void Botanic Miner, Void Ore Miner or Void Resource Miner, it will increase the chance of getting the preferred ores with the lens the player is using&R",
+		"They do nothing with a Clear Laser Lens."
+	],
+	dependencies: [
+		"51439369",
+		"95562461",
+		"62bd6b0e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bd3d2f00",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_accuracy"
+		}]
+	}],
+	rewards: [{
+		uid: "9ce2cded",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "09b7dc7d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

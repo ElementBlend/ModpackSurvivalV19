@@ -1,0 +1,34 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	text: [
+		"&4Items will be taken"
+	],
+	dependencies: [
+		"14de9d2b"
+	],
+	tasks: [{
+		uid: "faf08b45",
+		type: "item",
+		items: [{
+			item: "extrautils2:enderlilly"
+		}],
+		count: 400L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8ad75696",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "1da3b0c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

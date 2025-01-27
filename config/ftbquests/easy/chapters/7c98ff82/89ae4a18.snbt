@@ -1,0 +1,42 @@
+{
+	title: "Pressurized Fluid Conduit",
+	icon: "enderio:item_liquid_conduit 1 1",
+	x: 0.5d,
+	y: 7.5d,
+	text: [
+		"Used to transport fluids when powered with a Redstone signal. It will pull or push (or both, or neither) depending on where the arrows on the Item Conduit point to. The directional settings of the Pressurized Fluid Conduit can be modified by right-clicking it with a Yeta Wrench.",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d674658"
+	],
+	tasks: [{
+		uid: "dd9d0b54",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "31e250c0",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1"
+	},
+	{
+		uid: "479e7426",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d40ebccc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

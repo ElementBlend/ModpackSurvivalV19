@@ -1,0 +1,50 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"The Transmutation Table functions as a battery for EMC energy, a charger for EMC storage items, as a library of blueprints and as a fabricator of items.",
+		"",
+		"* Before it can create an item, the Transmutation Table must \"learn\" the item. This is performed by placing an item with an EMC value into the \"flames\" slot on the GUI. The item is then destroyed, the recipe learned and the EMC value stored in the table.",
+		"",
+		"* Creating an item from EMC is performed by clicking on an item displayed on the right side. Shift-clicking will create an entire stack (if the table holds sufficient EMC).",
+		"",
+		"* The icon with the crossed-out book is to unlearn unwanted items. Any item placed in this slot will be \"forgotten\" by the table until it is learned again.",
+		"",
+		"* The table will only display items for which there is enough stored EMC to create.",
+		"",
+		"* The information held in the table is linked to the individual player:",
+		"",
+		"* The table can be picked up and moved without losing any recipes or stored energy.",
+		"",
+		"* Other players accessing the table will only be able to see their own data.",
+		"",
+		"* The Tome of Knowledge can unlock all EMC \"recipes\" without having to craft them first. Any subsequent mods installed will automatically have their items unlocked in the Table as well.",
+		"",
+		"* Klein Stars can be charged by placing a star in one of the slots on the left side of the GUI and it can be discharged by putting it in the slots on the right."
+	],
+	dependencies: [
+		"5fba0d4c"
+	],
+	tasks: [{
+		uid: "58d9b33e",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "1357cda5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "ace3288c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

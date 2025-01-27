@@ -1,0 +1,42 @@
+{
+	title: "Enter Erebus",
+	icon: "erebus:mud_brick",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"Place the Gaean Keystone close to a portal of nearly any shape filled with leaves now place the Staff Of Gaea into the keystone"
+	],
+	dependencies: [
+		"95af6990"
+	],
+	tasks: [{
+		uid: "1c885711",
+		type: "dimension",
+		dim: 66
+	}],
+	rewards: [{
+		uid: "be7b6ead",
+		type: "ftbmoney:money",
+		ftb_money: 3500L
+	},
+	{
+		uid: "ce9f6ab8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	},
+	{
+		uid: "a981fccb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

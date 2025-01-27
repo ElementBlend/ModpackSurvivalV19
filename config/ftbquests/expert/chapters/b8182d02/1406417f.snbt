@@ -1,0 +1,34 @@
+{
+	x: -2.5d,
+	y: 4.0d,
+	text: [
+		"So i heard you want steel eh?. pretty simple make an metallurgic infuser input coal and iron to get enriched iron then input enriched iron and coal to get steel kaboom :D"
+	],
+	tasks: [{
+		uid: "338de1a4",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}]
+	}],
+	rewards: [{
+		uid: "f2acf039",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "502428a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

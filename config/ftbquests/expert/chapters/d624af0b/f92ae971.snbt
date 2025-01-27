@@ -1,0 +1,63 @@
+{
+	title: "Exoskeleton Armor",
+	x: 2.5d,
+	y: 6.5d,
+	description: "&cLocked to the Exoskeleton Plate task in Erebus Mob Drops quest",
+	text: [
+		""
+	],
+	dependencies: [
+		"9cb17d9e"
+	],
+	tasks: [{
+		uid: "11252333",
+		type: "item",
+		items: [{
+			item: "erebus:exoskeleton_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8cca96b",
+		type: "item",
+		items: [{
+			item: "erebus:exoskeleton_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1970657",
+		type: "item",
+		items: [{
+			item: "erebus:exoskeleton_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0943c49b",
+		type: "item",
+		items: [{
+			item: "erebus:exoskeleton_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45ddd888",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "020b44ee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "parallel_chest"
+			}
+		}
+	}]
+}

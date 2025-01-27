@@ -1,0 +1,32 @@
+{
+	title: "Erodium Crystal",
+	icon: "environmentaltech:erodium_crystal",
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"used to craft Tier 2 components of Environmental Tech multiblocks"
+	],
+	dependencies: [
+		"f9a3d62d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73c5ef73",
+		type: "item",
+		items: [{
+			item: "environmentaltech:erodium_crystal 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fb82d747",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 16
+	},
+	{
+		uid: "69f69f4e",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

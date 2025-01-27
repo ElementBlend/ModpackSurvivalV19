@@ -1,0 +1,75 @@
+{
+	title: "Bonus Game",
+	loot_size: 1,
+	rewards: [{
+		ftb_money: 10000L,
+		type: "ftbmoney:money",
+		weight: 8
+	},
+	{
+		ftb_money: 100000L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 1000000L,
+		type: "ftbmoney:money",
+		weight: 5
+	},
+	{
+		ftb_money: 5000000L,
+		type: "ftbmoney:money",
+		weight: 3
+	},
+	{
+		ftb_money: 8000000L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 10000000L,
+		type: "ftbmoney:money",
+		weight: 2
+	},
+	{
+		ftb_money: 30000000L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 60000000L,
+		type: "ftbmoney:money"
+	},
+	{
+		ftb_money: 1500000L,
+		type: "ftbmoney:money",
+		weight: 4
+	},
+	{
+		ftb_money: 20000L,
+		type: "ftbmoney:money",
+		weight: 7
+	},
+	{
+		ftb_money: 30000L,
+		type: "ftbmoney:money",
+		weight: 6
+	},
+	{
+		ftb_money: 1000L,
+		type: "ftbmoney:money",
+		weight: 10
+	},
+	{
+		ftb_money: 5000L,
+		type: "ftbmoney:money",
+		weight: 9
+	}],
+	loot_crate: {
+		string_id: "bonus_game",
+		item_name: "Bonus Game",
+		color: 6684876,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

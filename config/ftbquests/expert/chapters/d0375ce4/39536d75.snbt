@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"used to automatically apply bonemeal and fertilizer to crops, plants, and saplings. The default working area of the Plant Fertilizer is 1x1x1 in front of the machine, which can be expanded with Range Addons. The machine will continue applying fertilizer to the same crop until it can no longer accept bonemeal before moving on to the next plant. This can cause the machine to get stuck on plants that will always accept bonemeal, such as Sunflowers, or plants that will never reach their final growth state, such Mushrooms with not enough space to grow into a Huge mushroom. The Plant Fertilizer will accept Bone Meal, Fertilizer, and Fertilizer (Forestry) valid inputs. Each operation applies one fertilizer item to a plant, consuming 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "815781c4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_enrich_material_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "af531a37",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4117dd25",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

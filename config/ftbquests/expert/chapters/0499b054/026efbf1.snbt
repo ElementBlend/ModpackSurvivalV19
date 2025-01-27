@@ -1,0 +1,29 @@
+{
+	x: -6.5d,
+	y: 1.5d,
+	text: [
+		"Claymore is a block that is a small explosive that goes off a few seconds after it 'sees' a player or mob. The two red points on the side of it are the sensors. When the player places the claymore it, the two red sensor points, will face away from the player. The only way to remove it, without exploding, is with wire cutters and a pickaxe. The crafting recipe requires 2 tripwire hooks, 3 pieces of string, 1 gunpowder, 2 redstone, and a Bouncing Betty. The Bouncing Betty is in the middle of the crafting table, tripwire hooks in the top corners, redstone in the bottom corners, gunpowder in the bottom center, and string the the last 3 spots in the crafting table."
+	],
+	tasks: [{
+		uid: "d87e68d6",
+		type: "item",
+		items: [{
+			item: "securitycraft:claymore"
+		}]
+	}],
+	rewards: [{
+		uid: "f1616bca",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "3f615f2d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"used to automatically generate items from the fishing loot table. The working area of the Resource Fisher is 3x1x3 directly below the machine. The work area must contain only water source blocks for the Resource Fisher to generate loot. Each operation consumes 5,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "ca7951d5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_resources_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "676f4f1b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0f381ca7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		"Need a other material well then the Equivalent Stone perfect for you. The Equivalent Stone lets you craft itself in a crafting table with other resources to",
+		"transfrom those resources into other resources"
+	],
+	dependencies: [
+		"86da438a"
+	],
+	tasks: [{
+		uid: "fe3262c4",
+		type: "item",
+		items: [{
+			item: "equivalentstone:equivalent_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a4b20c7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f052220b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

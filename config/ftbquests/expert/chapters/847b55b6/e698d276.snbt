@@ -1,0 +1,44 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Increases energy capacity by 25 million rf.",
+		"Usable in Gas Turbine and Steam Turbine."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"19a5e9d4"
+	],
+	tasks: [{
+		uid: "d2f644f0",
+		type: "item",
+		items: [{
+			item: "advgenerators:power_capacitor_dense"
+		}]
+	}],
+	rewards: [{
+		uid: "fbf70661",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "2dbdef0c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "974e2b79",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: -2.5d,
+	text: [
+		"used to grow Red Mushrooms and Brown Mushrooms. When provided with power and Water, the Spore Recreator removes 1 mushroom from the input slots and generate 2 mushrooms of the same type in the output slots. Each operation consumes 500 mB of water and 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "2d3c8e04",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:spores_recreator"
+		}]
+	}],
+	rewards: [{
+		uid: "8f799044",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a87f5172",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

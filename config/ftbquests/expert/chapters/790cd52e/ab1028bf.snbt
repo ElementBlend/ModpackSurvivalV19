@@ -1,0 +1,37 @@
+{
+	title: "Find any biome",
+	x: -7.5d,
+	y: -5.5d,
+	text: [
+		"&aAre you having problems finding a biome?&r",
+		"Well with this nature compass you can search for any biome you would need give it a try :D"
+	],
+	dependencies: [
+		"b9b4a95f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "33d69520",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0cec08ed",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4e979829",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

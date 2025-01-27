@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"&aNow we are talking fluid storage!&r",
+		"the larger alternative to the Stone Drum. It can hold 256 buckets of a single liquid, which can be filled by right-clicking on the Drum with a bucket, or emptied by right-clicking on it with an empty bucket.",
+		" When interacting with pipes you can only pump in and out from the top or bottom of the Drum, like a Factorization Barrel.",
+		" The top and bottom stripes change colour to be similar to the colour of the contained liquid, although the Drum's colour can be overridden by right clicking it with Dye or a Paintbrush. Right-clicking it with a Stick will break it instantly. Drums will keep their contained liquid when broken, similar to an OpenBlocks Tank."
+	],
+	tasks: [{
+		uid: "33983683",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3260afc0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9f41a558",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

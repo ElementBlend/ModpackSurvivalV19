@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: -8.0d,
+	text: [
+		"used to launch items and entities into the air. The upgrade is applied by right clicking on a conveyor belt. Right clicking the placed upgrade will open a GUI, allowing for a whitelist or blacklist of items to be set or adjusting the launching power of the upgrade. Setting whitelists and blacklist of entities can be accomplished with mobs trapped in a Mob Imprisonment Tool. The arrows on the placed upgrade indicate the direction items and entities will be launched. Shift right clicking with an empty hand will remove the upgrade."
+	],
+	dependencies: [
+		"302531ef"
+	],
+	tasks: [{
+		uid: "2e779073",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:conveyor_upgrade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "656b5dd9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

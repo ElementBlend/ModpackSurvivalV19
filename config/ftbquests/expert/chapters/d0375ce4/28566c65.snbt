@@ -1,0 +1,33 @@
+{
+	x: 4.0d,
+	y: -10.0d,
+	text: [
+		"used only in the Plant Gatherer and will modify the machine to collect leaf blocks when in Gather Trees mode. This Addon will greatly increase the amount of Sludge produced by the Plant Gatherer due to the number of additional blocks that will be collected by the machine."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "10b8f639",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:leaf_shearing"
+		}]
+	}],
+	rewards: [{
+		uid: "9d736206",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "31502d84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

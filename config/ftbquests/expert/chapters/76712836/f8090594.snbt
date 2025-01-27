@@ -1,0 +1,41 @@
+{
+	title: "Replicator",
+	icon: "ic2:te 1 63",
+	x: 2.5d,
+	y: -7.0d,
+	text: [
+		"The Replicator accepts up to 2048 EUp (extreme voltage). To get the pattern into the replicator, you need a Pattern Storage (with the stored information) adjacent to it."
+	],
+	dependencies: [
+		"f9a0da4a",
+		"9201494e"
+	],
+	tasks: [{
+		uid: "11b651f1",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	}],
+	rewards: [{
+		uid: "1222d824",
+		type: "item",
+		item: "ic2:te 1 8",
+		count: 4
+	},
+	{
+		uid: "e1441966",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "1c9a09be",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

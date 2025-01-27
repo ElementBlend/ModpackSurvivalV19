@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"used to increase the growth speed of crops. The Hydrator has a base range of 1x1x1 block centered on the machine, requiring a Range Addon to be effective. Each operation forces a random tick on crops within range consuming 1,000 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "3b39fa1a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:hydrator"
+		}]
+	}],
+	rewards: [{
+		uid: "5d596c69",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4e1efae4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"&aThe Quantum RF Entangler",
+		"&rable to tap into the all permeating Redflux Field to store energy to be used later. The benefit is realized with the Quantum RF Exciters which are able to pull from the field anywhere as long as the Entangler is loaded.",
+		"The Entangler is locked to whoever places the block and is able to store 1,000,000 RF.",
+		"The Entangler is a very generous when it comes to providing power and works on a \"first come, first serve\" basis. If some of your Excitiers are not getting power then you probably do not have enough power going into the Redflux Field."
+	],
+	tasks: [{
+		uid: "e260bde9",
+		type: "item",
+		items: [{
+			item: "quantumflux:rfentangler"
+		}]
+	}],
+	rewards: [{
+		uid: "549213b8",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "dccfd6f3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	},
+	{
+		uid: "68e51501",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

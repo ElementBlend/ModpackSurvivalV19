@@ -1,0 +1,36 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"&aMake them plants grow&r",
+		"used to accelerate the tick rate of blocks in a 3x3 area.",
+		"",
+		"The Watering Can must be filled with Water before it can be used. While held, it can be filled by holding down the right mouse button on Water source blocks. It affects a 3x3 area around the block or entity targeted and loses its water contents as it is used. It has 1000 durability and must be refilled with water before being used again. Holding the right mouse button cause the water to flow continuously if the player looks at the ground. When used, it will display water particles.",
+		"",
+		"Unlike the original Watering Can added by Extra Utilities, this one cannot be automated as it needs to be refilled with Water to operate."
+	],
+	tasks: [{
+		uid: "f83f2a29",
+		type: "item",
+		items: [{
+			item: "extrautils2:wateringcan 1 1000"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "36283bc5",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "6d04d429",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"Placed a block apart facing each other (a laser field should spawn between them if done correctly)",
+		"If you walk through the field, any blocks or items entered in the scanner's UI in the player's inventory will be deleted."
+	],
+	tasks: [{
+		uid: "8262758f",
+		type: "item",
+		items: [{
+			item: "securitycraft:inventory_scanner"
+		}]
+	}],
+	rewards: [{
+		uid: "d7bf64b1",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "5947b535",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

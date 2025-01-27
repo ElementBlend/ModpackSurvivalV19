@@ -1,0 +1,44 @@
+{
+	x: -4.5d,
+	y: 9.5d,
+	text: [
+		"Shift + Right Click on a teleposer to save the teleposer location into the sigil now right click to travel to the teleposer for the cost of 1000 LP"
+	],
+	dependencies: [
+		"172b9f9a"
+	],
+	tasks: [{
+		uid: "533b4f99",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_teleposition"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "319a32d1",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b80273cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "646f66e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "heimskringla"
+			}
+		}
+	}]
+}

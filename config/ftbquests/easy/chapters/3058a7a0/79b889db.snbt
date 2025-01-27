@@ -1,0 +1,36 @@
+{
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"Found in both Blue Skies dimensions",
+		"",
+		"&7Tip use a digital miner from Mekanism to get the ores easier"
+	],
+	dependencies: [
+		"f7e1a60d",
+		"0ca35148"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "3b535a61",
+		type: "item",
+		items: [{
+			item: "blue_skies:diopside_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "a1b0bea6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e0d5ebc5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

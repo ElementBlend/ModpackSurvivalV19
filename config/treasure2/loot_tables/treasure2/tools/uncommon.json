@@ -1,0 +1,62 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "uncommon_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "advanced_stone_sword",
+					"type": "item",
+					"name": "advancedcombat:advanced_stone_sword",
+					"weight": 35	
+				},
+				{
+					"entryName": "item_pickaxe_crystal_red",
+					"type": "item",
+					"name": "actuallyadditions:item_pickaxe_crystal_red",
+					"weight": 25
+				},
+				{
+					"entryName": "item_axe_crystal_red",
+					"type": "item",
+					"name": "actuallyadditions:item_axe_crystal_red",
+					"weight": 25
+				},
+				{
+					"entryName": "bronze_sword",
+					"type": "item",
+					"name": "ic2:bronze_sword",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "bronze_pickaxe",
+					"type": "item",
+					"name": "ic2:bronze_pickaxe",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "bronze_axe",
+					"type": "item",
+					"name": "ic2:bronze_axe",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				}
+			]
+		}
+	]
+}

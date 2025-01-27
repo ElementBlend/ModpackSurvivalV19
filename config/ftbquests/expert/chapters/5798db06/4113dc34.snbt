@@ -1,0 +1,39 @@
+{
+	title: "Intermedium Infusion Crystal",
+	icon: "matc:intermediumcrystal",
+	x: 0.0d,
+	y: -11.0d,
+	shape: "hexagon",
+	text: [
+		"Used to craft Superium Essence"
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a58c2be",
+		type: "item",
+		items: [{
+			item: "matc:intermediumcrystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0ecfe96",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "8aada822",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 2
+	}]
+}

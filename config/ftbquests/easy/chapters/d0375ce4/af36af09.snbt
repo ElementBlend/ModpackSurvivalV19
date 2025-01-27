@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"used to increase the speed of baby animals growing into adults. Baby animals within the working area are fed the same food used for breeding from the internal inventory. The working area is 1x2x1 in front of the machine by default, though it can be upgraded with Range Addons. Each feeding reduces baby animals' maturity time by 10%. At full speed, this reduces the typical 20 minute growth cycle to about 40 seconds. Each operation feeds all baby animals in the working area consuming 400 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "23aeff4f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_growth_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "734913e5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "086f60d8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

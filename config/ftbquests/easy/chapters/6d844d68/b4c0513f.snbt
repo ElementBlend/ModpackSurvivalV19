@@ -1,0 +1,31 @@
+{
+	x: 7.5d,
+	y: 2.5d,
+	text: [
+		"The Obsidian Skull Ring basically grants you immunity to low fire damage. As long as its in your inventory whenever you are hit by fire damage there is a chance that it will be negated. That chance is higher the lower the damage is."
+	],
+	tasks: [{
+		uid: "cf3365b6",
+		type: "item",
+		items: [{
+			item: "randomthings:obsidianskullring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d705fd3f",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "472e3dcb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

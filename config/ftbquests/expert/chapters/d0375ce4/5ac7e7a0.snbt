@@ -1,0 +1,34 @@
+{
+	x: 4.0d,
+	y: -11.0d,
+	text: [
+		"used to pull fluids from adjacent blocks into a machine by placing the addon in the machine's upgrade slot. The direction the addon will pull from can be cycled through by right clicking while holding it, or set directly by holding sneak and right clicking a side of a block. Doing this, it is possible to configure the addon to pull from the Up, North, East, South, West or Down direction."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "b0afb65c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:fluid_transfer_addon_pull"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0182dee0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "5ef50d2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

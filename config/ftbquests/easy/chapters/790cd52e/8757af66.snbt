@@ -1,0 +1,47 @@
+{
+	title: "Wood pretty simple",
+	icon: "minecraft:log",
+	x: -7.5d,
+	y: -9.0d,
+	text: [
+		"&aWood is the most basic but needed material make sure to get enough of it",
+		"&rTip make a water powered saw to get more material out of your logs"
+	],
+	dependencies: [
+		"0553f483"
+	],
+	tasks: [{
+		uid: "2991e28d",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9f62548d",
+		type: "item",
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		uid: "7bf83008",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "73f5b6ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

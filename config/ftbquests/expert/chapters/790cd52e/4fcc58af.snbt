@@ -1,0 +1,45 @@
+{
+	title: "Bone Shards",
+	x: -5.5d,
+	y: -7.0d,
+	text: [
+		"Not every kill will drop a shard. ",
+		"its suggested to first hit mobs with a sword to low health then kill it with the club.",
+		"works on all mobs."
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "316077a3",
+		type: "item",
+		items: [{
+			item: "primal_tech:wood_club"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3da4f3c",
+		type: "item",
+		items: [{
+			item: "primal_tech:bone_shard"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "9a7b65b9",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "a0a40042",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

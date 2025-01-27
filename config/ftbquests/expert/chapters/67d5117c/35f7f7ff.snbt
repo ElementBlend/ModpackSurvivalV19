@@ -1,0 +1,31 @@
+{
+	x: -12.5d,
+	y: -2.0d,
+	text: [
+		"helps the player to build certain shapes. The block can project certain shapes around it as white non-solid transparent blocks. A player can place solid blocks where the guide blocks are projected to build the shape. To select the type of shape, the player has to hold shift and right-click the Building Guide. To change the size of a shape, an empty hand should be used on any of the sides. Using the Building Guide on the south west, and bottom faces, will make it smaller along that axis. Using the Building Guide on the north, east, and top faces will make it larger along that axis. (Some shapes can only have a height of 1 block, see below.) The size will be displayed in the chat area. Note that size changes are radius based, so a 4x4x4 Cuboid guide will display as an 9x9x9 cube.",
+		"",
+		"In the latest version of OpenBlocks, the block must be powered with a Redstone signal to display the guide. It also now displays the number of blocks needed to create the displayed shape."
+	],
+	tasks: [{
+		uid: "96a06f0b",
+		type: "item",
+		items: [{
+			item: "openblocks:guide"
+		}]
+	}],
+	rewards: [{
+		uid: "0ceeb89d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "03f1bc7e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

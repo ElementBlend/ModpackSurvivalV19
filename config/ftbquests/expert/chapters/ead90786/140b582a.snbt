@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 15.5d,
+	dependencies: [
+		"6f1db8f4"
+	],
+	tasks: [{
+		uid: "c6950956",
+		type: "item",
+		items: [{
+			item: "bewitchment:perpetual_ice"
+		}]
+	}]
+}

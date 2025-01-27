@@ -1,0 +1,46 @@
+{
+	title: "Weather Eggs",
+	x: 8.5d,
+	y: 3.5d,
+	description: "&aEggs that change weather",
+	text: [
+		"&aGods power in eggs&r",
+		"Want to change the Weather? Right click me on the ground!"
+	],
+	tasks: [{
+		uid: "db059319",
+		type: "item",
+		items: [{
+			item: "randomthings:weatheregg 1 2"
+		}]
+	},
+	{
+		uid: "ba2a1405",
+		type: "item",
+		items: [{
+			item: "randomthings:weatheregg 1 1"
+		}]
+	},
+	{
+		uid: "ec2054bd",
+		type: "item",
+		items: [{
+			item: "randomthings:weatheregg"
+		}]
+	}],
+	rewards: [{
+		uid: "cce20585",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "49c4c086",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

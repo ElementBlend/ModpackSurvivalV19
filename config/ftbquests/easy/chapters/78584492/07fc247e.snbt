@@ -1,0 +1,31 @@
+{
+	x: -14.5d,
+	y: -0.5d,
+	text: [
+		"&aUsed to make cobblestone and Obsidian",
+		"&rPlace water next to it to make Obsidian",
+		"Place water 1-2 blocks away to make Cobblestone"
+	],
+	tasks: [{
+		uid: "54db622a",
+		type: "item",
+		items: [{
+			item: "tp:lava_infused_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "73ca19da",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ed5d96b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 3.0d,
+	y: 9.5d,
+	text: [
+		"increases the capacity of the altar by 10% LP. These are multiplicative: two is 21%, three is 33% and so on.",
+		"",
+		"With fewer than 15 runes dedicated to capacity, it is more efficient to use Runes of  Capacity. The effects of having both runes of capacity and runes of augmented capacity stack, but runes of augmented capacity do NOT multiply the 2,000 added by each rune of capacity, only the original 10,000."
+	],
+	dependencies: [
+		"172b9f9a"
+	],
+	tasks: [{
+		uid: "095c923e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "215a16ed",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "e98a815f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "d430b55c",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 7"
+	}]
+}

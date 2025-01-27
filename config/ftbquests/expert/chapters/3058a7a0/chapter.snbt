@@ -1,0 +1,7 @@
+{
+	title: "Blue Skies",
+	icon: "blue_skies:frostbright_sapling",
+	always_invisible: false,
+	group: 2028479705,
+	default_quest_shape: ""
+}

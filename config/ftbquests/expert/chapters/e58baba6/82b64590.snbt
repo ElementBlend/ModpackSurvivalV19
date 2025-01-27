@@ -1,0 +1,33 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	text: [
+		"&aYou could store a ocean in this&r",
+		"the fourth and final tier of drum, capable of holding 65,536 buckets of any one liquid (65,536,000 mB)."
+	],
+	dependencies: [
+		"e07afdd8"
+	],
+	tasks: [{
+		uid: "a0846fde",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "3cbcfef0",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f2c811e7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_crate"
+			}
+		}
+	}]
+}

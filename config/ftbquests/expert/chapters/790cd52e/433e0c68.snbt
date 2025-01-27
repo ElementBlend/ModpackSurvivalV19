@@ -1,0 +1,64 @@
+{
+	x: -4.5d,
+	y: -10.5d,
+	shape: "rsquare",
+	text: [
+		"You can use JEI (Just Enough Items) to see how to make the machines by pressing r and u while holding over the blueprints"
+	],
+	tasks: [{
+		uid: "5a90457c",
+		type: "checkmark",
+		title: "Modular Machinery",
+		icon: "modularmachinery:blockcontroller"
+	}],
+	rewards: [{
+		uid: "2c8e9ed4",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:automatic_psi"
+			}
+		}
+	},
+	{
+		uid: "200ee113",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:blastfurnace"
+			}
+		}
+	},
+	{
+		uid: "5846ac0a",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:fossil_refinery"
+			}
+		}
+	},
+	{
+		uid: "cedca523",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:automatic_empowerer"
+			}
+		}
+	},
+	{
+		uid: "682aeadd",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:fluid_compressor"
+			}
+		}
+	}]
+}

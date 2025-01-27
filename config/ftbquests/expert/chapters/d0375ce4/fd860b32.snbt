@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	text: [
+		"used to place items from an internal inventory in world. Blocks are placed directly in front of the machine, respecting special placement rules for blocks like Sugar Cane and Cactus. The Block Placer will pull items from top left to bottom right of its internal inventory. If the first non-empty slot contains an item that cannot be placed in world, the machine will not check any other slots for valid items to be placed. Each operation consumes 100 RF from the work energy buffer."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9bfdab5d"
+	],
+	tasks: [{
+		uid: "ed85b0d2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:block_placer"
+		}]
+	}],
+	rewards: [{
+		uid: "fc2e82c2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3fb94ac6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"36bf006e"
+	],
+	tasks: [{
+		uid: "f688256d",
+		type: "item",
+		items: [{
+			item: "tconstruct:dried_clay"
+		}]
+	}]
+}

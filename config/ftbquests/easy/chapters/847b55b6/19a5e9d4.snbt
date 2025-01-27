@@ -1,0 +1,28 @@
+{
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:info2.png"
+		}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Advanced Generators is based around creating modular power generators. ",
+		"Its blocks are used to create free-form multiblock structures that can support multiple power systems. ",
+		"The resulting machines can be made in any shape and configuration. ",
+		"These generators can be used to simultaneously generate Redstone Flux and Energy Units from a diverse list of fuel types. ",
+		"",
+		"&cFor some reason a lot of pipes dont work for fluid output i found that mekanism pipes work."
+	],
+	tasks: [{
+		uid: "9bea9007",
+		type: "checkmark",
+		title: "Advanced Generators Information"
+	}],
+	rewards: [{
+		uid: "6b1ac5fc",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

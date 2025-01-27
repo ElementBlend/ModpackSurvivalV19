@@ -1,0 +1,33 @@
+{
+	x: 4.5d,
+	y: 3.5d,
+	text: [
+		"Using Ectoplasm you can craft Spectre versions of vanilla tools. All of these tools have higher durability & enchantability than their diamond counterpart.",
+		"",
+		"The Spectre Sword is able to hurt Spirits so you don’t need to use potions to kill them anymore."
+	],
+	tasks: [{
+		uid: "b7b8c121",
+		type: "item",
+		items: [{
+			item: "randomthings:spectresword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3354180d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e953941a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

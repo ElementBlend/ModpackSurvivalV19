@@ -1,0 +1,49 @@
+{
+	x: -6.0d,
+	y: 2.5d,
+	text: [
+		"Klein Star Omega holds up to 51,200,000 EMC and is also used in the crafting of top-tier armor.",
+		"",
+		"Klein Stars can be charged by being placed in a Transmutation Table and being feed in items, or by being placed in the charging slot of an Energy Collector or Anti-Matter Relay. Klein Stars are discharged by being placed them in the discharging slot of an Anti-Matter Relay.",
+		"",
+		"If a charged Klein Star is placed in the \"flames\" slot of a Transmutation Table, the star will be destroyed, converted to EMC and any stored energy will be lost."
+	],
+	dependencies: [
+		"02b842e1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "809a1be5",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_klein_star 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61ca58ab",
+		type: "ftbmoney:money",
+		ftb_money: 2000000L
+	},
+	{
+		uid: "3b4fe2a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "13784b6d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "emc_lottery"
+			}
+		}
+	}]
+}

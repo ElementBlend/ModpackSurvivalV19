@@ -1,0 +1,45 @@
+{
+	x: -7.0d,
+	y: 1.5d,
+	text: [
+		"&4Items will be taken",
+		"&rWe need some dirt to build a new hideout, Leave the dirt at the randevu we will collect it later"
+	],
+	dependencies: [
+		"839eb78a"
+	],
+	tasks: [{
+		uid: "90e4cc85",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 500000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "74c4d53b",
+		type: "ftbmoney:money",
+		ftb_money: 80000L
+	},
+	{
+		uid: "989fc8d4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "_"
+			}
+		}
+	},
+	{
+		uid: "641ba9b3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

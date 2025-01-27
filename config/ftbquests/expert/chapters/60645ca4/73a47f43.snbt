@@ -1,0 +1,33 @@
+{
+	title: "Knife",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Used to make the Inscriber Name Press, The Inscriber Name Press is used in the Inscriber to name items. It is created using an Iron Ingot in either a Certus Quartz Cutting Knife or a Nether Quartz Cutting Knife."
+	],
+	dependencies: [
+		"45a2d702"
+	],
+	tasks: [{
+		uid: "69c2c152",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:certus_quartz_cutting_knife"
+		},
+		{
+			item: "appliedenergistics2:nether_quartz_cutting_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4fc3e704",
+		type: "item",
+		item: "minecraft:iron_block"
+	},
+	{
+		uid: "47741d98",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

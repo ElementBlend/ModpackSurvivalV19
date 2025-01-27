@@ -1,0 +1,29 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"can collect mob drops, items and XP from a range of 3m radius (7×7×7 area), and transfer them to an adjacent inventory or transport system, such as Itemduct, Fluiduct or Tank. The Hopper has a buffer of 10 types of items."
+	],
+	tasks: [{
+		uid: "098680e5",
+		type: "item",
+		items: [{
+			item: "openblocks:vacuum_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "0ab35caf",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "ddfbee9b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

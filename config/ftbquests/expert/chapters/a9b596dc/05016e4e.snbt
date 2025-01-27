@@ -1,0 +1,35 @@
+{
+	title: "Finish Extra Utilites",
+	icon: "extrautils2:suncrystal",
+	x: 3.0d,
+	y: -1.0d,
+	shape: "gear",
+	description: "&aFinish the Extra Utilites Chapter",
+	text: [
+		"Congrats on finishing the Extra Utilites Chapter"
+	],
+	dependencies: [
+		"e58baba6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1f0631f9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "07b51a2f",
+		type: "ftbmoney:money",
+		ftb_money: 1000000L
+	},
+	{
+		uid: "b075e531",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		},
+		count: 16
+	}]
+}

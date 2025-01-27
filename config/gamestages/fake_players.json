@@ -1,0 +1,82 @@
+[
+  {
+    "fakePlayerName": "test123",
+    "stages": [
+      "stage1",
+      "stage2",
+      "stage3"
+    ]
+  },
+  {
+    "fakePlayerName": "fake456",
+    "stages": [
+      "fish",
+      "pepper",
+      "cheese"
+    ]
+  },
+  {
+    "fakePlayerName": "CoFH",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+  {
+    "fakePlayerName": "OpenComputers",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+  {
+    "fakePlayerName": "Minecraft",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+  {
+    "fakePlayerName": "AE2",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+  {
+    "fakePlayerName": "[CoFH]",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+  {
+    "fakePlayerName": "[OpenComputers]",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+  {
+    "fakePlayerName": "[Minecraft]",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+  {
+    "fakePlayerName": "[AE2]",
+    "stages": [
+      "gaia",
+      "phil",
+      "controller"
+    ]
+  },
+]

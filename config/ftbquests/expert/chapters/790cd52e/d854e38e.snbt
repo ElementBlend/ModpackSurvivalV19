@@ -1,0 +1,45 @@
+{
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"Sometimes crates from Treasure2! can be found around the map these often have locks.",
+		"Using the lock pick you can, lock pick common, uncommon, and scare locks."
+	],
+	dependencies: [
+		"f1f38d25"
+	],
+	optional: true,
+	tasks: [{
+		uid: "020995da",
+		type: "item",
+		items: [{
+			id: "treasure2:thiefs_lock_pick",
+			ForgeCaps: {
+				Parent: {
+					durability: 10,
+					maxDurability: 1000,
+					infinite: 0b,
+					repairs: 0,
+					maxRepairs: 0
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5050af7b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e41e7fa7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

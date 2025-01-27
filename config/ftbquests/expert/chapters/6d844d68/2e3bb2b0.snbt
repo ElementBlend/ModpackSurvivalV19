@@ -1,0 +1,30 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	text: [
+		"Putting a Spectre Lens on top of a beacon will apply the effects of that beacon to your player no matter where you are in the dimension of the beacon.",
+		"You can only use 1 Spectre Lens per dimension at once, having multiple ones will make them overwrite each other."
+	],
+	tasks: [{
+		uid: "5765cf8a",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrelens"
+		}]
+	}],
+	rewards: [{
+		uid: "becabade",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "82a28838",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

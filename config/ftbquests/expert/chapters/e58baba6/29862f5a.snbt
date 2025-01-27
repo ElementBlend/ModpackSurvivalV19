@@ -1,0 +1,40 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"&aPower from a egg&r",
+		"Place a dragon ontop of the dragon egg mill to generate 500 Grid Power"
+	],
+	tasks: [{
+		uid: "9b2d73f1",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "004dc051",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "eb34e6d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "8ce81dfe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

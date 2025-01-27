@@ -1,0 +1,79 @@
+{
+	title: "Syngas Producer",
+	x: -0.5d,
+	y: -2.5d,
+	text: [
+		"Minimum what you need to make a Syngas Producer.",
+		"Takes water and a solid fuel to produce syngas if you got steam production you dont need a solid fuel just pipe in the steam.",
+		"",
+		"Supported solid fuels:",
+		"Coal Block – 16,000 Carbon",
+		"Coal, charcoal, coal dust, charcoal dust, wood log, wood pulp – 1,600 Carbon",
+		"Plank – 400 Carbon",
+		"Mekanism Compressed Carbon – 3,200",
+		"Mekanism BioFuel – 800"
+	],
+	dependencies: [
+		"19a5e9d4"
+	],
+	tasks: [{
+		uid: "7055e4af",
+		type: "item",
+		items: [{
+			item: "advgenerators:syngas_controller"
+		}]
+	},
+	{
+		uid: "e75589da",
+		type: "item",
+		items: [{
+			item: "advgenerators:mixing_chamber"
+		}]
+	},
+	{
+		uid: "3643cb61",
+		type: "item",
+		items: [{
+			item: "advgenerators:heating_chamber"
+		}]
+	},
+	{
+		uid: "fe1c4251",
+		type: "item",
+		items: [{
+			item: "advgenerators:fluid_input"
+		}]
+	},
+	{
+		uid: "1476c071",
+		type: "item",
+		items: [{
+			item: "advgenerators:fluid_output_select"
+		}]
+	}],
+	rewards: [{
+		uid: "e6078702",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "fcfa4b7e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "c352d212",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "cybernetic_crate"
+			}
+		}
+	}]
+}

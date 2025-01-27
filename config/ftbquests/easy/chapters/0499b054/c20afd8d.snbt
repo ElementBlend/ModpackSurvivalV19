@@ -1,0 +1,37 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		"Shocks anyone other than the owner upon contact."
+	],
+	tasks: [{
+		uid: "b1ee7f03",
+		type: "item",
+		items: [{
+			item: "securitycraft:electrified_iron_fence"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b9489d48",
+		type: "item",
+		items: [{
+			item: "securitycraft:reinforced_fence_gate"
+		}]
+	}],
+	rewards: [{
+		uid: "e72ba5df",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "972e7511",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}
