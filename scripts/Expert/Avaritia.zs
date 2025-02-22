@@ -1,7 +1,6 @@
 #packmode expert
 import crafttweaker.item.IItemStack;
 import mods.theaurorian.MoonlightForge;
-import mods.botania.ElvenTrade;
 #Auther Kevskyboy
 #Ocean Outlast Scripts
 #All Rights Reserved
@@ -51,11 +50,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:endest_pearl>,
 [null, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <randomthings:stableenderpearl>, <randomthings:stableenderpearl>, <randomthings:stableenderpearl>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, null], 
 [null, null, null, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, <enderio:item_alloy_ingot:8>, null, null, null]]);  
 
-#Infinity Ingot moonlightforge recipe
-mods.botania.ElvenTrade.addRecipe([<avaritia:resource:6>], [<avaritia:resource:5> * 4, <avaritia:resource:4> * 10]);
+#Infinity Ingot recipe
+recipes.addShaped(<avaritia:resource:6>, [[null, <avaritia:resource:5>, null], [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>], [null, <avaritia:resource:5>, null]]);
 
 #enchantment crystal new recipe
 mods.theaurorian.MoonlightForge.addRecipe(<avaritia:resource:1> * 8, <avaritia:resource:5> * 2, <avaritiatweaks:enhancement_crystal>);
-
-
-	print("--- Avaritia.zs initialized ---");
+print("--- Avaritia.zs initialized ---");

@@ -46,8 +46,8 @@ tombstone:plague_bringer
 tombstone:blessing
 tombstone:curse_of_bones
 enderio:witherarrow
-enderio:repellent
 enderio:witherweapon
+enderio:repellent
 enderio:soulbound
 enderio:shimmer
 bewitchment:magic_protection

@@ -3,7 +3,6 @@
 #Ocean Outlast Scripts
 #All Rights Reserved
 import mods.tconstruct.Melting;
-import mods.botania.ElvenTrade;
 
 print("--- loading Fixes.zs ---");
 
@@ -40,7 +39,4 @@ mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 2592,<minecraft:redstone_o
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 1440000,<extendedcrafting:singularity:3>);
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 576,<extrautils2:ingredients:1>);
 
-#Fix Infinity ingot being consumed sometimes
-mods.botania.ElvenTrade.addRecipe([<avaritia:resource:6>], [<avaritia:resource:6>]);
-
-		print("--- Fixes.zs initialized ---");
+print("--- Fixes.zs initialized ---");

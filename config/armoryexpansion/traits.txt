@@ -178,9 +178,9 @@
   "calcic_armor",
   "rough_armor",
   "goodfridayagreement_armor",
-  "crumbling",
   "tamoonlit",
   "enderport-2",
+  "crumbling",
   "enderport-3",
   "enderport-0",
   "enderport-1"
