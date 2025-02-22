@@ -1657,8 +1657,6 @@ tconstruct:molten_ebonypsi
 tconstruct:molten_electrumflux
 tconstruct:molten_refinediron
 tconstruct:molten_tungsten
-tconstruct:molten_titanium
-tconstruct:molten_chrome
 tconstruct:molten_advancedalloy
 tconstruct:molten_stone
 tconstruct:molten_obsidian

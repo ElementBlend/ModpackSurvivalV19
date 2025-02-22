@@ -135,7 +135,8 @@
     },
     "dynamicIcons": {
       "SamLam140330": "https://mc-heads.net/avatar/3ca3e1330b0e4ffcb405da74a3e2f985",
-      "default": "https://via.placeholder.com/256.png"
+      "default": "https://via.placeholder.com/256.png",
+      "mod.elementblend.com": "https://api.mcsrvstat.us/icon/mod.elementblend.com"
     },
     "dynamicVariables": {
       "default": "Example Text",
